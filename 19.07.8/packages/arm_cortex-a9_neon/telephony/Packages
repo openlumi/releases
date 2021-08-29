@@ -1,0 +1,36 @@
+Package: baresip
+Version: 0.6.2-2
+Depends: libc, libre, librem
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 286341
+Filename: baresip_0.6.2-2_arm_cortex-a9_neon.ipk
+Size: 286609
+SHA256sum: 25a475613729b197a9ed5888fd951b048ccba5caa2c7190063f2b62bc9111b5e
+Description:  Portable and modular SIP User-Agent with A/V support
+
+Package: libre
+Version: 0.6.0-1
+Depends: libc, libopenssl1.1, zlib
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 158980
+Filename: libre_0.6.0-1_arm_cortex-a9_neon.ipk
+Size: 158933
+SHA256sum: 95328b28a376f0a618fd41fcc691c957542351be751006633399e18e883b86ba
+Description:  Generic library for real-time communications with async IO support
+
+Package: librem
+Version: 0.6.0-1
+Depends: libc, libre
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 25931
+Filename: librem_0.6.0-1_arm_cortex-a9_neon.ipk
+Size: 26623
+SHA256sum: b2b460f08d7987b5cd63d92e1250815eabc73f111b073cc22f455404fd35169e
+Description:  Audio and video processing media library
+

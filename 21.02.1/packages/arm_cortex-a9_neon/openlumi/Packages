@@ -1,0 +1,109 @@
+Package: ble2mqtt
+Version: 0.1.0a47-1
+Depends: libc, bluez-utils, python3-light, python3-aio-mqtt, python3-bleak
+License: GPL-3.0
+Section: openlumi
+Architecture: arm_cortex-a9_neon
+Installed-Size: 63717
+Filename: ble2mqtt_0.1.0a47-1_arm_cortex-a9_neon.ipk
+Size: 64725
+SHA256sum: 0593e7fd8d10e7783c6f44a7121c0cb9f5b902de8f2aa5d13d8a165bbb7f6095
+Description:  Service to export BLE devices to MQTT with Home Assistant discovery
+
+Package: lumimqtt
+Version: 1.0.14-1
+Depends: libc, kmod-hid, python3-base, python3-evdev, python3-pkg-resources, python3-logging, python3-asyncio, python3-openssl, python3-aio-mqtt
+License: GPL-3.0
+Section: openlumi
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17426
+Filename: lumimqtt_1.0.14-1_arm_cortex-a9_neon.ipk
+Size: 18304
+SHA256sum: 7789f14bb724da0c69dd1d9274d04b5d74a1a7a03aa9226cd72a364119e2baee
+Description:  MQTT agent for Xiaomi Lumi gateway
+
+Package: node-espruinohub
+Version: 0.0.2-10
+Depends: libc, node, libudev
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1781589
+Filename: node-espruinohub_0.0.2-10_arm_cortex-a9_neon.ipk
+Size: 1778979
+SHA256sum: e13a09295b5e35348a7bab6078cce482ae5b1eb4c0db69ef2a03c90df334e402
+Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
+
+Package: node-onvif2mqtt
+Version: 1-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1108915
+Filename: node-onvif2mqtt_1-1_arm_cortex-a9_neon.ipk
+Size: 1106062
+SHA256sum: 0bb267796cac3010def31a3213bd188d5f7b7035bebc374499fcc4874c9e66fc
+Description:  node-onvif2mqtt
+
+Package: node-zigbee2mqtt-dev
+Version: dev-20220108
+Depends: libc, node
+License: GPL-3.0
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7430886
+Filename: node-zigbee2mqtt-dev_dev-20220108_arm_cortex-a9_neon.ipk
+Size: 7422849
+SHA256sum: 040c40464a3bd6f9d8120a662e581203bf9a2d710ecb811c40ed5d7c5caf93fa
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: python3-aio-mqtt
+Version: 0.2.0-1
+Depends: libc, python3-base, python3-asyncio, python3-openssl
+License: APACHE
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 15516
+Filename: python3-aio-mqtt_0.2.0-1_arm_cortex-a9_neon.ipk
+Size: 16329
+SHA256sum: 68f1e9d75a8f22e93fb9d55156f29ee48b2442dab5f4bb2ff6a9620cf8f01c50
+Description:  Asynchronous MQTT client for 3.1.1 protocol version.
+
+Package: python3-bleak
+Version: 0.13.0-1
+Depends: libc, python3-light, python3-asyncio, python3-dbus-next
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 124216
+Filename: python3-bleak_0.13.0-1_arm_cortex-a9_neon.ipk
+Size: 120436
+SHA256sum: b02ece24202f3bd499d571fd6e2e4284b386e83a6c89bd91a71c06075572cb83
+Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
+
+Package: python3-bluepy
+Version: 1.3.0-1
+Depends: libc, python3, glib2
+License: GPL-2.0
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 308596
+Filename: python3-bluepy_1.3.0-1_arm_cortex-a9_neon.ipk
+Size: 309195
+SHA256sum: f3bde831b9bd269a1a6729d047f9f855a8225afded506801abd30f215b090f7d
+Description:  Python interface to Bluetooth LE on Linux
+
+Package: python3-dbus-next
+Version: 0.2.3-1
+Depends: libc, python3-light, python3-asyncio, python3-logging, python3-urllib
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 70800
+Filename: python3-dbus-next_0.2.3-1_arm_cortex-a9_neon.ipk
+Size: 71824
+SHA256sum: 16e17a98c76244d9bccfa9762fbe4f5147e6a9710b625f094c397dce4f9b435d
+Description:  python-dbus-next is a Python library for DBus that aims to be a fully featured high level library 
+ primarily geared towards integration of applications into Linux desktop and mobile environments.
+

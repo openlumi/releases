@@ -1,0 +1,120 @@
+Package: node-bcrypt
+Version: 5.0.1-2
+Depends: libc, node
+Source: feeds/node/node-bcrypt
+SourceName: node-bcrypt
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 612958
+Filename: node-bcrypt_5.0.1-2_arm_cortex-a9_neon.ipk
+Size: 609957
+SHA256sum: d5f3f07f66a5ea2ddc185ec9dcdbf7b80a002580ee05708a0ceb42c216539f85
+Description:  A library to help you hash passwords. You can read about bcrypt in Wikipedia as well as in the following article: How To Safely Store A Password
+
+Package: node-bufferutil
+Version: 4.0.5-1
+Depends: libc, node
+Source: feeds/node/node-bufferutil
+SourceName: node-bufferutil
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9426
+Filename: node-bufferutil_4.0.5-1_arm_cortex-a9_neon.ipk
+Size: 10321
+SHA256sum: 56f8dee32f1c129554acf9e8fb3ca64f4d9be7b96b58704ead11409b0870331c
+Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
+
+Package: node-npm
+Version: v12.22.8-1
+Depends: libc, node
+Source: feeds/node/node
+SourceName: node-npm
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4033528
+Filename: node-npm_v12.22.8-1_arm_cortex-a9_neon.ipk
+Size: 4025490
+SHA256sum: d38560f50e6341d959d6e0f3bb6b240a33f27b667676d7dbf4efab245b91c7ca
+Description:  NPM is the package manager for NodeJS
+
+Package: node-red
+Version: 2.1.4-1
+Depends: libc, node, node-npm, node-bcrypt, node-bufferutil, node-utf-8-validate
+Source: feeds/node/node-red
+SourceName: node-red
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13460312
+Filename: node-red_2.1.4-1_arm_cortex-a9_neon.ipk
+Size: 13252299
+SHA256sum: 679fab43c21852a406f09b23a35b05f3e6b5d45b64c94af3649ff83c7c957c27
+Description:  A visual tool for wiring the Internet of Things
+
+Package: node-utf-8-validate
+Version: 5.0.7-1
+Depends: libc, node
+Source: feeds/node/node-utf-8-validate
+SourceName: node-utf-8-validate
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8897
+Filename: node-utf-8-validate_5.0.7-1_arm_cortex-a9_neon.ipk
+Size: 9736
+SHA256sum: 566b44a74b33b7bbe00ae75685c1cae08253ce29a2848f9c257166f6f5109177
+Description:  Check if a buffer contains valid UTF-8 encoded text
+
+Package: node-zigbee2mqtt
+Version: 1.22.1-7
+Depends: libc, node, node-bufferutil, node-utf-8-validate
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6427337
+Filename: node-zigbee2mqtt_1.22.1-7_arm_cortex-a9_neon.ipk
+Size: 6422062
+SHA256sum: 2a61b6a4ad544a4c3e9936d6c442666d6b381e274edcd70c22abe843a6d9ae1a
+Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node
+Version: v12.22.8-1
+Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libatomic1
+Source: feeds/node/node
+SourceName: node
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7073439
+Filename: node_v12.22.8-1_arm_cortex-a9_neon.ipk
+Size: 7054735
+SHA256sum: 438d2073757446546e124a29a68b3254090fe5d6fdeca573749f0a43ff9cec1f
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ 
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 8.3 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
+

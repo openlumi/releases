@@ -1,0 +1,92 @@
+Package: node-bcrypt
+Version: 5.0.1-2
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 608326
+Filename: node-bcrypt_5.0.1-2_arm_cortex-a9_neon.ipk
+Size: 603194
+SHA256sum: acc0a5f3adb6b6170e07a0c67c34546b8d374c2f3dcfb8f54c27eb5dc3786260
+Description:  A library to help you hash passwords. You can read about bcrypt in Wikipedia as well as in the following article: How To Safely Store A Password
+
+Package: node-bufferutil
+Version: 4.0.6-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9426
+Filename: node-bufferutil_4.0.6-1_arm_cortex-a9_neon.ipk
+Size: 10322
+SHA256sum: 3e281e1e4c23e4e28e96218ceaa0c68da4f9c1a70e91245fefd01cc0e0b256c6
+Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
+
+Package: node-npm
+Version: v12.22.9-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4033135
+Filename: node-npm_v12.22.9-1_arm_cortex-a9_neon.ipk
+Size: 4029625
+SHA256sum: a39d76c88e6fe846545abd77079edeb27e415aca462d1364871c16316ee5d48d
+Description:  NPM is the package manager for NodeJS
+
+Package: node-red
+Version: 2.2.0-1
+Depends: libc, node, node-npm, node-bcrypt, node-bufferutil, node-utf-8-validate
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11305412
+Filename: node-red_2.2.0-1_arm_cortex-a9_neon.ipk
+Size: 11100015
+SHA256sum: d3ca21e2b5afcd9a911c7c57c11265bb484f9258a948eb59b09bd4cd9c559dff
+Description:  A visual tool for wiring the Internet of Things
+
+Package: node-utf-8-validate
+Version: 5.0.8-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8895
+Filename: node-utf-8-validate_5.0.8-1_arm_cortex-a9_neon.ipk
+Size: 9723
+SHA256sum: ef2b50268cd79f6161afdd9048ad4c45b9a93763db63ac8af985a4c05677d318
+Description:  Check if a buffer contains valid UTF-8 encoded text
+
+Package: node-zigbee2mqtt
+Version: 1.22.2-1
+Depends: libc, node, node-bufferutil, node-utf-8-validate
+License: GPL-3.0
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7063075
+Filename: node-zigbee2mqtt_1.22.2-1_arm_cortex-a9_neon.ipk
+Size: 7055305
+SHA256sum: 219e25838ead084bf9ae49d224b7ca570ae77238371d04bd47ab6670574b2e55
+Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node
+Version: v12.22.9-1
+Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libatomic1
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7074365
+Filename: node_v12.22.9-1_arm_cortex-a9_neon.ipk
+Size: 7056334
+SHA256sum: ee437d0c2c7d711b7c570271a4344c21639e9e29ba4d06a148c0959942176397
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ 
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 8.3 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
+
