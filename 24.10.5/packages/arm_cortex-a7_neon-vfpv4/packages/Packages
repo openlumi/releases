@@ -1,0 +1,1383 @@
+Package: alsa-lib
+Version: 1.2.11-r1
+Depends: libc, kmod-sound-core, libpthread, librt
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://www.alsa-project.org/
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1034240
+Filename: alsa-lib_1.2.11-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 373856
+SHA256sum: 921ac9d9bea7f4b29ea7558c1fb5c52bd61995297bca3ced2aebf8cfe2b2e7e0
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: alsa-ucm-conf
+Version: 1.2.11-r1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+URL: https://www.alsa-project.org/
+Architecture: all
+Installed-Size: 870400
+Filename: alsa-ucm-conf_1.2.11-r1_all.ipk
+Size: 70802
+SHA256sum: 5d761e30e61ccdf4fe120b2d3f2b14bcb5cf8d1f2d7e77894f13c6a2ccb43a7f
+Description:  This is a set of configuration files needed for some ALS utilities like alsactl.
+
+Package: alsa-utils
+Version: 1.2.11-r1
+Depends: libc, alsa-lib, alsa-ucm-conf, libncursesw6, libpthread
+License: GPL-2.0-or-later
+Section: sound
+URL: https://www.alsa-project.org/
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 327680
+Filename: alsa-utils_1.2.11-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 126827
+SHA256sum: bab945892992ad1a2481e1537ef094a26864a219edd6db9dd4fffa87ddf55e9c
+Description:  ALSA (Advanced Linux Sound Architecture) utilities
+
+Package: avahi-dbus-daemon
+Version: 0.8-r9
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+License: LGPL-2.1-or-later
+Section: net
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 112640
+Filename: avahi-dbus-daemon_0.8-r9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 41389
+SHA256sum: d7bb0c8fdb16b0f1e694bac656a53e6f1a80090b3ca08f8399c9adbf31f61084
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: bluez-daemon
+Version: 5.72-r2
+Depends: libc, bluez-libs, bluez-utils, bluez-utils-extra, glib2, libncurses6, libreadline8, dbus, libical
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.bluez.org/
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1689600
+Filename: bluez-daemon_5.72-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 727822
+SHA256sum: 58366b398c4818b1f2fd89f1cca822475623cb41687eef312310a3bca735e2cc
+Description:  Bluetooth daemon
+
+Package: bluez-libs
+Version: 5.72-r2
+Depends: libc, libpthread, kmod-bluetooth
+License: GPL-2.0-or-later
+Section: libs
+URL: https://www.bluez.org/
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 184320
+Filename: bluez-libs_5.72-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 65246
+SHA256sum: ea0d1dfcf951323dc29274d89120ed1039b9695501b00f48ad834c93268aa610
+Description:  Bluetooth library
+
+Package: bluez-utils-extra
+Version: 5.72-r2
+Depends: libc, bluez-libs, libpthread, librt, glib2, libncurses6, libreadline8, dbus
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.bluez.org/
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 327680
+Filename: bluez-utils-extra_5.72-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 142356
+SHA256sum: 58ab4c6d26819e1e0a48ffe5d4a381dbf0a25762d333c310a99d6635d952712a
+Description:  Bluetooth additional utilities
+
+Package: bluez-utils
+Version: 5.72-r2
+Depends: libc, bluez-libs
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.bluez.org/
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 860160
+Filename: bluez-utils_5.72-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 315665
+SHA256sum: 78eaf72433f069d1ba60804975c3c43d9696baf4029068b4e97a2dfc80f5d601
+Description:  Bluetooth utilities
+
+Package: cgi-io
+Version: 2022.08.10~901b0f04-r21
+Depends: libc, libubox20240329, libubus20250102
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30720
+Filename: cgi-io_2022.08.10~901b0f04-r21_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9340
+SHA256sum: 379fd4b949f6e09536374598523613aad11d7e26771d35fc7f0fb26845753d60
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-stty
+Version: 9.7-r1
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 61440
+Filename: coreutils-stty_9.7-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 28528
+SHA256sum: 29ef8e7af786f1eb6f604b063495e092a0e5245b06bc430ec21ddd5e0553ea33
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils
+Version: 9.7-r1
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10240
+Filename: coreutils_9.7-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1005
+SHA256sum: 24bb0e5285208abf7d14614701346eb5a56ba6d44a2f126c0d694e465b127f1c
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: davfs2
+Version: 1.6.1-r2
+Depends: libc, libneon, kmod-fuse, libfuse1
+License: GPL-3.0-or-later
+Section: net
+URL: https://savannah.nongnu.org/projects/davfs2/
+CPE-ID: cpe:/a:davfs2:davfs2
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 112640
+Filename: davfs2_1.6.1-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 47634
+SHA256sum: 2676cec8c768914ba1b78343d4ca7a4d1565550d35d4b0e6bbbeb409823b9082
+Description:  Web Distributed Authoring and Versioning (WebDAV), an extension to the HTTP-protocol,
+ allows authoring of resources on a remote web server.davfs2 provides the ability to
+ access such resources like a typical filesystem, allowing for use by standard
+ applications with no built-in support for WebDAV.
+ 
+ davfs2 is designed to fully integrate into the filesystem semantics of Unix-like
+ systems (mount, umount, etc.). davfs2 makes mounting by unprivileged users as easy
+ and secure as possible.
+ 
+ davfs2 does extensive caching to make the file system responsive, to avoid
+ unnecessary network traffic and to prevent data loss, and to cope for slow or
+ unreliable connections.
+ 
+ davfs2 will work with most WebDAV servers needing little or no configuration.
+
+Package: dbus
+Version: 1.14.10-r1
+Depends: libc, libexpat, libdbus
+License: AFL-2.1
+Section: utils
+URL: https://dbus.freedesktop.org/
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 256000
+Filename: dbus_1.14.10-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 105622
+SHA256sum: b3490024a0726bc7b398223522a1537fa1f4186308335c3eed22975e6f0145fa
+Description:  Simple interprocess messaging system (daemon)
+
+Package: glib2
+Version: 2.82.0-r1
+Depends: libc, zlib, libpthread, libffi, libattr, libpcre2
+License: LGPL-2.1-or-later
+Section: libs
+URL: http://www.gtk.org/
+CPE-ID: cpe:/a:gnome:glib
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2908160
+Filename: glib2_2.82.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1171970
+SHA256sum: 4fe09ea6f8dd3d12d0bd7d3b0cf17fed78d633cf4298e876a8ce881798c82bae
+Description:  The GLib library of C routines
+
+Package: libattr
+Version: 2.5.2-r3
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: http://savannah.nongnu.org/projects/attr
+CPE-ID: cpe:/a:attr_project:attr
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30720
+Filename: libattr_2.5.2-r3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6935
+SHA256sum: ed8efda4fa1aa017b86e39905550d87b98c6081a69dc5d93269f8785ac869050
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libavahi-client
+Version: 0.8-r9
+Depends: libc, avahi-dbus-daemon
+License: LGPL-2.1-or-later
+Section: libs
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 51200
+Filename: libavahi-client_0.8-r9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17931
+SHA256sum: b142cfd917f4b656ba52922700e05c7307aa10e7f2b2d3e3b8ea845b4cedc130
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.8-r9
+Depends: libc, dbus
+Provides: libavahi
+License: LGPL-2.1-or-later
+Section: libs
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 163840
+Filename: libavahi-dbus-support_0.8-r9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 68882
+SHA256sum: f7ab51a9c78587b98b5768cee231ed9fc9f6b3e3fb43f16f14b1a8bd206c9be9
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libcares
+Version: 1.34.6-r1
+Depends: libc
+License: MIT
+Section: libs
+URL: https://c-ares.org/
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 163840
+Filename: libcares_1.34.6-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 78073
+SHA256sum: 0b35e6821850406b098cec2c98cbf533983221edc48477cf6d4dded8e52151a8
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libdaemon
+Version: 0.14-r5
+Depends: libc
+Section: libs
+URL: http://0pointer.de/lennart/projects/libdaemon/
+CPE-ID: cpe:/a:libdaemon_project:libdaemon
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30720
+Filename: libdaemon_0.14-r5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8977
+SHA256sum: b930806ee7a4ad40c8f9fa28fa417a2498c2220701f1f3b4104c3b6ee4ab2f43
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdb47-5
+Version: 5.3.28-r1
+Depends: libc
+Provides: libdb47-full, libdb47, libdb47-full-5
+License: Sleepycat
+Section: libs
+URL: http://www.oracle.com/us/products/database/berkeley-db
+ABIVersion: -5
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1392640
+Filename: libdb47-5_5.3.28-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 648854
+SHA256sum: 28c4b6df9b24fbe9ed08986a3e7722c26a1248b3589591bf5e0c531d9bc33ce0
+Description:  Berkeley DB library.
+
+Package: libdbus
+Version: 1.14.10-r1
+Depends: libc, libpthread
+License: AFL-2.1
+Section: utils
+URL: https://dbus.freedesktop.org/
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 245760
+Filename: libdbus_1.14.10-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 109269
+SHA256sum: 706a6478d1db1affd96d7f09d07eab06480bef199785d226c28d192c72fe30b1
+Description:  Simple interprocess messaging system (library)
+
+Package: libevdev
+Version: 1.13.1-r1
+Depends: libc
+License: MIT
+Section: libs
+URL: https://www.freedesktop.org/wiki/Software/libevdev/
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 71680
+Filename: libevdev_1.13.1-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24754
+SHA256sum: 58d814fe7a9d8fa2b50186c5a758b81a2c0272dfa4d5ff4e24c3f7851447f38f
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libexpat
+Version: 2.7.1-r1
+Depends: libc
+License: MIT
+Section: libs
+URL: https://libexpat.github.io/
+CPE-ID: cpe:/a:libexpat_project:libexpat
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 112640
+Filename: libexpat_2.7.1-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 45401
+SHA256sum: 9e242c8b60c80bd0c158179cdc84975d34b86ad676784331fae9dc8c08df2b7e
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.4.7-r1
+Depends: libc
+License: MIT
+Section: libs
+URL: https://sourceware.org/libffi/
+CPE-ID: cpe:/a:libffi_project:libffi
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 51200
+Filename: libffi_3.4.7-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16081
+SHA256sum: 33a1039713c698873166d4293746e8eb5474c6702854c7514f89112988921ccd
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libfuse1
+Version: 2.9.9-r2
+Depends: libc, kmod-fuse, libpthread
+Provides: libfuse
+License: LGPL-2.1-only
+Section: libs
+URL: https://github.com/libfuse/libfuse
+ABIVersion: 1
+CPE-ID: cpe:/a:fuse_project:fuse
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 174080
+Filename: libfuse1_2.9.9-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 59777
+SHA256sum: 6a503cf052a65d1657a7eba349973dfa6c715824e650a8b3837045828d763f27
+Description:  FUSE (Filesystem in UserSpacE)
+ This package contains the FUSE shared libraries, needed by other programs.
+ - libfuse
+ - libulockmgr
+
+Package: libgdbm
+Version: 1.23-r1
+Depends: libc
+License: GPL-3.0-or-later
+Section: libs
+URL: https://www.gnu.org/software/gdbm/
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 61440
+Filename: libgdbm_1.23-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26350
+SHA256sum: c2409d1dd434471673ede087303a3d2e1340bad0d10e1bb6d5a6190fb07e7a35
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libical
+Version: 3.0.9-r2
+Depends: libc, libpthread
+License: LGPL-2.1-or-later MPL-2.0
+Section: libs
+URL: http://libical.github.io/libical/
+CPE-ID: cpe:/a:libical_project:libical
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 409600
+Filename: libical_3.0.9-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 146498
+SHA256sum: 63602e5c1d59c8295135e3f186e8e3117baa38f5b02f0defb5a0b3a633722cbc
+Description:  Libical is an Open Source implementation of the iCalendar protocols and protocol
+ data units. The iCalendar specification describes how calendar clients can
+ communicate with calendar servers so users can store their calendar data and
+ arrange meetings with other users.
+ Libical implements RFC2445, RFC2446 and some of RFC2447.
+
+Package: liblzma
+Version: 5.6.2-r2
+Depends: libc, libpthread
+License: Public-Domain LGPL-2.1-or-later 0BSD
+Section: libs
+URL: https://tukaani.org/xz
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 112640
+Filename: liblzma_5.6.2-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 60196
+SHA256sum: 38f8df2da6f47ac9c8817399c88c9e56147b6edc44e6a54eb998201f9dbfec41
+Description:  liblzma library from XZ Utils
+
+Package: libminiupnpc
+Version: 2.2.8-r1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+URL: https://miniupnp.tuxfamily.org
+CPE-ID: cpe:/a:miniupnp_project:miniupnpc
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 51200
+Filename: libminiupnpc_2.2.8-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20633
+SHA256sum: 44e2855e1c51f106c16e40cc25ca3c21667e610bcc6d4ef2430d20dde06933c6
+Description:  Lightweight UPnP library
+
+Package: libmosquitto-ssl
+Version: 2.0.18-r3
+Depends: libc, libpthread, librt, libcares, libopenssl3
+Provides: libmosquitto
+License: EPL-2.0
+Section: libs
+URL: http://www.mosquitto.org/
+CPE-ID: cpe:/a:eclipse:mosquitto
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 163840
+Filename: libmosquitto-ssl_2.0.18-r3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 73557
+SHA256sum: c124d8183c9688753c97036a91f9c5ff9aa66d982a9a47d544a4f55ad44e8361
+Description:  Library required for mosquitto's command line client tools, also for
+ use by any third party software that wants to communicate with _any_
+ MQTT server.
+ 
+ Should be useable for communicating with any MQTT v3.1/3.1.1/5 compatible
+ server, in addition to Mosquitto.
+ This package is built with SSL support
+
+Package: libmpg123
+Version: 1.32.6-r1
+Depends: libc, libltdl7
+License: LGPL-2.1-only
+Section: libs
+URL: https://www.mpg123.org
+CPE-ID: cpe:/a:mpg123:mpg123
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 235520
+Filename: libmpg123_1.32.6-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 127731
+SHA256sum: fc528292d333be708f11e668540457536c2e3189c08435e8f524e1f997142f3f
+Description:  fast console mpeg audio decoder library
+
+Package: libnatpmp1
+Version: 20230423-r1
+Depends: libc
+Provides: libnatpmp
+License: BSD-3-Clause
+Section: libs
+URL: https://miniupnp.tuxfamily.org/libnatpmp.html
+ABIVersion: 1
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20480
+Filename: libnatpmp1_20230423-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4307
+SHA256sum: 4cfa5ff16a86e8b09ec22276e34952b205418d79ed9b1cb4a6536b95c71ea976
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libneon
+Version: 0.32.4-r1
+Depends: libc, libopenssl3, libexpat, zlib
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://notroj.github.io/neon/
+CPE-ID: cpe:/a:webdav:neon
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 133120
+Filename: libneon_0.32.4-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 59797
+SHA256sum: 81822132257d4aed8fc26ae17584d533bcdacbab74f0811cf5190683f39aa7cf
+Description:  neon is an HTTP and WebDAV client library, with a C interface. Features:
+ 
+ - High-level wrappers for common HTTP and WebDAV operations (GET, MOVE, DELETE, etc)
+ - Low-level interface to the HTTP request/response engine, allowing the use of arbitrary HTTP methods, headers, etc.
+ - Authentication support including Basic and Digest support, along with GSSAPI-based Negotiate on Unix, and
+ SSPI-based Negotiate/NTLM on Win32
+ - SSL/TLS support using OpenSSL or GnuTLS; exposing an abstraction layer for verifying server certificates, handling client
+ certificates, and examining certificate properties. Smartcard-based client certificates are also supported via a
+ PKCS11 wrapper interface.
+ - Abstract interface to parsing XML using libxml2 or expat, and wrappers for simplifying handling XML HTTP response bodies
+ - WebDAV metadata support; wrappers for PROPFIND and PROPPATCH to simplify property manipulation.
+
+Package: libnghttp2-14
+Version: 1.63.0-r1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+ABIVersion: -14
+CPE-ID: cpe:/a:nghttp2:nghttp2
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 143360
+Filename: libnghttp2-14_1.63.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 62010
+SHA256sum: 7960fd4f92a7aceb44ecf87c2475c55ccad116dc550ff858c23ec62909a1aa80
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libout123
+Version: 1.32.6-r1
+Depends: libc, libltdl7
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://www.mpg123.org
+CPE-ID: cpe:/a:mpg123:mpg123
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 51200
+Filename: libout123_1.32.6-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22091
+SHA256sum: a17cbbba801404a0d8553188c88beaef1a0c64c1197700a80894853b8d356567
+Description:  Library for continuous playback of audio streams via various platform-specific output methods
+
+Package: libpython3-3.11
+Version: 3.11.14-r1
+Depends: libc, libpthread
+Provides: libpython3
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+ABIVersion: -3.11
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3399680
+Filename: libpython3-3.11_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1212653
+SHA256sum: 428819cf2149920c0fc3a5d9fad026e0823f41a3fcce9ca8c657997177774a08
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains only core Python library.
+
+Package: libsqlite3-0
+Version: 3510100-r1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+License: blessing
+Section: libs
+URL: https://www.sqlite.org/
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 962560
+Filename: libsqlite3-0_3510100-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 528409
+SHA256sum: b83cc947bc74fff9feb71ed65a4987fb719bb0a634669c19b2f19ee622386436
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libudev-zero
+Version: 1.0.3-r1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+License: MIT
+Section: libs
+URL: https://github.com/illiliti/libudev-zero
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30720
+Filename: libudev-zero_1.0.3-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9468
+SHA256sum: 4d770568e7978cb9be8e3423c8b624c5106cedb60e5ee09c6a496bdfb07c81aa
+Description:  Drop-in replacement for libudev
+
+Package: libuv1
+Version: 1.48.0-r1
+Depends: libc, libpthread, librt
+Provides: libuv
+License: MIT
+Section: libs
+URL: https://libuv.org/
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv:libuv
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 133120
+Filename: libuv1_1.48.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 61196
+SHA256sum: b811d6ce2b7457ccdde10e9d1e8dd80f4c63b9c597dcf257a52af81a4ce12ac1
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libwebsockets-openssl
+Version: 4.3.3-r1
+Depends: libc, zlib, libcap, libubox20240329, libopenssl3
+Conflicts: libwebsockets-full
+License: MIT
+Section: libs
+URL: https://libwebsockets.org
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 307200
+Filename: libwebsockets-openssl_4.3.3-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 153819
+SHA256sum: fbcde22fa2a43c524d77d5d8ac8c84fa06468769498e734d72140a56b132cb63
+Description:  libwebsockets (OpenSSL)
+
+Package: mdnsd
+Version: 2200.100.94.0.2-r1
+Depends: libc
+License: Apache-2.0
+Section: net
+URL: http://developer.apple.com/networking/bonjour/
+CPE-ID: cpe:/a:apple:mdnsresponder
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 450560
+Filename: mdnsd_2200.100.94.0.2-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 214029
+SHA256sum: 6cab69d8edf2a6a3e35983e9c96c8d90a302754072df814ed46b56b89f53f498
+Description:  Bonjour, also known as zero-configuration networking, enables
+ automatic discovery of computers, devices, and services on
+ IP networks.
+ .
+ This package contains the mDNS server daemon.
+
+Package: python3-aio-mqtt-mod
+Version: 0.3.4-r1
+Depends: libc, python3-light, python3-asyncio
+License: Apache-2.0
+Section: lang
+URL: https://github.com/devbis/aio-mqtt
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 102400
+Filename: python3-aio-mqtt-mod_0.3.4-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30979
+SHA256sum: 87ea8f76e198f553910b8434fa8ca627cd53b633a5cd9db3d09b8f01554ac583
+Description:  Asynchronous MQTT client for 3.1.1 protocol version (mod).
+
+Package: python3-asyncio
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 706560
+Filename: python3-asyncio_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 248855
+SHA256sum: a4519ed743414fd4a1dd01c723b7d5505eec096d59f8c2495604872c9439f767
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the asyncio module.
+
+Package: python3-base
+Version: 3.11.14-r1
+Depends: libc, libpython3-3.11
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1064960
+Filename: python3-base_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 222690
+SHA256sum: 91e18cde2b6b59646af0a8af2200407973b85bbe38249ce7cfb8cfab259f1fb9
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains only the interpreter and the bare minimum for the
+ interpreter to start.
+
+Package: python3-cgi
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-email
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 51200
+Filename: python3-cgi_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20172
+SHA256sum: 0d63f18ee9528319a8b923c87cdf4e1cd4fd07bc7425341e44494b0ed5dc6797
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgi module.
+
+Package: python3-cgitb
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-cgi, python3-pydoc
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30720
+Filename: python3-cgitb_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10260
+SHA256sum: 4b4ed23abd8f91fd802425b0d3f606385510532782751a49049e0636435f8a50
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgitb module.
+
+Package: python3-codecs
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1853440
+Filename: python3-codecs_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 738768
+SHA256sum: 3ac0fa6773ae9a607e74a3e3f4349cfe812bad3145e354ef7d19ef533cf56cd3
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains codecs and Unicode support.
+
+Package: python3-ctypes
+Version: 3.11.14-r1
+Depends: libc, python3-light, libffi
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 184320
+Filename: python3-ctypes_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 74218
+SHA256sum: 81e11c96c0f1ceaa812ff57b2ddb628b1bf0465aa8170c030f9429e1b3fb57c5
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ctypes module.
+
+Package: python3-dbm
+Version: 3.11.14-r1
+Depends: libc, python3-light, libgdbm
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 61440
+Filename: python3-dbm_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20320
+SHA256sum: c2fee82ac9b7752c1b3a971bdd6f8e3e3c7c1aaa3e2491e3fa1c3ad98403307c
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the dbm module.
+
+Package: python3-decimal
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 174080
+Filename: python3-decimal_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 71703
+SHA256sum: 1268045378d3bbaebfec75d391ed73e58bf98d6f2a13dbbeaf577f9afa217597
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the decimal module.
+
+Package: python3-distutils
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-email
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 696320
+Filename: python3-distutils_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 262539
+SHA256sum: 027d6fbb49106a77dc014870e7d86020669831e9a3ae1c053019a9cfcad4d6f4
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the distutils module.
+
+Package: python3-email
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 532480
+Filename: python3-email_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 187703
+SHA256sum: f9ff10948e19c3cd2831e49bc8bc9c9231fbebc8a4eb8befaf658d21ecbbdeff
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the email module.
+
+Package: python3-evdev
+Version: 1.7.1-r1
+Depends: libc, python3-light, python3-ctypes
+License: BSD-3-Clause
+Section: lang
+URL: https://github.com/gvalkov/python-evdev
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 194560
+Filename: python3-evdev_1.7.1-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 62875
+SHA256sum: 63c7b64be75a7e26c891e0c268882fe7456b81f51a0fc5959b12091029eabc68
+Description:  Bindings to the Linux input handling subsystem
+
+Package: python3-light
+Version: 3.11.14-r1
+Depends: libc, python3-base, libbz2-1.0, zlib
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7475200
+Filename: python3-light_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2819047
+SHA256sum: b90275dd22ecc5f2144a98705a98cd0276f51e7354fce2bda0d271da90e18db2
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package installs the base interpreter package and contains the most
+ commonly used parts of the standard library.
+
+Package: python3-logging
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 225280
+Filename: python3-logging_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 85158
+SHA256sum: 47949d99712e5901bad8c895d8d8025342ca36eb38b870e51b4b7bf79c705401
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the logging module.
+
+Package: python3-lzma
+Version: 3.11.14-r1
+Depends: libc, python3-light, liblzma
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 51200
+Filename: python3-lzma_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18531
+SHA256sum: 8450631556695e1c4ca90fe9a5f7c4e3058efa914d98a4bee670a91f36c07f78
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the lzma module.
+
+Package: python3-multiprocessing
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 460800
+Filename: python3-multiprocessing_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 174690
+SHA256sum: 4cfa7b2e2e6357f8e5bdb7e18b3d57ba2546d4bf47ddc9b642aaa1f90b33c4ea
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the multiprocessing module.
+
+Package: python3-ncurses
+Version: 3.11.14-r1
+Depends: libc, python3-light, libncursesw6
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 153600
+Filename: python3-ncurses_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 49978
+SHA256sum: 4ccf8930c5531d8c5232e180ed291b4aae11a170f1f9c7e13e25739ea355fb60
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ncurses module.
+
+Package: python3-openssl
+Version: 3.11.14-r1
+Depends: libc, python3-light, libopenssl3, ca-certs
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 194560
+Filename: python3-openssl_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 67668
+SHA256sum: 9188e804c342566c6b014da504798e8202083f5538f3694159e906ca1bfcff63
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ssl module.
+
+Package: python3-pkg-resources
+Version: 80.9.0-r1
+Depends: libc, python3-light, python3-email, python3-logging, python3-urllib
+License: MIT
+Section: lang
+URL: https://github.com/pypa/setuptools
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 337920
+Filename: python3-pkg-resources_80.9.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 114964
+SHA256sum: 78b206e6ec227ab1f97e60103947c989987851754de9ae5691182fc81afd124d
+Description:  Setuptools is a fully-featured, actively-maintained, and stable library
+ designed to facilitate packaging Python projects.
+ 
+ It helps developers to easily share reusable code (in the form of a
+ library) and programs (e.g., CLI/GUI tools implemented in Python), that
+ can be installed with pip and uploaded to PyPI.
+ 
+ This is the pkg_resources module of setuptools.
+
+Package: python3-pydoc
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 768000
+Filename: python3-pydoc_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 252590
+SHA256sum: 816917ebe68ce1d8c8eb09a060f77a883a0c01fcda6a0a5be6609eb9424c8ddf
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the pydoc module.
+
+Package: python3-readline
+Version: 3.11.14-r1
+Depends: libc, python3-light, libreadline8
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30720
+Filename: python3-readline_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10231
+SHA256sum: 5f3d00c540d6936c27d14e39338794a438779c5f87075f2b3dd5a684b29ac246
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the readline module.
+
+Package: python3-sqlite3
+Version: 3.11.14-r1
+Depends: libc, python3-light, libsqlite3-0
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 102400
+Filename: python3-sqlite3_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 37339
+SHA256sum: 05cce2c56660a718b20df85030eb5a017f4fb1c82beb2b806a274a9873b30d4a
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the sqlite3 module.
+
+Package: python3-unittest
+Version: 3.11.14-r1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 348160
+Filename: python3-unittest_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 131775
+SHA256sum: b4ee55fece7d07a4700cd37a9b5fb4fd2fcf53bebf4ca90d573960ca2625638d
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the unittest module.
+
+Package: python3-urllib
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-email
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 215040
+Filename: python3-urllib_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 85770
+SHA256sum: 5989c4906caeb56c1273acb38adc622feae8bd748cc5203c69857cae0b7dc41f
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the URL handling modules.
+
+Package: python3-uuid
+Version: 3.11.14-r1
+Depends: libc, python3-light, libuuid1
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 51200
+Filename: python3-uuid_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16544
+SHA256sum: 2569291bc95ed186cd404fac210b94231b3f520853464b2e415113aa0ffaa21c
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the uuid module.
+
+Package: python3-xml
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-urllib
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 727040
+Filename: python3-xml_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 270101
+SHA256sum: 5ba6929871def2a7de8b753e78524897fcc45a303dfd24ddbc64e64bd77a2423
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the XML modules.
+
+Package: python3
+Version: 3.11.14-r1
+Depends: libc, python3-light, python3-asyncio, python3-cgi, python3-cgitb, python3-codecs, python3-ctypes, python3-dbm, python3-decimal, python3-distutils, python3-email, python3-logging, python3-lzma, python3-multiprocessing, python3-ncurses, python3-openssl, python3-pydoc, python3-readline, python3-sqlite3, python3-unittest, python3-urllib, python3-uuid, python3-xml
+License: Python-2.0.1 0BSD
+Section: lang
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10240
+Filename: python3_3.11.14-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1475
+SHA256sum: 6d5e4a7c958ce3818e88093c5500134fec635308ae78ca56a01fd6a9a1d5305d
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package installs almost all parts of the standard Python
+ installation.
+
+Package: zerotier
+Version: 1.14.1-r3
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1, libatomic1
+License: BSL 1.1
+Section: net
+URL: https://www.zerotier.com
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1116160
+Filename: zerotier_1.14.1-r3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 531944
+SHA256sum: 60709254761deaa6809b5a344b8979ec66ed865b6dfa41cfae4f40d0d96a1a12
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+

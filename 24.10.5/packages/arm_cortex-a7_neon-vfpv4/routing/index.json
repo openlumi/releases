@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "architecture": "arm_cortex-a7_neon-vfpv4",
+  "packages": {
+    "batctl-default": "2024.3-r2"
+  }
+}

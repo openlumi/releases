@@ -1,0 +1,54 @@
+Package: lumimqtt
+Version: 1.0.18-r1
+Depends: libc, kmod-hid, python3-base, python3-evdev, python3-pkg-resources, python3-logging, python3-asyncio, python3-openssl, python3-uuid, python3-aio-mqtt-mod
+Source: feeds/openlumi/apps/lumimqtt
+SourceName: lumimqtt
+License: GPL-3.0
+LicenseFiles: PKG-INFO
+Section: openlumi
+SourceDateEpoch: 1739435211
+URL: https://github.com/openlumi/lumimqtt/
+Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 133120
+Filename: lumimqtt_1.0.18-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 43778
+SHA256sum: 0e18371a5f476bff3cc6f3a71d4ef74b1aa0394bba19e89e6f0932ec723b84de
+Description:  MQTT agent for Xiaomi Lumi gateway
+
+Package: node-espruinohub
+Version: 0.0.2-r12
+Depends: libc, node127, libudev
+Source: feeds/openlumi/apps/node-espruinohub
+SourceName: node-espruinohub
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1739435211
+URL: https://github.com/espruino/espruinohub
+Maintainer: mrG1K <mr@g1k.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7598080
+Filename: node-espruinohub_0.0.2-r12_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1499982
+SHA256sum: f1677b99b525131755745f45c680379e894d4b18036075a6fb18aa21b53298e7
+Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
+
+Package: python3-bluepy
+Version: 1.3.0-r1
+Depends: libc, python3, glib2
+Source: feeds/openlumi/libs/python3-bluepy
+SourceName: python3-bluepy
+License: GPL-2.0
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1739435211
+URL: https://github.com/IanHarvey/bluepy
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 624640
+Filename: python3-bluepy_1.3.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 330206
+SHA256sum: 2dc526cf0e5cd3fef36c7c143c4c05b0f5005db917614edb51121918f5f4655d
+Description:  Python interface to Bluetooth LE on Linux
+

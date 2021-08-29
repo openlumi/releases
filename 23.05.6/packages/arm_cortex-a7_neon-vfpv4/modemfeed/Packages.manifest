@@ -1,0 +1,16 @@
+Package: accel-ppp
+Version: 1.13.0-20250110~master1
+Depends: libc, libpcre2, libopenssl3, libpthread, librt, libatomic1, libucontext
+Source: feeds/modemfeed/packages/net/accel-ppp
+SourceName: accel-ppp
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1751459804
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 285523
+Filename: accel-ppp_1.13.0-20250110~master1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 285186
+SHA256sum: 99d54fb6dc2412c7deac85d29e080ad63560a3fded77c4d61fff607444bebce6
+Description:  accel-ppp VPN server
+

@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "architecture": "arm_cortex-a7_neon-vfpv4",
+  "packages": {
+    "baresip": "3.16.0-r3",
+    "baresip-mod-mqtt": "3.16.0-r3",
+    "libre": "3.16.0-r1"
+  }
+}

@@ -1,0 +1,371 @@
+Package: node-bcrypt
+Version: 6.0.0-r1
+Depends: libc, node127
+Source: feeds/node/node-bcrypt
+SourceName: node-bcrypt
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.com/package/bcrypt
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 573440
+Filename: node-bcrypt_6.0.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 107384
+SHA256sum: b6eeb21a33469ed7236b60745544a396d7a09f6b55843c2ca26b7f1cddd9f2c0
+Description:  A library to help you hash passwords. You can read about bcrypt in Wikipedia as well as in the following article: How To Safely Store A Password
+
+Package: node-bufferutil
+Version: 4.1.0-r1
+Depends: libc, node127
+Source: feeds/node/node-bufferutil
+SourceName: node-bufferutil
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.org/package/bufferutil
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 51200
+Filename: node-bufferutil_4.1.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10729
+SHA256sum: 696029a7fbb4544413d3d297a8195be6fe7bdf6cc203127e292e75786c233b43
+Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
+
+Package: node-firmata
+Version: 2.3.0-r2
+Depends: libc, node127, node-serialport
+Source: feeds/node/node-firmata
+SourceName: node-firmata
+License: MIT
+LicenseFiles: readme.md
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.com/package/firmata
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 153600
+Filename: node-firmata_2.3.0-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 31445
+SHA256sum: a6fca34c855e52309f2dd67c4d33246adedb954babc6e8935939353fb68fb29e
+Description:  Firmata protocol implementation for programmatic interaction with Arduino and Arduino compatible development boards
+
+Package: node-hap-nodejs
+Version: 1.2.0-r1
+Depends: libc, node127, libopenssl3
+Source: feeds/node/node-hap-nodejs
+SourceName: node-hap-nodejs
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.org/package/hap-nodejs
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11857920
+Filename: node-hap-nodejs_1.2.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2430359
+SHA256sum: 6f53fb8a8ec2075ed6556e67c590bf5ac29a5e2bf42b402ffeb81c97a93a6be9
+Description:  HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server
+
+Package: node-johnny-five
+Version: 2.1.0-r1
+Depends: libc, node127, node-firmata, node-serialport
+Source: feeds/node/node-johnny-five
+SourceName: node-johnny-five
+License: MIT
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.org/package/johnny-five
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1372160
+Filename: node-johnny-five_2.1.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 472563
+SHA256sum: 3d583060ee46feec931703ba5890d452c584ea8f5210726587a9c45ccfed945b
+Description:  The JavaScript Robotics and Hardware Programming Framework
+
+Package: node-mdns
+Version: 2.7.2-r6
+Depends: libc, node127, mdnsd
+Source: feeds/node/node-mdns
+SourceName: node-mdns
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.org/package/mdns
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 788480
+Filename: node-mdns_2.7.2-r6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 143613
+SHA256sum: 55470a3b24ca4c6003584790819ec87007bd8790ac5272692c33ff53bc0cd441
+Description:  mdns adds multicast DNS service discovery, also known as zeroconf or bonjour to Node.js. It provides an object based interface to announce and browse services on the local network
+
+Package: node-mqtt
+Version: 5.14.1-r1
+Depends: libc, node127, node-ws
+Source: feeds/node/node-mqtt
+SourceName: node-mqtt
+License: MIT
+LicenseFiles: LICENSE.md
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.org/package/mqtt
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10854400
+Filename: node-mqtt_5.14.1-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1920438
+SHA256sum: b50dd9db3ac1b07a82d83f368a6e62aa52c8b7216637cfac9586650b86d51724
+Description:  MQTT.js is a client library for the MQTT protocol, written in JavaScript for node.js and the browser
+
+Package: node-npm
+Version: 22.22.0-r1
+Depends: libc, node127
+Source: feeds/node/node
+SourceName: node
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.com/
+CPE-ID: cpe:/a:nodejs:node.js
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11325440
+Filename: node-npm_22.22.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2424773
+SHA256sum: 65723c6df27a991b83c56e0d3e5b160ce079da40717c3b019bafb8b88f785daf
+Description:  NPM is the package manager for NodeJS
+
+Package: node-red-contrib-gpio
+Version: 0.51.0-r3
+Depends: libc, node127, node-red, node-johnny-five, node-mqtt
+Source: feeds/node/node-red-contrib-gpio
+SourceName: node-red-contrib-gpio
+License: MIT
+LicenseFiles: License.md
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://flows.nodered.org/node/node-red-contrib-gpio
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3532800
+Filename: node-red-contrib-gpio_0.51.0-r3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 628603
+SHA256sum: 5d193b68f415aa9be9592dec4ddd9017be8491a7e5303f741d552d44e5b437b4
+Description:  A set of input and output nodes for controlling General Purpose Input and Outputs (GPIOs) though the use of johnny-five I/O Plugins as well as running johnny-five scripts!
+
+Package: node-red-contrib-homekit-bridged
+Version: 1.7.3-r1
+Depends: libc, node127, node-red, node-hap-nodejs
+Source: feeds/node/node-red-contrib-homekit-bridged
+SourceName: node-red-contrib-homekit-bridged
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://flows.nodered.org/node/node-red-contrib-homekit-bridged
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1126400
+Filename: node-red-contrib-homekit-bridged_1.7.3-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 171390
+SHA256sum: 402430ead6f28a25234fec3ddbbe734bc5eb927e15fa7be82c5c121c3bc82a4b
+Description:  node-red-contrib-homekit-bridged (aka NRCHKB) is a Node-RED nodes pack to simulate Apple HomeKit devices.
+
+Package: node-red-dashboard
+Version: 3.6.6-r1
+Depends: libc, node127, node-red
+Source: feeds/node/node-red-dashboard
+SourceName: node-red-dashboard
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://flows.nodered.org/node/node-red-dashboard
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 12677120
+Filename: node-red-dashboard_3.6.6-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3207280
+SHA256sum: e52672f6d2fbe2d3beae1b8ac218e9ab375e1580c73ebea7a1cbb9ae768f87f2
+Description:  This module provides a set of nodes in Node-RED to quickly create a live data dashboard.a
+
+Package: node-red-node-discovery
+Version: 0.0.23-r1
+Depends: libc, node127, node-red, node-mdns
+Source: feeds/node/node-red-node-discovery
+SourceName: node-red-node-discovery
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://flows.nodered.org/node/node-red-node-discovery
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30720
+Filename: node-red-node-discovery_0.0.23-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7502
+SHA256sum: 5931008213665a1f637e2129cac82c06cb8b1607030ff3d5f88c8f92cc47f3bb
+Description:  A Node-RED node that uses Bonjour / Avahi to discover local network services such as iTunes libraries, printers, etc.
+
+Package: node-red-node-serialport
+Version: 2.0.3-r1
+Depends: libc, node127, node-red, node-serialport
+Source: feeds/node/node-red-node-serialport
+SourceName: node-red-node-serialport
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://flows.nodered.org/node/node-red-node-serialport
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 102400
+Filename: node-red-node-serialport_2.0.3-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18279
+SHA256sum: ba5f1489cca36e0e1323201787b579e7f877018f42ea39789aa0be354b4cea61
+Description:  Node-RED nodes to talk to hardware serial ports.
+
+Package: node-red
+Version: 4.1.4-r1
+Depends: libc, node127, node-npm, node-bcrypt, node-bufferutil, node-utf-8-validate
+Source: feeds/node/node-red
+SourceName: node-red
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://nodered.org/
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 73175040
+Filename: node-red_4.1.4-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16298733
+SHA256sum: 29da0c0755c30c89588499b7f967c5c093f62217cf48f7fa9a780a32f9b926da
+Description:  A visual tool for wiring the Internet of Things
+
+Package: node-serialport-bindings-cpp
+Version: 13.0.1-r1
+Depends: libc, node127
+Source: feeds/node/node-serialport-bindings-cpp
+SourceName: node-serialport-bindings-cpp
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.com/package/@serialport/bindings-cpp
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 716800
+Filename: node-serialport-bindings-cpp_13.0.1-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 128523
+SHA256sum: 8e48d48ef87a6f2bf14aaa9ef01b765cf38d02068a58c46638190431def224ea
+Description:  The Bindings provide a low level interface to work with your serialport. It is possible to use them alone but it's usually easier to use them with an interface.
+
+Package: node-serialport
+Version: 13.0.0-r1
+Depends: libc, node127, node-serialport-bindings-cpp
+Source: feeds/node/node-serialport
+SourceName: node-serialport
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.org/package/serialport
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 327680
+Filename: node-serialport_13.0.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 47320
+SHA256sum: b44c38f3a63e64c1d1cd0bee4847d9d31c33445bec0f4da745e01e283e2564bc
+Description:  Node.js package to access serial ports. Welcome your robotic javascript overlords. Better yet, program them!
+
+Package: node-utf-8-validate
+Version: 6.0.6-r1
+Depends: libc, node127
+Source: feeds/node/node-utf-8-validate
+SourceName: node-utf-8-validate
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.org/package/utf-8-validate
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 61440
+Filename: node-utf-8-validate_6.0.6-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13755
+SHA256sum: 9fd59ba6a410a5e45e6f98817214f8809ef32b4a4bcdf190ab7639a89ca8461c
+Description:  Check if a buffer contains valid UTF-8 encoded text
+
+Package: node-ws
+Version: 8.19.0-r1
+Depends: libc, node127, node-bufferutil, node-utf-8-validate
+Source: feeds/node/node-ws
+SourceName: node-ws
+License: MIT
+LicenseFiles: README.md
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://www.npmjs.org/package/ws
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 174080
+Filename: node-ws_8.19.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 35592
+SHA256sum: bea749d984fca024de3a7d7b11d050ab5243f7707033960481a414217d692e1d
+Description:  Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js
+
+Package: node-zigbee2mqtt
+Version: 2.8.0-r1
+Depends: libc, node127, node-bufferutil, node-utf-8-validate
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://github.com/Koenkk/zigbee2mqtt
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41830400
+Filename: node-zigbee2mqtt_2.8.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11408902
+SHA256sum: c6c29c8f96eb5dd29b27a895584e7aeecd5e6e570eb8d69e054b59fdbad5a3a3
+Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node127
+Version: 22.22.0-r1
+Depends: libc, libstdcpp6, libopenssl3, zlib, libnghttp2-14, libcares, libatomic1
+Provides: node
+Source: feeds/node/node
+SourceName: node
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1770162718
+URL: https://nodejs.org/
+ABIVersion: 127
+CPE-ID: cpe:/a:nodejs:node.js
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 48609280
+Filename: node127_22.22.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16915586
+SHA256sum: 658ec425d44a6488ade80e8486bf54c904e0ecb9dd68a75548898ac6ba89395b
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ 
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 12.2 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
+

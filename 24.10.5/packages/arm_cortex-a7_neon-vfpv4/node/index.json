@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "architecture": "arm_cortex-a7_neon-vfpv4",
+  "packages": {
+    "node-bcrypt": "6.0.0-r1",
+    "node-bufferutil": "4.1.0-r1",
+    "node-firmata": "2.3.0-r2",
+    "node-hap-nodejs": "1.2.0-r1",
+    "node-johnny-five": "2.1.0-r1",
+    "node-mdns": "2.7.2-r6",
+    "node-mqtt": "5.14.1-r1",
+    "node-npm": "22.22.0-r1",
+    "node-red-contrib-gpio": "0.51.0-r3",
+    "node-red-contrib-homekit-bridged": "1.7.3-r1",
+    "node-red-dashboard": "3.6.6-r1",
+    "node-red-node-discovery": "0.0.23-r1",
+    "node-red-node-serialport": "2.0.3-r1",
+    "node-red": "4.1.4-r1",
+    "node-serialport-bindings-cpp": "13.0.1-r1",
+    "node-serialport": "13.0.0-r1",
+    "node-utf-8-validate": "6.0.6-r1",
+    "node-ws": "8.19.0-r1",
+    "node-zigbee2mqtt": "2.8.0-r1",
+    "node": "22.22.0-r1"
+  }
+}
