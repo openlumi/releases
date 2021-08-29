@@ -1,0 +1,229 @@
+Package: node-bcrypt
+Version: 5.1.0-1
+Depends: libc, node
+Source: feeds/node/node-bcrypt
+SourceName: node-bcrypt
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 594300
+Filename: node-bcrypt_5.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 589183
+SHA256sum: 42ca162ab378504a660abb6e47f3e7e0781aadd9dd8802f8c4fa8eed24a488a3
+Description:  A library to help you hash passwords. You can read about bcrypt in Wikipedia as well as in the following article: How To Safely Store A Password
+
+Package: node-bufferutil
+Version: 4.0.7-1
+Depends: libc, node
+Source: feeds/node/node-bufferutil
+SourceName: node-bufferutil
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9132
+Filename: node-bufferutil_4.0.7-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10035
+SHA256sum: a4f785f9da2c8f054cd2927aaaf1a9312b9eca36a72a8da4a209ebc5e963dc1d
+Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
+
+Package: node-firmata
+Version: 2.3.0-2
+Depends: libc, node, node-serialport
+Source: feeds/node/node-firmata
+SourceName: node-firmata
+License: MIT
+LicenseFiles: readme.md
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30491
+Filename: node-firmata_2.3.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 31417
+SHA256sum: fa74bb13b6a8b097f195527c2115e628e0100a2993225b1ee3dd19245bc7d3af
+Description:  Firmata protocol implementation for programmatic interaction with Arduino and Arduino compatible development boards
+
+Package: node-hap-nodejs
+Version: 0.11.0-1
+Depends: libc, node, libopenssl1.1
+Source: feeds/node/node-hap-nodejs
+SourceName: node-hap-nodejs
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1721047
+Filename: node-hap-nodejs_0.11.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1720471
+SHA256sum: 0ac5b2ce7f353d59c8d0d8e334753374e3d853b93b78a6a0ab60e0aafc3b713c
+Description:  HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server
+
+Package: node-johnny-five
+Version: 2.1.0-1
+Depends: libc, node, node-firmata, node-serialport
+Source: feeds/node/node-johnny-five
+SourceName: node-johnny-five
+License: MIT
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 472033
+Filename: node-johnny-five_2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 473031
+SHA256sum: eb7924ee6f0bbea0a87b5bbc7290d38c0ec42bb54dcd3b95cc6a0b3e7db93ead
+Description:  The JavaScript Robotics and Hardware Programming Framework
+
+Package: node-mdns
+Version: 2.7.2-3
+Depends: libc, node, libavahi-compat-libdnssd
+Source: feeds/node/node-mdns
+SourceName: node-mdns
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 138321
+Filename: node-mdns_2.7.2-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 139255
+SHA256sum: 3ba6da4e921463724dc23ea6f0210751af837bb920b6f972046b422038b3edc5
+Description:  mdns adds multicast DNS service discovery, also known as zeroconf or bonjour to Node.js. It provides an object based interface to announce and browse services on the local network
+
+Package: node-mqtt
+Version: 4.3.7-1
+Depends: libc, node, node-ws
+Source: feeds/node/node-mqtt
+SourceName: node-mqtt
+License: MIT
+LicenseFiles: LICENSE.md
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 553607
+Filename: node-mqtt_4.3.7-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 553922
+SHA256sum: 284a8b3a4b68158ee3143875cca9e8210644f33385b3e37ca39b0022d0ebae3c
+Description:  MQTT.js is a client library for the MQTT protocol, written in JavaScript for node.js and the browser
+
+Package: node-serialport-bindings-cpp
+Version: 10.8.0-1
+Depends: libc, node
+Source: feeds/node/node-serialport-bindings-cpp
+SourceName: node-serialport-bindings-cpp
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 124311
+Filename: node-serialport-bindings-cpp_10.8.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 125126
+SHA256sum: c9e5af26348171cb59eee9f4a4e71cd231a2607ed719524beb20418705f712de
+Description:  The Bindings provide a low level interface to work with your serialport. It is possible to use them alone but it's usually easier to use them with an interface.
+
+Package: node-serialport
+Version: 10.5.0-1
+Depends: libc, node, node-serialport-bindings-cpp
+Source: feeds/node/node-serialport
+SourceName: node-serialport
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 46119
+Filename: node-serialport_10.5.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 46828
+SHA256sum: 505dcd41d683a8eef331f5b110358ce1d09f61804fd55d3639668e62ef8c8308
+Description:  Node.js package to access serial ports. Welcome your robotic javascript overlords. Better yet, program them!
+
+Package: node-utf-8-validate
+Version: 5.0.10-1
+Depends: libc, node
+Source: feeds/node/node-utf-8-validate
+SourceName: node-utf-8-validate
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8707
+Filename: node-utf-8-validate_5.0.10-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9590
+SHA256sum: 7aabf19e35248404fc24d7d6a4b1b3c91d266c2e4c4438681f11bed5f6eac10a
+Description:  Check if a buffer contains valid UTF-8 encoded text
+
+Package: node-ws
+Version: 8.11.0-1
+Depends: libc, node, node-bufferutil, node-utf-8-validate
+Source: feeds/node/node-ws
+SourceName: node-ws
+License: MIT
+LicenseFiles: README.md
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 32211
+Filename: node-ws_8.11.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 33130
+SHA256sum: 97343efd2b047bc6ff31784643597aeef26a22b246fc5bb0d8534fa0f00c1a18
+Description:  Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js
+
+Package: node-zigbee2mqtt
+Version: 1.28.4-1
+Depends: libc, node, node-bufferutil, node-utf-8-validate
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1669950077
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5727675
+Filename: node-zigbee2mqtt_1.28.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5721768
+SHA256sum: 6b7ac48175bae78a075fac935c3e12a5eaa7dc22d15fd67b0259cf4107e60bdf
+Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node
+Version: v18.12.1-1
+Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libuv1, libcares, libatomic1
+Source: feeds/node/node
+SourceName: node
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1669950077
+CPE-ID: cpe:/a:nodejs:node.js
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11185735
+Filename: node_v18.12.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11096425
+SHA256sum: 4a6ff0a54452a61f153fc48358aaffff1e40f07977575fc9b712be754a7d4ec8
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ 
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 8.3 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
+

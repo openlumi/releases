@@ -1,0 +1,52 @@
+Package: python3-aio-mqtt
+Version: 0.3.4-1
+Depends: libc, python3-base, python3-asyncio, python3-openssl
+Source: feeds/openlumi/libs/python3-aio-mqtt
+SourceName: python3-aio-mqtt
+License: APACHE
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1704538132
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20228
+Filename: python3-aio-mqtt_0.3.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21028
+SHA256sum: 29a84f6973a111323968fb491f377af2d7b6837bc365a66cbfec67a714c59dbc
+Description:  Asynchronous MQTT client for 3.1.1 protocol version.
+
+Package: python3-bluepy
+Version: 1.3.0-1
+Depends: libc, python3, glib2
+Source: feeds/openlumi/libs/python3-bluepy
+SourceName: python3-bluepy
+License: GPL-2.0
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1704538132
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 306486
+Filename: python3-bluepy_1.3.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 306272
+SHA256sum: 763d2e744f16b753a15b72f1e9f67affba44324d1882ffce4131a05aff58b4dc
+Description:  Python interface to Bluetooth LE on Linux
+
+Package: python3-dbus-next
+Version: 0.2.3-1
+Depends: libc, python3-light, python3-asyncio, python3-logging, python3-urllib
+Source: feeds/openlumi/libs/python3-dbus-next
+SourceName: python3-dbus-next
+License: MIT
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1704538132
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 73319
+Filename: python3-dbus-next_0.2.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 74343
+SHA256sum: a8e913098da522c663a3d86520a5c02072f23b17c9a7b17651fa0f37051f5868
+Description:  python-dbus-next is a Python library for DBus that aims to be a fully featured high level library 
+ primarily geared towards integration of applications into Linux desktop and mobile environments.
+

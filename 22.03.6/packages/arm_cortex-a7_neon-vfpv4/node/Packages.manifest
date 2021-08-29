@@ -1,0 +1,79 @@
+Package: node-bufferutil
+Version: 4.0.8-1
+Depends: libc, node108
+Source: feeds/node/node-bufferutil
+SourceName: node-bufferutil
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1705612152
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9405
+Filename: node-bufferutil_4.0.8-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10331
+SHA256sum: 46af92219483b44850745342a18f7d44a1862cbf380a3a3051eac2a3b3ae7f2b
+Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
+
+Package: node-utf-8-validate
+Version: 6.0.3-1
+Depends: libc, node108
+Source: feeds/node/node-utf-8-validate
+SourceName: node-utf-8-validate
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1705612152
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 12567
+Filename: node-utf-8-validate_6.0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13425
+SHA256sum: 13d9dfce24e2ae94dac6f53564823ec1b7bd6724fd5eedb3690469f72afd16ab
+Description:  Check if a buffer contains valid UTF-8 encoded text
+
+Package: node-zigbee2mqtt
+Version: 1.35.1-1
+Depends: libc, node108, node-bufferutil, node-utf-8-validate
+Source: feeds/node/node-zigbee2mqtt
+SourceName: node-zigbee2mqtt
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1705612152
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7316304
+Filename: node-zigbee2mqtt_1.35.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7305321
+SHA256sum: fd058adb8d890245735dc3eba56f094b7c9b643155d600bec77972238af52fb3
+Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node108
+Version: v18.19.0-1
+Depends: libc, libstdcpp6, zlib, libatomic1
+Provides: node
+Source: feeds/node/node
+SourceName: node
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1705612152
+ABIVersion: 108
+CPE-ID: cpe:/a:nodejs:node.js
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13485063
+Filename: node108_v18.19.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13376598
+SHA256sum: 800cf413c6c109069aa874ad4e10ee8fdec6a591e7facdd5e0aca418cd74642b
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ 
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 8.3 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
+

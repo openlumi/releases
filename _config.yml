@@ -1,0 +1,12 @@
+title: "OpenLumi releases | downloads | Xiaomi DGNWG05LM | Aqara ZHWG11LM"
+email:
+description: ""
+
+remote_theme: openlumi/wiki
+baseurl: "/releases"
+
+minima:
+  search_path: /releases/search.html
+  social_links:
+    telegram: xiaomi_gw_hack
+    github: openlumi

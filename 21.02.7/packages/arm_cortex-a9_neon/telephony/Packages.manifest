@@ -1,0 +1,69 @@
+Package: baresip-mod-mqtt
+Version: 1.0.0-1
+Depends: libc, baresip, libmosquitto
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-mqtt
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4500
+Filename: baresip-mod-mqtt_1.0.0-1_arm_cortex-a9_neon.ipk
+Size: 5264
+SHA256sum: d6afc9f9548f4173c118461d7fe2257f84fe1bc75bb354e76e0b321a09f1afd6
+Description:  MQTT-Support module
+
+Package: baresip
+Version: 1.0.0-1
+Depends: libc, libre, librem
+Source: feeds/telephony/net/baresip
+SourceName: baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Require-User: baresip=374:baresip=374
+SourceDateEpoch: 1601818141
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 648832
+Filename: baresip_1.0.0-1_arm_cortex-a9_neon.ipk
+Size: 648773
+SHA256sum: 0074bd7242e906c37f64182aac9f6e69d2fa663e4a5b37d94e37c866b6f8ac7c
+Description:  Portable and modular SIP User-Agent with A/V support
+
+Package: libre
+Version: 1.0.0-1
+Depends: libc, libopenssl1.1, zlib
+Source: feeds/telephony/libs/re
+SourceName: libre
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+SourceDateEpoch: 1601713956
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 159893
+Filename: libre_1.0.0-1_arm_cortex-a9_neon.ipk
+Size: 159730
+SHA256sum: 846f1844fef2a94ba5d686ba8afa105f9d6efa53ffbaf78bc075d430c23f7bba
+Description:  Generic library for real-time communications with async IO support
+
+Package: librem
+Version: 0.6.0-2
+Depends: libc, libre
+Source: feeds/telephony/libs/rem
+SourceName: librem
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+SourceDateEpoch: 1570908053
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 25693
+Filename: librem_0.6.0-2_arm_cortex-a9_neon.ipk
+Size: 26431
+SHA256sum: 524a97e2ae5832be446e9622f2b661055df27e1c33d61a9c11bb3a98e6ef6032
+Description:  Audio and video processing media library
+

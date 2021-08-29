@@ -1,0 +1,69 @@
+Package: lumimqtt
+Version: 1.0.17-1
+Depends: libc, kmod-hid, python3-base, python3-evdev, python3-pkg-resources, python3-logging, python3-asyncio, python3-openssl, python3-aio-mqtt
+Source: feeds/openlumi/apps/lumimqtt
+SourceName: lumimqtt
+License: GPL-3.0
+LicenseFiles: PKG-INFO
+Section: openlumi
+SourceDateEpoch: 1694714312
+Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18321
+Filename: lumimqtt_1.0.17-1_arm_cortex-a9_neon.ipk
+Size: 19202
+SHA256sum: e2f4c67a04f1e62762bc601ba11c0fde1a71471d422ea3ba675da4beca918c79
+Description:  MQTT agent for Xiaomi Lumi gateway
+
+Package: python3-aio-mqtt
+Version: 0.3.4-1
+Depends: libc, python3-base, python3-asyncio, python3-openssl
+Source: feeds/openlumi/libs/python3-aio-mqtt
+SourceName: python3-aio-mqtt
+License: APACHE
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1694714312
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 15712
+Filename: python3-aio-mqtt_0.3.4-1_arm_cortex-a9_neon.ipk
+Size: 16484
+SHA256sum: c1afb2408ca9839f552571082517d8b7636c36f22e11945a750557532c0f4b4c
+Description:  Asynchronous MQTT client for 3.1.1 protocol version.
+
+Package: python3-bluepy
+Version: 1.3.0-1
+Depends: libc, python3, glib2
+Source: feeds/openlumi/libs/python3-bluepy
+SourceName: python3-bluepy
+License: GPL-2.0
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1694714312
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 308583
+Filename: python3-bluepy_1.3.0-1_arm_cortex-a9_neon.ipk
+Size: 309178
+SHA256sum: 9ff60944de977e8873ce33735b3a593464bdce4422b4514e464fa1cd8267c2dd
+Description:  Python interface to Bluetooth LE on Linux
+
+Package: python3-dbus-next
+Version: 0.2.3-1
+Depends: libc, python3-light, python3-asyncio, python3-logging, python3-urllib
+Source: feeds/openlumi/libs/python3-dbus-next
+SourceName: python3-dbus-next
+License: MIT
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1694714312
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 70749
+Filename: python3-dbus-next_0.2.3-1_arm_cortex-a9_neon.ipk
+Size: 71762
+SHA256sum: a592730d3ea210fdbb4d6c9ea0674b1fec827048e3bce42693100aa273e1e92c
+Description:  python-dbus-next is a Python library for DBus that aims to be a fully featured high level library 
+ primarily geared towards integration of applications into Linux desktop and mobile environments.
+
