@@ -1,0 +1,2017 @@
+Package: ha-aioesphomeapi
+Version: 10.6.0-1
+Depends: libc, homeassistant, python3-ha-protobuf, python3-ha-noiseprotocol
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 54190
+Filename: ha-aioesphomeapi_10.6.0-1_arm_cortex-a9_neon.ipk
+Size: 55102
+SHA256sum: 47abf5b06abcafb40a8b0a6bc1b1f4fcad2f7839f85a75f3a64ab88db89ff092
+Description:  Esphomeapi allows you to interact with devices flashed with ESPHome.
+
+Package: ha-all
+Version: 0.1-1
+Depends: homeassistant, ha-aioesphomeapi, ha-homekit, hass-configurator, ha-wled, ha-zha, ha-ble-monitor, ha-miio, ha-yeelight, ha-yandexstation
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: ha-all_0.1-1_arm_cortex-a9_neon.ipk
+Size: 849
+SHA256sum: 66e76d3f3bfe25f74b2cfd38a28fc08525fdef2787a9bacadb6841b16b243e9a
+Description:  ha-all.
+
+Package: ha-ble-monitor
+Version: 2021-11-18-0913e5fb-1
+Depends: homeassistant, python3-ha-pycryptodomex, python3-ha-janus, python3-ha-aioblescan
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 56956
+Filename: ha-ble-monitor_2021-11-18-0913e5fb-1_arm_cortex-a9_neon.ipk
+Size: 57767
+SHA256sum: a2fbb07f54d28313e5564a89221843babc91a3075c0256ee489b1c935eb36724
+Description:  Passive BLE Monitor integration.
+
+Package: ha-homekit
+Version: 0.0.1-5
+Depends: homeassistant, python3-ha-aiohomekit, python3-ha-base36, python3-ha-fnvhash, python3-ha-ffmpeg, python3-ha-pyhap, python3-ha-pyqrcode, python3-ha-pyturbojpeg
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: ha-homekit_0.0.1-5_arm_cortex-a9_neon.ipk
+Size: 867
+SHA256sum: a4d48cd6eecc4bc5d7d1e261a0da0614fbc078641578dd645da2fd2585d38a80
+Description:  Metapackage of integration HomeKit.
+
+Package: ha-miio
+Version: 0.1-1
+Depends: homeassistant, python3-ha-python-miio, python3-ha-appdirs, python3-ha-construct, python3-ha-croniter, python3-ha-natsort, python3-ha-tqdm, python3-ha-micloud, python3-ha-pytz-deprecation-shim, python3-ha-tzlocal
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: ha-miio_0.1-1_arm_cortex-a9_neon.ipk
+Size: 890
+SHA256sum: faed253d091ea9192bcea948daac96c719c120a3b1ecf62946d0412d9a1cdeba
+Description:  Passive BLE Monitor integration.
+
+Package: ha-wled
+Version: 0.10.1-1
+Depends: libc, homeassistant, python3-ha-backoff, python3-ha-packaging, python3-ha-cachetools
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18766
+Filename: ha-wled_0.10.1-1_arm_cortex-a9_neon.ipk
+Size: 19635
+SHA256sum: 4e16d92c319e549a1b2c815fa7af064818952e022ee45b6bb2724745a11303c2
+Description:  Asynchronous Python client for WLED.
+
+Package: ha-yandexstation
+Version: 2021-10-16-abc19e2d-1
+Depends: homeassistant
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 28171
+Filename: ha-yandexstation_2021-10-16-abc19e2d-1_arm_cortex-a9_neon.ipk
+Size: 29020
+SHA256sum: e09368893a58db568c3028a0cc519f7401f0f83b2e3c21dcb8147c83e2aa8c2c
+Description:  ﬂÌ‰ÂÍÒ.—Ú‡ÌˆËˇ ‰Îˇ Home Assistant.
+
+Package: ha-yeelight
+Version: 0.1-1
+Depends: homeassistant, python3-ha-yeelight, python3-ha-yeelightsunflower, python3-ha-future
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: ha-yeelight_0.1-1_arm_cortex-a9_neon.ipk
+Size: 837
+SHA256sum: 9261b4f02c6f8fbca0469fe5ce9a3b2949f171d0e1de478628ed72e0c370f93e
+Description:  Passive BLE Monitor integration.
+
+Package: ha-zha
+Version: 0.0.1-1
+Depends: homeassistant, python3-ha-bellows, python3-ha-zha-quirks, python3-ha-zigpy-cc, python3-ha-zigpy-znp, python3-ha-zigpy-zigate, python3-ha-zigpy-xbee, python3-ha-zigpy-deconz, python3-ha-crccheck
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: ha-zha_0.0.1-1_arm_cortex-a9_neon.ipk
+Size: 975
+SHA256sum: 65ef58934818c7a5eda29485217f4b6a9ab70471ba00157c2487707195532c93
+Description:  The ZHA (Zigbee Home Automation) integration allows
+ you to connect many off-the-shelf Zigbee based devices
+ directly to Home Assistant, using one of the many available Zigbee coordinators.
+
+Package: hass-configurator
+Version: 0.4.1-1
+Depends: libc, homeassistant, python3-ha-pyotp, python3-ha-gitpython, python3-ha-smmap
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 198108
+Filename: hass-configurator_0.4.1-1_arm_cortex-a9_neon.ipk
+Size: 199013
+SHA256sum: 2c5abe5f393b81dafaf7c86bb5639866d2ebec9832f45c6fa394d93880ce2a33
+Description:  HASS-Configurator.
+
+Package: hass-nabucasa
+Version: 0.51.0-1
+Depends: libc, python3-ha-acme, python3-ha-aiohttp, python3-ha-atomicwrites, python3-ha-attrs, python3-ha-cryptography, python3-ha-pycognito, python3-ha-pytz, python3-ha-snitun
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36537
+Filename: hass-nabucasa_0.51.0-1_arm_cortex-a9_neon.ipk
+Size: 37484
+SHA256sum: 4a19347cbe3507f27a19b63a523f891e808ab47db312af78448b1a7be851af50
+Description:  Home Assistant cloud integration by Nabu Casa, Inc.
+
+Package: homeassistant
+Version: 2021.12.9-1
+Depends: libc, python3-dev, python3-pip, python3-ha-aiohttp, python3-ha-astral, python3-ha-async-timeout, python3-ha-attrs, python3-ha-awesomeversion, python3-ha-bcrypt, python3-ha-certifi, python3-ha-ciso8601, python3-ha-cryptography, python3-ha-httpx, python3-ha-jinja2, python3-ha-pyjwt, python3-ha-requests, python3-ha-ruamel-yaml, python3-ha-slugify, python3-ha-voluptuous, python3-ha-voluptuous-serialize, python3-ha-yaml, python3-ha-yarl, python3-ha-pyturbojpeg, python3-ha-aiodiscover, python3-ha-aiohttp-cors, python3-ha-async-upnp-client, python3-ha-defusedxml, python3-ha-emoji, hass-nabucasa, python3-home-assistant-frontend, python3-ha-ifaddr, python3-ha-pillow, python3-ha-pynacl, python3-ha-pyserial, python3-ha-pyudev, python3-ha-sqlalchemy, python3-ha-zeroconf, python3-ha-scapy, libpcap1, python3-ha-cryptodome, python3-ha-gtts, python3-ha-h11, python3-ha-httplib2, python3-ha-mutagen, python3-ha-paho-mqtt, python3-ha-pymetno, python3-ha-pyotp, python3-ha-pyqrcode, python3-ha-urllib3, python3-ha-websocket-client, python3-ha-xmltodict
+License: Apache-2.0
+Section: opt
+CPE-ID: cpe:/a:home-assistant:home-assistant
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11714152
+Filename: homeassistant_2021.12.9-1_arm_cortex-a9_neon.ipk
+Size: 11715594
+SHA256sum: 594231fcaddcba4f65f1e1b3a5c0bbfa9468c2052e22e7c9135534ebc2bd0c83
+Description:  Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts.
+
+Package: python3-ha-acme
+Version: 1.22.0-1
+Depends: libc, python3-ha-cryptography, python3-ha-josepy, python3-ha-pyopenssl, python3-ha-pyrfc3339, python3-ha-pytz, python3-ha-requests-toolbelt, python3-ha-requests, python3-setuptools, python3-ha-six
+License: Apache-2.0 MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 52647
+Filename: python3-ha-acme_1.22.0-1_arm_cortex-a9_neon.ipk
+Size: 53648
+SHA256sum: 12835b1060042393d16e39a87cc1ea471a8bb17fde8e83421172f60a928f147e
+Description:  ACME protocol implementation in Python.
+
+Package: python3-ha-aioblescan
+Version: 0.2.9-1
+Depends: libc, python3-light
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 26946
+Filename: python3-ha-aioblescan_0.2.9-1_arm_cortex-a9_neon.ipk
+Size: 27800
+SHA256sum: b17ad8cac3cb77720d307449dd33ad5d3a50ab7331456074c7fc64a767f5b267
+Description:  Scanning Bluetooth for advertised
+
+Package: python3-ha-aiodiscover
+Version: 1.4.5-1
+Depends: libc, python3-ha-dns, python3-ha-ifaddr, python3-ha-pyroute2
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9687
+Filename: python3-ha-aiodiscover_1.4.5-1_arm_cortex-a9_neon.ipk
+Size: 10520
+SHA256sum: 41917f016512d4777b247ceaa4c9f1cd34b7558d319c3c237b01af00ba86a779
+Description:  Discover hosts on the network via ARP and PTR lookup.
+
+Package: python3-ha-aiohomekit
+Version: 0.6.2-1
+Depends: libc, python3-ha-commentjson, python3-ha-cryptography, python3-ha-zeroconf
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 92464
+Filename: python3-ha-aiohomekit_0.6.2-1_arm_cortex-a9_neon.ipk
+Size: 93517
+SHA256sum: add3cf67aa4e8d102b0fa76d0d27984f4f633af0fd2192b79574e9f6487e195d
+Description:  This library implements the HomeKit protocol for controlling Homekit
+ accessories using asyncio.
+ .
+ It's primary use is for with Home Assistant. We target the same versions
+ of python as them and try to follow their code standards.
+
+Package: python3-ha-aiohttp-cors
+Version: 0.7.0-2
+Depends: libc, python3-ha-aiohttp, python3-light
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17292
+Filename: python3-ha-aiohttp-cors_0.7.0-2_arm_cortex-a9_neon.ipk
+Size: 18161
+SHA256sum: 545b3193616748305a3323635e0f7621e00eab50140ca0a5be73bd6b149ed8bc
+Description:  Implements Cross Origin Resource Sharing (CORS) support for aiohttp asyncio-powered asynchronous HTTP server.
+
+Package: python3-ha-aiohttp
+Version: 3.8.1-1
+Depends: libc, python3-light, python3-ha-attrs, python3-ha-chardet, python3-ha-multidict, python3-ha-async-timeout, python3-ha-yarl, python3-logging, python3-codecs, python3-cgi, python3-openssl, python3-ha-typing-extensions, python3-ha-aiosignal
+License: Apache-2.0
+Section: opt
+CPE-ID: cpe:/a:aio-libs_project:aiohttp
+Architecture: arm_cortex-a9_neon
+Installed-Size: 572414
+Filename: python3-ha-aiohttp_3.8.1-1_arm_cortex-a9_neon.ipk
+Size: 571361
+SHA256sum: 83c8df65dd0e2acbdaddf3295e68e7624e894054c0c31da967fd33803fe501e4
+Description:  Asynchronous HTTP client/server framework for asyncio and Python3.
+
+Package: python3-ha-aiosignal
+Version: 1.2.0-1
+Depends: libc, python3-light, python3-ha-frozenlist
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3665
+Filename: python3-ha-aiosignal_1.2.0-1_arm_cortex-a9_neon.ipk
+Size: 4507
+SHA256sum: 420e8ecfe6625deeb2ae2ae53de95f584e7bdda40450d15ce4a43fd58fa1624c
+Description:  aiosignal: a list of registered asynchronous callbacks.
+
+Package: python3-ha-aiosqlite
+Version: 0.17.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17719
+Filename: python3-ha-aiosqlite_0.17.0-1_arm_cortex-a9_neon.ipk
+Size: 18656
+SHA256sum: d4946ae6e95635a12c18e15ee0499b5297a6823ce57c4a0050da529937f2aa8b
+Description:  It replicates the standard sqlite3 module,
+ but with async versions of all the standard connection and cursor methods,
+ plus context managers for automatically closing connections and cursors.
+
+Package: python3-ha-anyio
+Version: 3.4.0-1
+Depends: libc, python3-light
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 106019
+Filename: python3-ha-anyio_3.4.0-1_arm_cortex-a9_neon.ipk
+Size: 106969
+SHA256sum: bfb3a68ea0474db7fb05da151b73186146e85b4298ce610fb75f6a7e1e186c45
+Description:  High level compatibility layer for multiple asynchronous event loop implementations.
+
+Package: python3-ha-appdirs
+Version: 1.4.4-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9381
+Filename: python3-ha-appdirs_1.4.4-1_arm_cortex-a9_neon.ipk
+Size: 10256
+SHA256sum: f360167b025d82ba4251c50bac75a000cdf424dce6dc511bbfcf7415831d5762
+Description:  A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir"..
+
+Package: python3-ha-astral
+Version: 2.2-2
+Depends: libc, python3-light, python3-ha-pytz
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 31214
+Filename: python3-ha-astral_2.2-2_arm_cortex-a9_neon.ipk
+Size: 32077
+SHA256sum: a18a264a693cbb6a22ca34e7a1e1af29cf7f5b009f173d752a014334efd60538
+Description:  Astral is a python module for calculating the times of various aspects of the sun and moon.
+
+Package: python3-ha-async-timeout
+Version: 4.0.0-2
+Depends: libc, python3-light, python3-asyncio
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5629
+Filename: python3-ha-async-timeout_4.0.0-2_arm_cortex-a9_neon.ipk
+Size: 6436
+SHA256sum: 8d6549ef2b2ba7a088c71a89d541f7e27f109c24ab46d28a3b0463feacec3348
+Description:  Timeout context manager for asyncio programs
+
+Package: python3-ha-async-upnp-client
+Version: 0.23.1-1
+Depends: libc, python3-ha-aiohttp, python3-ha-async-timeout, python3-ha-defusedxml, python3-ha-didl-lite, python3-ha-voluptuous
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 81243
+Filename: python3-ha-async-upnp-client_0.23.1-1_arm_cortex-a9_neon.ipk
+Size: 82228
+SHA256sum: e452f1896eadfdb183ddb03b5f320d36b3f254a823e30bee4e5ae41051867a2d
+Description:  Asyncio UPnP Client library for Python/asyncio.
+
+Package: python3-ha-atomicwrites
+Version: 1.4.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6198
+Filename: python3-ha-atomicwrites_1.4.0-1_arm_cortex-a9_neon.ipk
+Size: 7021
+SHA256sum: 7d1eb7eeafd133389aff3e29fbb53f68c68a7753b0ba5f0fa3eea72f4e9d76a2
+Description:  Python library for atomic file writes.
+
+Package: python3-ha-attrs
+Version: 21.2.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 55284
+Filename: python3-ha-attrs_21.2.0-1_arm_cortex-a9_neon.ipk
+Size: 56235
+SHA256sum: c483351255fd1485f59615230d75e6a56564e56be3c7c4c6fe6ba1b1fe4c616f
+Description:  attrs is an MIT-licensed Python package with class decorators that ease
+ the chores of implementing the most common attribute-related object
+ protocols.
+
+Package: python3-ha-awesomeversion
+Version: 21.11.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11897
+Filename: python3-ha-awesomeversion_21.11.0-1_arm_cortex-a9_neon.ipk
+Size: 12714
+SHA256sum: 4f0fd3fc331a895259fa6202ee2a0c84f6df5f15c78f3c6163e57ebe16e80a57
+Description:  One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
+
+Package: python3-ha-backoff
+Version: 1.11.1-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11012
+Filename: python3-ha-backoff_1.11.1-1_arm_cortex-a9_neon.ipk
+Size: 11857
+SHA256sum: 3435cd00905e3b0c430922d1eb0d7eacabd9ac5273b09b5d840b5704369bdd30
+Description:  Decorators support both regular functions for 
+ synchronous code and asyncioís coroutines for asynchronous code..
+
+Package: python3-ha-base36
+Version: 0.1.1-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1839
+Filename: python3-ha-base36_0.1.1-1_arm_cortex-a9_neon.ipk
+Size: 2651
+SHA256sum: 916a0231400722f7953e7f0738cfd77db7c694b719407b86862684b0994437f8
+Description:  Yet another implementation for the positional numeral system using 36 as the radix.
+
+Package: python3-ha-bcrypt
+Version: 3.1.7-4
+Depends: libc, python3, python3-ha-cffi, python3-ha-six
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20524
+Filename: python3-ha-bcrypt_3.1.7-4_arm_cortex-a9_neon.ipk
+Size: 21380
+SHA256sum: 03bbb9e7c16fcc066c97b44f3912ee0cf57dda990aa2d1a74e07f462b6cec3cc
+Description:  Good password hashing for your software and your servers.
+
+Package: python3-ha-bellows
+Version: 0.29.0-1
+Depends: libc, python3-light, python3-ha-click, python3-ha-click-log, python3-ha-pure-pcapy3, python3-ha-pyserial, python3-ha-pyserial-asyncio, python3-ha-voluptuous, python3-ha-zigpy
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 123242
+Filename: python3-ha-bellows_0.29.0-1_arm_cortex-a9_neon.ipk
+Size: 124214
+SHA256sum: c1533d7d3a30ff540f43c963b5e0d3ef1e63d22f24826287ae42c3edb5c52372
+Description:  Library implementing EZSP.
+
+Package: python3-ha-boto3
+Version: 1.16.3-2
+Depends: libc, python3, python3-ha-jmespath, python3-ha-botocore, python3-ha-s3transfer
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 110520
+Filename: python3-ha-boto3_1.16.3-2_arm_cortex-a9_neon.ipk
+Size: 107542
+SHA256sum: 96819aa3e04d02f8c1df9942771da2d920c872d5e6d27f24338d16b41b327696
+Description:  Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python,
+ which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2.
+
+Package: python3-ha-botocore
+Version: 1.19.63-2
+Depends: libc, python3, python3-ha-urllib3, python3-ha-docutils, python3-ha-dateutil, python3-ha-jmespath, python3-ha-requests
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 443514
+Filename: python3-ha-botocore_1.19.63-2_arm_cortex-a9_neon.ipk
+Size: 444535
+SHA256sum: ca0e12f8664d4586ea84ba9e22144bde5e5533ebfc7f7f0feeb3829dccd49750
+Description:  A low-level interface to a growing number of Amazon Web Services.
+ The botocore package is the foundation for the AWS CLI as well as boto3.
+
+Package: python3-ha-cachetools
+Version: 5.0.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12556
+Filename: python3-ha-cachetools_5.0.0-1_arm_cortex-a9_neon.ipk
+Size: 13373
+SHA256sum: f192752cd8d8fb19ff833a13719a5e00ad40b7dddb7003aad6e8b488720fb8c9
+Description:  Extensible memoizing collections and decorators.
+
+Package: python3-ha-certifi
+Version: 2021.10.8-1
+Depends: libc, python3-light
+License: MPL-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 147726
+Filename: python3-ha-certifi_2021.10.8-1_arm_cortex-a9_neon.ipk
+Size: 148701
+SHA256sum: 32cd25142d760f4f01823ebc65a1fa139e4ae05a98e28ccda182bda5296463ae
+Description:  Certifi is a carefully curated collection of Root Certificates for validating the
+ trustworthiness of SSL certificates while verifying the identity of TLS hosts.
+
+Package: python3-ha-cffi
+Version: 1.14.6-1
+Depends: libc, libffi, python3-light, python3-ha-pycparser
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 176704
+Filename: python3-ha-cffi_1.14.6-1_arm_cortex-a9_neon.ipk
+Size: 177332
+SHA256sum: bb3331a72dfb98049ffda63dabde62ff6533efc03810e2f9ac63e75ccd1213c0
+Description:  Foreign Function Interface for Python calling C code.
+
+Package: python3-ha-chardet
+Version: 4.0.0-1
+Depends: libc, python3-light
+License: LGPL-2.1
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 113124
+Filename: python3-ha-chardet_4.0.0-1_arm_cortex-a9_neon.ipk
+Size: 113129
+SHA256sum: 73628b894f3dc87c180d274faafbb34bc01e19f4b21d9b2d0786713b19b2565a
+Description:  Universal encoding detector for Python 2 and 3
+
+Package: python3-ha-charset-normalizer
+Version: 2.0.4-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 40324
+Filename: python3-ha-charset-normalizer_2.0.4-1_arm_cortex-a9_neon.ipk
+Size: 41268
+SHA256sum: af66c9a06d4c0706c285877ee8af064d1429b9f98a66af55d58d2d54d7cb29b3
+Description:  The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
+
+Package: python3-ha-ciso8601
+Version: 2.2.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9868
+Filename: python3-ha-ciso8601_2.2.0-1_arm_cortex-a9_neon.ipk
+Size: 10707
+SHA256sum: e4dcb240dc9f41ba1bd467d89ea258d668e26568aaf9c1c2f758ae3b01a36c84
+Description:  ciso8601 converts ISO 8601 or RFC 3339 date time strings into Python datetime objects.
+
+Package: python3-ha-click-log
+Version: 0.3.2-2
+Depends: libc, python3-ha-click
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3417
+Filename: python3-ha-click-log_0.3.2-2_arm_cortex-a9_neon.ipk
+Size: 4221
+SHA256sum: 730ed3e2be6fc52d5eef41e4df9346ec536925f3f1f19f2d257332f6144779fb
+Description:  Simple and beautiful logging for click applications
+
+Package: python3-ha-click
+Version: 7.1.2-1
+Depends: libc, python3-light
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 95491
+Filename: python3-ha-click_7.1.2-1_arm_cortex-a9_neon.ipk
+Size: 96417
+SHA256sum: 44f22016f18dfd10465752cd5bd33d09b951e5b1a9391420d53e314daf34d94f
+Description:  Composable command line interface toolkit
+
+Package: python3-ha-coloredlogs
+Version: 15.0.1-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 44088
+Filename: python3-ha-coloredlogs_15.0.1-1_arm_cortex-a9_neon.ipk
+Size: 44856
+SHA256sum: 2dd78faf0f0752c7fe0adc1c53aeedb73ac62153536218c8677cf3454501c7e0
+Description:  The coloredlogs package enables colored terminal output for Pythonís logging module.
+ The ColoredFormatter class inherits from logging.Formatter and uses ANSI escape 
+ equences to render your logging messages in color.
+
+Package: python3-ha-commentjson
+Version: 0.9.0-1
+Depends: libc, python3-ha-lark-parser
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10043
+Filename: python3-ha-commentjson_0.9.0-1_arm_cortex-a9_neon.ipk
+Size: 10932
+SHA256sum: afc8469168135458bae0dd1cda8de42ccda69b48fef3194199b8d8f04393a233
+Description:  commentjson (Comment JSON) is a Python package that helps you create
+ JSON files with Python and JavaScript style inline comments.
+ Its API is very similar to the Python standard libraryís json module..
+
+Package: python3-ha-construct
+Version: 2.10.56-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 85220
+Filename: python3-ha-construct_2.10.56-1_arm_cortex-a9_neon.ipk
+Size: 86150
+SHA256sum: c6b0c2798f04493e950eb78cb8d12859bc7cfc08b6c316e49212fc37e5ccd73c
+Description:  A powerful declarative symmetric parser/builder for binary data.
+
+Package: python3-ha-contextvars
+Version: 2.4-1
+Depends: libc, python3-ha-immutables
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4362
+Filename: python3-ha-contextvars_2.4-1_arm_cortex-a9_neon.ipk
+Size: 5202
+SHA256sum: 15873b8fadc12cf18e7324624b777b723c7e956191721bed72257f48675753bc
+Description:  This package implements a backport of Python 3.7 contextvars module (see PEP 567) for Python 3.6..
+
+Package: python3-ha-crccheck
+Version: 1.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33053
+Filename: python3-ha-crccheck_1.0-1_arm_cortex-a9_neon.ipk
+Size: 33986
+SHA256sum: c0da33b25518ed149501153ab6a4ee88e0935b657ab206e9e1ab44ac57051a8c
+Description:  The crccheck.crc module implements all CRCs listed in the Catalogue of parametrised CRC algorithms.
+
+Package: python3-ha-croniter
+Version: 0.3.37-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14722
+Filename: python3-ha-croniter_0.3.37-1_arm_cortex-a9_neon.ipk
+Size: 15527
+SHA256sum: 5a40afbf4ad2775da4539c69cde892ef871ec373f7714768ae85052dbe5d96c8
+Description:  croniter provides iteration for datetime object with cron like format.
+
+Package: python3-ha-cryptodome
+Version: 3.9.7-3
+Depends: libc, libgmp10, python3
+Provides: python3-crypto
+License: BSD-2-Clause
+Section: opt
+CPE-ID: cpe:/a:pycryptodome:pycryptodome
+Architecture: arm_cortex-a9_neon
+Installed-Size: 968355
+Filename: python3-ha-cryptodome_3.9.7-3_arm_cortex-a9_neon.ipk
+Size: 965486
+SHA256sum: 55027c454078512471c205bf2c60d7cf493e0d606fc98665eecb66a76e4789bc
+Description:  PyCryptodome is a self-contained Python package of low-level
+ cryptographic primitives.
+
+Package: python3-ha-cryptography
+Version: 3.4.8-1
+Depends: libc, libopenssl1.1, python3-light, python3-email, python3-openssl, python3-urllib, python3-ha-cffi, python3-ha-six
+License: Apache-2.0 BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 339925
+Filename: python3-ha-cryptography_3.4.8-1_arm_cortex-a9_neon.ipk
+Size: 334728
+SHA256sum: e6f94bbb11763c73c1e0ec4eb1e50795964e848086da6d6049f12734f8baa0ae
+Description:  cryptography is a package which provides cryptographic recipes and
+ primitives to Python developers.  Our goal is for it to be your "cryptographic
+ standard library". It supports Python 2.6-2.7, Python 3.3+, and PyPy 2.6+.
+
+Package: python3-ha-dateutil
+Version: 2.8.1-3
+Depends: libc, python3, python3-ha-six
+License: BSD-2-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 234439
+Filename: python3-ha-dateutil_2.8.1-3_arm_cortex-a9_neon.ipk
+Size: 235370
+SHA256sum: a6201288dbd502ba98499b7c4fd6c64ff68266f020ec3adb426bf3d7931e4a6f
+Description:  Extensions to the standard Python datetime module
+
+Package: python3-ha-defusedxml
+Version: 0.7.1-1
+Depends: libc, python3-light, python3-xml
+License: Python-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22757
+Filename: python3-ha-defusedxml_0.7.1-1_arm_cortex-a9_neon.ipk
+Size: 23646
+SHA256sum: 817cbfe983513588bb6150159a1466b8fdf7271a52b76a40c0fc2fc82e4c7481
+Description:  The defusedxml package contains several Python-only workarounds and fixes for
+ denial of service and other vulnerabilities in Python‚Äôs XML libraries.
+
+Package: python3-ha-didl-lite
+Version: 1.3.2-1
+Depends: libc, python3-ha-defusedxml
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11245
+Filename: python3-ha-didl-lite_1.3.2-1_arm_cortex-a9_neon.ipk
+Size: 12094
+SHA256sum: 8c244b7a3ce1df80d4d4ae09fb11958ed3be117c1c300093872da9f158de6863
+Description:  DIDL-Lite tools for Python to read and write DIDL-Lite-xml.
+
+Package: python3-ha-dns
+Version: 2.1.0-1
+Depends: libc, python3
+License: ISC
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 200676
+Filename: python3-ha-dns_2.1.0-1_arm_cortex-a9_neon.ipk
+Size: 201698
+SHA256sum: d540375aff6a371ed6754e25c0c76c307a7a3b9c545521764169c2f8a1fb3c78
+Description:  dnspython is a DNS toolkit for Python. It supports almost all record types. 
+ It can be used for queries, zone transfers, and dynamic updates. It supports TSIG authenticated messages and EDNS0.
+
+Package: python3-ha-docutils
+Version: 0.14-2
+Depends: libc, python3
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 532653
+Filename: python3-ha-docutils_0.14-2_arm_cortex-a9_neon.ipk
+Size: 533388
+SHA256sum: 4cfadd91c698aa00a5dd92fbbfe3fe519ff5f310dd45e8209040d4e6cdad0fd5
+Description:  Docutils is a modular system for processing documentation into useful formats,
+ such as HTML, XML, and LaTeX. For input Docutils supports reStructuredText,
+ an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax.
+
+Package: python3-ha-ecdsa
+Version: 0.16.0-1
+Depends: libc, python3-ha-six
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 122432
+Filename: python3-ha-ecdsa_0.16.0-1_arm_cortex-a9_neon.ipk
+Size: 123493
+SHA256sum: 4bc6f2d9d1d4d77e35209ed8d083281fb3054910fea15af489fe9d45855cca75
+Description:  This is an easy-to-use implementation of ECC (Elliptic Curve Cryptography) with support for ECDSA
+ (Elliptic Curve Digital Signature Algorithm) and ECDH (Elliptic Curve Diffie-Hellman),
+ implemented purely in Python, released under the MIT license.
+
+Package: python3-ha-emoji
+Version: 1.5.0-1
+Depends: libc, python3-light
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 265359
+Filename: python3-ha-emoji_1.5.0-1_arm_cortex-a9_neon.ipk
+Size: 224776
+SHA256sum: ed926045098e1913274c934c3c919221b2931e6206e4a06010bfde227344bb9b
+Description:  Emoji for Python. This project was inspired by kyokomi.
+
+Package: python3-ha-envs
+Version: 1.3-1
+Depends: libc, python3-ha-jinja2, python3-ha-click, python3-ha-terminaltables
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12749
+Filename: python3-ha-envs_1.3-1_arm_cortex-a9_neon.ipk
+Size: 13625
+SHA256sum: 933cbfb56cd2f7662ea799b6c15eb7ec024b668ae565da9a515936a807acbc3a
+Description:  Easy access of environment variables from Python with support for strings,
+ booleans, list, tuples, and dicts.
+
+Package: python3-ha-ffmpeg
+Version: 3.0.2-1
+Depends: libc, ffmpeg, python3-ha-async-timeout
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8808
+Filename: python3-ha-ffmpeg_3.0.2-1_arm_cortex-a9_neon.ipk
+Size: 9741
+SHA256sum: 5192233f70880217e3f90c18aad32724157eb2a807fcfe6c5a11b67efc9c1d52
+Description:  Home-Assistant ffmpeg interface.
+ .
+ A python library that handling with ffmpeg for home-assistant Async
+ - Emulate webcam from any video input source for HA
+ - Analyse a video/audio stream for noise or motion detection
+ - Grab image from a stream.
+
+Package: python3-ha-fnvhash
+Version: 0.1.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1853
+Filename: python3-ha-fnvhash_0.1.0-1_arm_cortex-a9_neon.ipk
+Size: 2730
+SHA256sum: f574bd23ea54b5eb80464bf8537f337338d621088c9b75c58dc53d95e535c400
+Description:  Pure Python implementation of the FNV hash family with 100% test coverage.
+ Take a look at pyhash for use cases where performance is more important
+ than portability.
+
+Package: python3-ha-frozenlist
+Version: 1.2.0-1
+Depends: libc, python3-light
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 70641
+Filename: python3-ha-frozenlist_1.2.0-1_arm_cortex-a9_neon.ipk
+Size: 71515
+SHA256sum: 7d88c55190357baa587f3668e88f3718c0cfa319a7e56a2d7806691e9e0e0d5a
+Description:  A list-like structure which implements collections.abc.MutableSequence.
+
+Package: python3-ha-funkify
+Version: 0.3.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1809
+Filename: python3-ha-funkify_0.3.0-1_arm_cortex-a9_neon.ipk
+Size: 2599
+SHA256sum: c6edecb4a1c0d8a3c60a0e8e8180b4a770790e3499ecf4ccf4712a9af56c2c7f
+Description:  Funkify modules so that they are callable.
+
+Package: python3-ha-future
+Version: 0.18.2-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 482706
+Filename: python3-ha-future_0.18.2-1_arm_cortex-a9_neon.ipk
+Size: 483182
+SHA256sum: f7f2dfcd9b2d14fba8097f22dff70fb79acb1d1d2e61c89476666f28ecc67c86
+Description:  future is the missing compatibility layer between Python 2
+ and Python 3. It allows you to use a single, clean Python 3.x-compatible
+ codebase to support both Python 2 and Python 3 with minimal overhead.
+
+Package: python3-ha-gitdb
+Version: 4.0.9-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 58047
+Filename: python3-ha-gitdb_4.0.9-1_arm_cortex-a9_neon.ipk
+Size: 58966
+SHA256sum: f4dabc36678e2fd68e231655a3ce26d6762390ce4f5b33067945b15cba76f5cd
+Description:  Git Object Database.
+
+Package: python3-ha-gitpython
+Version: 3.1.24-1
+Depends: libc, python3-light, python3-ha-gitdb
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 186821
+Filename: python3-ha-gitpython_3.1.24-1_arm_cortex-a9_neon.ipk
+Size: 187751
+SHA256sum: 7cb92c7a9b5e26340b16195c3e445dcedf204098f3024b52a28d430ad5b019b1
+Description:  GitPython is a python library used to interact with Git repositories.
+
+Package: python3-ha-gtts
+Version: 2.2.3-1
+Depends: libc, python3-ha-click, python3-ha-requests, python3-ha-six
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 25835
+Filename: python3-ha-gtts_2.2.3-1_arm_cortex-a9_neon.ipk
+Size: 26695
+SHA256sum: 8e6f94f50c41771d7fdfe4aa2d9972f743ecafbee1e2f04fe116e0f2063c7c7c
+Description:  gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with
+ Google Translate text-to-speech API.
+
+Package: python3-ha-h11
+Version: 0.12.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 45892
+Filename: python3-ha-h11_0.12.0-1_arm_cortex-a9_neon.ipk
+Size: 46812
+SHA256sum: cb370094ed3b967afaf11b417905dacc14c3198c6b4a08f49f21ee3a8e4c88a4
+Description:  This is a little HTTP/1.1 library written from scratch in Python, heavily
+ inspired by hyper-h2.
+
+Package: python3-ha-httpcore
+Version: 0.14.3-1
+Depends: libc, python3-ha-h11, python3-ha-sniffio, python3-ha-anyio
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 61541
+Filename: python3-ha-httpcore_0.14.3-1_arm_cortex-a9_neon.ipk
+Size: 62507
+SHA256sum: dfbcd783c2afe70e3ebf5991fa005cf4ef512ac849b3277200873807fadc2535
+Description:  The HTTP Core package provides a minimal low-level HTTP client, which does one
+ thing only. Sending HTTP requests.
+
+Package: python3-ha-httplib2
+Version: 0.19.0-1
+Depends: libc, python3-light, python3-ha-pyparsing
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 100613
+Filename: python3-ha-httplib2_0.19.0-1_arm_cortex-a9_neon.ipk
+Size: 101658
+SHA256sum: ad2fcac6c6131ece6de37283acb01f4d8e2f92f63dbc86d0cdd5897950f9c0ca
+Description:  Small, fast HTTP client library for Python. Features persistent connections,
+ cache, and Google App Engine support. Originally written by Joe Gregorio,
+ now supported by community.
+
+Package: python3-ha-httpx
+Version: 0.21.0-1
+Depends: libc, python3-ha-certifi, python3-ha-httpcore, python3-ha-rfc3986, python3-ha-sniffio
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 101012
+Filename: python3-ha-httpx_0.21.0-1_arm_cortex-a9_neon.ipk
+Size: 102043
+SHA256sum: e037d5c778e38a65eb0d081946abe1e29107064a1a37548a6da7b4848b4750af
+Description:  HTTPX is a fully featured HTTP client for Python 3, which provides sync
+ and async APIs, and support for both HTTP/1.1 and HTTP/2.
+
+Package: python3-ha-humanfriendly
+Version: 10.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 91485
+Filename: python3-ha-humanfriendly_10.0-1_arm_cortex-a9_neon.ipk
+Size: 92440
+SHA256sum: 6a8f584411a8923e5cdec1b99a51572c71eb744e6385da30cc16117533a5d7b7
+Description:  Download the file for your platform. If you're not sure which to choose, learn more about.
+
+Package: python3-ha-idna
+Version: 2.10-1
+Depends: libc, python3-light, python3-codecs
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 57314
+Filename: python3-ha-idna_2.10-1_arm_cortex-a9_neon.ipk
+Size: 57356
+SHA256sum: fea6a1cc98951b96afae93e498ac9556b458b7577b01bab07ea383d73645bf3a
+Description:  A library to support the Internationalised Domain Names in Applications
+ (IDNA) protocol as specified in RFC 5891. This version of the protocol
+ is often referred to as "IDNA2008" and can produce different results
+ from the earlier standard from 2003.
+
+Package: python3-ha-ifaddr
+Version: 0.1.7-1
+Depends: libc, python3-light, python3-ctypes
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7362
+Filename: python3-ha-ifaddr_0.1.7-1_arm_cortex-a9_neon.ipk
+Size: 8246
+SHA256sum: e823c1f5c7a95994065fc8e1b919c29aa4983cfd61e4e151e4fbc50a31141690
+Description:  ifaddr is a small Python library that allows you to find all the IPv4 and IPv6 addresses of the computer.
+
+Package: python3-ha-immutables
+Version: 0.14-1
+Depends: libc, python3-ha-requires
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 45919
+Filename: python3-ha-immutables_0.14-1_arm_cortex-a9_neon.ipk
+Size: 46987
+SHA256sum: 98dfe00b9b9a9dd95aa2677b98ace23f9048278910a64bcad57732ac4b33d7cd
+Description:  An immutable mapping type for Python.
+ .
+ The underlying datastructure is a Hash Array Mapped Trie (HAMT)
+ used in Clojure, Scala, Haskell, and other functional languages.
+ This implementation is used in CPython 3.7 in the contextvars
+ module (see PEP 550 and PEP 567 for more details).
+
+Package: python3-ha-janus
+Version: 0.6.2-1
+Depends: libc, python3-light
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9424
+Filename: python3-ha-janus_0.6.2-1_arm_cortex-a9_neon.ipk
+Size: 10237
+SHA256sum: df79866f82d8317848170bd33e75ff908687e353281ba1c3d9ea5e1edc1e6e68
+Description:  Mixed sync-async queue
+
+Package: python3-ha-jinja2
+Version: 3.0.3-1
+Depends: libc, python3-light, python3-ha-markupsafe
+License: BSD-3-Clause
+Section: opt
+CPE-ID: cpe:/a:pocoo:jinja2
+Architecture: arm_cortex-a9_neon
+Installed-Size: 174988
+Filename: python3-ha-jinja2_3.0.3-1_arm_cortex-a9_neon.ipk
+Size: 176056
+SHA256sum: 5bb10a027d66682220d4d62128861eb28eba94d8f56fb191766c4f67cbeead21
+Description:  Jinja2 is a full featured template engine for Python. It has full
+ unicode support, an optional integrated sandboxed execution
+ environment, widely used and BSD licensed.
+
+Package: python3-ha-jmespath
+Version: 0.9.3-2
+Depends: libc, python3
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23694
+Filename: python3-ha-jmespath_0.9.3-2_arm_cortex-a9_neon.ipk
+Size: 24550
+SHA256sum: 45f51241ff3df67b7f995d3aadb914d9bcc9b955a32b06eab741aa2854f4efc5
+Description:  JMESPath (pronounced ‚Äújames path‚Äù) allows you to declaratively specify how to extract
+ elements from a JSON document.
+
+Package: python3-ha-jose
+Version: 3.3.0-1
+Depends: libc, python3-ha-cryptodome, python3-ha-ecdsa, python3-ha-pyasn1, python3-ha-rsa, python3-ha-six
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33967
+Filename: python3-ha-jose_3.3.0-1_arm_cortex-a9_neon.ipk
+Size: 35030
+SHA256sum: 19604593dacbc451ed03613ea0c3c4b42f1be3e8ce104e126a9a99272cb01c16
+Description:  A JOSE implementation in Python.
+ .
+ The JavaScript Object Signing and Encryption (JOSE) technologies - JSON Web
+ Signature (JWS), JSON Web Encryption (JWE), JSON Web Key (JWK), and JSON Web
+ Algorithms (JWA) - collectively can be used to encrypt and/or sign content 
+ using a variety of algorithms.
+
+Package: python3-ha-josepy
+Version: 1.12.0-1
+Depends: libc, python3-ha-cryptography, python3-ha-pyopenssl, python3-setuptools, python3-ha-six
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33125
+Filename: python3-ha-josepy_1.12.0-1_arm_cortex-a9_neon.ipk
+Size: 34064
+SHA256sum: fb537f39c88ce29bb1dffba9359c36d0376a2822406167f818056de5f471b7ca
+Description:  JOSE protocol implementation in Python using cryptography.
+
+Package: python3-ha-jsonschema
+Version: 3.2.0-5
+Depends: libc, python3-light, python3-ha-attrs, python3-urllib, python3-ha-six, python3-ha-pyrsistent, python3-setuptools
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 73150
+Filename: python3-ha-jsonschema_3.2.0-5_arm_cortex-a9_neon.ipk
+Size: 74142
+SHA256sum: 718971315b943c4c21725ac190cb3436925da8831df3db346001608fbc33bb64
+Description:  jsonschema is an implementation of JSON Schema validation for Python.
+
+Package: python3-ha-lark-parser
+Version: 0.7.8-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 78381
+Filename: python3-ha-lark-parser_0.7.8-1_arm_cortex-a9_neon.ipk
+Size: 79395
+SHA256sum: c89c4f1670f7387ee250bf5a93375a8ce105b3cae1564be6f87b5c584c0c8686
+Description:  Lark is a parsing toolkit for Python, built with a focus on ergonomics,
+ performance and modularity.
+
+Package: python3-ha-markupsafe
+Version: 2.0.1-1
+Depends: libc, python3-light
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12344
+Filename: python3-ha-markupsafe_2.0.1-1_arm_cortex-a9_neon.ipk
+Size: 13194
+SHA256sum: 8ac597471c3aeeea2d52275a8aee61f67581fc40c60e4d71fa7aabb0c5c1749b
+Description:  MarkupSafe implements a text object that escapes characters so it is safe to use in HTML and XML.
+
+Package: python3-ha-micloud
+Version: 0.5-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8892
+Filename: python3-ha-micloud_0.5-1_arm_cortex-a9_neon.ipk
+Size: 9684
+SHA256sum: 9dfa7140193e6c3c16110acaf2ef36f3b21142a0f3f0718c23fab0ddcbe6e27f
+Description:  Xiaomi cloud connect library.
+
+Package: python3-ha-multidict
+Version: 4.5.2-2
+Depends: libc, python3-light, python3-ha-attrs
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 122747
+Filename: python3-ha-multidict_4.5.2-2_arm_cortex-a9_neon.ipk
+Size: 123468
+SHA256sum: d6991d8f4eaf2094bd15515b1a01f49c2151ca7b98ba53056faef4247a2e3ad2
+Description:  Multidict is dict-like collection of key-value pairs where key might be occurred more than once in the container.
+
+Package: python3-ha-mutagen
+Version: 1.45.1-1
+Depends: libc, python3-light
+License: GPL-2.0-or-later
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 237410
+Filename: python3-ha-mutagen_1.45.1-1_arm_cortex-a9_neon.ipk
+Size: 238649
+SHA256sum: 75c351254f59903133d071c402cfd2b2944ecfc95b58c5fb633aa56a04a9227a
+Description:  Mutagen is a Python module to handle audio metadata. It supports ASF,
+ FLAC, MP4, Monkeyís Audio, MP3, Musepack, Ogg Opus, Ogg FLAC, Ogg Speex,
+ Ogg Theora, Ogg Vorbis, True Audio, WavPack, OptimFROG, and AIFF audio
+ files. All versions of ID3v2 are supported, and all standard ID3v2.4
+ frames are parsed. It can read Xing headers to accurately calculate the
+ bitrate and length of MP3s. ID3 and APEv2 tags can be edited regardless
+ of audio format. It can also manipulate Ogg streams on an individual
+ packet/page level.
+
+Package: python3-ha-natsort
+Version: 8.0.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 37629
+Filename: python3-ha-natsort_8.0.0-1_arm_cortex-a9_neon.ipk
+Size: 37818
+SHA256sum: f197e5e1caf316a7d2240848413d5a02d3493e934a540a701d7bca40e18ab2b9
+Description:  Simple yet flexible natural sorting in Python.
+
+Package: python3-ha-noiseprotocol
+Version: 0.3.1-1
+Depends: libc, python3
+License: 3-Clause BSD License
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19168
+Filename: python3-ha-noiseprotocol_0.3.1-1_arm_cortex-a9_neon.ipk
+Size: 19995
+SHA256sum: bcbad20628becbbcd28271c830cc4aec4d464ab23d069d2e62640544214ab2ce
+Description:  Python 3 implementation of Noise Protocol Framework.
+
+Package: python3-ha-numpy
+Version: 1.21.1-1
+Depends: libc, python3
+License: BSD-3-Clause
+Section: opt
+CPE-ID: cpe:/a:numpy:numpy
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6028350
+Filename: python3-ha-numpy_1.21.1-1_arm_cortex-a9_neon.ipk
+Size: 5999928
+SHA256sum: 69f57acb4c419162714acad5cbcb05bbea5c7f03c7575702268ba13c00f87b47
+Description:  The fundamental package for scientific
+
+Package: python3-ha-packaging
+Version: 20.4-1
+Depends: libc, python3-light, python3-ha-pyparsing, python3-ha-six, python3-logging, python3-distutils
+License: Apache-2.0 BSD-2-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 32582
+Filename: python3-ha-packaging_20.4-1_arm_cortex-a9_neon.ipk
+Size: 33540
+SHA256sum: 5ce3066ec3f75d43b1b02e9767d66c7d0339c0b8e45730cffcaaa901611e5ae3
+Description:  The packaging project includes version handling, specifiers,
+ markers, requirements, tags, utilities.
+
+Package: python3-ha-paho-mqtt
+Version: 1.6.1-1
+Depends: libc, python3-light
+License: EPL-1.0 Eclipse Distribution License v1.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 68232
+Filename: python3-ha-paho-mqtt_1.6.1-1_arm_cortex-a9_neon.ipk
+Size: 69227
+SHA256sum: 376c08bf94d72490b94631a6bb3da1f4c1288ff2220b6a8f8c5b6e062e115b35
+Description:  MQTT version 3.1/3.1.1/5.0 client class
+
+Package: python3-ha-pillow
+Version: 8.2.0-1
+Depends: libc, libfreetype, libjpeg, libtiff5, zlib, python3
+License: HPND
+Section: opt
+CPE-ID: cpe:/a:python:pillow
+Architecture: arm_cortex-a9_neon
+Installed-Size: 456731
+Filename: python3-ha-pillow_8.2.0-1_arm_cortex-a9_neon.ipk
+Size: 456279
+SHA256sum: e9e8a3ea655d442f79405106e8f08343a0c4b952922c06b2c6503a79c70b5747
+Description:  The friendly PIL fork
+
+Package: python3-ha-ply
+Version: 3.11-2
+Depends: libc, python3-light
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 42885
+Filename: python3-ha-ply_3.11-2_arm_cortex-a9_neon.ipk
+Size: 43857
+SHA256sum: 6a1c90478d15d53d2c9c873256ce5ba89f2f83f7cd308bce06d6de276a050cfe
+Description:  PLY is a 100% Python implementation of the common parsing tools lex
+ and yacc.
+
+Package: python3-ha-protobuf
+Version: 3.19.1-1
+Depends: libc, python3
+License: 3-Clause BSD License
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 148858
+Filename: python3-ha-protobuf_3.19.1-1_arm_cortex-a9_neon.ipk
+Size: 149783
+SHA256sum: ccd41351d723b18c82b0568dab0623128d1e571f3cd5784ffadd0a88ca101b0f
+Description:  Protocol Buffers are Googleís data interchange format.
+
+Package: python3-ha-psutil
+Version: 5.8.0-1a
+Depends: libc, python3
+License: BSD 3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 267718
+Filename: python3-ha-psutil_5.8.0-1a_arm_cortex-a9_neon.ipk
+Size: 268671
+SHA256sum: bb6b02ee5ac4ad9a08eb72b92aa759e47c47e4a12afa80d8af8c8bcc7e86015f
+Description:  psutil is a cross-platform library for retrieving information
+ on running processes and system utilization.
+
+Package: python3-ha-pure-pcapy3
+Version: 1.0.1-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5411
+Filename: python3-ha-pure-pcapy3_1.0.1-1_arm_cortex-a9_neon.ipk
+Size: 6211
+SHA256sum: 3b63dbda0f6273a513f1e48ade51bcd15b672fde836a93dc803029b5aff99f9b
+Description:  Pure Python reimplementation of pcapy. This package is API compatible and a drop-in replacement.
+
+Package: python3-ha-pyasn1
+Version: 0.4.8-2
+Depends: libc, python3-light
+License: BSD-2-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 87570
+Filename: python3-ha-pyasn1_0.4.8-2_arm_cortex-a9_neon.ipk
+Size: 88562
+SHA256sum: 11b7a51b88bed4c371ebf286dbbf0891ffe64a77aa9520c6adc54f435cbfd246
+Description:  This is an implementation of ASN.1 types and codecs in Python programming
+ language. It has been first written to support particular protocol (SNMP)
+ but then generalized to be suitable for a wide range of protocols
+ based on ASN.1 specification.
+
+Package: python3-ha-pycognito
+Version: 2022.1.0-1
+Depends: libc, python3-ha-boto3, python3-ha-envs, python3-ha-jose, python3-ha-requests
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19459
+Filename: python3-ha-pycognito_2022.1.0-1_arm_cortex-a9_neon.ipk
+Size: 20350
+SHA256sum: b03f8df5f7b6fe963851ca1f56286d7bdfc2878d82244abf63475310cffc0a3f
+Description:  Python class to integrate Boto3's Cognito client so it is easy to login users.
+ With SRP support.
+
+Package: python3-ha-pycparser
+Version: 2.20-5
+Depends: libc, python3-light, python3-ha-ply
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 74515
+Filename: python3-ha-pycparser_2.20-5_arm_cortex-a9_neon.ipk
+Size: 75080
+SHA256sum: 9b949c9ef3cfe861b500be3a221e7698daf18b948bac28d7f461ea1642d390a9
+Description:  pycparser is a parser for the C language, written in pure Python. It is a
+ module designed to be easily integrated into applications that need to parse
+ C source code.
+
+Package: python3-ha-pycryptodomex
+Version: 3.11.0-1
+Depends: libc, python3-light
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1266050
+Filename: python3-ha-pycryptodomex_3.11.0-1_arm_cortex-a9_neon.ipk
+Size: 1262680
+SHA256sum: 2f8ded07f9696d3ae7e5372ba0e08e8615c7c35311d67aa3bdedbbc134327f15
+Description:  Cryptographic library for Python
+
+Package: python3-ha-pyhap
+Version: 4.3.0-1
+Depends: libc, python3-ha-cryptography, python3-ha-h11, python3-ha-zeroconf
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 265820
+Filename: python3-ha-pyhap_4.3.0-1_arm_cortex-a9_neon.ipk
+Size: 266848
+SHA256sum: c4cc06a296aecae34d37c9fe0021fe90c1cc449002145317a18ae374a7f6c322
+Description:  HomeKit Accessory Protocol implementation in python 3. With this project,
+ you can integrate your own smart devices and add them to your iOS Home app.
+ Since Siri is integrated with the Home app, you can start voice-control your
+ accessories right away.
+
+Package: python3-ha-pyjwt
+Version: 2.1.0-1
+Depends: libc, python3
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19167
+Filename: python3-ha-pyjwt_2.1.0-1_arm_cortex-a9_neon.ipk
+Size: 19979
+SHA256sum: bbfc9f9757d6d7a581c562342e7e383547b8fd556ad7d9e596970e9e515a558c
+Description:  A Python implementation of RFC 7519.
+
+Package: python3-ha-pymetno
+Version: 0.9.0-1
+Depends: libc, python3-ha-aiohttp, python3-ha-async-timeout, python3-ha-pytz, python3-ha-xmltodict
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5814
+Filename: python3-ha-pymetno_0.9.0-1_arm_cortex-a9_neon.ipk
+Size: 6629
+SHA256sum: 0f219b22be98a95e690d6912d599992eb81486a4515440c55e37e77584193812
+Description:  A library to communicate with the met.no api.
+
+Package: python3-ha-pynacl
+Version: 1.4.0-5
+Depends: libc, libsodium, python3-light, python3-ha-cffi, python3-ha-six
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 74080
+Filename: python3-ha-pynacl_1.4.0-5_arm_cortex-a9_neon.ipk
+Size: 74301
+SHA256sum: b738104a9651632edf60afd754066e5cc439411c872e6f03d1e4a67e6ac0eba8
+Description:  PyNaCl is a Python binding to libsodium, which is a fork of the Networking and Cryptography library.
+
+Package: python3-ha-pyopenssl
+Version: 20.0.1-1
+Depends: libc, python3-light, python3-ha-cryptography, python3-ha-six
+License: Apache-2.0
+Section: opt
+CPE-ID: cpe:/a:pyopenssl_project:pyopenssl
+Architecture: arm_cortex-a9_neon
+Installed-Size: 62004
+Filename: python3-ha-pyopenssl_20.0.1-1_arm_cortex-a9_neon.ipk
+Size: 62951
+SHA256sum: 8d00001f3e7c9dde03d1f9e3aefe51d7d6e955633958396e43be7c1e8f7a2e92
+Description:  Python wrapper module around the OpenSSL library
+
+Package: python3-ha-pyotp
+Version: 2.6.0-2
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10227
+Filename: python3-ha-pyotp_2.6.0-2_arm_cortex-a9_neon.ipk
+Size: 11167
+SHA256sum: a9df23ddf12dabee2aab9af934ffd84998eefca3b9c814af982616131c276f29
+Description:  PyOTP is a Python library for generating and verifying one-time passwords.
+ It can be used to implement two-factor (2FA) or multi-factor (MFA) authentication methods
+ in web applications and in other systems that require users to log in.
+
+Package: python3-ha-pyparsing
+Version: 2.4.7-2
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 88798
+Filename: python3-ha-pyparsing_2.4.7-2_arm_cortex-a9_neon.ipk
+Size: 89897
+SHA256sum: a7628b53ecbb97721ca3edfec56a6dc4274a7d980c7c21da0fa7c04ecc203389
+Description:  The pyparsing module is an alternative approach to creating
+ and executing simple grammars, vs. the traditional lex/yacc
+ approach, or the use of regular expressions.
+ The pyparsing module provides a library of classes that
+ client code uses to construct the grammar directly in Python code.
+
+Package: python3-ha-pypng
+Version: 0.0.20-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 70944
+Filename: python3-ha-pypng_0.0.20-1_arm_cortex-a9_neon.ipk
+Size: 71866
+SHA256sum: c7da0a915c1dd80dcba8307800efc800eb21f45d44953d50b88d72e8c4a5dcb0
+Description:  PyPNG allows PNG image files to be read and written using pure Python.
+
+Package: python3-ha-pyqrcode
+Version: 1.2.1-1
+Depends: libc, python3-ha-pypng
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 34151
+Filename: python3-ha-pyqrcode_1.2.1-1_arm_cortex-a9_neon.ipk
+Size: 35099
+SHA256sum: a8878f57a1b0a5c83f76f5a41148f196d7f1c78e5d90d0f7f17463b9cc9618c6
+Description:  A QR code generator written purely in Python with SVG, EPS, PNG and terminal
+ output.
+
+Package: python3-ha-pyrfc3339
+Version: 1.1-1
+Depends: libc, python3-ha-pytz
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5124
+Filename: python3-ha-pyrfc3339_1.1-1_arm_cortex-a9_neon.ipk
+Size: 5943
+SHA256sum: e605729eecdd5c031223522a72ecab490c960b8aa6667940fd467406ccc18608
+Description:  pyRFC3339 parses and generates RFC 3339-compliant timestamps using Python datetime.datetime objects.
+
+Package: python3-ha-pyroute2
+Version: 0.5.18-1
+Depends: libc, python3-light, python3-distutils, python3-logging, python3-multiprocessing, python3-sqlite3, python3-ctypes, python3-ha-psutil
+License: GPL-2.0-or-later Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 449349
+Filename: python3-ha-pyroute2_0.5.18-1_arm_cortex-a9_neon.ipk
+Size: 450473
+SHA256sum: 53a186b3588494267adfea74755e8bc08c9905058947d56375f37d903aae8359
+Description:  Pyroute2 is a pure Python netlink library.
+ The library was started as an RTNL protocol implementation,
+ but now it supports many netlink protocols.
+
+Package: python3-ha-pyrsistent
+Version: 0.16.0-1
+Depends: libc, python3-light, python3-ha-six
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 71963
+Filename: python3-ha-pyrsistent_0.16.0-1_arm_cortex-a9_neon.ipk
+Size: 72953
+SHA256sum: 08865befca2e1abb4c8274fa2cc32d7bc596faa0babf3a2487ba2a341a7c7e34
+Description:  Pyrsistent is a number of persistent collections (by some referred to as functional data structures).
+ Persistent in the sense that they are immutable.
+
+Package: python3-ha-pyserial-asyncio
+Version: 0.5-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7925
+Filename: python3-ha-pyserial-asyncio_0.5-1_arm_cortex-a9_neon.ipk
+Size: 8800
+SHA256sum: 5773d00eef7a5e15fa668b10740c325db8363ddc26aab33d9bcb707ffb3a45f2
+Description:  Async I/O extension package for the Python Serial Port Extension for OSX, Linux, BSD.
+
+Package: python3-ha-pyserial
+Version: 3.5-1
+Depends: libc, python3-light
+License: BSD
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 89311
+Filename: python3-ha-pyserial_3.5-1_arm_cortex-a9_neon.ipk
+Size: 90360
+SHA256sum: d63091769224f8ff4af8d9dc795594050c643815f3189a95d1a78a0741b0c7fc
+Description:  This module encapsulates the access for the serial port. It provides backends
+ for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
+ system) and IronPython. The module named "serial" automatically selects the
+ appropriate backend.
+
+Package: python3-ha-python-miio
+Version: 0.5.9.2-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 338689
+Filename: python3-ha-python-miio_0.5.9.2-1_arm_cortex-a9_neon.ipk
+Size: 339657
+SHA256sum: d800378a93c253fe58cd7a19fad4be4a2e70746c2ec94493088ea474f95038c2
+Description:  Python library for interfacing with Xiaomi smart appliances.
+
+Package: python3-ha-pyturbojpeg
+Version: 1.6.3-1
+Depends: libc, python3-ha-numpy, libjpeg-turbo
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12071
+Filename: python3-ha-pyturbojpeg_1.6.3-1_arm_cortex-a9_neon.ipk
+Size: 12922
+SHA256sum: 4185adef08d2d747cd3af00b8b473258ac6f78df22348182065a05c7c92b036e
+Description:  A Python wrapper of libjpeg-turbo for decoding and encoding JPEG image.
+
+Package: python3-ha-pytz-deprecation-shim
+Version: 0.1.0.post0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9972
+Filename: python3-ha-pytz-deprecation-shim_0.1.0.post0-1_arm_cortex-a9_neon.ipk
+Size: 10819
+SHA256sum: 78c9420a58d57447b52c06c18712f4a95a410bd4a7c588f6e53b7d84820dfb36
+Description:  Shims to make deprecation of pytz easier.
+
+Package: python3-ha-pytz
+Version: 2021.1-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 270675
+Filename: python3-ha-pytz_2021.1-1_arm_cortex-a9_neon.ipk
+Size: 269750
+SHA256sum: ecc570b1411090f3ead7b6da4894814a43f49d92f0a11933cd5594540a2ad63b
+Description:  World timezone definitions, modern and historical
+
+Package: python3-ha-pyudev
+Version: 0.22.0-1
+Depends: libc, python3-ha-six, libudev-zero
+License: LGPL-2.1-or-later
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 46315
+Filename: python3-ha-pyudev_0.22.0-1_arm_cortex-a9_neon.ipk
+Size: 47234
+SHA256sum: aa0f48ad05830f0fe9e928923f539c3d572d9fe1d70850bbc462121fd7b350e9
+Description:  Python bindings to libudev (with support for PyQt4, PySide, pygobject and wx).
+
+Package: python3-ha-pyusb
+Version: 1.2.1-1
+Depends: libc, python3-ha-humanfriendly, python3-ha-pyrsistent
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 54287
+Filename: python3-ha-pyusb_1.2.1-1_arm_cortex-a9_neon.ipk
+Size: 55198
+SHA256sum: 95e3c349445ea9f48b51d1be20af6b82bb7f00f589112cae1af52aba7102838b
+Description:  PyUSB offers easy USB devices communication in Python.
+
+Package: python3-ha-requests-toolbelt
+Version: 0.9.1-1
+Depends: libc, python3-ha-requests
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 52489
+Filename: python3-ha-requests-toolbelt_0.9.1-1_arm_cortex-a9_neon.ipk
+Size: 53570
+SHA256sum: 8f97708d4208f3ea349f758b38d308d29e2bd3abf9cebf0870995d0cdc33fcde
+Description:  This is just a collection of utilities for python-requests, but donít really
+ belong in requests proper. The minimum tested requests version is 2.1.0. In
+ reality, the toolbelt should work with 2.0.1 as well, but some idiosyncracies
+ prevent effective or sane testing on that version.
+
+Package: python3-ha-requests
+Version: 2.26.0-1a
+Depends: libc, python3-light, python3-ha-chardet, python3-ha-idna, python3-ha-urllib3, python3-ha-certifi, python3-ha-charset-normalizer
+License: Apache-2.0
+Section: opt
+CPE-ID: cpe:/a:python-requests:requests
+Architecture: arm_cortex-a9_neon
+Installed-Size: 60996
+Filename: python3-ha-requests_2.26.0-1a_arm_cortex-a9_neon.ipk
+Size: 62032
+SHA256sum: ae89dceeba1650c878238272630acceeb5463b292507457b022b9afe20407822
+Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
+
+Package: python3-ha-requires
+Version: 0.4.1-1
+Depends: libc, python3-light, python3-ha-funkify
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5746
+Filename: python3-ha-requires_0.4.1-1_arm_cortex-a9_neon.ipk
+Size: 6560
+SHA256sum: 8e668e4625464ced42b9056ec9f0c7161b009b438127b03772dc21841c1733c5
+Description:  Require and import dependencies at runtime.
+
+Package: python3-ha-rfc3986
+Version: 1.4.0-1
+Depends: libc, python3-ha-idna
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 27107
+Filename: python3-ha-rfc3986_1.4.0-1_arm_cortex-a9_neon.ipk
+Size: 27960
+SHA256sum: 6d3e7f423b477cd99c9287961d5a0d84142c51f80c4b5130772ddca958c1c03e
+Description:  A Python implementation of RFC 3986 including validation and authority parsing.
+
+Package: python3-ha-rpi-gpio
+Version: 0.7.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22057
+Filename: python3-ha-rpi-gpio_0.7.0-1_arm_cortex-a9_neon.ipk
+Size: 22772
+SHA256sum: 59e7d1ba2349e301254bdd05a1f90c2e99713b11acdb4f97752b9e9fdbb16278
+Description:  This package provides a class to control the GPIO on a Raspberry Pi.
+
+Package: python3-ha-rsa
+Version: 4.6-1
+Depends: libc, python3, python3-ha-pyasn1
+License: MIT
+Section: opt
+CPE-ID: cpe:/a:python-rsa_project:python-rsa
+Architecture: arm_cortex-a9_neon
+Installed-Size: 30814
+Filename: python3-ha-rsa_4.6-1_arm_cortex-a9_neon.ipk
+Size: 31749
+SHA256sum: 4e01263a2e1b8c6d60559084d81a73710aaa288192a043dcacf300c89233998f
+Description:  Is a pure-Python RSA implementation. It supports encryption and decryption,
+ signing and verifying signatures, and key generation according to PKCS#1 version 1.5.
+ It can be used as a Python library as well as on the commandline. 
+
+Package: python3-ha-ruamel-yaml
+Version: 0.15.100-2
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 234326
+Filename: python3-ha-ruamel-yaml_0.15.100-2_arm_cortex-a9_neon.ipk
+Size: 235014
+SHA256sum: 9de8aa9b406cdf8c0002a81fc9464ebafa2f1c19179f6aaf25e6d21fc51d8f25
+Description:  ruamel-yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
+
+Package: python3-ha-s3transfer
+Version: 0.3.3-2
+Depends: libc, python3, python3-ha-botocore
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 71409
+Filename: python3-ha-s3transfer_0.3.3-2_arm_cortex-a9_neon.ipk
+Size: 72355
+SHA256sum: ad67fdafb88971babc1292bc15de1f36b6e7415c12f232dfb09fb0fed3af31a6
+Description:  S3transfer is a Python library for managing Amazon S3 transfers.
+
+Package: python3-ha-scapy
+Version: 2.4.5-1
+Depends: libc, python3
+License: GPL-2.0-only
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1601023
+Filename: python3-ha-scapy_2.4.5-1_arm_cortex-a9_neon.ipk
+Size: 1587535
+SHA256sum: 22061853afa4ac762e8ff866ef3efde74808342970743966de95cce634d502a5
+Description:  Scapy is a powerful interactive packet manipulation program built on top
+ of the Python interpreter. It can be used to forge or decode packets of
+ a wide number of protocols, send them over the wire, capture them, match
+ requests and replies, and much more.
+
+Package: python3-ha-six
+Version: 1.16.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12864
+Filename: python3-ha-six_1.16.0-1_arm_cortex-a9_neon.ipk
+Size: 13813
+SHA256sum: c33779d4da59f919d764f1d96fca84d74caf464ebe56b2514a7a060125897016
+Description:  Six is a Python 2 and 3 compatibility library.  It provides utility functions
+ for smoothing over the differences between the Python versions with the goal of
+ writing Python code that is compatible on both Python versions.  See the
+ documentation for more information on what is provided.
+
+Package: python3-ha-slugify
+Version: 4.0.1-1
+Depends: libc, python3-light, python3-codecs, python3-setuptools, python3-ha-text-unidecode
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6040
+Filename: python3-ha-slugify_4.0.1-1_arm_cortex-a9_neon.ipk
+Size: 6871
+SHA256sum: d60418fda5fd779ef03d65e2f747ae79b413e3f480d54d1f5f3e5584a052cfce
+Description:  A Python slugify application that handles unicode.
+
+Package: python3-ha-smmap
+Version: 5.0.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 21365
+Filename: python3-ha-smmap_5.0.0-1_arm_cortex-a9_neon.ipk
+Size: 22209
+SHA256sum: 3568de75057157099df3ea76f02d0608c1d80199c1b2ce037a665877a988fc03
+Description:  A pure Python implementation of a sliding window memory map manager.
+
+Package: python3-ha-sniffio
+Version: 1.2.0-1
+Depends: libc, python3-ha-contextvars, python3-ha-requires
+License: Apache-2.0 MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4257
+Filename: python3-ha-sniffio_1.2.0-1_arm_cortex-a9_neon.ipk
+Size: 5074
+SHA256sum: b91e04257608cc2e79a41625e762df8f25ede77e7051528e02812bdf78a0aedb
+Description:  Sniff out which async library your code is running under.
+
+Package: python3-ha-snitun
+Version: 0.30.0-1
+Depends: libc, python3-ha-async-timeout, python3-ha-attrs, python3-ha-cryptography
+License: GPL-3.0-or-later
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 24985
+Filename: python3-ha-snitun_0.30.0-1_arm_cortex-a9_neon.ipk
+Size: 25839
+SHA256sum: 894a8b4f0e1a5023208d4f83a6a0f0df85f43c12c6e1ffca3e812ba1121a4c82
+Description:  End-to-End encryption with SNI proxy on top of a TCP multiplexer.
+
+Package: python3-ha-sqlalchemy
+Version: 1.4.27-1
+Depends: libc, python3-light, python3-urllib, python3-decimal, python3-logging
+License: MIT
+Section: opt
+CPE-ID: cpe:/a:sqlalchemy:sqlalchemy
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1815572
+Filename: python3-ha-sqlalchemy_1.4.27-1_arm_cortex-a9_neon.ipk
+Size: 1816644
+SHA256sum: 385fd26d6f2737cd8e31f704ccd9372448af4193ff8d0043cb904008aaf75ba3
+Description:  SQLAlchemy is the Python SQL toolkit and Object Relational Mapper
+ that gives application developers the full power and flexibility of SQL.
+ SQLAlchemy provides a full suite of well known enterprise-level persistence patterns,
+ designed for efficient and high-performing database access,
+ adapted into a simple and Pythonic domain language.
+
+Package: python3-ha-terminaltables
+Version: 3.1.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13936
+Filename: python3-ha-terminaltables_3.1.0-1_arm_cortex-a9_neon.ipk
+Size: 14775
+SHA256sum: f791488ff9b48c0fa22cbf875ea347f6448ed4df3dd948f4d8385cf06d389774
+Description:  Easily draw tables in terminal/console applications from a list of lists of strings. Supports multi-line rows.
+
+Package: python3-ha-text-unidecode
+Version: 1.3-2
+Depends: libc, python3-light
+License: Artistic-1.0-cl8
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 74301
+Filename: python3-ha-text-unidecode_1.3-2_arm_cortex-a9_neon.ipk
+Size: 68818
+SHA256sum: 5010b065f641c6d3701e2b332c54546050b52da53f8dff6bd2f8b078768f8bcc
+Description:  text-unidecode is the most basic port of the Text::Unidecode Perl library.
+
+Package: python3-ha-tqdm
+Version: 4.62.3-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 78210
+Filename: python3-ha-tqdm_4.62.3-1_arm_cortex-a9_neon.ipk
+Size: 79134
+SHA256sum: 37bebab2d6ca006eebf8098285327fd927aca691b57277f71fea5bd6d1eb62ab
+Description:  Fast, Extensible Progress Meter.
+
+Package: python3-ha-typing-extensions
+Version: 3.7.4.3-1
+Depends: libc, python3-light
+License: PSF-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23797
+Filename: python3-ha-typing-extensions_3.7.4.3-1_arm_cortex-a9_neon.ipk
+Size: 24620
+SHA256sum: e1aaaca615d7d71359f58da5c22659dd1e6609362c9fce9430a8076799c0b5da
+Description:  Backported and Experimental Type Hints for Python.
+
+Package: python3-ha-tzdata
+Version: 2021.1-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 153151
+Filename: python3-ha-tzdata_2021.1-1_arm_cortex-a9_neon.ipk
+Size: 152979
+SHA256sum: a32fc8eb897e75b68781282d51a228bd932d791e2010bea842f1b3136147ce22
+Description:  This is a Python package containing zic-compiled binaries for the IANA time zone database.
+ It is intended to be a fallback for systems that do not have system time zone data installed 
+ (or donít have it installed in a standard location), as a part of PEP 615.
+
+Package: python3-ha-tzlocal
+Version: 4.1-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18354
+Filename: python3-ha-tzlocal_4.1-1_arm_cortex-a9_neon.ipk
+Size: 19191
+SHA256sum: 228f77c4b4090662adef8b7aacda14eaa7612482c1e3966d56d78d37dda2a0eb
+Description:  tzinfo object for the local timezone.
+
+Package: python3-ha-urllib3
+Version: 1.26.7-1
+Depends: libc, python3
+License: MIT
+Section: opt
+CPE-ID: cpe:/a:urllib3_project:urllib3
+Architecture: arm_cortex-a9_neon
+Installed-Size: 139829
+Filename: python3-ha-urllib3_1.26.7-1_arm_cortex-a9_neon.ipk
+Size: 140821
+SHA256sum: b54aa76436ee8f7b47a15530744975a928f4eee8810554b0ec2bdac98b256d66
+Description:  HTTP library with thread-safe connection pooling, file post, and more.
+
+Package: python3-ha-voluptuous-serialize
+Version: 2.5.0-1
+Depends: libc, python3-light, python3-ha-voluptuous
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2159
+Filename: python3-ha-voluptuous-serialize_2.5.0-1_arm_cortex-a9_neon.ipk
+Size: 2986
+SHA256sum: c1fb50acc7329389ff16ea8cc49ac7982e88d5df6da84ea4d0240584c9915bf4
+Description:  Convert Voluptuous schemas to dictionaries so they can be serialized.
+
+Package: python3-ha-voluptuous
+Version: 0.12.2-1
+Depends: libc, python3-light
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36459
+Filename: python3-ha-voluptuous_0.12.2-1_arm_cortex-a9_neon.ipk
+Size: 37421
+SHA256sum: aa46b461fe1934d9f0c98866ff739f10b4f62794ac55147bfd448dd25452500c
+Description:  It is primarily intended for validating data coming into Python as JSON, YAML, etc.
+
+Package: python3-ha-websocket-client
+Version: 0.58.0-3
+Depends: libc, python3-light, python3-logging, python3-openssl, python3-ha-six
+License: BSD-3-Clause
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 42365
+Filename: python3-ha-websocket-client_0.58.0-3_arm_cortex-a9_neon.ipk
+Size: 43371
+SHA256sum: d7853e03234956d3809db2322f6d608447c2f4369d3ae324b45d0be3ebe39761
+Description:  websocket-client module is WebSocket client for python. This provide the low
+ level APIs for WebSocket. All APIs are the synchronous functions.
+ 
+ websocket-client supports only hybi-13.
+
+Package: python3-ha-xmltodict
+Version: 0.12.0-2
+Depends: libc, python3-light, python3-xml, python3-urllib
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9191
+Filename: python3-ha-xmltodict_0.12.0-2_arm_cortex-a9_neon.ipk
+Size: 10064
+SHA256sum: 7a98dec3875a6955e80b7ecf9ec9d8a7398ff9eaab44dc5b47420679dffd246e
+Description:  xmltodict is a Python module that makes working with XML feel like you are working with JSON.
+
+Package: python3-ha-yaml
+Version: 6.0-1
+Depends: libc, libyaml, python3-light
+License: MIT
+Section: opt
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: arm_cortex-a9_neon
+Installed-Size: 119997
+Filename: python3-ha-yaml_6.0-1_arm_cortex-a9_neon.ipk
+Size: 120579
+SHA256sum: be9e1648194696717e39b7874b058d43d776ee0f7c9eba540c61a2eeb2a2f409
+Description:  PyYAML is a YAML parser and emitter for the Python programming language.
+
+Package: python3-ha-yarl
+Version: 1.6.3-1
+Depends: libc, python3-light, python3-ha-multidict, python3-urllib, python3-ha-idna
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 112403
+Filename: python3-ha-yarl_1.6.3-1_arm_cortex-a9_neon.ipk
+Size: 113284
+SHA256sum: 883b5210e937c69d0b361ba8616569cfa9e34f5a25b2098802b548c60096d7a0
+Description:  Yet another URL library
+
+Package: python3-ha-yeelight
+Version: 0.7.8-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 44600
+Filename: python3-ha-yeelight_0.7.8-1_arm_cortex-a9_neon.ipk
+Size: 45528
+SHA256sum: abba1c34ce6a1fdf431034f19fc71a21d6f69ef1dbdf01ddfe6e69da1ab0c3b5
+Description:  A Python library for controlling YeeLight RGB bulbs.
+
+Package: python3-ha-yeelightsunflower
+Version: 0.0.10-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6392
+Filename: python3-ha-yeelightsunflower_0.0.10-1_arm_cortex-a9_neon.ipk
+Size: 7256
+SHA256sum: 08d67b1233fd3c7f774f35f1bd28763ce3bf1b97bcc39328d1ebb0db2336aa92
+Description:  Python package for interacting with Yeelight Sunflower bulbs.
+
+Package: python3-ha-zeroconf
+Version: 0.38.1-1
+Depends: libc, python3-light, python3-logging, python3-ha-ifaddr
+License: Apache-2.0
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 91131
+Filename: python3-ha-zeroconf_0.38.1-1_arm_cortex-a9_neon.ipk
+Size: 92121
+SHA256sum: 3f3e5e0567219aaaf6d760dd4d0b4493f0e26c076e4e2aab0a0dcdea466dec22
+Description:  Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
+
+Package: python3-ha-zha-quirks
+Version: 0.0.65-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 183611
+Filename: python3-ha-zha-quirks_0.0.65-1_arm_cortex-a9_neon.ipk
+Size: 184531
+SHA256sum: 1adb808529324f44d6a8adf57548c6c9b3f7f1325534e6c1dd733d16a187dd4b
+Description:  ZHA Device Handlers For Home Assistant.
+
+Package: python3-ha-zigpy-cc
+Version: 0.5.2-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 42019
+Filename: python3-ha-zigpy-cc_0.5.2-1_arm_cortex-a9_neon.ipk
+Size: 42998
+SHA256sum: d8e5d05d124f686971d5cf422384147dd5666871dcc753201d6060a1d1d561a0
+Description:  zigpy-cc is a Python 3 library implemention to add support for
+ Texas Instruments CC series of Zigbee radio module chips hardware to the zigpy project.
+
+Package: python3-ha-zigpy-deconz
+Version: 0.14.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22684
+Filename: python3-ha-zigpy-deconz_0.14.0-1_arm_cortex-a9_neon.ipk
+Size: 23528
+SHA256sum: 059a0dc3807e2a2e4c3763e973b35134abd497c4d7a8675e60f30f573a79a356
+Description:  zigpy-deconz is a Python 3 implementation for the Zigpy project to implement deCONZ based Zigbee radio devices.
+
+Package: python3-ha-zigpy-xbee
+Version: 0.14.0-1
+Depends: libc, python3-light
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 21228
+Filename: python3-ha-zigpy-xbee_0.14.0-1_arm_cortex-a9_neon.ipk
+Size: 22072
+SHA256sum: ca5d5eb9a993641782923ea91f2e287142a28efb796496764ad40f7e3fe96c7c
+Description:  zigpy-xbee is a Python implementation for the Zigpy project to implement XBee based Zigbee radio devices from Digi.
+
+Package: python3-ha-zigpy-zigate
+Version: 0.7.3-1
+Depends: libc, python3-light, python3-ha-pyusb, python3-ha-rpi-gpio
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 28000
+Filename: python3-ha-zigpy-zigate_0.7.3-1_arm_cortex-a9_neon.ipk
+Size: 28889
+SHA256sum: 53362563f5d2ab8c0a038fd2321cd267309e1ca9ac8a12023419ff8d498fe5c3
+Description:  zigpy-zigate is a Python 3 implementation for the Zigpy project to implement ZiGate based Zigbee radio devices.
+
+Package: python3-ha-zigpy-znp
+Version: 0.6.4-1
+Depends: libc, python3-ha-jsonschema, python3-ha-coloredlogs
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 112810
+Filename: python3-ha-zigpy-znp_0.6.4-1_arm_cortex-a9_neon.ipk
+Size: 113834
+SHA256sum: f3b4786aff9bc4e6dad58d21273fe6adee95936978186e0fa4341e26f049735d
+Description:  zigpy-znp is a Python library that adds support for
+ common Texas Instruments ZNP (Zigbee Network Processors)
+ Zigbee radio modules to zigpy, a Python Zigbee stack project.
+
+Package: python3-ha-zigpy
+Version: 0.42.0-1
+Depends: libc, python3-ha-aiosqlite
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 153181
+Filename: python3-ha-zigpy_0.42.0-1_arm_cortex-a9_neon.ipk
+Size: 154147
+SHA256sum: d231afef26bcf44182680d5342caff5fca4452dd38bfc70be8549b577860dbe4
+Description:  zigpy is Zigbee protocol stack integration project to implement the Zigbee Home Automation standard as a Python 3 library.
+
+Package: python3-home-assistant-frontend
+Version: 20211229.1-1
+Depends: libc, python3-light, python3-ha-tzdata
+License: MIT
+Section: opt
+Architecture: arm_cortex-a9_neon
+Installed-Size: 15626683
+Filename: python3-home-assistant-frontend_20211229.1-1_arm_cortex-a9_neon.ipk
+Size: 15620348
+SHA256sum: f53a3cf66bf08f5a7171af3924f86f1edd699c3319fb78bd14005744a6f8d2b1
+Description:  The Home Assistant frontend.
+

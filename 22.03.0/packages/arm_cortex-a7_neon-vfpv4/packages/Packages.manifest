@@ -1,0 +1,1295 @@
+Package: alsa-lib
+Version: 1.2.6.1-1
+Depends: libc, kmod-sound-core, libpthread, librt
+Source: feeds/packages/libs/alsa-lib
+SourceName: alsa-lib
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1639992511
+Maintainer: Ted Hess <thess@kitschensync.net>, Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 367707
+Filename: alsa-lib_1.2.6.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 364666
+SHA256sum: 17ec40682b47b1639629ab3a6f8da6818878667a5aea344b99dedd8b45ebe6ec
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: alsa-ucm-conf
+Version: 1.2.6.2-1
+Depends: libc
+Source: feeds/packages/libs/alsa-ucm-conf
+SourceName: alsa-ucm-conf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1639992511
+Architecture: all
+Installed-Size: 38987
+Filename: alsa-ucm-conf_1.2.6.2-1_all.ipk
+Size: 39515
+SHA256sum: 09a8e8519b8a6b8eb22f85b75db113ac352041b2fa01a33d5d833ff51e5e8b62
+Description:  This is a set of configuration files needed for some ALS utilities like alsactl.
+
+Package: alsa-utils
+Version: 1.2.6-1
+Depends: libc, alsa-lib, alsa-ucm-conf, libncursesw6, libpthread
+Source: feeds/packages/sound/alsa-utils
+SourceName: alsa-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: sound
+SourceDateEpoch: 1639992511
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 135790
+Filename: alsa-utils_1.2.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 134151
+SHA256sum: bc1416b854072fffa146e05a5e2ad97c3ecc045c678dff3ec9c91e2b9f343f4e
+Description:  ALSA (Advanced Linux Sound Architecture) utilities
+
+Package: avahi-dbus-daemon
+Version: 0.8-7
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: feeds/packages/libs/avahi
+SourceName: avahi-dbus-daemon
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1644723347
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 40493
+Filename: avahi-dbus-daemon_0.8-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 41246
+SHA256sum: ef5f67269b705b313065ccbbd2b06dd6af25b07b070393460b1d02bf45b63e55
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: bluez-daemon
+Version: 5.64-1
+Depends: libc, bluez-libs, bluez-utils, bluez-utils-extra, glib2, libncurses6, libreadline8, dbus, libical
+Source: feeds/packages/utils/bluez
+SourceName: bluez-daemon
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1653074096
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 597686
+Filename: bluez-daemon_5.64-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 595495
+SHA256sum: 01fd5399201e82c28228dcd470fe5dc85857e3e5e040b71ed5623c7f71d94568
+Description:  Bluetooth daemon
+
+Package: bluez-libs
+Version: 5.64-1
+Depends: libc, libpthread, kmod-bluetooth
+Source: feeds/packages/utils/bluez
+SourceName: bluez-libs
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1653074096
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 65755
+Filename: bluez-libs_5.64-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 65200
+SHA256sum: 85d679a2bcb05477fc244322b33260d65a63f89f2fda8fb9a5b1971febd7d65d
+Description:  Bluetooth library
+
+Package: bluez-utils-extra
+Version: 5.64-1
+Depends: libc, bluez-libs, libpthread, librt, glib2, libncurses6, libreadline8, dbus
+Source: feeds/packages/utils/bluez
+SourceName: bluez-utils-extra
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1653074096
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 132796
+Filename: bluez-utils-extra_5.64-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 133530
+SHA256sum: c2b4c0b1ce13a54c3af6847b7e9c867ae4e025a796514fee13c5942bb9624897
+Description:  Bluetooth additional utilities
+
+Package: bluez-utils
+Version: 5.64-1
+Depends: libc, bluez-libs
+Source: feeds/packages/utils/bluez
+SourceName: bluez-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1653074096
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 531994
+Filename: bluez-utils_5.64-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 522502
+SHA256sum: def9717f9da5c1622906ae1764ae859b4ee919feef03aba7324d0e9bc2243c75
+Description:  Bluetooth utilities
+
+Package: cgi-io
+Version: 2021-09-08-98cef9dd-20
+Depends: libc, libubox20220515, libubus20220601
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1631130933
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8561
+Filename: cgi-io_2021-09-08-98cef9dd-20_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9383
+SHA256sum: d75da3b06e5955b3439f50202475fdbb137667b85c8d4034456a377744754c93
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-stty
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26192
+Filename: coreutils-stty_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26932
+SHA256sum: 812060bee817678e85e5c511e7765bc1d8fa1a4ece70f98ef37dffed49b0c784
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils
+Version: 9.0-2
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 106
+Filename: coreutils_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1003
+SHA256sum: 0492844563bed844bfe56947686b00fba8604bd10200e29103eea9b742b756e7
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: davfs2
+Version: 1.6.1-2
+Depends: libc, libneon, kmod-fuse, libfuse1
+Source: feeds/packages/net/davfs2
+SourceName: davfs2
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1641946819
+CPE-ID: cpe:/a:davfs2:davfs2
+Maintainer: Federico Di Marco <fededim@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 46481
+Filename: davfs2_1.6.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 47649
+SHA256sum: 1b109c3a66f71c32072389e03ff4544aaeb81a74780de6ebbc4daffdfc725407
+Description:  Web Distributed Authoring and Versioning (WebDAV), an extension to the HTTP-protocol,
+ allows authoring of resources on a remote web server.davfs2 provides the ability to
+ access such resources like a typical filesystem, allowing for use by standard
+ applications with no built-in support for WebDAV.
+ 
+ davfs2 is designed to fully integrate into the filesystem semantics of Unix-like
+ systems (mount, umount, etc.). davfs2 makes mounting by unprivileged users as easy
+ and secure as possible.
+ 
+ davfs2 does extensive caching to make the file system responsive, to avoid
+ unnecessary network traffic and to prevent data loss, and to cope for slow or
+ unreliable connections.
+ 
+ davfs2 will work with most WebDAV servers needing little or no configuration.
+
+Package: dbus
+Version: 1.13.18-12
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+SourceName: dbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1644252565
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 104672
+Filename: dbus_1.13.18-12_arm_cortex-a7_neon-vfpv4.ipk
+Size: 105100
+SHA256sum: d4e57be38867431fe0b7515e76031a21a51426ba204c388839c1d6d0202fd6d9
+Description:  Simple interprocess messaging system (daemon)
+
+Package: glib2
+Version: 2.70.4-4
+Depends: libc, zlib, libpthread, libffi, libattr, libpcre
+Source: feeds/packages/libs/glib2
+SourceName: glib2
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1649835099
+CPE-ID: cpe:/a:gnome:glib
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 908209
+Filename: glib2_2.70.4-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 902538
+SHA256sum: 67aa4168f7bd22f31905abd2b4781fa2354ae4cb9cf36e9f421f7da304371104
+Description:  The GLib library of C routines
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1616347921
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6174
+Filename: libattr_2.5.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7008
+SHA256sum: 4d321fcda9d59b3370bcdecf6076e9418434eb856a66ea2153d60ab71a07b880
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libavahi-client
+Version: 0.8-7
+Depends: libc, avahi-dbus-daemon
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-client
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1644723347
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16899
+Filename: libavahi-client_0.8-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18081
+SHA256sum: 377574b9bb96c1f37c91531c775ec10b6fd05079866b5a7bcc1cb0a53b50443f
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-compat-libdnssd
+Version: 0.8-7
+Depends: libc, libavahi-client
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-compat-libdnssd
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1644723347
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9313
+Filename: libavahi-compat-libdnssd_0.8-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10455
+SHA256sum: a38b56ff728b6ef4217795d1971161ea79152442776df60701d65ed938a88dfe
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-compat-libdnssd library.
+ It also automatically adds the required libavahi-client package.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.8-7
+Depends: libc, dbus
+Provides: libavahi
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-dbus-support
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1644723347
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 68007
+Filename: libavahi-dbus-support_0.8-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 68968
+SHA256sum: 6810be0d30150d43ecb2b2d98033a71fced3b450c2ec45d2915af3e9093987ab
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libcares
+Version: 1.18.1-1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+SourceName: libcares
+License: MIT
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1636449700
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 33632
+Filename: libcares_1.18.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 34622
+SHA256sum: 174acdbf7ca54ea5ac352e3ebcba29085590e439c91dd5835f34c163991b07e0
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Source: feeds/packages/libs/libdaemon
+SourceName: libdaemon
+Section: libs
+SourceDateEpoch: 1613865735
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7912
+Filename: libdaemon_0.14-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8977
+SHA256sum: c4c8cf3a2ffc6c7e3009af74e823f0598dd348a9b7322adabf54c7a53b8f5baf
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdb47
+Version: 4.7.25.4.NC-7
+Depends: libc
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1614985666
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 505804
+Filename: libdb47_4.7.25.4.NC-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 503441
+SHA256sum: b4f25cdc3edf420c828141ac114d14862fec61f49a10c44115cc08c733601c2d
+Description:  Berkeley DB library (4.7).
+
+Package: libdbus
+Version: 1.13.18-12
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+SourceName: libdbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1644252565
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 109669
+Filename: libdbus_1.13.18-12_arm_cortex-a7_neon-vfpv4.ipk
+Size: 110005
+SHA256sum: 245717104c42e833125eeff0cc5b669bdc059eb1ded5d21fddd0968ff88cd15a
+Description:  Simple interprocess messaging system (library)
+
+Package: libevdev
+Version: 1.12.0-1
+Depends: libc
+Source: feeds/packages/libs/libevdev
+SourceName: libevdev
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1636942601
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24701
+Filename: libevdev_1.12.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24537
+SHA256sum: 313632d3d16fcac69aaad2d6ab56af1b528e755338e0aa3901922db54b7c0725
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libexpat
+Version: 2.4.7-2
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1647577084
+CPE-ID: cpe:/a:libexpat:expat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 40067
+Filename: libexpat_2.4.7-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 40943
+SHA256sum: 3e6f2563f93fe22afeaaa28d1b97d84c5f35e960de3bdbfd9b4aef567729014f
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.4.2-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1634951273
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15050
+Filename: libffi_3.4.2-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15976
+SHA256sum: 8051b318047cce6103597e293f2ac0efeef957f2070d7943163cbc79bde6fbc4
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libfuse1
+Version: 2.9.9-2
+Depends: libc, kmod-fuse, libpthread
+Provides: libfuse
+Source: feeds/packages/utils/fuse
+SourceName: libfuse
+License: LGPL-2.1-only
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1641703099
+ABIVersion: 1
+CPE-ID: cpe:/a:fuse_project:fuse
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 59399
+Filename: libfuse1_2.9.9-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 59784
+SHA256sum: 05f1797d2fabd6b05c591b00e8c70773542d34872855d412e31f78b6aebd6aa8
+Description:  FUSE (Filesystem in UserSpacE)
+ This package contains the FUSE shared libraries, needed by other programs.
+ - libfuse
+ - libulockmgr
+
+Package: libgdbm
+Version: 1.21-1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+SourceName: libgdbm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1632557976
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26504
+Filename: libgdbm_1.21-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27261
+SHA256sum: cf9ef534b017e14bc57ab73d2e178b1705ed664f6a33fa9068a44f6b10f06396
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libical
+Version: 3.0.9-2
+Depends: libc, libpthread
+Source: feeds/packages/libs/libical
+SourceName: libical
+License: LGPL-2.1-or-later MPL-2.0
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1623557101
+Maintainer: Jose Zapater <jzapater@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 149240
+Filename: libical_3.0.9-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 146663
+SHA256sum: 817af1553620e8adc7ce32eaf7c62b7b9827cdefa43725283c1c9d550ddbfb6e
+Description:  Libical is an Open Source implementation of the iCalendar protocols and protocol
+ data units. The iCalendar specification describes how calendar clients can
+ communicate with calendar servers so users can store their calendar data and
+ arrange meetings with other users.
+ Libical implements RFC2445, RFC2446 and some of RFC2447.
+
+Package: liblzma
+Version: 5.2.5-3
+Depends: libc, libpthread
+Source: feeds/packages/utils/xz
+SourceName: liblzma
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 46746
+Filename: liblzma_5.2.5-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 47546
+SHA256sum: 38375302b2bee9d3f4b73fbd88e1b998bf825a01b6e1efd10e95d3b34987ef7c
+Description:  liblzma library from XZ Utils
+
+Package: libminiupnpc
+Version: 2.2.3-1
+Depends: libc
+Source: feeds/packages/net/miniupnpc
+SourceName: libminiupnpc
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1641367118
+CPE-ID: cpe:/a:miniupnp_project:miniupnp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19580
+Filename: libminiupnpc_2.2.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20354
+SHA256sum: fd30b53c2aa150df01dcaca8d88dc30bf93ac7952605151f4dec5c00010f66c5
+Description:  Lightweight UPnP library
+
+Package: libmosquitto-ssl
+Version: 2.0.13-1
+Depends: libc, libpthread, librt, libcares, libopenssl1.1
+Provides: libmosquitto
+Source: feeds/packages/net/mosquitto
+SourceName: libmosquitto-ssl
+License: EPL-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+Require-User: mosquitto=200:mosquitto=200
+SourceDateEpoch: 1636449144
+CPE-ID: cpe:/a:eclipse:mosquitto
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 35661
+Filename: libmosquitto-ssl_2.0.13-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 36501
+SHA256sum: 506fc84d035af91af94c52efbbb63107b91c121abe74324898e5473763e35cee
+Description:  Library required for mosquitto's command line client tools, also for
+ use by any third party software that wants to communicate with _any_
+ MQTT server.
+ 
+ Should be useable for communicating with any MQTT v3.1/3.1.1/5 compatible
+ server, in addition to Mosquitto.
+ This package is built with SSL support
+
+Package: libnatpmp1
+Version: 20150609-3
+Depends: libc
+Provides: libnatpmp
+Source: feeds/packages/libs/libnatpmp
+SourceName: libnatpmp
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1623557101
+ABIVersion: 1
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3362
+Filename: libnatpmp1_20150609-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4272
+SHA256sum: 2115ee333045ef87334dcb4adfec489d36cb8dfcef42cf0bb3097dbc1c781e54
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libneon
+Version: 0.32.1-2
+Depends: libc, libopenssl1.1, libexpat, zlib
+Source: feeds/packages/libs/neon
+SourceName: libneon
+License: LGPL-2.1-or-later
+LicenseFiles: src/COPYING.LIB
+Section: libs
+SourceDateEpoch: 1642482579
+CPE-ID: cpe:/a:webdav:neon
+Maintainer: Federico Di Marco <fededim@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 59107
+Filename: libneon_0.32.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 59990
+SHA256sum: 6bc48a844e70ad56a6059c96438693bce1fac0d1d69f0bb56245e54b289133c6
+Description:  neon is an HTTP and WebDAV client library, with a C interface. Features:
+ 
+ - High-level wrappers for common HTTP and WebDAV operations (GET, MOVE, DELETE, etc)
+ - Low-level interface to the HTTP request/response engine, allowing the use of arbitrary HTTP methods, headers, etc.
+ - Authentication support including Basic and Digest support, along with GSSAPI-based Negotiate on Unix, and
+ SSPI-based Negotiate/NTLM on Win32
+ - SSL/TLS support using OpenSSL or GnuTLS; exposing an abstraction layer for verifying server certificates, handling client
+ certificates, and examining certificate properties. Smartcard-based client certificates are also supported via a
+ PKCS11 wrapper interface.
+ - Abstract interface to parsing XML using libxml2 or expat, and wrappers for simplifying handling XML HTTP response bodies
+ - WebDAV metadata support; wrappers for PROPFIND and PROPPATCH to simplify property manipulation.
+
+Package: libnghttp2-14
+Version: 1.44.0-1
+Depends: libc
+Provides: libnghttp2
+Source: feeds/packages/libs/nghttp2
+SourceName: libnghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1628451615
+ABIVersion: -14
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 56237
+Filename: libnghttp2-14_1.44.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 55349
+SHA256sum: 335eabbe6f6bbc28e1b71405b8d5e35268c96f6fae36ad584a6b538b27995e64
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libpython3-3.10
+Version: 3.10.4-1
+Depends: libc, libpthread, zlib
+Provides: libpython3
+Source: feeds/packages/lang/python/python3
+SourceName: libpython3
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+ABIVersion: -3.10
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1042583
+Filename: libpython3-3.10_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1038193
+SHA256sum: 7fadb3a13a632425e2d5e7a08f6597fbb9f02545b73448c000a59ec5b265745b
+Description:  This package contains only core Python library.
+
+Package: libsqlite3-0
+Version: 3370000-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: feeds/packages/libs/sqlite3
+SourceName: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+SourceDateEpoch: 1640119077
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 474030
+Filename: libsqlite3-0_3370000-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 474331
+SHA256sum: cea1d2d72574e2b49a45a93d0bc340c8444f3c2201e4b801b29301b3b8758cf0
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libudev-zero
+Version: 1.0.1-1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+Source: feeds/packages/libs/libudev-zero
+SourceName: libudev-zero
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1648163185
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8624
+Filename: libudev-zero_1.0.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9434
+SHA256sum: 62707fe7a86b9ee99ca9e3507df784e096d078e8788518c0dcb32e4dc972b0e4
+Description:  Drop-in replacement for libudev
+
+Package: libuv1
+Version: 1.41.1-1
+Depends: libc, libpthread, librt
+Provides: libuv
+Source: feeds/packages/libs/libuv
+SourceName: libuv
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1626067233
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv_project:libuv
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 55068
+Filename: libuv1_1.41.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 55639
+SHA256sum: e6d0faf8f908e6ac1bb1a4559764661461bb9c59f3eed9204c08986f791889b7
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: python3-asyncio
+Version: 3.10.4-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-asyncio
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 147017
+Filename: python3-asyncio_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 148008
+SHA256sum: b906efb2a830f44d70840583a78c7f2ab6e24320487367376aec1dfccd64b6a4
+Description:  Python 3.10 asyncio module
+
+Package: python3-base
+Version: 3.10.4-1
+Depends: libc, libpthread, zlib, libpython3-3.10
+Source: feeds/packages/lang/python/python3
+SourceName: python3-base
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 157009
+Filename: python3-base_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 156837
+SHA256sum: 2f94b4040dfdb79fdf979d3907bd029ebb23dea6e0829684e13978a8c5a49def
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python3-cgi
+Version: 3.10.4-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgi
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 12283
+Filename: python3-cgi_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13166
+SHA256sum: 6438fc51724393da9b68ff9e69c89b3cf5919afa5ff76a1cb7263a3e105f8972
+Description:  Python 3.10 cgi module
+
+Package: python3-cgitb
+Version: 3.10.4-1
+Depends: libc, python3-light, python3-cgi, python3-pydoc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgitb
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5518
+Filename: python3-cgitb_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6380
+SHA256sum: dc4b6dcd209806cbe971135fe4fb68691d0cec9ccfad54da487340fc7bdb143e
+Description:  Python 3.10 cgitb module
+
+Package: python3-codecs
+Version: 3.10.4-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-codecs
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 761724
+Filename: python3-codecs_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 735260
+SHA256sum: 8a039e63c7d17efe8641711d37e4fa7013945d54b38622ffd1763c906849beb8
+Description:  Python 3.10 codecs + unicode support
+
+Package: python3-ctypes
+Version: 3.10.4-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ctypes
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 63460
+Filename: python3-ctypes_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 64195
+SHA256sum: 98e63acbfb46a5d727e38253038180585bb68d24006d891fade4325f374e6daf
+Description:  Python 3.10 ctypes module
+
+Package: python3-dbm
+Version: 3.10.4-1
+Depends: libc, python3-light, libgdbm
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dbm
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16153
+Filename: python3-dbm_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16989
+SHA256sum: 25fdb66835a7c42f27a5f0eb7b7a9ef97c7fe98132968294f373c1d02cc63e53
+Description:  Python 3.10 dbm module
+
+Package: python3-decimal
+Version: 3.10.4-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-decimal
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 76419
+Filename: python3-decimal_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 76973
+SHA256sum: f44c0e3bb4d328e57e06cfa07cb171dfa149e1b79f60f613bd5e589e9c166dd8
+Description:  Python 3.10 decimal module
+
+Package: python3-distutils
+Version: 3.10.4-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-distutils
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 171865
+Filename: python3-distutils_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 172898
+SHA256sum: f34b23c843036ac02d304c94810643f3e63c61e1dc5e4805ee945ecfe5ef5569
+Description:  Python 3.10 distutils module
+
+Package: python3-email
+Version: 3.10.4-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-email
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 114865
+Filename: python3-email_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 115853
+SHA256sum: 6a6c2b0ecad30e6d98c1f0ffda80db30e20b37573de72bb189bda70fe1b9bbbe
+Description:  Python 3.10 email module
+
+Package: python3-evdev
+Version: 1.4.0-1
+Depends: libc, python3-light, python3-ctypes
+Source: feeds/packages/lang/python/python-evdev
+SourceName: python3-evdev
+License: BSD-3-Clause
+Section: lang
+SourceDateEpoch: 1611161766
+Maintainer: Paulo Costa <me@paulo.costa.nom.br>, Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41932
+Filename: python3-evdev_1.4.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 42453
+SHA256sum: ff452f07b0addbcfc6aa907be09c635a3d4099b4737715e3f5336d7112948652
+Description:  Bindings to the Linux input handling subsystem
+
+Package: python3-light
+Version: 3.10.4-1
+Depends: libc, python3-base, libffi, libbz2-1.0
+Source: feeds/packages/lang/python/python3
+SourceName: python3-light
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2082308
+Filename: python3-light_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2080303
+SHA256sum: 575ea35ff08e9fa81c5cac24f098843d00e2b8b7a52bb9884c888c6e23997b8d
+Description:  This package is essentially the python3-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python3-logging
+Version: 3.10.4-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-logging
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 53863
+Filename: python3-logging_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 54838
+SHA256sum: c604752628be965f2245d4730f9a21feeccda490c678986f7718ac9cafc12a48
+Description:  Python 3.10 logging module
+
+Package: python3-lzma
+Version: 3.10.4-1
+Depends: libc, python3-light, liblzma
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lzma
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15911
+Filename: python3-lzma_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16745
+SHA256sum: f523a5a2dcbb1a4589b5203626bc38f284247be899263ae1bc455bbd3165f1ec
+Description:  Python 3.10 lzma module
+
+Package: python3-multiprocessing
+Version: 3.10.4-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-multiprocessing
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 101736
+Filename: python3-multiprocessing_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 102749
+SHA256sum: 267a2b4143a2ce7078f5361010a75db3f625cd2595fe00f2444141255bbfd5c3
+Description:  Python 3.10 multiprocessing
+
+Package: python3-ncurses
+Version: 3.10.4-1
+Depends: libc, python3-light, libncursesw6
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ncurses
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 46776
+Filename: python3-ncurses_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 47267
+SHA256sum: 0fcb61b091c797437c903329542cd2a4d8a5a9a26675d5eeacd8c1cbf599a29f
+Description:  Python 3.10 ncurses module
+
+Package: python3-openssl
+Version: 3.10.4-1
+Depends: libc, python3-light, libopenssl1.1, ca-certs
+Source: feeds/packages/lang/python/python3
+SourceName: python3-openssl
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 65418
+Filename: python3-openssl_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 64783
+SHA256sum: 97ced81fff350cd3134cb44f8bd2e0fe630bc0cb46899fd2370d3c230536a6aa
+Description:  Python 3.10 SSL module
+
+Package: python3-pkg-resources
+Version: 58.1.0-1
+Depends: libc, python3
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pkg-resources
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 148430
+Filename: python3-pkg-resources_58.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 149369
+SHA256sum: 9c01cdb8e955b26bac197fc13f0ba1542d7c8f91cf0e48ffc2121b387d23639e
+Description:  Python 3.10 pkg_resources module (part of setuptools)
+
+Package: python3-pydoc
+Version: 3.10.4-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pydoc
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 202671
+Filename: python3-pydoc_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 203580
+SHA256sum: f31f0ad72949f24199f241db6c5cd7ace31176496f0203d42f4aaee3911292c9
+Description:  Python 3.10 pydoc module
+
+Package: python3-readline
+Version: 3.10.4-1
+Depends: libc, python3-light, libreadline8, libncursesw6
+Source: feeds/packages/lang/python/python3
+SourceName: python3-readline
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9258
+Filename: python3-readline_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10072
+SHA256sum: 5a8c82c81ad093ccf83ad24a449ac5c431449388958b5bfc2d0d24346a837c6d
+Description:  Python 3.10 readline module
+
+Package: python3-sqlite3
+Version: 3.10.4-1
+Depends: libc, python3-light, libsqlite3-0
+Source: feeds/packages/lang/python/python3
+SourceName: python3-sqlite3
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29377
+Filename: python3-sqlite3_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30129
+SHA256sum: b22505997fef6425039e1a60aa96caa9dba924667fe423c89204a2f4c453d4cc
+Description:  Python 3.10 sqlite3 module
+
+Package: python3-unittest
+Version: 3.10.4-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-unittest
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 79199
+Filename: python3-unittest_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 80195
+SHA256sum: a7efa4dee8016b452ca7222ae1b4d45d2fb88334369df18fcd93a51f70a4698c
+Description:  Python 3.10 unittest module
+
+Package: python3-urllib
+Version: 3.10.4-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-urllib
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 51438
+Filename: python3-urllib_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 52423
+SHA256sum: a804e14975fb3392a226a574a1cacd861bcbd5c20f47461bedf8aabccdb1f7b7
+Description:  Python 3.10 URL library module
+
+Package: python3-uuid
+Version: 3.10.4-1
+Depends: libc, python3-light, libuuid1
+Source: feeds/packages/lang/python/python3
+SourceName: python3-uuid
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10976
+Filename: python3-uuid_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11827
+SHA256sum: 7d1c4bb0ccfb91451bccc3d43ae02fa95a3a2f8d680632e8cd100425a953d809
+Description:  Python 3.10 UUID module
+
+Package: python3-xml
+Version: 3.10.4-1
+Depends: libc, python3-light, python3-urllib
+Source: feeds/packages/lang/python/python3
+SourceName: python3-xml
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 204507
+Filename: python3-xml_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 205020
+SHA256sum: 2cd8c0babb2453ffb879037a71c5958aae34d0f1739fa5cd5dde33c570bfb8cc
+Description:  Python 3.10 xml libs
+
+Package: python3
+Version: 3.10.4-1
+Depends: libc, python3-light, python3-unittest, python3-ncurses, python3-ctypes, python3-pydoc, python3-multiprocessing, python3-codecs, python3-readline, python3-xml, python3-sqlite3, python3-logging, python3-email, python3-distutils, python3-openssl, python3-urllib, python3-cgi, python3-cgitb, python3-dbm, python3-asyncio, python3-lzma, python3-decimal, python3-uuid
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1648454649
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 105
+Filename: python3_3.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1116
+SHA256sum: 1d4f01c8ead6145d17232f00d0961bf69f04b82004bfed17cbd6ba4561e03882
+Description:  This package contains the (almost) full Python install.
+ It's python3-light + all other packages.
+
+Package: zerotier
+Version: 1.8.6-2
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1
+Source: feeds/packages/net/zerotier
+SourceName: zerotier
+License: BSL 1.1
+LicenseFiles: LICENSE.txt
+Section: net
+SourceDateEpoch: 1650605312
+Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 425714
+Filename: zerotier_1.8.6-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 425907
+SHA256sum: a6ee302747ce9f73e0f5e323862ad2bf40d5d69f048843bef1f36fba9a445810
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+
