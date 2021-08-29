@@ -1,0 +1,408 @@
+Package: liblucihttp-lua
+Version: 2023.03.15~9b5b683f-r1
+Depends: libc, liblucihttp0, liblua5.1.5
+Source: feeds/luci/contrib/package/lucihttp
+SourceName: lucihttp
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1784936613
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20480
+Filename: liblucihttp-lua_2023.03.15~9b5b683f-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3927
+SHA256sum: 99f647eff90499d1ffa3225b43001a258d5a0ef9033d46b3d7536c6d19819b87
+Description:  Lua binding for the LuCI HTTP utility library
+
+Package: liblucihttp-ucode
+Version: 2023.03.15~9b5b683f-r1
+Depends: libc, liblucihttp0, libucode20230711
+Source: feeds/luci/contrib/package/lucihttp
+SourceName: lucihttp
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1784936613
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20480
+Filename: liblucihttp-ucode_2023.03.15~9b5b683f-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4323
+SHA256sum: 3edb183e1c1a3c634f0a5161c9d3f190a88d77eb3ff2667540f062d08f86b0e6
+Description:  ucode binding for the LuCI HTTP utility library
+
+Package: liblucihttp0
+Version: 2023.03.15~9b5b683f-r1
+Depends: libc
+Provides: liblucihttp
+Source: feeds/luci/contrib/package/lucihttp
+SourceName: lucihttp
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1784936613
+ABIVersion: 0
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20480
+Filename: liblucihttp0_2023.03.15~9b5b683f-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7734
+SHA256sum: eee4d0175adbca6a4b2f691ae8d24aa27dd6fcf31fcd434390597f57abe73694
+Description:  LuCI HTTP utility library
+
+Package: luci-app-firewall
+Version: 26.205.85413~cac97ed
+Depends: libc, luci-base, uci-firewall
+Source: feeds/luci/applications/luci-app-firewall
+SourceName: luci-app-firewall
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 102400
+Filename: luci-app-firewall_26.205.85413~cac97ed_all.ipk
+Size: 18387
+SHA256sum: 727b8f9adb7982edc78d8a52ee82241ae3f9925cf15a81949fdacda0db0b8cd9
+Description:  Firewall and port forwarding application
+
+Package: luci-app-package-manager
+Version: 26.205.85413~cac97ed
+Depends: libc, luci-base
+Provides: luci-app-opkg
+Source: feeds/luci/applications/luci-app-package-manager
+SourceName: luci-app-package-manager
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-package-manager_26.205.85413~cac97ed_all.ipk
+Size: 10740
+SHA256sum: dd1337d96bf0236c36bfc85ee325ca2b83094efb84092ff5e495889d8293fd84
+Description:  Package management application
+
+Package: luci-base
+Version: 26.205.85413~cac97ed
+Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
+Source: feeds/luci/modules/luci-base
+SourceName: luci-base
+License: Apache-2.0
+LicenseFiles: LICENSE NOTICE
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 788480
+Filename: luci-base_26.205.85413~cac97ed_arm_cortex-a7_neon-vfpv4.ipk
+Size: 151189
+SHA256sum: ce7e420dba30fbde60c644753d9dc36916f70f6b097ae365ebcc518478ce2178
+Description:  LuCI core runtime
+
+Package: luci-lib-base
+Version: 26.205.85413~cac97ed
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, liblucihttp-lua
+Source: feeds/luci/libs/luci-lib-base
+SourceName: luci-lib-base
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-lib-base_26.205.85413~cac97ed_all.ipk
+Size: 10545
+SHA256sum: 31733ef9fa49387502ab8436db87a54bace6fce1fdf58893f5566d411e8e5bf4
+Description:  basic libraries for luci
+
+Package: luci-lib-ip
+Version: 26.205.85413~cac97ed
+Depends: libc, liblua5.1.5, libnl-tiny1
+Source: feeds/luci/libs/luci-lib-ip
+SourceName: luci-lib-ip
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30720
+Filename: luci-lib-ip_26.205.85413~cac97ed_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11492
+SHA256sum: c73c51bf2824e4da2895eff58b4529bc175a85cf86ee5270ca24aa4a0398afd8
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: 26.205.85413~cac97ed
+Depends: libc, liblua5.1.5, libjson-c5
+Source: feeds/luci/libs/luci-lib-jsonc
+SourceName: luci-lib-jsonc
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20480
+Filename: luci-lib-jsonc_26.205.85413~cac97ed_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4642
+SHA256sum: 0034136c74f8acf0fbda2e75efa6be35fdf36611c37c42332138517b28361438
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: 26.205.85413~cac97ed
+Depends: libc, liblua5.1.5
+Source: feeds/luci/libs/luci-lib-nixio
+SourceName: luci-lib-nixio
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 81920
+Filename: luci-lib-nixio_26.205.85413~cac97ed_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30118
+SHA256sum: 0bd787837fb7ecd01260efaf9d98a49bc6ba1e02e115e7d077f9abe088c2d4bd
+Description:  NIXIO POSIX library
+
+Package: luci-light
+Version: 26.205.85413~cac97ed
+Depends: libc, luci-proto-ipv6, luci-app-firewall, luci-mod-admin-full, luci-proto-ppp, luci-theme-bootstrap, rpcd-mod-rrdns, uhttpd, uhttpd-mod-ubus
+Source: feeds/luci/collections/luci-light
+SourceName: luci-light
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10240
+Filename: luci-light_26.205.85413~cac97ed_all.ipk
+Size: 1058
+SHA256sum: 4919be5fce5e62d77316c433972375601ac0eda7afe8ddf790d50412b6c40a1c
+Description:  Light OpenWrt set including admin support and the default Bootstrap theme
+
+Package: luci-lua-runtime
+Version: 26.205.85413~cac97ed
+Depends: libc, luci-base, lua, luci-lib-base, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, libubus-lua, liblucihttp-lua, ucode-mod-lua
+Source: feeds/luci/modules/luci-lua-runtime
+SourceName: luci-lua-runtime
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 112640
+Filename: luci-lua-runtime_26.205.85413~cac97ed_arm_cortex-a7_neon-vfpv4.ipk
+Size: 29290
+SHA256sum: a010a980e72d1c90780e47e3fa383bcc5f9dec548b77181b6891702a0798436d
+Description:  LuCI Lua runtime libraries
+
+Package: luci-mod-admin-full
+Version: 26.205.85413~cac97ed
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+Source: feeds/luci/modules/luci-mod-admin-full
+SourceName: luci-mod-admin-full
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10240
+Filename: luci-mod-admin-full_26.205.85413~cac97ed_all.ipk
+Size: 1003
+SHA256sum: ab461387e41fd6af305ee09f2aeab0657f46b5ddd57a69a5e5699773e3fc52a0
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-mod-network
+Version: 26.205.85413~cac97ed
+Depends: libc, luci-base, rpcd-mod-iwinfo
+Source: feeds/luci/modules/luci-mod-network
+SourceName: luci-mod-network
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 276480
+Filename: luci-mod-network_26.205.85413~cac97ed_all.ipk
+Size: 66528
+SHA256sum: a4bb628b8b269e76de9985231cf8e25e6c935440bb2c93152df6089ba22c0e73
+Description:  LuCI Network Administration
+
+Package: luci-mod-status
+Version: 26.205.85413~cac97ed
+Depends: libc, luci-base, libiwinfo20230701, rpcd-mod-iwinfo
+Source: feeds/luci/modules/luci-mod-status
+SourceName: luci-mod-status
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 194560
+Filename: luci-mod-status_26.205.85413~cac97ed_arm_cortex-a7_neon-vfpv4.ipk
+Size: 43247
+SHA256sum: 5930cd462386737420490fdfba1a62212cb963db867dc20f840e1150fc16d3f5
+Description:  LuCI Status Pages
+
+Package: luci-mod-system
+Version: 26.205.85413~cac97ed
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-mod-system
+SourceName: luci-mod-system
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 102400
+Filename: luci-mod-system_26.205.85413~cac97ed_all.ipk
+Size: 22469
+SHA256sum: fec0339cbe6d7e13cc41fb139bc969bbec9911402b14406ac2f93fa09644d394
+Description:  LuCI Administration - Global System Settings
+
+Package: luci-proto-ipv6
+Version: 26.205.85413~cac97ed
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ipv6
+SourceName: luci-proto-ipv6
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-proto-ipv6_26.205.85413~cac97ed_all.ipk
+Size: 3938
+SHA256sum: eabec4b218c23e22f94f8d17d082168fa098932d29354db182d5b795c6606c49
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/IPIP6
+
+Package: luci-proto-ppp
+Version: 26.205.85413~cac97ed
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ppp
+SourceName: luci-proto-ppp
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-proto-ppp_26.205.85413~cac97ed_all.ipk
+Size: 3327
+SHA256sum: 6d84e5708f1d10e27022276cc4afa192830dd25922e98d4c42f56af61e360bd7
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: 26.205.85413~cac97ed
+Depends: libc, luci-base
+Source: feeds/luci/themes/luci-theme-bootstrap
+SourceName: luci-theme-bootstrap
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 92160
+Filename: luci-theme-bootstrap_26.205.85413~cac97ed_all.ipk
+Size: 19593
+SHA256sum: b53a2f8770df64a04d10fafc16c537830f1d9264448423ea1badf48a41fb53ad
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: 26.205.85413~cac97ed
+Depends: libc, luci-light, luci-app-package-manager
+Source: feeds/luci/collections/luci
+SourceName: luci
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1784936613
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10240
+Filename: luci_26.205.85413~cac97ed_all.ipk
+Size: 1002
+SHA256sum: 38a91c2e1b5a7a1cecce7384ea7d27ddc9091fc34c306add89134f85d6fde59d
+Description:  Standard OpenWrt set including package management and attended sysupgrades support
+
+Package: rpcd-mod-luci
+Version: 20240305-r1
+Depends: libc, rpcd, libubox20240329, libubus20250102, libnl-tiny1
+Source: feeds/luci/libs/rpcd-mod-luci
+SourceName: rpcd-mod-luci
+License: Apache-2.0
+Section: libs
+SourceDateEpoch: 1784936613
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 40960
+Filename: rpcd-mod-luci_20240305-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13873
+SHA256sum: 19605965803d39d4a745bd134cf3084795130a9b26ca5840006d98e691d8875e
+Description:  Provides LuCI backend ubus RPC operations.
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20240329, libubus20250102
+Source: feeds/luci/libs/rpcd-mod-rrdns
+SourceName: rpcd-mod-rrdns
+License: Apache-2.0
+Section: libs
+SourceDateEpoch: 1784936613
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20480
+Filename: rpcd-mod-rrdns_20170710_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4306
+SHA256sum: 5139e3959b248ee5ee11cf62b21f0fb303c8f6f90f98eb39293d83213fd5e0fb
+Description:  Provides rapid mass reverse DNS lookup functionality.
+
+Package: ucode-mod-html
+Version: 1
+Depends: libc, libucode20230711
+Source: feeds/luci/contrib/package/ucode-mod-html
+SourceName: ucode-mod-html
+License: ISC
+Section: utils
+SourceDateEpoch: 1784936613
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 81920
+Filename: ucode-mod-html_1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23200
+SHA256sum: 1d543b8f610d71fc8e70dc989720fdea35d3f331628b7af192010fe8c08dfdc6
+Description:  ucode HTML utility library
+
+Package: ucode-mod-lua
+Version: 1
+Depends: libc, libucode20230711, liblua5.1.5
+Source: feeds/luci/contrib/package/ucode-mod-lua
+SourceName: ucode-mod-lua
+License: ISC
+Section: utils
+SourceDateEpoch: 1784936613
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30720
+Filename: ucode-mod-lua_1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8467
+SHA256sum: 1a2611eff1f3f58aed621b444ee60dca2b8c7adc6165500a3a61382964d00f7d
+Description:  ucode to Lua bridge library
+
