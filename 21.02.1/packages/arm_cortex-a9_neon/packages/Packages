@@ -639,10 +639,10 @@ License: Python/2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
-Installed-Size: 144225
+Installed-Size: 144243
 Filename: python3-asyncio_3.9.7-2_arm_cortex-a9_neon.ipk
-Size: 145238
-SHA256sum: 05be226e0c26158a537240689ab7e79aec2c42fef8201aff9212828ed50c6e08
+Size: 145250
+SHA256sum: bd7ceb11765c717af4123e6eeceabc96094b7205568a2342987656a4d47cf985
 Description:  Python 3.9 asyncio module
 
 Package: python3-base
@@ -654,8 +654,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
 Installed-Size: 136751
 Filename: python3-base_3.9.7-2_arm_cortex-a9_neon.ipk
-Size: 137043
-SHA256sum: c3023a254811fd0520ac3a47e0382b2e93ade3491f41a09c68e7547516043f14
+Size: 137045
+SHA256sum: 4a70cc1d5e6855c413ea3dac3d901c83866a7335ef26a92dac3315ef4ac740eb
 Description:  This package contains only the interpreter and the bare minimum
  for the interpreter to start.
 
@@ -744,10 +744,10 @@ License: Python/2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
-Installed-Size: 175804
+Installed-Size: 175802
 Filename: python3-distutils_3.9.7-2_arm_cortex-a9_neon.ipk
-Size: 176818
-SHA256sum: 8008d5225774315b142c2caeef909a1a05bb706b0255c6fc19f3ca20b6a9d5f6
+Size: 176820
+SHA256sum: 9d2139b91002ea4088448df687a501353a4db7c857fa25ad4267081a2c15ee4c
 Description:  Python 3.9 distutils module
 
 Package: python3-email
@@ -757,10 +757,10 @@ License: Python/2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
-Installed-Size: 113057
+Installed-Size: 113058
 Filename: python3-email_3.9.7-2_arm_cortex-a9_neon.ipk
-Size: 114079
-SHA256sum: 774ee9cd2e9f881786c20321307ec992d0920e30fdbe04653e5e03364fbf4c9d
+Size: 114083
+SHA256sum: 524ce13ad58ffec2ecb31606178b7336a93bcd07b3baeeb8a59e436e5629c033
 Description:  Python 3.9 email module
 
 Package: python3-evdev
@@ -795,10 +795,10 @@ License: Python/2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1851275
+Installed-Size: 1851165
 Filename: python3-light_3.9.7-2_arm_cortex-a9_neon.ipk
-Size: 1851090
-SHA256sum: d53396397ac9482e4270589dcbdbce454140e13f80e89e031bd1c5a54946c5b0
+Size: 1851081
+SHA256sum: 98f0b847523d0158e0bee22b32c272cb6519bb5a60c78f5310ac0e0e65e905d6
 Description:  This package is essentially the python3-base package plus
  a few of the rarely used (and big) libraries stripped out
  into separate packages.
@@ -812,8 +812,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
 Installed-Size: 52142
 Filename: python3-logging_3.9.7-2_arm_cortex-a9_neon.ipk
-Size: 53135
-SHA256sum: 894fade8e4784337e1f0d4404ab0fa00c9574c0a37c21b35a0c18216af6ae005
+Size: 53137
+SHA256sum: cdfc7da31f9afe623df2a9f7bebfdce5dd9af5f5d4044e3b9e45f1f9b9b57dc0
 Description:  Python 3.9 logging module
 
 Package: python3-lzma
@@ -836,10 +836,10 @@ License: Python/2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
-Installed-Size: 99018
+Installed-Size: 99016
 Filename: python3-multiprocessing_3.9.7-2_arm_cortex-a9_neon.ipk
-Size: 100036
-SHA256sum: 32f773efef97234166b7a629be2d8d36271d11c6fec3b6c0eb54eeaf578f0f4a
+Size: 100028
+SHA256sum: 3ac1481f8d04ece7441e89c7b4779311694d85a5d11490940c3681afaf3850ce
 Description:  Python 3.9 multiprocessing
 
 Package: python3-ncurses
@@ -875,10 +875,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
-Installed-Size: 146503
+Installed-Size: 146506
 Filename: python3-pkg-resources_57.4.0-1_arm_cortex-a9_neon.ipk
-Size: 147471
-SHA256sum: aa7acc7c8f1aa00de641edde2144d4f9f228d774d7de6370532614459ca8f0ef
+Size: 147479
+SHA256sum: 715e6b743aa097f71b3b75a5f278afa975786d15e3a9866548fb7351765f6a7b
 Description:  Python 3.9 pkg_resources module (part of setuptools)
 
 Package: python3-pydoc
@@ -890,8 +890,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
 Installed-Size: 191769
 Filename: python3-pydoc_3.9.7-2_arm_cortex-a9_neon.ipk
-Size: 192767
-SHA256sum: 296e38bc5e327b0999c913d9e8f786cc71c5323b2aa67c35e0b43e954358619c
+Size: 192768
+SHA256sum: de1b501b76edbddeee5e500b256ce1be0ba57bb512c9cafeb2497c1d29dabd8f
 Description:  Python 3.9 pydoc module
 
 Package: python3-readline
@@ -927,10 +927,10 @@ License: Python/2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
-Installed-Size: 76378
+Installed-Size: 76379
 Filename: python3-unittest_3.9.7-2_arm_cortex-a9_neon.ipk
-Size: 77359
-SHA256sum: c0aa1ee29ddfb65e458da9c642f3698995cc2311b2eb40e73897ab6ee57ed658
+Size: 77360
+SHA256sum: c75d58cad4ce0365edeefe64cd0ad542094dcad3859bb184aff050647d314852
 Description:  Python 3.9 unittest module
 
 Package: python3-urllib
@@ -953,23 +953,23 @@ License: Python/2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
-Installed-Size: 202170
+Installed-Size: 202173
 Filename: python3-xml_3.9.7-2_arm_cortex-a9_neon.ipk
-Size: 202535
-SHA256sum: 2cbece9379dea0bfe9164dd4caaaea59eca70c7d80da365f3398dcf0c880a1a8
+Size: 202533
+SHA256sum: f60395dd8d30b312f35eb927bfb66f03fa4ba5a4d3cb5fcecf11238ac97847dc
 Description:  Python 3.9 xml libs
 
 Package: python3
 Version: 3.9.7-2
-Depends: libc, python3-light, python3-unittest, python3-ncurses, python3-ctypes, python3-pydoc, python3-decimal, python3-multiprocessing, python3-codecs, python3-readline, python3-gdbm, python3-xml, python3-sqlite3, python3-logging, python3-email, python3-distutils, python3-openssl, python3-urllib, python3-cgi, python3-cgitb, python3-dbm, python3-lzma, python3-asyncio
+Depends: libc, python3-light, python3-unittest, python3-ncurses, python3-ctypes, python3-pydoc, python3-logging, python3-decimal, python3-multiprocessing, python3-urllib, python3-readline, python3-gdbm, python3-sqlite3, python3-xml, python3-distutils, python3-email, python3-openssl, python3-cgi, python3-cgitb, python3-dbm, python3-codecs, python3-lzma, python3-asyncio
 License: Python/2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_neon
 Installed-Size: 104
 Filename: python3_3.9.7-2_arm_cortex-a9_neon.ipk
-Size: 1130
-SHA256sum: b87b883d8cd4b9c50a117ae6798eab7c1330b9c387ce4321a01cc2d1913da514
+Size: 1129
+SHA256sum: 5a60a842ee1f9af622e5fb568f7aacd6ddee98024c4db91364c861c3095cfcc2
 Description:  This package contains the (almost) full Python install.
  It's python3-light + all other packages.
 
