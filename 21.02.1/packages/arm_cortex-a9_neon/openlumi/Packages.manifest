@@ -43,10 +43,10 @@ Section: lang
 SourceDateEpoch: 1640717335
 Maintainer: mrG1K <mr@g1k.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1782681
+Installed-Size: 1782680
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a9_neon.ipk
-Size: 1780378
-SHA256sum: 4f8fd846ba4acfef62b0a8444e8a49d61113e129e5abfe3af96d8ec532460c3a
+Size: 1780261
+SHA256sum: 3be71a326accadb4f206a141fc80e6d9427063ee927fa6c70b9699543cadfe71
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-onvif2mqtt
@@ -77,10 +77,10 @@ Section: lang
 SourceDateEpoch: 1640717335
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7177071
+Installed-Size: 7177078
 Filename: node-zigbee2mqtt-dev_dev-20220217_arm_cortex-a9_neon.ipk
-Size: 7167619
-SHA256sum: 2544187b8fe5ba01b645adbe02450e327e7e5aae08ffac0cd6b5a2eea757e3ce
+Size: 7167818
+SHA256sum: 7f47851683136a4c6c7fb0c82301dd6225943d5a2ee32a412caa5effa96f12f4
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
@@ -111,10 +111,10 @@ Section: lang
 SourceDateEpoch: 1640717335
 Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 124213
+Installed-Size: 124216
 Filename: python3-bleak_0.13.0-1_arm_cortex-a9_neon.ipk
-Size: 121080
-SHA256sum: 626e3737a1346347d189c41e1c934a5be0fa8e90ceac246df3378b77fc909202
+Size: 120434
+SHA256sum: a99678bb5b26dde7428f6d04ffcf321d3bbe836283d62eefcf36cd1090d87cfc
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
