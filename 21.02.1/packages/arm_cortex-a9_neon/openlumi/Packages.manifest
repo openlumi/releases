@@ -45,8 +45,8 @@ Maintainer: mrG1K <mr@g1k.ru>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 1782680
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a9_neon.ipk
-Size: 1780261
-SHA256sum: 3be71a326accadb4f206a141fc80e6d9427063ee927fa6c70b9699543cadfe71
+Size: 1780394
+SHA256sum: d2a218d58104df4ccb96561d8a35af90bdedeb4c4921423ca6f9d6e46001c3cb
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-onvif2mqtt
@@ -67,7 +67,7 @@ SHA256sum: 0bb267796cac3010def31a3213bd188d5f7b7035bebc374499fcc4874c9e66fc
 Description:  node-onvif2mqtt
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220217
+Version: dev-20220218
 Depends: libc, node
 Source: feeds/openlumi/apps/node-zigbee2mqtt-dev
 SourceName: node-zigbee2mqtt-dev
@@ -78,9 +78,9 @@ SourceDateEpoch: 1640717335
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 7177078
-Filename: node-zigbee2mqtt-dev_dev-20220217_arm_cortex-a9_neon.ipk
-Size: 7167818
-SHA256sum: 7f47851683136a4c6c7fb0c82301dd6225943d5a2ee32a412caa5effa96f12f4
+Filename: node-zigbee2mqtt-dev_dev-20220218_arm_cortex-a9_neon.ipk
+Size: 7167834
+SHA256sum: 182dd9d66c3488a907d1efe41524b12b546a2937a7f510e03eb53b51a1a2ec79
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
@@ -111,10 +111,10 @@ Section: lang
 SourceDateEpoch: 1640717335
 Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 124216
+Installed-Size: 124219
 Filename: python3-bleak_0.13.0-1_arm_cortex-a9_neon.ipk
-Size: 120434
-SHA256sum: a99678bb5b26dde7428f6d04ffcf321d3bbe836283d62eefcf36cd1090d87cfc
+Size: 120438
+SHA256sum: d4adc1f27c093bb95668278800abb17637e31296d38b4148750b7abead15d7d4
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
