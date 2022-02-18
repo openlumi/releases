@@ -28,10 +28,10 @@ Depends: libc, node, libudev
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1775548
+Installed-Size: 1775556
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a9_neon.ipk
-Size: 1773460
-SHA256sum: e7c3d0c724e5acc372bbdca54d23807c29efc39b618dd49ec19aff1c34d2889f
+Size: 1773346
+SHA256sum: 4cb35e0d22988a66ab546c56e83c3108233d5d623cf2289033f83f64b7aca37c
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-lumi
@@ -40,10 +40,10 @@ Depends: libc, node, libudev
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1168702
+Installed-Size: 1168701
 Filename: node-lumi_1-1_arm_cortex-a9_neon.ipk
-Size: 1161222
-SHA256sum: a35aac7e25eaebca4e5efbb632179a79797ddae644a12707629bea617ae242e1
+Size: 1161256
+SHA256sum: edfeea895e891cd1b72c399eeb6f1804fbe55beec190c278bc336bc703028bc8
 Description:  node-lumi
 
 Package: node-onvif2mqtt
@@ -59,15 +59,15 @@ SHA256sum: 235e443481771f991b12da4d36220569687691358084f5858c2e4ccd7f877cae
 Description:  node-onvif2mqtt
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220217
+Version: dev-20220218
 Depends: libc, node
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7173596
-Filename: node-zigbee2mqtt-dev_dev-20220217_arm_cortex-a9_neon.ipk
-Size: 7164533
-SHA256sum: e9c98df6489558c52ec23cbf74e80d8b6414f0526f1f580fde17e8e81de711ca
+Installed-Size: 7173594
+Filename: node-zigbee2mqtt-dev_dev-20220218_arm_cortex-a9_neon.ipk
+Size: 7164539
+SHA256sum: f70ec3e9e20d0f06adec1dbd11906199e77ed9d99f5aef024882a708b5aaef52
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt

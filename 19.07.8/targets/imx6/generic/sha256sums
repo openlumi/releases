@@ -1,10 +1,10 @@
 a1ce47b1b9943e7987f81e237d6971cec5a30baf490ed3e035f817620a428271 *config.buildinfo
-f546b6c5e85f6755a4cea955b5b72b2c7ba6ec31dde2ba9d5fd080379ce476a9 *feeds.buildinfo
+dfadf50ccced88cf99d784fc68e9edb177d4d4a5e7b756786dd89a7c14ec9ed4 *feeds.buildinfo
 ef9f61e19cc28b1ec88966f73ccc1f24f4c94a9299baedb09a5665b376e9f537 *openlumi-19.07.8-imx6-device-lumi-rootfs.tar.gz
 91694a2250e0bbba2bb3cb7951b1a214d85ff6bee9962a5e5b75120e8b0385ec *openlumi-19.07.8-imx6-device-lumi.manifest
 4370cfe6ff3c1378d7196a4f301ddc30cf3ab4773cf2e640ecbfb31047bb86e6 *openlumi-19.07.8-imx6-imx6ull-xiaomi-lumi.dtb
 4dc258ca0856bcc05150de9118252f726ecd6a4b901aa5b9e7a7c75804bee416 *openlumi-19.07.8-imx6-lumi-squashfs-rootfs.bin
-6e423bae3d4fa1048f2d7721fcb559f4f447d19afea086b68647bf78a5fb2f82 *openlumi-19.07.8-imx6-lumi-squashfs-sysupgrade-with-dtb.bin
-a518a273b49b3060c29b977d2383af68ab1e14a1e48db187496c3dc5dffc5b96 *openlumi-19.07.8-imx6-lumi-squashfs-sysupgrade.bin
-f578f1c294096024db2e6764da407daec538b94555032751a6122e3f9af366ec *openlumi-19.07.8-imx6-lumi-zImage
+c9a279e744a9fb580de7aab2f8421f3184a1364b2ccffd91f6935c4a3b295aa2 *openlumi-19.07.8-imx6-lumi-squashfs-sysupgrade-with-dtb.bin
+152eec90e5937b3fc564bf84947bae306e27b881b34ee2c12f1c8e97451b2e14 *openlumi-19.07.8-imx6-lumi-squashfs-sysupgrade.bin
+a2b142526faf119f34126bda6561c236f33f40f0423cb79f0bdc29dda5f7693a *openlumi-19.07.8-imx6-lumi-zImage
 94bc911885f7110d32e9e96143dcf8d9793c666f2a1bbad6e0cfae762c86e6f4 *version.buildinfo
