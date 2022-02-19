@@ -1099,10 +1099,10 @@ Section: kernel
 SourceDateEpoch: 1641123321
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 200878
+Installed-Size: 200763
 Filename: kmod-ath10k-smallbuffers_5.4.179+5.10.85-1-1_arm_cortex-a9_neon.ipk
-Size: 199819
-SHA256sum: 01218e91db01ba8eb81ca2f008b8bb225d94aba7b3c6120fb7a37fdf6899665c
+Size: 199711
+SHA256sum: ece60a199017959d176adbf1723cd700eb087f31a97152e6b1eff5ca2c3bda5e
 Description:  Atheros 802.11ac wireless cards support (small buffers for low-RAM devices)
 
 Package: kmod-ath10k
@@ -10574,13 +10574,13 @@ Source: package/kernel/rtl8189es-ol
 SourceName: kmod-rtl8189es-ol
 License: GPLv2
 Section: kernel
-SourceDateEpoch: 1645192966
+SourceDateEpoch: 1645217991
 Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 819713
+Installed-Size: 819715
 Filename: kmod-rtl8189es-ol_5.4.179+2021-04-01-07df9757-2_arm_cortex-a9_neon.ipk
-Size: 791303
-SHA256sum: 2ea4049937aec075a86640f864883c2965e6353d04db157fd7fedd6589eef9a3
+Size: 790970
+SHA256sum: 6073e1588b0f2b90a28898255ab2ffcfda5a70b4f112f7453bb22ce2a0502046
 Description:  Realtek RTL8189ES SDIO WiFi support (out-of-tree)
 
 Package: kmod-rtl8192c-common
@@ -10666,13 +10666,13 @@ Source: package/kernel/rtl8723bs-ol
 SourceName: kmod-rtl8723bs-ol
 License: GPLv2
 Section: kernel
-SourceDateEpoch: 1645192966
+SourceDateEpoch: 1645217991
 Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 839083
+Installed-Size: 839087
 Filename: kmod-rtl8723bs-ol_5.4.179+2020-04-14-8171031d-2_arm_cortex-a9_neon.ipk
-Size: 822005
-SHA256sum: c3ca664e5f9a8199d92ebd3ab3cc0be513012addee396fc567ed2abdefbb3088
+Size: 821986
+SHA256sum: cf8017e997d81147c7002ad0a82be69e3e63e01ba8d470aa93893bc9d3714c03
 Description:  Realtek RTL8723BS SDIO WiFi support (out-of-tree)
 
 Package: kmod-rtl8812au-ct
@@ -14708,12 +14708,12 @@ SourceName: uboot-envtools
 License: GPL-2.0 GPL-2.0+
 LicenseFiles: Licenses/README
 Section: utils
-SourceDateEpoch: 1645192966
+SourceDateEpoch: 1645217991
 Architecture: arm_cortex-a9_neon
-Installed-Size: 13574
+Installed-Size: 13571
 Filename: uboot-envtools_2021.01-12_arm_cortex-a9_neon.ipk
-Size: 14337
-SHA256sum: 7beba68da1869972aadeb3b5725675c06a463d4d37852fce6d6157904eff335d
+Size: 14324
+SHA256sum: 896d856addbba5878afba09c9c16786374c646616d3b8e7fbf7ba62657828ebc
 Description:  This package includes tools to read and modify U-Boot bootloader environment.
 
 Package: umbim

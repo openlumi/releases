@@ -297,10 +297,10 @@ Version: 0.11-2
 Depends: libc, memtool
 Section: utils
 Architecture: arm_cortex-a9_neon
-Installed-Size: 26528
+Installed-Size: 26529
 Filename: jntools_0.11-2_arm_cortex-a9_neon.ipk
-Size: 27251
-SHA256sum: 9a39eef34d23675451e54565afe2dae76d730405d295748f4f0d403bdcdcf4c4
+Size: 27250
+SHA256sum: b21e0f69e5d9dc677f8cf298ff309dd7d8f5283a8e42d8d3a1c391ddb061ad1d
 Description:  jntools - a set of tools to flash and manage jn5169 zigbee chip
 
 Package: jshn
@@ -333,10 +333,10 @@ Depends: libc
 License: GPLv2
 Section: utils
 Architecture: arm_cortex-a9_neon
-Installed-Size: 87367
+Installed-Size: 87365
 Filename: kobs-ng_5.4-1_arm_cortex-a9_neon.ipk
-Size: 87416
-SHA256sum: 0132924ece60d8561a23f9189c9e013c9671b273fefb8de88ec64a7459005f4c
+Size: 87384
+SHA256sum: d66d5f22da0d17ed77bfe4e58dd43563215215980fceb2cd18187726b3e38aea
 Description:  The kobs-ng application writes a bootstream to NAND flash with the proper
  FCB/DBBT headers and replicated streams.
 
@@ -798,15 +798,15 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language interpreter.
 
 Package: luci-app-jntools
-Version: git-22.049.50566-bfeffcf
+Version: git-22.049.75591-ce68e21
 Depends: libc, jntools, libustream-wolfssl20201210
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 3130
-Filename: luci-app-jntools_git-22.049.50566-bfeffcf_all.ipk
-Size: 4019
-SHA256sum: e380129df58df6c7efa7ec81c1e2d2976f359989d47853e629597bb7612b34b0
+Filename: luci-app-jntools_git-22.049.75591-ce68e21_all.ipk
+Size: 4023
+SHA256sum: ca7b29d66b74da134bec74b7dc807ca2c932de75a90ab73d1cc574397b21b8b9
 Description:  Provides a webadmin for jntools.
 
 Package: memtool
@@ -816,8 +816,8 @@ Section: utils
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2052
 Filename: memtool_1-1_arm_cortex-a9_neon.ipk
-Size: 2782
-SHA256sum: 7ace361b735eead1329ff012f55924ee7fef1ad6a61ae3c1a863ad8a1f32863b
+Size: 2780
+SHA256sum: 86252f83e9b064e3b5ec6491f2f2d3ada5a0fdf4a1c3130425bb74a2dfcd70c4
 Description:  Utility to flash zigbee chip on Xiaomi Lumi gateway
 
 Package: mkf2fs
@@ -1131,10 +1131,10 @@ Version: 20201020-1
 Depends: libc
 Section: utils
 Architecture: arm_cortex-a9_neon
-Installed-Size: 41753
+Installed-Size: 41751
 Filename: rtk_hciattach_20201020-1_arm_cortex-a9_neon.ipk
-Size: 42591
-SHA256sum: ddf3aac812880a4d69c07c11cc590341bf7bbd7825c11627f49492633eacb0d0
+Size: 42578
+SHA256sum: b47c40c588f9b5449e7a16e25dae537a3844f729b320d30de02d1c6ed0c2f649
 Description:  rtl8723bs_bt
 
 Package: rtl8192ce-firmware

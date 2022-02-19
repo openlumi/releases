@@ -98,7 +98,7 @@ logd - 2020-10-25-9ef88681-2
 lua - 5.1.5-9
 luci - git-20.074.84698-ead5e81
 luci-app-firewall - git-22.046.85957-59c3392
-luci-app-jntools - git-22.049.50566-bfeffcf
+luci-app-jntools - git-22.049.75591-ce68e21
 luci-app-opkg - git-21.312.69848-4745991
 luci-base - git-22.046.85957-59c3392
 luci-lib-base - git-20.232.39649-1f6dc29
