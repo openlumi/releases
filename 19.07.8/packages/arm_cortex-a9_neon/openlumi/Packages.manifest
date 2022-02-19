@@ -40,10 +40,10 @@ LicenseFiles: LICENSE
 Section: lang
 Maintainer: mrG1K <mr@g1k.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1775560
+Installed-Size: 1775559
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a9_neon.ipk
-Size: 1773272
-SHA256sum: 835cb535e0c6e08dfb8cb704c95a804bd12299538c5b33d9bc04835cf749c5b3
+Size: 1773486
+SHA256sum: 94a615a4e63074aad71bfdfa925b328738a31c05a15bfe5359ee854c4f2ccd29
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-lumi
@@ -56,10 +56,10 @@ LicenseFiles: LICENSE
 Section: lang
 Maintainer: mrG1K <mr@g1k.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1168703
+Installed-Size: 1168697
 Filename: node-lumi_1-1_arm_cortex-a9_neon.ipk
-Size: 1161227
-SHA256sum: c15632568f561390d23a73021b0f4a4a3c36e1487dd266f2d0584a18f83d6d44
+Size: 1164283
+SHA256sum: 205a8682b1d1970ce244d1392c61991a5319f7999f60947c95961c8c298fdfb9
 Description:  node-lumi
 
 Package: node-onvif2mqtt
@@ -79,7 +79,7 @@ SHA256sum: 235e443481771f991b12da4d36220569687691358084f5858c2e4ccd7f877cae
 Description:  node-onvif2mqtt
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220218
+Version: dev-20220219
 Depends: libc, node
 Source: feeds/openlumi/apps/node-zigbee2mqtt-dev
 SourceName: node-zigbee2mqtt-dev
@@ -88,10 +88,10 @@ LicenseFiles: LICENSE
 Section: lang
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7173591
-Filename: node-zigbee2mqtt-dev_dev-20220218_arm_cortex-a9_neon.ipk
-Size: 7164535
-SHA256sum: a5cb79c49ea5d8ce37919094d8f667c6e3c48b1b4770e033701e144992193f12
+Installed-Size: 7174064
+Filename: node-zigbee2mqtt-dev_dev-20220219_arm_cortex-a9_neon.ipk
+Size: 7165339
+SHA256sum: ce6294fd040a975d953c2d39a4fdd59a15e0bd7b55e4a837f2be8240a81715e5
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
