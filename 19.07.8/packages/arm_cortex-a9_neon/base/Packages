@@ -220,10 +220,10 @@ Alternatives: 200:/sbin/ip:/usr/libexec/ip-tiny
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 136744
+Installed-Size: 136745
 Filename: ip-tiny_5.0.0-2.1_arm_cortex-a9_neon.ipk
-Size: 137430
-SHA256sum: 5275349cc10b1b7096be7d3e4c3d06f57b117a88853aae34078b84834528bf28
+Size: 137425
+SHA256sum: 41df67e5fb3e4097294045e76009737b80a2413fa1d147ecb38656c33b9850ec
 Description:  Routing control utility (Minimal)
 
 Package: iw
