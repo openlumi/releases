@@ -23,15 +23,15 @@ SHA256sum: 3e281e1e4c23e4e28e96218ceaa0c68da4f9c1a70e91245fefd01cc0e0b256c6
 Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
 
 Package: node-npm
-Version: v12.22.10-1
+Version: v12.22.11-1
 Depends: libc, node
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
 Installed-Size: 4010543
-Filename: node-npm_v12.22.10-1_arm_cortex-a9_neon.ipk
-Size: 4003460
-SHA256sum: f361b38087f049edfd3e04a74f473ff26c79e2c7b83ff72a187ce9be891f6648
+Filename: node-npm_v12.22.11-1_arm_cortex-a9_neon.ipk
+Size: 4003459
+SHA256sum: 30596cf64127b4c25d96305af14c3373e58b40b06ca5ad7e9d65512c7f224a81
 Description:  NPM is the package manager for NodeJS
 
 Package: node-red
@@ -40,22 +40,22 @@ Depends: libc, node, node-npm, node-bcrypt, node-bufferutil, node-utf-8-validate
 License: Apache-2.0
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 11313891
+Installed-Size: 11322336
 Filename: node-red_2.2.2-1_arm_cortex-a9_neon.ipk
-Size: 11110002
-SHA256sum: b164cdff742e361f560ea1e9e613327aee72909c1373c8b2b74da2f46fc5da1a
+Size: 11117946
+SHA256sum: 68be86c2721d781c717ee3c4cfe7ac9c89e80cfd5275cb2d9118f48057ae5044
 Description:  A visual tool for wiring the Internet of Things
 
 Package: node-utf-8-validate
-Version: 5.0.8-1
+Version: 5.0.9-1
 Depends: libc, node
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 8895
-Filename: node-utf-8-validate_5.0.8-1_arm_cortex-a9_neon.ipk
-Size: 9723
-SHA256sum: ef2b50268cd79f6161afdd9048ad4c45b9a93763db63ac8af985a4c05677d318
+Installed-Size: 9102
+Filename: node-utf-8-validate_5.0.9-1_arm_cortex-a9_neon.ipk
+Size: 9927
+SHA256sum: 3fc27880c58591209aba983c0bd2f520201d93436166cb04d6beb620ddf6dc4c
 Description:  Check if a buffer contains valid UTF-8 encoded text
 
 Package: node-zigbee2mqtt
@@ -71,15 +71,15 @@ SHA256sum: 5ceced28e0f527a8fcc78717dc0d3f0b7965be4b741e9be50affbb40dea5df8f
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node
-Version: v12.22.10-1
+Version: v12.22.11-1
 Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libatomic1
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7074412
-Filename: node_v12.22.10-1_arm_cortex-a9_neon.ipk
-Size: 7056741
-SHA256sum: 0fe15af68f62c22f6fa8debd2c135baa246e72a60b03adb2cf5e7e2cf954a6e0
+Installed-Size: 7074406
+Filename: node_v12.22.11-1_arm_cortex-a9_neon.ipk
+Size: 7056716
+SHA256sum: ad1530d970884be4195a002c6812a8b8cb66ee15d824f741af56fc7f1adfb5d3
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
