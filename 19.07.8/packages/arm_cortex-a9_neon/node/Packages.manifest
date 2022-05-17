@@ -31,7 +31,7 @@ SHA256sum: 3e281e1e4c23e4e28e96218ceaa0c68da4f9c1a70e91245fefd01cc0e0b256c6
 Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
 
 Package: node-npm
-Version: v12.22.11-1
+Version: v12.22.12-1
 Depends: libc, node
 Source: feeds/node/node
 SourceName: node-npm
@@ -41,9 +41,9 @@ Section: lang
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 4010543
-Filename: node-npm_v12.22.11-1_arm_cortex-a9_neon.ipk
+Filename: node-npm_v12.22.12-1_arm_cortex-a9_neon.ipk
 Size: 4003459
-SHA256sum: 30596cf64127b4c25d96305af14c3373e58b40b06ca5ad7e9d65512c7f224a81
+SHA256sum: d013fa94b86932a5f9bf7b358604d72d0f637079100ad749380409de2e501322
 Description:  NPM is the package manager for NodeJS
 
 Package: node-red
@@ -56,10 +56,10 @@ LicenseFiles: LICENSE
 Section: lang
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 11322336
+Installed-Size: 11398207
 Filename: node-red_2.2.2-1_arm_cortex-a9_neon.ipk
-Size: 11117946
-SHA256sum: 68be86c2721d781c717ee3c4cfe7ac9c89e80cfd5275cb2d9118f48057ae5044
+Size: 11194126
+SHA256sum: 4a5c3828a45d34d45f852e192996f54c7a7c9426d3cc7d8d8e827387dc2bf0bc
 Description:  A visual tool for wiring the Internet of Things
 
 Package: node-utf-8-validate
@@ -95,7 +95,7 @@ SHA256sum: 5ceced28e0f527a8fcc78717dc0d3f0b7965be4b741e9be50affbb40dea5df8f
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node
-Version: v12.22.11-1
+Version: v12.22.12-1
 Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libatomic1
 Source: feeds/node/node
 SourceName: node
@@ -104,10 +104,10 @@ LicenseFiles: LICENSE
 Section: lang
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7074406
-Filename: node_v12.22.11-1_arm_cortex-a9_neon.ipk
-Size: 7056716
-SHA256sum: ad1530d970884be4195a002c6812a8b8cb66ee15d824f741af56fc7f1adfb5d3
+Installed-Size: 7075042
+Filename: node_v12.22.12-1_arm_cortex-a9_neon.ipk
+Size: 7057231
+SHA256sum: 9431c0891780e0dc488f649dfd9b825d18615f352b86e4128059bb4813144187
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
