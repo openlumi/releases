@@ -818,10 +818,10 @@ SourceDateEpoch: 1642740535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 144244
+Installed-Size: 144247
 Filename: python3-asyncio_3.9.10-1_arm_cortex-a9_neon.ipk
-Size: 145230
-SHA256sum: 01d8e7b204012429fb8ff8de327eb52b727d9536501b44c9e2d6378c355d0c03
+Size: 145239
+SHA256sum: d6744591b341e7913a2d1cc6cf70405a297c456c3c2699365de490f23463d844
 Description:  Python 3.9 asyncio module
 
 Package: python3-base
@@ -965,8 +965,8 @@ Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 175897
 Filename: python3-distutils_3.9.10-1_arm_cortex-a9_neon.ipk
-Size: 176885
-SHA256sum: f2c65f0e90da99fff0d6be9cf53cc0388f46bff5fb79a7ffa1dcf55139d2e542
+Size: 176887
+SHA256sum: 83f2e8db530e8297e8ab50e06fd902bc0440104e1fb69f8847f297504843b6ed
 Description:  Python 3.9 distutils module
 
 Package: python3-email
@@ -984,7 +984,7 @@ Architecture: arm_cortex-a9_neon
 Installed-Size: 113061
 Filename: python3-email_3.9.10-1_arm_cortex-a9_neon.ipk
 Size: 114056
-SHA256sum: 7a00ce1bc20048d0de7054186a006101e2915c91cc3a0e334b9dfdfaa88cb5a6
+SHA256sum: 3904eb66bd39fa11cfa8c3d353fb7db3309fa57a8255e2ea15403856b8a97411
 Description:  Python 3.9 email module
 
 Package: python3-evdev
@@ -1033,10 +1033,10 @@ SourceDateEpoch: 1642740535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1852346
+Installed-Size: 1852305
 Filename: python3-light_3.9.10-1_arm_cortex-a9_neon.ipk
-Size: 1852194
-SHA256sum: 94def430e2f4dad66d1d8221fa9b83260300c6f0c2750165cee8ef6a6460bc59
+Size: 1852179
+SHA256sum: c8fe7c6d1501380122256c9f4a588f99d94165de4412cda378e72d26cc75d484
 Description:  This package is essentially the python3-base package plus
  a few of the rarely used (and big) libraries stripped out
  into separate packages.
@@ -1089,10 +1089,10 @@ SourceDateEpoch: 1642740535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 99017
+Installed-Size: 99016
 Filename: python3-multiprocessing_3.9.10-1_arm_cortex-a9_neon.ipk
-Size: 100007
-SHA256sum: 66c6d389faad736d9c33b5e41bf5dd09436b8318af95cc785a73eb68bbc7908d
+Size: 100000
+SHA256sum: 922cbb5c7d50efe691e99442650204981e7a8948dd420836c9af7b0aa5d77f28
 Description:  Python 3.9 multiprocessing
 
 Package: python3-ncurses
@@ -1143,10 +1143,10 @@ SourceDateEpoch: 1642740535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 146508
+Installed-Size: 146509
 Filename: python3-pkg-resources_58.1.0-1_arm_cortex-a9_neon.ipk
-Size: 147448
-SHA256sum: 265f8ec8c89c7dd5ad384db9083327183153a147db5a508dfb557c0073a093f0
+Size: 147451
+SHA256sum: df29da2c067789e4ce256bec903a9532418686af78523d19ff0a8d27a9b56fe3
 Description:  Python 3.9 pkg_resources module (part of setuptools)
 
 Package: python3-pydoc
@@ -1161,10 +1161,10 @@ SourceDateEpoch: 1642740535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 193342
+Installed-Size: 193346
 Filename: python3-pydoc_3.9.10-1_arm_cortex-a9_neon.ipk
 Size: 194272
-SHA256sum: 957cf040dfcc014bce1fd29d7cc2ede32fe1ef0cc667db3cc90d8baf67c1376f
+SHA256sum: 43d563fa58aa5ff21bd06d0d547322d30abf14e63ea80ca117ffa85d03b73ccb
 Description:  Python 3.9 pydoc module
 
 Package: python3-readline
@@ -1215,10 +1215,10 @@ SourceDateEpoch: 1642740535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 76669
+Installed-Size: 76664
 Filename: python3-unittest_3.9.10-1_arm_cortex-a9_neon.ipk
-Size: 77640
-SHA256sum: 0014c1d203ed4494226eade3efd136bf8a4913dd2ade318c687f22e34852bef6
+Size: 77637
+SHA256sum: b09cad4d73797e5b3f650a908c674214624bb6c56bb1f9d9ac27b7315353bb9c
 Description:  Python 3.9 unittest module
 
 Package: python3-urllib
@@ -1259,7 +1259,7 @@ Description:  Python 3.9 xml libs
 
 Package: python3
 Version: 3.9.10-1
-Depends: libc, python3-light, python3-unittest, python3-ncurses, python3-ctypes, python3-pydoc, python3-logging, python3-multiprocessing, python3-urllib, python3-readline, python3-gdbm, python3-sqlite3, python3-xml, python3-distutils, python3-codecs, python3-email, python3-openssl, python3-cgi, python3-cgitb, python3-dbm, python3-asyncio, python3-lzma, python3-decimal
+Depends: libc, python3-light, python3-unittest, python3-ncurses, python3-ctypes, python3-pydoc, python3-logging, python3-multiprocessing, python3-codecs, python3-readline, python3-xml, python3-sqlite3, python3-gdbm, python3-distutils, python3-email, python3-openssl, python3-urllib, python3-cgi, python3-cgitb, python3-dbm, python3-asyncio, python3-lzma, python3-decimal
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python/2.0
@@ -1272,7 +1272,7 @@ Architecture: arm_cortex-a9_neon
 Installed-Size: 105
 Filename: python3_3.9.10-1_arm_cortex-a9_neon.ipk
 Size: 1106
-SHA256sum: 4f12c1f818487a3194b22b9b443024f4db917bb9907c4795f18ba80d3db47ed5
+SHA256sum: 0aa6a3a23cf3d56711ce9efd174ca9c4a246d70d4cd9fea27e08835b077844da
 Description:  This package contains the (almost) full Python install.
  It's python3-light + all other packages.
 

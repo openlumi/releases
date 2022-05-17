@@ -3128,10 +3128,10 @@ Depends: kernel (=5.4.179-1-8b0d4497d01d52d31aff7e69062cd7d3), kmod-nls-base
 License: GPL-2.0-or-later
 Section: kernel
 Architecture: arm_cortex-a9_neon
-Installed-Size: 122869
+Installed-Size: 122868
 Filename: kmod-fs-ntfs3_5.4.179+2021-07-05-46d199e7-3_arm_cortex-a9_neon.ipk
-Size: 123367
-SHA256sum: c64e226d35fc7932073a3dc6b8c5c5df0dac050aaae9c7d5f4fe26cc1eacdb9e
+Size: 123389
+SHA256sum: d35c516a25b2a0b896e8b7536dceecbdd5b2d610988335e2c810d28a43be2e88
 Description:  Windows OS native file system (NTFS) support up to NTFS version 3.1.
 
 Package: kmod-fs-ntfs
