@@ -4,10 +4,10 @@ Depends: libc, bluez-utils, python3-light, python3-aio-mqtt, python3-bleak
 License: GPL-3.0
 Section: openlumi
 Architecture: arm_cortex-a9_neon
-Installed-Size: 63717
+Installed-Size: 63714
 Filename: ble2mqtt_0.1.0a47-1_arm_cortex-a9_neon.ipk
-Size: 64725
-SHA256sum: 0593e7fd8d10e7783c6f44a7121c0cb9f5b902de8f2aa5d13d8a165bbb7f6095
+Size: 64730
+SHA256sum: 5c3074a9736552d7ccd5b46da4ebf4b7904dea940e96f6b36161a710b7dc6065
 Description:  Service to export BLE devices to MQTT with Home Assistant discovery
 
 Package: lumimqtt
@@ -16,10 +16,10 @@ Depends: libc, kmod-hid, python3-base, python3-evdev, python3-pkg-resources, pyt
 License: GPL-3.0
 Section: openlumi
 Architecture: arm_cortex-a9_neon
-Installed-Size: 17426
+Installed-Size: 17427
 Filename: lumimqtt_1.0.14-1_arm_cortex-a9_neon.ipk
-Size: 18304
-SHA256sum: 7789f14bb724da0c69dd1d9274d04b5d74a1a7a03aa9226cd72a364119e2baee
+Size: 18303
+SHA256sum: aaf4d95c7caf2a97de678b1ea5869174a8a052687e856eafbc70ce83a00b92ee
 Description:  MQTT agent for Xiaomi Lumi gateway
 
 Package: node-espruinohub
@@ -28,10 +28,10 @@ Depends: libc, node, libudev
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1795779
+Installed-Size: 1795678
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a9_neon.ipk
-Size: 1793122
-SHA256sum: c9727c6ddb957251fa22ca592c003c6495887fc4d8650377ad33f6c773454240
+Size: 1792764
+SHA256sum: dd666811ab9ce29e309493044863cc80cdf4acb77ac630464c76160a9e0cb8c5
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-onvif2mqtt
@@ -40,22 +40,22 @@ Depends: libc, node
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1108915
+Installed-Size: 1108390
 Filename: node-onvif2mqtt_1-1_arm_cortex-a9_neon.ipk
-Size: 1106062
-SHA256sum: 0bb267796cac3010def31a3213bd188d5f7b7035bebc374499fcc4874c9e66fc
+Size: 1106594
+SHA256sum: 79d3378aad1f7d725bf663892156e07049725751e853919d60e78ea80a51f9e6
 Description:  node-onvif2mqtt
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220402
+Version: dev-20220517
 Depends: libc, node
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5933929
-Filename: node-zigbee2mqtt-dev_dev-20220402_arm_cortex-a9_neon.ipk
-Size: 5924202
-SHA256sum: 4da98a13da7d3b3f3f1bdb05dc45b6bdc69f1d3156491dfff23254a94536ed60
+Installed-Size: 5821523
+Filename: node-zigbee2mqtt-dev_dev-20220517_arm_cortex-a9_neon.ipk
+Size: 5811168
+SHA256sum: c9392cc16a5edc26464d0d2ae4dfee2af9740e5ed29563212b47f8265394e921
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
@@ -64,10 +64,10 @@ Depends: libc, python3-base, python3-asyncio, python3-openssl
 License: APACHE
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 15516
+Installed-Size: 15518
 Filename: python3-aio-mqtt_0.2.0-1_arm_cortex-a9_neon.ipk
-Size: 16329
-SHA256sum: 68f1e9d75a8f22e93fb9d55156f29ee48b2442dab5f4bb2ff6a9620cf8f01c50
+Size: 16338
+SHA256sum: 89fdd45a15bd74510766dc78513ce6f3dc759f74808e7c7d6abd201e03d5d388
 Description:  Asynchronous MQTT client for 3.1.1 protocol version.
 
 Package: python3-bleak
@@ -76,10 +76,10 @@ Depends: libc, python3-light, python3-asyncio, python3-dbus-next
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 124225
+Installed-Size: 124221
 Filename: python3-bleak_0.13.0-1_arm_cortex-a9_neon.ipk
-Size: 120449
-SHA256sum: c3ac90ec63413d7c9c84738b7c669247d024a413ce29a7432a03a4de55afd6df
+Size: 120481
+SHA256sum: 1f0cbdfcc3064e0d53133b57252523d43c05973a44e859e177b1970620e72347
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
@@ -88,10 +88,10 @@ Depends: libc, python3, glib2
 License: GPL-2.0
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 308596
+Installed-Size: 308593
 Filename: python3-bluepy_1.3.0-1_arm_cortex-a9_neon.ipk
-Size: 309195
-SHA256sum: f3bde831b9bd269a1a6729d047f9f855a8225afded506801abd30f215b090f7d
+Size: 309193
+SHA256sum: b2820afdb85359bc69ca723554885d9cc5812c64896809942201237384b94886
 Description:  Python interface to Bluetooth LE on Linux
 
 Package: python3-dbus-next
@@ -100,10 +100,10 @@ Depends: libc, python3-light, python3-asyncio, python3-logging, python3-urllib
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 70800
+Installed-Size: 70758
 Filename: python3-dbus-next_0.2.3-1_arm_cortex-a9_neon.ipk
-Size: 71824
-SHA256sum: 16e17a98c76244d9bccfa9762fbe4f5147e6a9710b625f094c397dce4f9b435d
+Size: 71785
+SHA256sum: 20c4258c86274f8fa04a63f15e5f5f37597cb671450f98e7f2a19a0620bf58f1
 Description:  python-dbus-next is a Python library for DBus that aims to be a fully featured high level library 
  primarily geared towards integration of applications into Linux desktop and mobile environments.
 
