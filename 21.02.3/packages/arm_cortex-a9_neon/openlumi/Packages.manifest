@@ -1,0 +1,154 @@
+Package: ble2mqtt
+Version: 0.1.0a47-1
+Depends: libc, bluez-utils, python3-light, python3-aio-mqtt, python3-bleak
+Source: feeds/openlumi/apps/ble2mqtt
+SourceName: ble2mqtt
+License: GPL-3.0
+LicenseFiles: PKG-INFO
+Section: openlumi
+SourceDateEpoch: 1652819130
+Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 63714
+Filename: ble2mqtt_0.1.0a47-1_arm_cortex-a9_neon.ipk
+Size: 64730
+SHA256sum: 5c3074a9736552d7ccd5b46da4ebf4b7904dea940e96f6b36161a710b7dc6065
+Description:  Service to export BLE devices to MQTT with Home Assistant discovery
+
+Package: lumimqtt
+Version: 1.0.14-1
+Depends: libc, kmod-hid, python3-base, python3-evdev, python3-pkg-resources, python3-logging, python3-asyncio, python3-openssl, python3-aio-mqtt
+Source: feeds/openlumi/apps/lumimqtt
+SourceName: lumimqtt
+License: GPL-3.0
+LicenseFiles: PKG-INFO
+Section: openlumi
+SourceDateEpoch: 1652819130
+Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17427
+Filename: lumimqtt_1.0.14-1_arm_cortex-a9_neon.ipk
+Size: 18303
+SHA256sum: aaf4d95c7caf2a97de678b1ea5869174a8a052687e856eafbc70ce83a00b92ee
+Description:  MQTT agent for Xiaomi Lumi gateway
+
+Package: node-espruinohub
+Version: 0.0.2-10
+Depends: libc, node, libudev
+Source: feeds/openlumi/apps/node-espruinohub
+SourceName: node-espruinohub
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1652819130
+Maintainer: mrG1K <mr@g1k.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1795694
+Filename: node-espruinohub_0.0.2-10_arm_cortex-a9_neon.ipk
+Size: 1792830
+SHA256sum: 169598dcf993a579a4314e87aa1fc3e8d7154ea01314c4e6316a6c8099f7742f
+Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
+
+Package: node-onvif2mqtt
+Version: 1-1
+Depends: libc, node
+Source: feeds/openlumi/apps/node-onvif2mqtt
+SourceName: node-onvif2mqtt
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1652819130
+Maintainer: mrG1K <mr@g1k.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1108390
+Filename: node-onvif2mqtt_1-1_arm_cortex-a9_neon.ipk
+Size: 1106594
+SHA256sum: 79d3378aad1f7d725bf663892156e07049725751e853919d60e78ea80a51f9e6
+Description:  node-onvif2mqtt
+
+Package: node-zigbee2mqtt-dev
+Version: dev-20220518
+Depends: libc, node
+Source: feeds/openlumi/apps/node-zigbee2mqtt-dev
+SourceName: node-zigbee2mqtt-dev
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1652819130
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5830538
+Filename: node-zigbee2mqtt-dev_dev-20220518_arm_cortex-a9_neon.ipk
+Size: 5818203
+SHA256sum: 51262db17ed86a9730b5e088ed94b716985f67a565b751331019c8a9006e75ae
+Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: python3-aio-mqtt
+Version: 0.2.0-1
+Depends: libc, python3-base, python3-asyncio, python3-openssl
+Source: feeds/openlumi/libs/python3-aio-mqtt
+SourceName: python3-aio-mqtt
+License: APACHE
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1652819130
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 15518
+Filename: python3-aio-mqtt_0.2.0-1_arm_cortex-a9_neon.ipk
+Size: 16338
+SHA256sum: 89fdd45a15bd74510766dc78513ce6f3dc759f74808e7c7d6abd201e03d5d388
+Description:  Asynchronous MQTT client for 3.1.1 protocol version.
+
+Package: python3-bleak
+Version: 0.13.0-1
+Depends: libc, python3-light, python3-asyncio, python3-dbus-next
+Source: feeds/openlumi/libs/python3-bleak
+SourceName: python3-bleak
+License: MIT
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1652819130
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 124220
+Filename: python3-bleak_0.13.0-1_arm_cortex-a9_neon.ipk
+Size: 120515
+SHA256sum: db4871eaf6908b76c82139d7ecc3bfb5d32df208e9f99b980d50b88d04579b4c
+Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
+
+Package: python3-bluepy
+Version: 1.3.0-1
+Depends: libc, python3, glib2
+Source: feeds/openlumi/libs/python3-bluepy
+SourceName: python3-bluepy
+License: GPL-2.0
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1652819130
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 308594
+Filename: python3-bluepy_1.3.0-1_arm_cortex-a9_neon.ipk
+Size: 309191
+SHA256sum: 82ad9bc30409b4e007f83d6f58cbb710dc80f49cbca17edf1d0082389558f443
+Description:  Python interface to Bluetooth LE on Linux
+
+Package: python3-dbus-next
+Version: 0.2.3-1
+Depends: libc, python3-light, python3-asyncio, python3-logging, python3-urllib
+Source: feeds/openlumi/libs/python3-dbus-next
+SourceName: python3-dbus-next
+License: MIT
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1652819130
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 70758
+Filename: python3-dbus-next_0.2.3-1_arm_cortex-a9_neon.ipk
+Size: 71785
+SHA256sum: 20c4258c86274f8fa04a63f15e5f5f37597cb671450f98e7f2a19a0620bf58f1
+Description:  python-dbus-next is a Python library for DBus that aims to be a fully featured high level library 
+ primarily geared towards integration of applications into Linux desktop and mobile environments.
+
