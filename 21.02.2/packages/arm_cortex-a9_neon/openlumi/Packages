@@ -28,10 +28,10 @@ Depends: libc, node, libudev
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1795680
+Installed-Size: 1795687
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a9_neon.ipk
-Size: 1792770
-SHA256sum: 652f31329d80ad307728ef39368cfde9331c5c8bc05fb52a8a0de713c248aa4c
+Size: 1792827
+SHA256sum: cf4297572bf4f5fe7bb2c2e9ddfb0d2b968d3e479699a422c335ddd77e6b8519
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-onvif2mqtt
@@ -47,15 +47,15 @@ SHA256sum: 79d3378aad1f7d725bf663892156e07049725751e853919d60e78ea80a51f9e6
 Description:  node-onvif2mqtt
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220517
+Version: dev-20220518
 Depends: libc, node
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5821523
-Filename: node-zigbee2mqtt-dev_dev-20220517_arm_cortex-a9_neon.ipk
-Size: 5811230
-SHA256sum: 5f8838027f59e53f7f3de7862c964f3480e8a9f1d11c9cc71fdffb7a41d8f923
+Installed-Size: 5830531
+Filename: node-zigbee2mqtt-dev_dev-20220518_arm_cortex-a9_neon.ipk
+Size: 5818371
+SHA256sum: 14fbd7533cb63640c81c4702643c9987d68f98bac95eef2afeb18b19d2d71de7
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
@@ -76,10 +76,10 @@ Depends: libc, python3-light, python3-asyncio, python3-dbus-next
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 124220
+Installed-Size: 124219
 Filename: python3-bleak_0.13.0-1_arm_cortex-a9_neon.ipk
-Size: 120507
-SHA256sum: 81cac4b88262b801f4fb3a3f69164a7c2734ce9be0b65414cf9893937955602f
+Size: 120476
+SHA256sum: f414a35c9846b7fdb3c4479d654300f5e8f57bcdfbd57945d4b648892d94e6c2
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy

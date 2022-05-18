@@ -161,10 +161,10 @@ Depends: libc, node, node-npm, node-bcrypt, node-bufferutil, node-utf-8-validate
 License: Apache-2.0
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 11401361
+Installed-Size: 11401366
 Filename: node-red_2.2.2-1_arm_cortex-a9_neon.ipk
-Size: 11197096
-SHA256sum: 0bad62f77f37ffcb4850b1344bfdb6a9336fe04f99d9c926a6a489b38a6e9f87
+Size: 11197092
+SHA256sum: 1f6b22dbc2fcd1c4a4331a625371cde5cb35d176bc29b4ae46079b51dc8e906b
 Description:  A visual tool for wiring the Internet of Things
 
 Package: node-serialport-bindings-cpp
@@ -246,10 +246,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:nodejs:node.js
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9916411
+Installed-Size: 9916408
 Filename: node_v14.19.2-1_arm_cortex-a9_neon.ipk
-Size: 9835041
-SHA256sum: 8ffe425e6df057e9299a28c83da34cadc75e67ab4e1e0beb9861ca5e597af492
+Size: 9834722
+SHA256sum: 3a629e00632df4484485cf13467c36b5f7644219cf2ad059797d5ace1619a07b
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
