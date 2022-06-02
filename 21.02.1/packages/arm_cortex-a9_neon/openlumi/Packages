@@ -28,10 +28,10 @@ Depends: libc, node, libudev
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1795678
+Installed-Size: 1795639
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a9_neon.ipk
-Size: 1792764
-SHA256sum: dd666811ab9ce29e309493044863cc80cdf4acb77ac630464c76160a9e0cb8c5
+Size: 1792760
+SHA256sum: 1e6455a574d8906bd071e73619fe38457f5e243232815402aceaf8e8b56edef7
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-onvif2mqtt
@@ -47,15 +47,15 @@ SHA256sum: 79d3378aad1f7d725bf663892156e07049725751e853919d60e78ea80a51f9e6
 Description:  node-onvif2mqtt
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220517
+Version: dev-20220602
 Depends: libc, node
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5821523
-Filename: node-zigbee2mqtt-dev_dev-20220517_arm_cortex-a9_neon.ipk
-Size: 5811168
-SHA256sum: c9392cc16a5edc26464d0d2ae4dfee2af9740e5ed29563212b47f8265394e921
+Installed-Size: 5823270
+Filename: node-zigbee2mqtt-dev_dev-20220602_arm_cortex-a9_neon.ipk
+Size: 5811970
+SHA256sum: 761bb4939fd8841087ef8f09d9c8d3b46411baff03a4e9057c93c4d885bea135
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
@@ -78,8 +78,8 @@ Section: lang
 Architecture: arm_cortex-a9_neon
 Installed-Size: 124221
 Filename: python3-bleak_0.13.0-1_arm_cortex-a9_neon.ipk
-Size: 120481
-SHA256sum: 1f0cbdfcc3064e0d53133b57252523d43c05973a44e859e177b1970620e72347
+Size: 120477
+SHA256sum: 01cb242cec27d4bd448c9bd8f186c1fea383ee761c74ab0c02a262a74ca1522b
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
