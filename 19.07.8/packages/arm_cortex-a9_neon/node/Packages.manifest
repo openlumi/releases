@@ -56,10 +56,10 @@ LicenseFiles: LICENSE
 Section: lang
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 11398207
+Installed-Size: 11409821
 Filename: node-red_2.2.2-1_arm_cortex-a9_neon.ipk
-Size: 11194126
-SHA256sum: 4a5c3828a45d34d45f852e192996f54c7a7c9426d3cc7d8d8e827387dc2bf0bc
+Size: 11205213
+SHA256sum: 8b9fa4eb3dea7511a18d2675d5e3f3746611bdce371657efebe1766ca5c14145
 Description:  A visual tool for wiring the Internet of Things
 
 Package: node-utf-8-validate
