@@ -62,8 +62,8 @@ Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 1813983
 Filename: node-hap-nodejs_0.10.2-1_arm_cortex-a9_neon.ipk
-Size: 1805876
-SHA256sum: 70f5fc338fdf9fe90983c45e073a93efd3463774361e7390a336820117596940
+Size: 1805918
+SHA256sum: b104128da90e2cac506047f7636a84a9ccb4568633912323bbefbf07d8945102
 Description:  HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server
 
 Package: node-johnny-five
@@ -230,10 +230,10 @@ Section: lang
 SourceDateEpoch: 1653946886
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 11409907
+Installed-Size: 11409910
 Filename: node-red_2.2.2-1_arm_cortex-a9_neon.ipk
-Size: 11204068
-SHA256sum: 5c6574804650caf7d35d864cb84bfac9bc4e6e8b3321f6c6da92f155b7cabc19
+Size: 11204218
+SHA256sum: f7e0118633dff7b50ef2a7ef4d0f774efac78ada65907625b3814aff74fe2977
 Description:  A visual tool for wiring the Internet of Things
 
 Package: node-serialport-bindings-cpp
