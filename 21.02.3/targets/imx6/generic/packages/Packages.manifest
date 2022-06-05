@@ -3901,12 +3901,12 @@ SourceName: kmod-fs-ntfs3
 License: GPL-2.0-or-later
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1652819130
+SourceDateEpoch: 1654444654
 Architecture: arm_cortex-a9_neon
-Installed-Size: 122867
+Installed-Size: 122869
 Filename: kmod-fs-ntfs3_5.4.188+2021-07-05-46d199e7-3_arm_cortex-a9_neon.ipk
-Size: 123367
-SHA256sum: 75542384cf3b74f4f9102332e823e538b3c2d879f63eca24afe7ec2ad4845cd0
+Size: 123380
+SHA256sum: 43b616e82a2d20017cf211d9985b68ab0d4db1c87af21a13aebcbbaaa9f65eb9
 Description:  Windows OS native file system (NTFS) support up to NTFS version 3.1.
 
 Package: kmod-fs-ntfs

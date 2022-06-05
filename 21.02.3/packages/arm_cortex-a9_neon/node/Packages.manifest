@@ -62,8 +62,8 @@ Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 1813983
 Filename: node-hap-nodejs_0.10.2-1_arm_cortex-a9_neon.ipk
-Size: 1805876
-SHA256sum: 70f5fc338fdf9fe90983c45e073a93efd3463774361e7390a336820117596940
+Size: 1805918
+SHA256sum: b104128da90e2cac506047f7636a84a9ccb4568633912323bbefbf07d8945102
 Description:  HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server
 
 Package: node-johnny-five
@@ -350,10 +350,10 @@ SourceDateEpoch: 1653946886
 CPE-ID: cpe:/a:nodejs:node.js
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9916695
+Installed-Size: 9922369
 Filename: node_v14.19.3-1_arm_cortex-a9_neon.ipk
-Size: 9835005
-SHA256sum: 8f0d5f88fe6c06638b871dac18f757b43dd2bde89265c5180d3ac250c6d672eb
+Size: 9840775
+SHA256sum: 7a8ecf98798453d78e24cbf726a86c74025d2ec838cfdc589362fc48819b4aee
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
