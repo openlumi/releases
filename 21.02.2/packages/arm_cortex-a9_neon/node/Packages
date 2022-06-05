@@ -246,10 +246,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:nodejs:node.js
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9916415
+Installed-Size: 9922407
 Filename: node_v14.19.3-1_arm_cortex-a9_neon.ipk
-Size: 9834683
-SHA256sum: 5ea59ec16cc53121df6d8ea9e920c4e9a7fe7605e479055805f2852d32cba0c2
+Size: 9840461
+SHA256sum: 7489fffb56596e38f0cb8e57d2f94aa75b57f6665c7561ee69f319308431e0de
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
