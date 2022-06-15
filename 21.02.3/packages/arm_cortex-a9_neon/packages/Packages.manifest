@@ -818,10 +818,10 @@ SourceDateEpoch: 1648410055
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 144574
+Installed-Size: 144572
 Filename: python3-asyncio_3.9.12-1_arm_cortex-a9_neon.ipk
-Size: 145574
-SHA256sum: d0b336cf99e47e028645b9dc8514fee6d682fa386cd9d82d3dd00a584cc9fe17
+Size: 145570
+SHA256sum: 470cad66f0686e89feea6e532e4511b5d984c25fa6719ba7ea896ec064b3b8ed
 Description:  Python 3.9 asyncio module
 
 Package: python3-base
@@ -963,10 +963,10 @@ SourceDateEpoch: 1648410055
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 175890
+Installed-Size: 175891
 Filename: python3-distutils_3.9.12-1_arm_cortex-a9_neon.ipk
 Size: 176883
-SHA256sum: b0cf40921d46a3665aa61377b120b9ab97d67bc17d0e3cc5e0e47a14f05ebfda
+SHA256sum: c38bf5e678c09c3bbb22958b952142c12eb95e87c2104352b2763345724dc9c8
 Description:  Python 3.9 distutils module
 
 Package: python3-email
@@ -981,10 +981,10 @@ SourceDateEpoch: 1648410055
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 113057
+Installed-Size: 113058
 Filename: python3-email_3.9.12-1_arm_cortex-a9_neon.ipk
-Size: 114069
-SHA256sum: 5966f0b1bab890977ede966ae11c57385c656f96df1c09eebac43a49972dc8c1
+Size: 114064
+SHA256sum: 4ad267f8f01b1910ee69e760ff16264ea78bc049b72e4333fb4c518e9f8c933d
 Description:  Python 3.9 email module
 
 Package: python3-evdev
@@ -1033,10 +1033,10 @@ SourceDateEpoch: 1648410055
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1852804
+Installed-Size: 1852680
 Filename: python3-light_3.9.12-1_arm_cortex-a9_neon.ipk
-Size: 1852739
-SHA256sum: fed69334610a33ffb80d4bffd099f467f0a47f0000c539b6cd54051e385e951b
+Size: 1852549
+SHA256sum: f0cb5b51a894a0ae7f6491c337045faf3adecb5e356cc0862b69a0bd9c1a7df3
 Description:  This package is essentially the python3-base package plus
  a few of the rarely used (and big) libraries stripped out
  into separate packages.
@@ -1089,10 +1089,10 @@ SourceDateEpoch: 1648410055
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 99015
+Installed-Size: 99016
 Filename: python3-multiprocessing_3.9.12-1_arm_cortex-a9_neon.ipk
 Size: 100004
-SHA256sum: 81264f319fd99c9068aea5294db2c16c9a6182e54056c09dc0816b8627f4fb4b
+SHA256sum: 3c28dd11ea05e579fff20234d8b78e686d705335fb24965d35284d92e501a66a
 Description:  Python 3.9 multiprocessing
 
 Package: python3-ncurses
@@ -1143,10 +1143,10 @@ SourceDateEpoch: 1648410055
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 146502
+Installed-Size: 146504
 Filename: python3-pkg-resources_58.1.0-1_arm_cortex-a9_neon.ipk
-Size: 147444
-SHA256sum: c673369ec1f49009cf57efd9dad683f5cbeb912bc718f723a330daae6406bc20
+Size: 147446
+SHA256sum: 8cbe92889a16f528a3e8f82b3df130fb099458714a2ec27d9ae87c7afeaa8eba
 Description:  Python 3.9 pkg_resources module (part of setuptools)
 
 Package: python3-pydoc
@@ -1161,10 +1161,10 @@ SourceDateEpoch: 1648410055
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 193678
+Installed-Size: 193683
 Filename: python3-pydoc_3.9.12-1_arm_cortex-a9_neon.ipk
-Size: 194594
-SHA256sum: b692bf809aed299f18c36870639b31ba015085f1080db362861344089c12ef35
+Size: 194591
+SHA256sum: aa8cd15371022363cd1c6a64406409a3f67e87cf227c141ead9649bf09bd0f70
 Description:  Python 3.9 pydoc module
 
 Package: python3-readline
@@ -1215,10 +1215,10 @@ SourceDateEpoch: 1648410055
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 77044
+Installed-Size: 77042
 Filename: python3-unittest_3.9.12-1_arm_cortex-a9_neon.ipk
 Size: 78022
-SHA256sum: 10583e3a0b795b3fc8b8f5a7481dddce99e5027e3f545897735401ad8685ae93
+SHA256sum: 3aef638294153d34bfdf11eab5e46e15470c66dd4b7a1d097b46421d08c21f8c
 Description:  Python 3.9 unittest module
 
 Package: python3-urllib
