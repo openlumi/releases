@@ -1,0 +1,14 @@
+f7b48d7e754cbb2ef028722f07a6550d911385806d1b833cf6549db801fe64f6 *config.buildinfo
+f6d279ff143b054ba9c9fa0239b1d89af662474ca89f23d28091a006a8590412 *feeds.buildinfo
+9151d60b597f2df24833426b19320cfed979e8f9475533478dc9ef664c17f457 *openlumi-22.03.0-rc4-imx-cortexa7-aqara_zhwg11lm-squashfs-rootfs.bin
+e02eacf297fe1bb2c184c6b7ab43f232d906875cbb439a8960a8e7557420f79f *openlumi-22.03.0-rc4-imx-cortexa7-aqara_zhwg11lm-squashfs-sysupgrade.bin
+bb809cdd21ceb013f843306ca54d606717d8dc8264de8ee3b9c36acabb7b0126 *openlumi-22.03.0-rc4-imx-cortexa7-aqara_zhwg11lm-zImage
+b50e25222e47eab63e23bedff67fb62c23b899fc6411ef335cc9d85dcbd0aeee *openlumi-22.03.0-rc4-imx-cortexa7-imx6ull-aqara-zhwg11lm.dtb
+8d27ee628cb5292330dcf154bc955e21cbf3a9969bc5e48e7be91b14e97a1bf9 *openlumi-22.03.0-rc4-imx-cortexa7-imx6ull-xiaomi-dgnwg05lm.dtb
+06160c35a5bbc94c15b1e6fea0919a9a87ff454642d013475f090091dc381613 *openlumi-22.03.0-rc4-imx-cortexa7-rootfs.tar.gz
+6e324a64306bfb5f94e2e907ccffe06bead773549ba3fd8797bab3bb5ae0a109 *openlumi-22.03.0-rc4-imx-cortexa7-xiaomi_dgnwg05lm-squashfs-rootfs.bin
+f8e5a1a613e81ac115149cdb11d69c41c978eaf0afedd16022e99d0148a344ef *openlumi-22.03.0-rc4-imx-cortexa7-xiaomi_dgnwg05lm-squashfs-sysupgrade.bin
+bb809cdd21ceb013f843306ca54d606717d8dc8264de8ee3b9c36acabb7b0126 *openlumi-22.03.0-rc4-imx-cortexa7-xiaomi_dgnwg05lm-zImage
+015bdead72fcabc6a2a79d2f850e6fc813420933d5f10ea530afbb6edf11f3c2 *openlumi-22.03.0-rc4-imx-cortexa7.manifest
+9e81dd2eb16031e15b91ffdb2fc3385215e1ba8b4511deec75a8a22fcfd19ebc *profiles.json
+c6e2fbe455f115def47ed0e7e4c004ff6e3baec5189be1c32ec7e010a157f63e *version.buildinfo
