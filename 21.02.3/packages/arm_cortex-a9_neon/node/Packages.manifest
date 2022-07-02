@@ -253,23 +253,6 @@ Size: 126130
 SHA256sum: 214abb086eef8a5a7a1302c6c85474d2cdbda912bae0de0c1617233af6e2645a
 Description:  The Bindings provide a low level interface to work with your serialport. It is possible to use them alone but it's usually easier to use them with an interface.
 
-Package: node-serialport-bindings
-Version: 10.0.1-1
-Depends: libc, node
-Source: feeds/node/node-serialport-bindings
-SourceName: node-serialport-bindings
-License: MIT
-LicenseFiles: LICENSE
-Section: lang
-SourceDateEpoch: 1655160874
-Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
-Architecture: arm_cortex-a9_neon
-Installed-Size: 470180
-Filename: node-serialport-bindings_10.0.1-1_arm_cortex-a9_neon.ipk
-Size: 470768
-SHA256sum: ac9bbc0825ed02bf7b2cf866b72495ef5260f97ab4cbd875eaf52d8a86320414
-Description:  The Binding is how Node-SerialPort talks to the underlying system. By default, we auto detect Windows, Linux and OS X, and load the appropriate module for your system. You can assign SerialPort.Binding to any binding you like.
-
 Package: node-serialport
 Version: 10.4.0-1
 Depends: libc, node, node-serialport-bindings-cpp
@@ -350,10 +333,10 @@ SourceDateEpoch: 1655160874
 CPE-ID: cpe:/a:nodejs:node.js
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9922356
+Installed-Size: 9916926
 Filename: node_v14.19.3-1_arm_cortex-a9_neon.ipk
-Size: 9840097
-SHA256sum: f7d29b91ae8f03672078637938392269bc0cd4a922f2715f30166d79e40c80a8
+Size: 9834918
+SHA256sum: 62ec52b8722427a24197057d7c86ac7711c286b0b911312bc0e9918a69eb43fd
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
