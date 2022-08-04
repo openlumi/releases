@@ -149,16 +149,16 @@ SHA256sum: b04cee578cb56086f080b4ea2b29f3bcb071c94b9335e594a15365fb060ae072
 Description:  USB Inside Out Edgeport Serial Driver firmware
 
 Package: firewall4
-Version: 2022-05-31-210991df-1
+Version: 2022-06-17-15c38317-1
 Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, kmod-nft-nat6, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
 Provides: uci-firewall
 License: ISC
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 25632
-Filename: firewall4_2022-05-31-210991df-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 26567
-SHA256sum: 5843b6eb23aa20c5150baebfb2868d43be2c79d515d916075b849e7f7390c2c3
+Installed-Size: 26911
+Filename: firewall4_2022-06-17-15c38317-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27934
+SHA256sum: afafc980f4c83745f875fb5b3c78ae6a065a80edf77c0b1e0e58354d630cf390
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
 
@@ -175,29 +175,29 @@ SHA256sum: fde1d4d0e0e76fe42dd1fef3097264128c6712228ab811f609f1f80296b460ed
 Description:  OpenWrt getrandom system helper
 
 Package: hostapd-common
-Version: 2022-01-16-cff80b4f-8
+Version: 2022-01-16-cff80b4f-9
 Depends: libc
 License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 12318
-Filename: hostapd-common_2022-01-16-cff80b4f-8_arm_cortex-a7_neon-vfpv4.ipk
-Size: 13118
-SHA256sum: 910a195a5de31ff648a05b04dce603d56f28f2e7e2e1a6f86657cb78a5490568
+Installed-Size: 12336
+Filename: hostapd-common_2022-01-16-cff80b4f-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13133
+SHA256sum: 2f83e9e64874330f00589fc756bfb95ec84554d4445461d366066e7980ed68a8
 Description:  hostapd/wpa_supplicant common support files
 
 Package: hostapd
-Version: 2022-01-16-cff80b4f-8
-Depends: hostapd-common (=2022-01-16-cff80b4f-8), libc, libnl-tiny1, hostapd-common, libubus20220601
+Version: 2022-01-16-cff80b4f-9
+Depends: hostapd-common (=2022-01-16-cff80b4f-9), libc, libnl-tiny1, hostapd-common, libubus20220601
 License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 383418
-Filename: hostapd_2022-01-16-cff80b4f-8_arm_cortex-a7_neon-vfpv4.ipk
-Size: 384018
-SHA256sum: 6e9e9300149925f21396b2d214702b29b9f57021ca89a5fa732ddae19465e551
+Filename: hostapd_2022-01-16-cff80b4f-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 384011
+SHA256sum: 9b9ce665403baeb3418723b48be24cb90cd142a32d87e2e68b763675595931f3
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator.
 
@@ -259,10 +259,10 @@ Version: 0.11-2
 Depends: libc, memtool
 Section: utils
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 26819
+Installed-Size: 26823
 Filename: jntools_0.11-2_arm_cortex-a7_neon-vfpv4.ipk
 Size: 27501
-SHA256sum: 90dde4a1c7cd6d84ffc15aa33ce6195af32f62741530da002c1e6d80b8029ca6
+SHA256sum: 0a6c868bc4bee0ed9c84ae01164dc78c3cc10f540c99a8bf02e6979b30635036
 Description:  jntools - a set of tools to flash and manage jn5169 zigbee chip
 
 Package: jshn
@@ -610,7 +610,7 @@ SHA256sum: 941f99f71d211ebbe9aa827880fab98c926e6a0fd48951d56f53ffcd2dab5ead
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl1.1
-Version: 1.1.1o-1
+Version: 1.1.1q-1
 Depends: libc
 Provides: libopenssl
 License: OpenSSL
@@ -618,10 +618,10 @@ Section: libs
 ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1106520
-Filename: libopenssl1.1_1.1.1o-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1096156
-SHA256sum: 99c8078de5a970d254b9d4b6d0f3920b1312df294617eb9ced338d6970b18b16
+Installed-Size: 1106734
+Filename: libopenssl1.1_1.1.1q-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1096561
+SHA256sum: abb1696e1039573a85b08b7c1061a4d82225abdedc8176b6927931fd2a1e1aff
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -761,7 +761,7 @@ Description:  The libucode package provides the shared runtime library for the u
 
 Package: libustream-wolfssl20201210
 Version: 2022-01-16-868fd881-1
-Depends: libc, libubox20220515, libwolfssl5.3.0.ee39414e
+Depends: libc, libubox20220515, libwolfssl5.4.0.ee39414e
 Conflicts: libustream-openssl
 Provides: libustream-wolfssl
 License: ISC
@@ -770,8 +770,8 @@ ABIVersion: 20201210
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 3498
 Filename: libustream-wolfssl20201210_2022-01-16-868fd881-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 4255
-SHA256sum: f094eddbc5bbdab8cc203a11c110e3859f76dc339a1fca4676f4b790116991fb
+Size: 4257
+SHA256sum: 67e375bf493cea71b01d1be36ce128f682e7b03f55fd4ab733c3fe618dc5a2f1
 Description:  ustream SSL Library (wolfssl)
 
 Package: libuuid1
@@ -791,6 +791,22 @@ Description:  The UUID library is used to generate unique identifiers for object
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software
  Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libwolfssl5.4.0.ee39414e
+Version: 5.4.0-stable-5
+Depends: libc
+Provides: libcyassl, libwolfssl, libcyassl5.4.0.ee39414e
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 5.4.0.ee39414e
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 467083
+Filename: libwolfssl5.4.0.ee39414e_5.4.0-stable-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 464851
+SHA256sum: 4c6acb01455e334252520b7a41ac20131e8a34d7c9611b78aa4edbdc1ba98e1b
+Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
+ footprint, both on disk and for memory use.
 
 Package: logd
 Version: 2021-08-03-205defb5-2
@@ -820,15 +836,15 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language interpreter.
 
 Package: luci-app-jntools
-Version: git-22.166.75400-1ba17b4
+Version: git-22.215.63315-f386a4b
 Depends: libc, jntools, libustream-wolfssl20201210
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 3131
-Filename: luci-app-jntools_git-22.166.75400-1ba17b4_all.ipk
-Size: 4027
-SHA256sum: 9e3fcbcf92fcc2eb8e37810d9655fa2cea7c283d24b2119b9346410091180ea6
+Installed-Size: 3132
+Filename: luci-app-jntools_git-22.215.63315-f386a4b_all.ipk
+Size: 4016
+SHA256sum: 360d8e4815a0cd7b83962e4194da644a4594908d140fb1677076a838d5ffcbf2
 Description:  Provides a webadmin for jntools.
 
 Package: memtool
@@ -838,8 +854,8 @@ Section: utils
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 2065
 Filename: memtool_1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2804
-SHA256sum: ce87751cc01b4cff72e48c2dce6f21aae93c33901532bdf323185f344729c023
+Size: 2807
+SHA256sum: 6df45af5d6c1d4aafe9e7481d527149f2258d2f72880805cfe7aafe7b4c10dc1
 Description:  Utility to flash zigbee chip on Xiaomi Lumi gateway
 
 Package: mkf2fs
@@ -903,15 +919,15 @@ SHA256sum: abe85f5b35b99bc3d27e539dbd9769c2fece0b5c2f2f6a06175b6486e48d4e49
 Description:  nftables userspace utility with JSON support
 
 Package: odhcp6c
-Version: 2021-12-05-39b584bc-18
+Version: 2022-07-13-9212bfcb-18
 Depends: libc, libubox20220515
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 25911
-Filename: odhcp6c_2021-12-05-39b584bc-18_arm_cortex-a7_neon-vfpv4.ipk
-Size: 26696
-SHA256sum: f2015712c082477769ea14607f71a9793a3adcaecf5122543015e8599116aa07
+Installed-Size: 25923
+Filename: odhcp6c_2022-07-13-9212bfcb-18_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26704
+SHA256sum: f232f2475743df664645ea0b23b29f1b43bcb45e6b5ca182c7bfd6d5dcc9b07f
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd-ipv6only
@@ -946,16 +962,16 @@ SHA256sum: c784362834aff1c24ea863720e666113d09966f3470b61645718a2c719bfe38e
 Description:  The keyring of with the developer using and gpg public keys.
 
 Package: opkg
-Version: 2022-01-09-2edcfad1-1
+Version: 2022-02-24-d038e5b6-1
 Depends: libc, uclient-fetch, libpthread, libubox20220515
 License: GPL-2.0
 Section: base
 Essential: yes
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 65219
-Filename: opkg_2022-01-09-2edcfad1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 66243
-SHA256sum: 4ac37f34b05a8a32e7651ab14e70966249552ee6b445eb55ff588c89d0df4165
+Installed-Size: 65311
+Filename: opkg_2022-02-24-d038e5b6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 66373
+SHA256sum: a193b89e210b051de4cf252dd10071dfdfdf672efdf5d10ab0f39b9e9843ae0d
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
@@ -1124,10 +1140,10 @@ Version: 20201020-1
 Depends: libc
 Section: utils
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 41680
+Installed-Size: 41682
 Filename: rtk_hciattach_20201020-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 42481
-SHA256sum: 81a00e0c5d3eb65ad902548c0953852465ee27e52a67ea161ae8f7e4e76349bf
+Size: 42495
+SHA256sum: 76360a9b18363e40f543af0f939c4611c5b9cb25f0af8da0bc6989c9bc31655e
 Description:  rtl8723bs_bt
 
 Package: rtl8192cu-firmware
@@ -1151,6 +1167,17 @@ Filename: rtl8192su-firmware_20220411-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 64028
 SHA256sum: 1e61750135c8a247629af74455f918f1770ef7fa3f050e91038203684993d843
 Description:  RealTek RTL8192SU firmware
+
+Package: spidev-test
+Version: 5.10.134-5.10.134
+Depends: libc, kmod-spi-dev
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4423
+Filename: spidev-test_5.10.134-5.10.134_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5130
+SHA256sum: 295f838163d2d8fe9bf4dc75ea32b63b86ba202454938b1f6ec824191e5c82a3
+Description:  SPI testing utility.
 
 Package: terminfo
 Version: 6.3-1
@@ -1351,14 +1378,14 @@ SHA256sum: 749c9faf4048727b870ee3048af4386a63a7c06a1324b23ff9a366c3c6776d9c
 Description:  OpenWrt signature verification utility
 
 Package: wireless-regdb
-Version: 2022.02.18-1
+Version: 2022.06.06-1
 Depends: libc
 Section: firmware
 Architecture: all
-Installed-Size: 2119
-Filename: wireless-regdb_2022.02.18-1_all.ipk
-Size: 2869
-SHA256sum: 5800582cfbde97071328c98042f7a20840c2bf23c27a84514ac75feff8cb57e3
+Installed-Size: 2167
+Filename: wireless-regdb_2022.06.06-1_all.ipk
+Size: 2910
+SHA256sum: 2f35b41408bb379dad4847d7b97a294605cf1a4c30338d2952bc4f083ca3a12b
 Description:  Wireless Regulatory Database
 
 Package: wl12xx-firmware
@@ -1384,17 +1411,17 @@ SHA256sum: 1c07c3eca05bd8b7e8dd2ee49902bbe59ae34b5fb9372da7e9ff3e3eec5aca3b
 Description:  TI WL18xx firmware
 
 Package: wpa-supplicant
-Version: 2022-01-16-cff80b4f-8
-Depends: hostapd-common (=2022-01-16-cff80b4f-8), libc, libnl-tiny1, hostapd-common, libubus20220601
+Version: 2022-01-16-cff80b4f-9
+Depends: hostapd-common (=2022-01-16-cff80b4f-9), libc, libnl-tiny1, hostapd-common, libubus20220601
 Conflicts: wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-mini, wpad-openssl, wpad-wolfssl
 License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 410212
-Filename: wpa-supplicant_2022-01-16-cff80b4f-8_arm_cortex-a7_neon-vfpv4.ipk
-Size: 410242
-SHA256sum: 57524f9128224c4fd61ad5fcb687f73f12a5f86940e09a09f9d3e70739229164
+Filename: wpa-supplicant_2022-01-16-cff80b4f-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 410243
+SHA256sum: b706538a3a436422c2fd76fc437643c2e1fcb2ae35a794ee1e3ab8d16d3d713d
 Description:  WPA Supplicant (built-in full)
 
 Package: wwan
