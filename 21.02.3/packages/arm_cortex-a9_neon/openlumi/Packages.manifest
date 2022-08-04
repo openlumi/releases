@@ -6,13 +6,13 @@ SourceName: ble2mqtt
 License: GPL-3.0
 LicenseFiles: PKG-INFO
 Section: openlumi
-SourceDateEpoch: 1654495512
+SourceDateEpoch: 1659613599
 Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 71298
+Installed-Size: 71300
 Filename: ble2mqtt_0.1.2-1_arm_cortex-a9_neon.ipk
-Size: 72299
-SHA256sum: fc9ce655dd08a271a81fd1b59949a25d6a334c95e70670124584c9eee51985be
+Size: 72305
+SHA256sum: fe06c0f439b7e2212ac0aeb0b3dc8c420a42fa38981dbf947e87e4769329e999
 Description:  Service to export BLE devices to MQTT with Home Assistant discovery
 
 Package: lumimqtt
@@ -23,13 +23,13 @@ SourceName: lumimqtt
 License: GPL-3.0
 LicenseFiles: PKG-INFO
 Section: openlumi
-SourceDateEpoch: 1654495512
+SourceDateEpoch: 1659613599
 Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 17529
+Installed-Size: 17527
 Filename: lumimqtt_1.0.15-1_arm_cortex-a9_neon.ipk
-Size: 18409
-SHA256sum: a8f1a63e2724569afba8bfd09fd25f1b48f592e751ff7d121b2d575845a02ec3
+Size: 18412
+SHA256sum: 1d9ac53fc31582e90fa15c66b490bf71abc8b4ad0427e4cb9ecfdf7ad7b8663f
 Description:  MQTT agent for Xiaomi Lumi gateway
 
 Package: node-espruinohub
@@ -40,13 +40,13 @@ SourceName: node-espruinohub
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1654495512
+SourceDateEpoch: 1659613599
 Maintainer: mrG1K <mr@g1k.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1795072
+Installed-Size: 1795097
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a9_neon.ipk
-Size: 1792377
-SHA256sum: 977cb2c80456254a6a4208eee71be3f9649d7dd535e9a2de6eb51ca09a1dd7a0
+Size: 1792622
+SHA256sum: a4eb3a3ccb63a930457318e63dc09bbdd673b13bf87e4fde4301080d1c0f09f2
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-onvif2mqtt
@@ -57,30 +57,30 @@ SourceName: node-onvif2mqtt
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1654495512
+SourceDateEpoch: 1659613599
 Maintainer: mrG1K <mr@g1k.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1108343
+Installed-Size: 1108918
 Filename: node-onvif2mqtt_1-1_arm_cortex-a9_neon.ipk
-Size: 1106653
-SHA256sum: 0e78eed2ee82b04c02c05aa4101a637680ffdfc913e32a85bae552862faf032b
+Size: 1107129
+SHA256sum: b10976307a85b521e7b94db6b24857cd033d7522cb78c184d6dc70f50c13bdb3
 Description:  node-onvif2mqtt
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220803
+Version: dev-20220804
 Depends: libc, node
 Source: feeds/openlumi/apps/node-zigbee2mqtt-dev
 SourceName: node-zigbee2mqtt-dev
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1654495512
+SourceDateEpoch: 1659613599
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 20065417
-Filename: node-zigbee2mqtt-dev_dev-20220803_arm_cortex-a9_neon.ipk
-Size: 20053325
-SHA256sum: decdd9460dcab6d0cdb6d139a0d49d9e257fdb5ff588458166d9b8d80955ef47
+Installed-Size: 6495811
+Filename: node-zigbee2mqtt-dev_dev-20220804_arm_cortex-a9_neon.ipk
+Size: 6482207
+SHA256sum: 99a7427c35226e15f9b9240881e859e7d4f88abaef0bbfdc591131de169cb7f6
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
@@ -91,13 +91,13 @@ SourceName: python3-aio-mqtt
 License: APACHE
 LicenseFiles: PKG-INFO
 Section: lang
-SourceDateEpoch: 1654495512
+SourceDateEpoch: 1659613599
 Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 15702
+Installed-Size: 15706
 Filename: python3-aio-mqtt_0.3.2-1_arm_cortex-a9_neon.ipk
-Size: 16478
-SHA256sum: e0db2523df0e4efa436eb8e4d5a391ce638265d67e10f0e8856127fbb8dd07a9
+Size: 16480
+SHA256sum: b9f711c28fd6cd051702136a94bf9308767b3c8bd39c853b992d7fabd6742008
 Description:  Asynchronous MQTT client for 3.1.1 protocol version.
 
 Package: python3-bleak
@@ -108,13 +108,13 @@ SourceName: python3-bleak
 License: MIT
 LicenseFiles: PKG-INFO
 Section: lang
-SourceDateEpoch: 1654495512
+SourceDateEpoch: 1659613599
 Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 126099
+Installed-Size: 126096
 Filename: python3-bleak_0.14.3-1_arm_cortex-a9_neon.ipk
-Size: 123844
-SHA256sum: c1ae593b415d296e76fb0cdef73fd35c73967e47638b9a199036251a42a8b4ed
+Size: 124433
+SHA256sum: d73925ca16538073c7d50363d193ea098327a280dd0866125baea736dbc34df4
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
@@ -125,13 +125,13 @@ SourceName: python3-bluepy
 License: GPL-2.0
 LicenseFiles: PKG-INFO
 Section: lang
-SourceDateEpoch: 1654495512
+SourceDateEpoch: 1659613599
 Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 308592
+Installed-Size: 308602
 Filename: python3-bluepy_1.3.0-1_arm_cortex-a9_neon.ipk
-Size: 309175
-SHA256sum: a89f73e208c663b3f9198def40e96025096bfffe0bebf2c75b9fead327b7c42b
+Size: 309184
+SHA256sum: 5d0931d90661588afbc440a3cd571a01c6ad22f3ae3bab29587559d4e80cc6fe
 Description:  Python interface to Bluetooth LE on Linux
 
 Package: python3-dbus-next
@@ -142,13 +142,13 @@ SourceName: python3-dbus-next
 License: MIT
 LicenseFiles: PKG-INFO
 Section: lang
-SourceDateEpoch: 1654495512
+SourceDateEpoch: 1659613599
 Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 70759
+Installed-Size: 70802
 Filename: python3-dbus-next_0.2.3-1_arm_cortex-a9_neon.ipk
-Size: 71788
-SHA256sum: c5d7f70463c509368ec2d2cc3e650af3164310a49833e8e4e7885b2baadac725
+Size: 71827
+SHA256sum: d4c1837393092401c5dd6477f06185013051517a381e63ce75aa545c81e3a867
 Description:  python-dbus-next is a Python library for DBus that aims to be a fully featured high level library 
  primarily geared towards integration of applications into Linux desktop and mobile environments.
 
