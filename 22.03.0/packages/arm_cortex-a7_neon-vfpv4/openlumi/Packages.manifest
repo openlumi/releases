@@ -43,14 +43,14 @@ Section: lang
 SourceDateEpoch: 1659613599
 Maintainer: mrG1K <mr@g1k.ru>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1089973
+Installed-Size: 1089975
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1087757
-SHA256sum: 160b9fac0a12ddd83a02f8a882fa1a6f87d75a1eaa60b428391396e4c6036473
+Size: 1087796
+SHA256sum: 11038f41ed02b8549033493544c4e391c311fbc2c61b54f3ad2252bdc55b7c1a
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220804
+Version: dev-20220805
 Depends: libc, node
 Source: feeds/openlumi/apps/node-zigbee2mqtt-dev
 SourceName: node-zigbee2mqtt-dev
@@ -61,9 +61,9 @@ SourceDateEpoch: 1659613599
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 7601909
-Filename: node-zigbee2mqtt-dev_dev-20220804_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7575931
-SHA256sum: c31aea8160696e1a0bea381f9c9309ed9e3eab500b40c0ab19c6426dc87469ba
+Filename: node-zigbee2mqtt-dev_dev-20220805_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7575910
+SHA256sum: df372ff9bbb61bc30934705950e428417376fc270d1fa102a2aedd1d910d0186
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
@@ -94,10 +94,10 @@ Section: lang
 SourceDateEpoch: 1659613599
 Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 150225
+Installed-Size: 150222
 Filename: python3-bleak_0.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 149394
-SHA256sum: b6ddb90a90273b26dd73352f9ded676a0799d10da6d42687620f37bff7bc6fdd
+Size: 149377
+SHA256sum: e4684f7a34d8c748dcd6b6f7db223e69f361c44c303b91b133517da66abe14ea
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
