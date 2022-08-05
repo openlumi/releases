@@ -221,10 +221,10 @@ Depends: libc, node, node-bufferutil, node-utf-8-validate
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6401582
+Installed-Size: 6401583
 Filename: node-zigbee2mqtt_1.27.0-1_arm_cortex-a9_neon.ipk
-Size: 6387249
-SHA256sum: f0acd81274137ce82a024580a4f0a1dc688b5f9ca2024abae4fec3accbebf8b5
+Size: 6387148
+SHA256sum: 8b9739a460639789d4c9ad985637cc4d759aa78a05f63102bf291f269f915078
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node
