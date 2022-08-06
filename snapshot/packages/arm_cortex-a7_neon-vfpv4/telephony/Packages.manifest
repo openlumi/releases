@@ -1,0 +1,71 @@
+Package: baresip-mod-mqtt
+Version: 1.1.0-4
+Depends: libc, baresip, libmosquitto
+Source: feeds/telephony/net/baresip
+SourceName: baresip-mod-mqtt
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+SourceDateEpoch: 1644774857
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4703
+Filename: baresip-mod-mqtt_1.1.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5486
+SHA256sum: 75f0f7356aa65c3b51cb36ef94e3d2613d987e4308157ff498198e72f8853aea
+Description:  Message Queue Telemetry Transport [MQTT] client
+
+Package: baresip
+Version: 1.1.0-4
+Depends: libc, libre1, librem
+Source: feeds/telephony/net/baresip
+SourceName: baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Require-User: baresip=374:baresip=374
+SourceDateEpoch: 1644774857
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 733735
+Filename: baresip_1.1.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 733946
+SHA256sum: e1c8619bdb84f69bafe5f8e2e178b8a3f6574682ce69ca1d2353e71cd9a620d1
+Description:  Portable and modular SIP User-Agent with A/V support
+
+Package: libre1
+Version: 2.0.1-1
+Depends: libc, libopenssl1.1, zlib
+Provides: libre
+Source: feeds/telephony/libs/re
+SourceName: libre
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+SourceDateEpoch: 1638832415
+ABIVersion: 1
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 169958
+Filename: libre1_2.0.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 169675
+SHA256sum: 033e3ba36f0ceaf3e6909d47b01eb8e5aa3973d79352cd55028bf7765a7f20ac
+Description:  Generic library for real-time communications with async IO support
+
+Package: librem
+Version: 1.0.0-1
+Depends: libc, libre1
+Source: feeds/telephony/libs/rem
+SourceName: librem
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+SourceDateEpoch: 1638832576
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26495
+Filename: librem_1.0.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27219
+SHA256sum: 001414f513389d61d82a828f3c28917e4bcad1ce7a3cbb6b0914832a16d50e78
+Description:  Audio and video processing media library
+

@@ -1,0 +1,103 @@
+Package: ble2mqtt
+Version: 0.1.2-1
+Depends: libc, bluez-utils, python3-light, python3-aio-mqtt, python3-bleak
+Source: feeds/openlumi/apps/ble2mqtt
+SourceName: ble2mqtt
+License: GPL-3.0
+LicenseFiles: PKG-INFO
+Section: openlumi
+SourceDateEpoch: 1659613599
+Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 72538
+Filename: ble2mqtt_0.1.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 73503
+SHA256sum: a834d053298236d691d83b4c799797cd62a41af39b8094f4b651e9d3d1601d93
+Description:  Service to export BLE devices to MQTT with Home Assistant discovery
+
+Package: lumimqtt
+Version: 1.0.15-1
+Depends: libc, kmod-hid, python3-base, python3-evdev, python3-pkg-resources, python3-logging, python3-asyncio, python3-openssl, python3-aio-mqtt
+Source: feeds/openlumi/apps/lumimqtt
+SourceName: lumimqtt
+License: GPL-3.0
+LicenseFiles: PKG-INFO
+Section: openlumi
+SourceDateEpoch: 1659613599
+Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17807
+Filename: lumimqtt_1.0.15-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18680
+SHA256sum: 8e204c129b71caba1b1dff4bfbe9e9e407a6a5d4e72d5ed6e4425c4edf87fb4a
+Description:  MQTT agent for Xiaomi Lumi gateway
+
+Package: python3-aio-mqtt
+Version: 0.3.2-1
+Depends: libc, python3-base, python3-asyncio, python3-openssl
+Source: feeds/openlumi/libs/python3-aio-mqtt
+SourceName: python3-aio-mqtt
+License: APACHE
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1659613599
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15953
+Filename: python3-aio-mqtt_0.3.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16711
+SHA256sum: e3a581d41f9e9498d5aac4cf31745129e47268349bbb5532190924b7b03c7cc8
+Description:  Asynchronous MQTT client for 3.1.1 protocol version.
+
+Package: python3-bleak
+Version: 0.14.3-1
+Depends: libc, python3-light, python3-asyncio, python3-dbus-next
+Source: feeds/openlumi/libs/python3-bleak
+SourceName: python3-bleak
+License: MIT
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1659613599
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 150217
+Filename: python3-bleak_0.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 149319
+SHA256sum: a8fc7476d7ba31ad2f4a020fd2297a7c30914b7b67e3249c124eb373b2192616
+Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
+
+Package: python3-bluepy
+Version: 1.3.0-1
+Depends: libc, python3, glib2
+Source: feeds/openlumi/libs/python3-bluepy
+SourceName: python3-bluepy
+License: GPL-2.0
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1659613599
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 305681
+Filename: python3-bluepy_1.3.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 305781
+SHA256sum: 051d7a0189c65e97bcf9257fcfc66246f6a3bbf4865b5d11efbc8f7628f5c44b
+Description:  Python interface to Bluetooth LE on Linux
+
+Package: python3-dbus-next
+Version: 0.2.3-1
+Depends: libc, python3-light, python3-asyncio, python3-logging, python3-urllib
+Source: feeds/openlumi/libs/python3-dbus-next
+SourceName: python3-dbus-next
+License: MIT
+LicenseFiles: PKG-INFO
+Section: lang
+SourceDateEpoch: 1659613599
+Maintainer: divanikus <d1pro@yandex.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 71725
+Filename: python3-dbus-next_0.2.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 72700
+SHA256sum: a722d644b526c634d938fc195c88231ea9942b0eea74bc8e37de324c9023263e
+Description:  python-dbus-next is a Python library for DBus that aims to be a fully featured high level library 
+ primarily geared towards integration of applications into Linux desktop and mobile environments.
+
