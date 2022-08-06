@@ -40,10 +40,10 @@ Depends: libc, python3-light, python3-asyncio, python3-dbus-next
 License: MIT
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 150219
+Installed-Size: 150220
 Filename: python3-bleak_0.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 149212
-SHA256sum: 23e145b204828ecb8ab93317ac1947aa04ef907dae9d6e62afa04d0ea92b38ba
+Size: 149330
+SHA256sum: bea7932b11d7900f068f6d2421ee5d73c336c7a96d3fdf51b778fe2df7212e84
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
