@@ -6,10 +6,10 @@ Alternatives: 200:/usr/sbin/batctl:/usr/libexec/batctl-default
 License: GPL-2.0-only ISC MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 41138
+Installed-Size: 41254
 Filename: batctl-default_2022.2-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 42245
-SHA256sum: 8f41818001fd544ea52cfee6500708389159a3d37f51458ee0a49ca39d342d2f
+Size: 42297
+SHA256sum: d9a61eb7547610656fbdcee3bd3920ade5c4a258efafc5a1b3571d49dc966526
 Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
  It is an easier method for configuring batman-adv and provides some
  additional tools for debugging as well. This package builds

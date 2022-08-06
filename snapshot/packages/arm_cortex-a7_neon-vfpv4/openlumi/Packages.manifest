@@ -60,10 +60,10 @@ Section: lang
 SourceDateEpoch: 1659613599
 Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 150217
+Installed-Size: 150219
 Filename: python3-bleak_0.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 149319
-SHA256sum: a8fc7476d7ba31ad2f4a020fd2297a7c30914b7b67e3249c124eb373b2192616
+Size: 149212
+SHA256sum: 23e145b204828ecb8ab93317ac1947aa04ef907dae9d6e62afa04d0ea92b38ba
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
@@ -77,10 +77,10 @@ Section: lang
 SourceDateEpoch: 1659613599
 Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 305681
+Installed-Size: 305697
 Filename: python3-bluepy_1.3.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 305781
-SHA256sum: 051d7a0189c65e97bcf9257fcfc66246f6a3bbf4865b5d11efbc8f7628f5c44b
+Size: 305615
+SHA256sum: 8945216e49c5d26b32e56ebb148d4e3faa0dc0c619727c6ea8a10c34c2d45fd6
 Description:  Python interface to Bluetooth LE on Linux
 
 Package: python3-dbus-next

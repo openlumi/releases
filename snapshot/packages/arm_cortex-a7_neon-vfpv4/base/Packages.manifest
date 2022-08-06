@@ -39,10 +39,10 @@ Section: utils
 SourceDateEpoch: 1652625160
 CPE-ID: cpe:/a:kernel:util-linux
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 41903
+Installed-Size: 42021
 Filename: blkid_2.38-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 42569
-SHA256sum: 09e9ccfbfe6d8de71aa2e1597a7af82fe01d9b8f184bbea3df4b134ee280f331
+Size: 42784
+SHA256sum: c462f0a2443c850cfdada1d330bbbb45861f568de8a9dd93f7e1e1ef6412314d
 Description:  The blkid program is the command-line interface to working with the libblkid
  library.
 
@@ -76,10 +76,10 @@ CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 233351
+Installed-Size: 233548
 Filename: busybox_1.35.0-3_arm_cortex-a7_neon-vfpv4.ipk
-Size: 233722
-SHA256sum: cc8517380d6073faac8fea74171404f881529e6681b99167d0545a1f56c5ae1c
+Size: 233944
+SHA256sum: 82ea92edf17b2efaf539f8bf9249a53b019f97e7d748a47e26606a53925739e5
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -139,10 +139,10 @@ SourceDateEpoch: 1616109958
 CPE-ID: cpe:/a:samba:ppp
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 8937
+Installed-Size: 8940
 Filename: chat_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
-Size: 9739
-SHA256sum: 14414f9a21f3b72f709a243bd23380e93673665b0df277aafc6b680e0389cec4
+Size: 9723
+SHA256sum: 9ff5f1f18e7f145b1b873bb5186039925491b8c62c3420079a7b871f921c559b
 Description:  This package contains an utility to establish conversation with other PPP servers
  (via a modem).
 
@@ -158,10 +158,10 @@ Require-User: dnsmasq=453:dnsmasq=453
 SourceDateEpoch: 1651514269
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 132738
+Installed-Size: 133147
 Filename: dnsmasq_2.86-14_arm_cortex-a7_neon-vfpv4.ipk
-Size: 133332
-SHA256sum: 6ad1e54af9035faeb28dfeac75fbcff0634cad47875825b4540e86754ff425e7
+Size: 133649
+SHA256sum: ab214edbdb122e47b0b6b4d15b2585c73fbb236a041999c26ae84117d0c3de53
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
 Package: e2fsprogs
@@ -175,10 +175,10 @@ Section: utils
 SourceDateEpoch: 1643747102
 CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 191657
+Installed-Size: 192187
 Filename: e2fsprogs_1.46.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 191993
-SHA256sum: 7e2cb8754b0bb408428371bfb5c1bd862603f1d4dc507c7937467653995376dd
+Size: 192603
+SHA256sum: 9f4f35d52b2f0318f79620d028db61c0db362b6e45e5e3d5240ae9eebcbee69e
 Description:  This package contains essential ext2 filesystem utilities which consists of
  e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
 
@@ -227,8 +227,8 @@ Maintainer: John Crispin <john@phrozen.org>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 1424
 Filename: getrandom_2022-07-17-46a33b8b-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2187
-SHA256sum: 66e740021e23e94558a24ee950cdfbbe5952b8b9523b2e541829a66f1f02aaf5
+Size: 2188
+SHA256sum: baa2067edfce29982feab86e9f661098d88d550a7680092acf9de56e3a14368b
 Description:  OpenWrt getrandom system helper
 
 Package: hostapd-common
@@ -260,10 +260,10 @@ SourceDateEpoch: 1659219081
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 401742
+Installed-Size: 401368
 Filename: hostapd_2022-06-02-4383528e-12_arm_cortex-a7_neon-vfpv4.ipk
-Size: 402247
-SHA256sum: 0c0ab6b9f9412b90fe5450c0e58268c6eadbfaa37ab219dc4332d1512d0b7294
+Size: 401907
+SHA256sum: b4458ea4fc89d0dec79acea03625e8300d36b2f389e4d4bc1eeff12caadad47e
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator.
 
@@ -280,10 +280,10 @@ SourceDateEpoch: 1646510795
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 143014
+Installed-Size: 143011
 Filename: ip-tiny_5.15.0-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 143794
-SHA256sum: f2228024a6af30343bc93c7ae38bf059b7ccbf1916cc57fae894a1e92ec76ea7
+Size: 143740
+SHA256sum: 104b9a747d524c497ac59188c72dea357040da48a1b110af1f3540c8e03ad799
 Description:  Routing control utility (minimal)
 
 Package: iw
@@ -296,10 +296,10 @@ Section: net
 SourceDateEpoch: 1654952594
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 46137
+Installed-Size: 46151
 Filename: iw_5.19-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 46843
-SHA256sum: f01c1c92d1426cadb67fbdcf60ae35d98475ea7548fab331d0ac9d0f6ed2d880
+Size: 46815
+SHA256sum: a37dc9f430b6daeabb91c5a26a0e12f2c097a8509bc8d859faff68a6335df026
 Description:  cfg80211 interface configuration utility
 
 Package: iwinfo
@@ -314,8 +314,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 7016
 Filename: iwinfo_2022-04-26-dc6847eb-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7840
-SHA256sum: 988f8c8492a7ef76d78094583f7c9522ba41c8af94d719de2f82a56b6c625f19
+Size: 7828
+SHA256sum: dbc86cd615ecc1e3c9743bb72071dfd159b30a4671779a26e7c7f7940d553533
 Description:  Command line frontend for the wireless information library.
 
 Package: jansson5
@@ -330,10 +330,10 @@ Section: libs
 SourceDateEpoch: 1657472867
 ABIVersion: 5
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 19630
+Installed-Size: 19659
 Filename: jansson5_2.14-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 20346
-SHA256sum: c36037821e1b69326f28b96d4fba9c81d9274b24ebf156a306b80200347e72eb
+Size: 20414
+SHA256sum: adc2e9d0f02c2ca27f6e89ca9930c5dac7601714c45f2a5c31dae506c283ef90
 Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
 
 Package: jshn
@@ -346,10 +346,10 @@ Section: utils
 SourceDateEpoch: 1652620834
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 6346
+Installed-Size: 6339
 Filename: jshn_2022-05-15-d2223ef9-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7135
-SHA256sum: b7e7f956ef8e5b0954c388ad482ba6522d6a387b1df05f73b0583cb5b66902c9
+Size: 7118
+SHA256sum: 29909a9c346bd06e4f1e33cd12b8a4cfae8dbb42089866428e12b0de3c1f20f0
 Description:  Library for parsing and generating JSON from shell scripts
 
 Package: jsonfilter
@@ -362,10 +362,10 @@ Section: base
 SourceDateEpoch: 1645878990
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 9154
+Installed-Size: 9156
 Filename: jsonfilter_2018-02-04-c7e938d6-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 9853
-SHA256sum: 6bd6fca6f90192e1d13b4fb3f4df2dca22a6af96e1d15a0d6a8738d5e30d8fbc
+Size: 9923
+SHA256sum: 237ea4720223c714bbbfe6f4bf2b6e2659f8577421f5c4570f8068efc4ffcc54
 Description:  OpenWrt JSON filter utility
 
 Package: kobs-ng
@@ -378,10 +378,10 @@ LicenseFiles: COPYING
 Section: utils
 SourceDateEpoch: 1635939940
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 87783
+Installed-Size: 87457
 Filename: kobs-ng_5.4-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 87823
-SHA256sum: 36a4f493f7171f0f7b9da74fc43389101e623cc04a1fe12b0bef54868a475353
+Size: 87489
+SHA256sum: 90558d42c599c92137e123dd1c18a13179d3a381cd7fb5f44bfe85e0b9bb9d89
 Description:  The kobs-ng application writes a bootstream to NAND flash with the proper
  FCB/DBBT headers and replicated streams.
 
@@ -398,10 +398,10 @@ SourceDateEpoch: 1652625160
 ABIVersion: 1
 CPE-ID: cpe:/a:kernel:util-linux
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 95353
+Installed-Size: 95469
 Filename: libblkid1_2.38-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 95941
-SHA256sum: 73b1afb8efcd773cc642da27e248d7673a28dea84cb1177cf4a8a978202cdd4b
+Size: 96133
+SHA256sum: ae8405ce9e0993300c7e60fcc213fcb938891aca2928c30290ae7451440eb75c
 Description:  The libblkid library is used to identify block devices (disks) as to their
  content (e.g. filesystem type, partitions) as well as extracting additional
  information such as filesystem labels/volume names, partitions, unique
@@ -419,10 +419,10 @@ SourceDateEpoch: 1652620834
 ABIVersion: 20220515
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3438
+Installed-Size: 3441
 Filename: libblobmsg-json20220515_2022-05-15-d2223ef9-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 4198
-SHA256sum: 7d19d5bdbe2677e085e99687d308a79d91d3fae91a22241747185016b7c4f150
+Size: 4199
+SHA256sum: 61d050cc8b5ba46ebb47d44f5546e5bf4ed6a8b11413bfff031d271aeec05043
 Description:  blobmsg <-> json conversion library
 
 Package: libbz2-1.0
@@ -439,10 +439,10 @@ ABIVersion: -1.0
 CPE-ID: cpe:/a:bzip:bzip2
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 24216
+Installed-Size: 24164
 Filename: libbz2-1.0_1.0.8-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 24957
-SHA256sum: 252856373d2af4f6bc8b037ecdbcdcf384e460754f78883780777b1a03b009df
+Size: 24861
+SHA256sum: bf0956091e71059d75ae08f509aaa0a47d5e11089a850b558f0a82b21e8cac37
 Description:  bzip2 is a freely available, patent free, high-quality
  data compressor. This packages provides libbz2 library.
 
@@ -459,10 +459,10 @@ SourceDateEpoch: 1643747102
 ABIVersion: 0
 CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3780
+Installed-Size: 3779
 Filename: libcomerr0_1.46.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 4565
-SHA256sum: 78af568b563c5c9aafb76ae73f12b099d2a84896c30a5242b286220fedd675ff
+Size: 4557
+SHA256sum: 0f038af758fdec2de7402af6ec73724722a25399b93671a542d72f7cd9881b54
 Description:  This package contains libcom_err, the common error description library
  bundled with e2fsprogs.
 
@@ -524,10 +524,10 @@ SourceDateEpoch: 1643747102
 ABIVersion: 2
 CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 172133
+Installed-Size: 171875
 Filename: libext2fs2_1.46.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 172291
-SHA256sum: f1740189ebab69c1a19872c1c3c57a8593b8bfc87dba9fb5ab0e3f600c504acf
+Size: 172128
+SHA256sum: ab57f00765201bbb99588360630e382f162bc36764dbf50b6cd92e27ed31f7b5
 Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
 
 Package: libf2fs6
@@ -544,10 +544,10 @@ SourceDateEpoch: 1656959046
 ABIVersion: 6
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 41624
+Installed-Size: 41647
 Filename: libf2fs6_1.15.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 42332
-SHA256sum: 1a9889933fd836fadb6d44f11c2b8dcf749164020328e69518cc92970fef29f6
+Size: 42386
+SHA256sum: 2c5c9dd48527bd8ecaf141a5ac5149757c27b7864d78a3fa0d26fc742ff0ab47
 Description:  Library for Flash-Friendly File System (F2FS) tools
 
 Package: libiwinfo-data
@@ -576,10 +576,10 @@ Section: lang
 SourceDateEpoch: 1651013664
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 6791
+Installed-Size: 6776
 Filename: libiwinfo-lua_2022-04-26-dc6847eb-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7608
-SHA256sum: eb362cf93a50cb7c6c595fbb7ecadb973fc32d1f1a82b184129f1934d8e6dd2a
+Size: 7616
+SHA256sum: 43080251e97684b2e2e3d2d15829a88b13f09e99a85ca7aa58bb4b13d42c9c58
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
@@ -595,10 +595,10 @@ SourceDateEpoch: 1651013664
 ABIVersion: 20210430
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 25506
+Installed-Size: 25533
 Filename: libiwinfo20210430_2022-04-26-dc6847eb-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 26255
-SHA256sum: 7b47e725a5fb711b9bcc8bb209015cda9bf6884197e451707ec86d076b01c21c
+Size: 26352
+SHA256sum: c6859bd8a87a7dd2dd573fa4c1c1927a33aaea1de8fb3ec36c4f0ce9686a850c
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -616,10 +616,10 @@ ABIVersion: 5
 CPE-ID: cpe:/a:json-c_project:json-c
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 23364
+Installed-Size: 23334
 Filename: libjson-c5_0.16-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 24106
-SHA256sum: 549ac33ef303c940a5637d97ef847e25de7559b2e82e306d481aab077c1c1ef5
+Size: 24064
+SHA256sum: 9873afb457aa8fb982658d159e77f199025fc7e51b6342002a2ac69b64c174d3
 Description:  This package contains a library for javascript object notation backends.
 
 Package: libjson-script20220515
@@ -634,10 +634,10 @@ SourceDateEpoch: 1652620834
 ABIVersion: 20220515
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 4224
+Installed-Size: 4234
 Filename: libjson-script20220515_2022-05-15-d2223ef9-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 4983
-SHA256sum: 6447cb325fe077abe392fd692181059cd406999e48a0478a066ca68d06c3b073
+Size: 4986
+SHA256sum: 2ad6a3e5921ac0e3337c6622747311dbd9479743f87ab8093a57b742c511cae6
 Description:  Minimalistic JSON based scripting engine
 
 Package: liblua5.1.5
@@ -653,10 +653,10 @@ SourceDateEpoch: 1641202471
 ABIVersion: 5.1.5
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 60689
+Installed-Size: 60894
 Filename: liblua5.1.5_5.1.5-10_arm_cortex-a7_neon-vfpv4.ipk
-Size: 61415
-SHA256sum: c3efa4ffae6ef49730f8acd1c8adab36696008c0d0fc478010ed7d263d1223a4
+Size: 61562
+SHA256sum: 122ef8511716a1f4b884b548499e3fbbd7294fda7edaf1c7c7b386072ca78c49
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -675,10 +675,10 @@ SourceDateEpoch: 1658058228
 ABIVersion: 12
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 194719
+Installed-Size: 193863
 Filename: libmbedtls12_2.28.0-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 195397
-SHA256sum: a392ae00399ddff5adbf6eb6ac914097e1175f5824f5fd372c41dd05a83bed6f
+Size: 194484
+SHA256sum: c08d9e2a583b511af6c29c6d06e234bb238b8c3befc6259928ac78a051e2f06c
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -695,10 +695,10 @@ SourceDateEpoch: 1659292220
 ABIVersion: 0
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 5438
+Installed-Size: 5437
 Filename: libmnl0_1.0.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 6675
-SHA256sum: 80e62cc2d2d7f25c79cbf6bc47e1cce8720e05925a0489ab4bee2f9c9205008e
+Size: 6661
+SHA256sum: 9f93ca59d60111f768ac761ffb7153e72e4542c9b16d413de92b26d5dc424366
 Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
  There are a lot of common tasks in parsing, validating, constructing of
  both the Netlink header and TLVs that are repetitive and easy to get wrong.
@@ -733,10 +733,10 @@ Section: libs
 SourceDateEpoch: 1647708149
 ABIVersion: 6
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 157479
+Installed-Size: 157747
 Filename: libncurses6_6.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 155628
-SHA256sum: b6a70677cea5ec6d7390b0083973e82f2206cc30deaa51ec305b4b583db129c4
+Size: 155781
+SHA256sum: c93601b67b97af0b36cd22af49e983d3e6519d8dc68be246ef89a0d013c78625
 Description:  Terminal handling library (Unicode)
 
 Package: libnftnl11
@@ -752,10 +752,10 @@ SourceDateEpoch: 1656083424
 ABIVersion: 11
 Maintainer: Steven Barth <steven@midlink.org>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 50446
+Installed-Size: 50393
 Filename: libnftnl11_1.2.2-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 51059
-SHA256sum: 50f0ad45bd173fd9cfee3ab087cea8f914c3a3a3b290a60dd6cd22a995b9aa96
+Size: 51056
+SHA256sum: 72a5509820005e1a194b71c1690deed6f7de603e7363aa1d26de8a3627001a42
 Description:  libnftnl is a userspace library providing a low-level netlink
  programming interface (API) to the in-kernel nf_tables subsystem.
 
@@ -771,10 +771,10 @@ SourceDateEpoch: 1653307964
 ABIVersion: 2022-05-17
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 12687
+Installed-Size: 12700
 Filename: libnl-tiny2022-05-17_2022-05-17-b5b2ba09-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 13470
-SHA256sum: 9cc00d58ac83b38a7c47005b73ab46d41d88dd12ae87a4ea1e9af711ad7d2b29
+Size: 13483
+SHA256sum: 42530f9f295e035fddf5d28ef9cdca2c8cd465f911cc07bb1cb7152c844dcd82
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl1.1
@@ -791,10 +791,10 @@ ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1110118
+Installed-Size: 1106738
 Filename: libopenssl1.1_1.1.1q-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1100036
-SHA256sum: a8be8c1a34c024ea6c7fa5227678c8d89202cea79252f0cf336a1212df470e07
+Size: 1096372
+SHA256sum: 85998f8ee37748af74d74a9350658d5f19aac95cf46d6c1abb8bb853aad5edde
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -813,10 +813,10 @@ SourceDateEpoch: 1650110531
 CPE-ID: cpe:/a:pcre:pcre
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 135778
+Installed-Size: 135332
 Filename: libpcre_8.45-4_arm_cortex-a7_neon-vfpv4.ipk
-Size: 136525
-SHA256sum: 7e15ff64443a6ef52ec79b992971045b67a88698bd9d4aa1af49a9937f50db73
+Size: 136100
+SHA256sum: 13fd28ff055aaa7c1550d75363c52a7bc5dc60b1e825351c2c82bae4259360b6
 Description:  A Perl Compatible Regular Expression library
 
 Package: libreadline8
@@ -832,10 +832,10 @@ SourceDateEpoch: 1650110531
 ABIVersion: 8
 CPE-ID: cpe:/a:gnu:readline
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 124723
+Installed-Size: 124784
 Filename: libreadline8_8.1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 123948
-SHA256sum: 79537165263f7e91802dd990cc9f380cc9e0d3c297a4c2811d485ed89b546d2f
+Size: 124187
+SHA256sum: 55ada8aaeb97aadd764049ad13de421ee07869acd8f578202a373fe6bd6914d2
 Description:  The Readline library provides a set of functions for use by applications
  that allow users to edit command lines as they are typed in. Both Emacs
  and vi editing modes are available. The Readline library includes
@@ -856,10 +856,10 @@ SourceDateEpoch: 1643747102
 ABIVersion: 2
 CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7793
+Installed-Size: 7775
 Filename: libss2_1.46.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 8640
-SHA256sum: 5d4fc3efc038b568930abe28f2f9adb3cc85804a2e4176dc0483684ba751dabe
+Size: 8616
+SHA256sum: 75e868fa427e3fd10812aa0ad53b67bb9cf2020c4b82f3a7bf37b6e0a729af2e
 Description:  This pacakge contains libss, a command-line interface parsing library
  bundled with e2fsprogs.
 
@@ -875,10 +875,10 @@ SourceDateEpoch: 1652620834
 ABIVersion: 20220515
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 18180
+Installed-Size: 18359
 Filename: libubox20220515_2022-05-15-d2223ef9-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 18970
-SHA256sum: 1b4819bff1df90cc3c1ac44364b49515e46f63660130653d7fc036c689ddf249
+Size: 19139
+SHA256sum: 649327792a840e2fb3b0acde82f6f6d5759b429e9a842143318c755eb49a98cb
 Description:  Basic utility library
 
 Package: libubus-lua
@@ -891,10 +891,10 @@ Section: libs
 SourceDateEpoch: 1654119061
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 6193
+Installed-Size: 6186
 Filename: libubus-lua_2022-06-01-2bebf93c-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7011
-SHA256sum: 9ac3744ee4a0db7631687d8756d501a58bcdefc5e87452afeaf67f872211a3ab
+Size: 6991
+SHA256sum: f04ee59ffae962d02e6b0594576c61c1defde0902f4afc98543a0ce9694888c8
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus20220601
@@ -909,10 +909,10 @@ SourceDateEpoch: 1654119061
 ABIVersion: 20220601
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 9088
+Installed-Size: 9107
 Filename: libubus20220601_2022-06-01-2bebf93c-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 9838
-SHA256sum: 90ea34dab85afc1fd1407ca6aef6f4941c25b9460490bc81ae075c7a207bea16
+Size: 9844
+SHA256sum: f9166d505892816cbc93a109d03c127168c716ac842fcc5e76c0106c528f90b3
 Description:  OpenWrt RPC client library
 
 Package: libuci20130104
@@ -927,10 +927,10 @@ SourceDateEpoch: 1634939511
 ABIVersion: 20130104
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 14988
+Installed-Size: 14980
 Filename: libuci20130104_2021-10-22-f84f49f0-6_arm_cortex-a7_neon-vfpv4.ipk
-Size: 15773
-SHA256sum: 5d12dd65eb03c6e63b5f29721628feabd728cb58ffb921b6d7d17f1741793a6a
+Size: 15725
+SHA256sum: 8c4aa9c78fa707be3b44e027f8ef04ed264f97f9763a43b5e97afe54563a9124
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libuclient20201210
@@ -945,10 +945,10 @@ SourceDateEpoch: 1621028442
 ABIVersion: 20201210
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 8899
+Installed-Size: 8920
 Filename: libuclient20201210_2021-05-14-6a6011df-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 9707
-SHA256sum: 40eff0efacee9000dab3a9cf4b93392f5c4b838fd556f903a30c07146cda44d9
+Size: 9732
+SHA256sum: 49a37e532a441dfdd978676d2b4cef6a63f1f1a28ddb98df1dfcb7dc52af5e36
 Description:  HTTP/1.1 client library
 
 Package: libucode20220322
@@ -963,10 +963,10 @@ SourceDateEpoch: 1654083953
 ABIVersion: 20220322
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 58195
+Installed-Size: 58095
 Filename: libucode20220322_2022-06-01-b211ca0e-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 58933
-SHA256sum: 8efd5c71635a125159d4ce6cd61b84967b607f5a00899d45e022b0d051bb8577
+Size: 58862
+SHA256sum: 22af0ee2687fbe2018cc29aae21e013eccdac1adbf97f2b59a7b023e1decdda5
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: libustream-wolfssl20201210
@@ -982,10 +982,10 @@ SourceDateEpoch: 1659219081
 ABIVersion: 20201210
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3494
+Installed-Size: 3490
 Filename: libustream-wolfssl20201210_2022-01-16-868fd881-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 4241
-SHA256sum: 8e2491c920f559c7c05e2ae1c2b1047b5d4404ae5431f4a780a0aa78a361e3bb
+Size: 4270
+SHA256sum: 01973f4d67644a60acae85a60367752da27874fb591fa4d970fc8fa0003c33a2
 Description:  ustream SSL Library (wolfssl)
 
 Package: libuuid1
@@ -1001,10 +1001,10 @@ SourceDateEpoch: 1652625160
 ABIVersion: 1
 CPE-ID: cpe:/a:kernel:util-linux
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 11405
+Installed-Size: 11451
 Filename: libuuid1_2.38-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 12383
-SHA256sum: 4253b3cd8655b6621e74a9f6f5af14ca00c904f46a09f263ffa093228b3d1429
+Size: 12419
+SHA256sum: 0f33d490c9dd390126f4ee9744347e2f124555c4ec5af8e0a2236798b994290b
 Description:  The UUID library is used to generate unique identifiers for objects
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software
@@ -1024,10 +1024,10 @@ ABIVersion: 5.4.0.e624513f
 CPE-ID: cpe:/a:wolfssl:wolfssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 467979
+Installed-Size: 467050
 Filename: libwolfssl5.4.0.e624513f_5.4.0-stable-4_arm_cortex-a7_neon-vfpv4.ipk
-Size: 465416
-SHA256sum: 94825e99d6a6779492c8a3f8ae89c8bd7bbb566b2c472faa36069ad7054ffb27
+Size: 464543
+SHA256sum: 61a5e9281777c8f67329d6bd5c835383b0c02d3e48544817bdd51830a1a75f06
 Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
  footprint, both on disk and for memory use.
 
@@ -1042,10 +1042,10 @@ Require-User: logd=514:logd=514
 SourceDateEpoch: 1658020365
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 10340
+Installed-Size: 10354
 Filename: logd_2022-07-17-46a33b8b-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11088
-SHA256sum: 633ec0574cb8da8d90c129fe48f3a0c68160938270e8cdd80c8ed9b9c194ed9e
+Size: 11136
+SHA256sum: 23b3136b4f28efc1dee75733a99e55f1fc64054c95a7f554030cd4be8b17a241
 Description:  OpenWrt system log implementation
 
 Package: lua
@@ -1059,10 +1059,10 @@ Section: lang
 SourceDateEpoch: 1641202471
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 4608
+Installed-Size: 4610
 Filename: lua_5.1.5-10_arm_cortex-a7_neon-vfpv4.ipk
-Size: 5456
-SHA256sum: c356bcc969bc3ffb39b5c29fb17b2e4f956c17f67e463f948a6bb686fa37a248
+Size: 5473
+SHA256sum: 74f837160118c94f729d35bf7e3cbff55abe6c494937740b81ed37bd3ce59170
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -1080,10 +1080,10 @@ Section: utils
 SourceDateEpoch: 1656959046
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 16500
+Installed-Size: 16515
 Filename: mkf2fs_1.15.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 17333
-SHA256sum: b46743df00d5a7185abbe486282e8f109581280526ef9249a52a09e92ff2d5da
+Size: 17351
+SHA256sum: cf182f6228f0d3f928a1b4916b725aec7787fabe60bdd90ec9e19db792c028ed
 Description:  Utility for creating a Flash-Friendly File System (F2FS)
 
 Package: mt7601u-firmware
@@ -1126,10 +1126,10 @@ Section: base
 SourceDateEpoch: 1654112954
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 89251
+Installed-Size: 89580
 Filename: netifd_2022-06-01-39ef9fe1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 90006
-SHA256sum: e7a0532566de54b6d1b6d1b9310bf5aee2e315fc219269a5176ffd95c16eeab6
+Size: 90137
+SHA256sum: a382df549ce25b3c7009ae006febf51bc69d705f84cf90a4441c1c947e83aceb
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
@@ -1143,10 +1143,10 @@ LicenseFiles: COPYING
 Section: net
 SourceDateEpoch: 1656083424
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 268531
+Installed-Size: 268365
 Filename: nftables-json_1.0.4-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 267338
-SHA256sum: e31997edb28511d1e17872e373ba0ced1998978e629844a4eca1a7e391762c56
+Size: 267355
+SHA256sum: 5e4a84d2008ae03d533a65b8ba839260bf7ca933f96716c04ff01b7fac552e04
 Description:  nftables userspace utility with JSON support
 
 Package: odhcp6c
@@ -1159,10 +1159,10 @@ Section: net
 SourceDateEpoch: 1659217844
 Maintainer: Hans Dedecker <dedeckeh@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 25783
+Installed-Size: 25905
 Filename: odhcp6c_2022-07-13-9212bfcb-18_arm_cortex-a7_neon-vfpv4.ipk
-Size: 26555
-SHA256sum: a1e4cc4ec709564a4d07c595bb5b102eff62e524e3722beb7568d840e1e80295
+Size: 26676
+SHA256sum: 2cc3700ba42e1dc0d7a124c2d51cd98a41c12eec31cc58381b5e911517de69b6
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd-ipv6only
@@ -1175,10 +1175,10 @@ Section: net
 SourceDateEpoch: 1647983017
 Maintainer: Hans Dedecker <dedeckeh@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 38035
+Installed-Size: 38259
 Filename: odhcpd-ipv6only_2022-03-22-860ca900-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 39062
-SHA256sum: ce5cbc34b2aab2118877da19b62aa4e73a0aafcc7d1ac8a6b344e489af915b88
+Size: 39332
+SHA256sum: 68446a143e2878a574a8585984fe4181feb7a80c9c2f4e78aee1770e6b05ca88
 Description:  odhcpd is a daemon for serving and relaying IP management protocols to
  configure clients and downstream routers. It tries to follow the RFC 6204
  requirements for IPv6 home routers.
@@ -1216,10 +1216,10 @@ SourceDateEpoch: 1656284235
 Essential: yes
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 66561
+Installed-Size: 65298
 Filename: opkg_2022-02-24-d038e5b6-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 67561
-SHA256sum: 798797cfce74fd397721e998972ade90b1d400698b3548e1e60be4685cc144cc
+Size: 66329
+SHA256sum: 8a3a6240a4e37b8395b2969e4845843a193b1f7dbfbf14e67a3b4254c60c9f95
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
@@ -1253,10 +1253,10 @@ SourceDateEpoch: 1616109958
 CPE-ID: cpe:/a:samba:ppp
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 10244
+Installed-Size: 10298
 Filename: ppp-mod-pppoe_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11047
-SHA256sum: 1fbd6bb1de1b665b0ae962648a4a9fa3921327776fe039820b99ce44db5f72d5
+Size: 11061
+SHA256sum: f51fad094d49d2c6eeb93f410370bcfa7b3f7f68c299f328645a8bc8b9f72064
 Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
 
 Package: ppp
@@ -1270,10 +1270,10 @@ SourceDateEpoch: 1616109958
 CPE-ID: cpe:/a:samba:ppp
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 124217
+Installed-Size: 123920
 Filename: ppp_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
-Size: 124384
-SHA256sum: bd71f9bd2d8c585d39433930fb9ebc3c949e30a333efa8021efb125562bb81d4
+Size: 124439
+SHA256sum: c8e6bddebb2575e39695623c0e10ef5c5d257b6ff547cc054f76ecc660febb07
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd-seccomp
@@ -1286,10 +1286,10 @@ Section: base
 SourceDateEpoch: 1658056905
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 14444
+Installed-Size: 14601
 Filename: procd-seccomp_2022-07-17-ef5d3e36-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 15087
-SHA256sum: 082b150e2a20d4280fe928ccf2db42aeb859d6a84105def3a30038510930f498
+Size: 15253
+SHA256sum: e41e4fdc3cd075c734cefb97840c6780d061bd679b3ce20fbb981363d4d6fde5
 Description:  OpenWrt process seccomp helper + utrace
 
 Package: procd-ujail
@@ -1302,10 +1302,10 @@ Section: base
 SourceDateEpoch: 1658056905
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 42164
+Installed-Size: 42244
 Filename: procd-ujail_2022-07-17-ef5d3e36-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 42571
-SHA256sum: e95eadfb4f6899d5e78f16c82125a0822cca1341f909b21fe0fe6430cc4fde78
+Size: 42792
+SHA256sum: daef23372ff8d35ea27a520bbd1553f041c739f281cd679180d9c42a5ba1382b
 Description:  OpenWrt process jail helper
 
 Package: procd
@@ -1320,10 +1320,10 @@ Require-User: :dialout=20 :audio=29
 SourceDateEpoch: 1658056905
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 52520
+Installed-Size: 52513
 Filename: procd_2022-07-17-ef5d3e36-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 53162
-SHA256sum: 03dfb8ee1840d9e9ee5e041c49d07ad62c827e419377d692fc2cb4301bed909a
+Size: 53205
+SHA256sum: 712f27dcaf8d3555fc14dad5cef00e1c0199cd76efd6535d17140ea852d92ba7
 Description:  OpenWrt system process manager
 
 Package: r8152-firmware
@@ -1351,10 +1351,10 @@ Section: utils
 SourceDateEpoch: 1654089846
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 6277
+Installed-Size: 6308
 Filename: rpcd-mod-file_2022-05-31-1c482573-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7117
-SHA256sum: 40ba1fee3505dccebc49a6f77121ca06710a1a07e8d205694cdf35d37354c8b6
+Size: 7184
+SHA256sum: b163a31bf329bb683ed67c05d598707946b3210f845a5a6104bb389cbbac5a2c
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
@@ -1367,10 +1367,10 @@ Section: utils
 SourceDateEpoch: 1654089846
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7302
+Installed-Size: 7312
 Filename: rpcd-mod-iwinfo_2022-05-31-1c482573-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 8195
-SHA256sum: 89e1fcf0971cd26b343c657bd76105aac757af3c3560c3df31d4ccc8f97fca7f
+Size: 8203
+SHA256sum: d1960b6be567fb78a672cae0b0db8fad4322c5b7395beba5e129c0f79a157558
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd
@@ -1383,10 +1383,10 @@ Section: utils
 SourceDateEpoch: 1654089846
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 22547
+Installed-Size: 22551
 Filename: rpcd_2022-05-31-1c482573-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 23264
-SHA256sum: 946591eddec69cb494074ec7691f2938d706f61fe2fea7926bbcca70a1833c82
+Size: 23338
+SHA256sum: 4eaf98754e28490a93bb3c7e8b037dd53b4092c250333ef5b604a143da98b002
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -1473,10 +1473,10 @@ SourceName: spidev-test
 Section: utils
 SourceDateEpoch: 1658060361
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 4365
+Installed-Size: 4417
 Filename: spidev-test_5.15.58-5.15.58_arm_cortex-a7_neon-vfpv4.ipk
-Size: 5050
-SHA256sum: 80897ef17ef1372068cd16f56d60ad939ad16f6dd3b1abc5735ea7a5e9c2ee88
+Size: 5105
+SHA256sum: e33504ebc476c8ff2aff56c52aabe0639446b52f0d90e80c97badf178a6522c4
 Description:  SPI testing utility.
 
 Package: terminfo
@@ -1506,10 +1506,10 @@ Section: base
 SourceDateEpoch: 1658020365
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 14866
+Installed-Size: 14875
 Filename: ubox_2022-07-17-46a33b8b-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 15708
-SHA256sum: 0095677fb9af754a21053fe82247038e861c252b4399dd83cbe9e035fe33bd7a
+Size: 15710
+SHA256sum: 9abab2cd552654f7c30ebeef60860683c4b7150d2c64b621622b7d830cccaff7
 Description:  OpenWrt system helper toolbox
 
 Package: ubus
@@ -1522,10 +1522,10 @@ Section: base
 SourceDateEpoch: 1654119061
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 5705
+Installed-Size: 5689
 Filename: ubus_2022-06-01-2bebf93c-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 6449
-SHA256sum: 126d0da0f74e84ff48f9aea542177f1d7009209b50b99249763a3aaf28af60d2
+Size: 6442
+SHA256sum: a740fb4ed90f675119574ee13d6e79afe157be915899de40a0b4d4266d2f19b4
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
@@ -1539,10 +1539,10 @@ Require-User: ubus=81:ubus=81
 SourceDateEpoch: 1654119061
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 10738
+Installed-Size: 10681
 Filename: ubusd_2022-06-01-2bebf93c-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11448
-SHA256sum: 785d1f088de6bf2dac29043fba7291eff7e6dbb650ec6bc47dacf60a2c40ebb0
+Size: 11446
+SHA256sum: 573e9712ed85e4f152f3de753eb4a87969daa7436343a9e857361734f18a50cf
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -1555,10 +1555,10 @@ Section: base
 SourceDateEpoch: 1634939511
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 6824
+Installed-Size: 6823
 Filename: uci_2021-10-22-f84f49f0-6_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7620
-SHA256sum: 086867cecd9410d193da0313a827291585da9d09e750898aa7e49fb193bb2953
+Size: 7618
+SHA256sum: 590c836897f2aa16c4d1b3763d429ee2f78fdf7f597b654e0174b90a2d2f6de6
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: uclient-fetch
@@ -1573,10 +1573,10 @@ Section: net
 SourceDateEpoch: 1621028442
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7398
+Installed-Size: 7426
 Filename: uclient-fetch_2021-05-14-6a6011df-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 8228
-SHA256sum: f43ef9fb5fba8820240e578df5a167d88c5cb92fc01c2f6b8d55162eae755912
+Size: 8250
+SHA256sum: 50daf8a34e59fd2272830c07d8c2cab5f59bb56ef40d24f1af3a976d26b65a6f
 Description:  Tiny wget replacement using libuclient
 
 Package: ucode-mod-fs
@@ -1589,10 +1589,10 @@ Section: utils
 SourceDateEpoch: 1654083953
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 8280
+Installed-Size: 8290
 Filename: ucode-mod-fs_2022-06-01-b211ca0e-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 9063
-SHA256sum: 968faa3d12daeb179f042c1dd548f0c167f0c48b461df888f2875a358074a7f9
+Size: 9082
+SHA256sum: 823d8e9ecaa9b1bc3fe21946801ad7956ba68f740b6a2aed7f1606d34291f1b4
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-ubus
@@ -1605,10 +1605,10 @@ Section: utils
 SourceDateEpoch: 1654083953
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 11584
+Installed-Size: 11619
 Filename: ucode-mod-ubus_2022-06-01-b211ca0e-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 12413
-SHA256sum: 1c1f098eecc2c060f6bd9a10abbece3b9c42e0ba0b5984064d8995a4f8df6205
+Size: 12445
+SHA256sum: 7bcf9cc59a7481c9a5d81031fd0c61a74154108bdca76435a952d1bf14e4beda
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus
  procedures.
 
@@ -1622,10 +1622,10 @@ Section: utils
 SourceDateEpoch: 1654083953
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 6187
+Installed-Size: 6197
 Filename: ucode-mod-uci_2022-06-01-b211ca0e-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7017
-SHA256sum: 48eddd2e64cbacbc3b7b23ba77d648306485c5730e8b454efe331bafb32ee3a4
+Size: 7013
+SHA256sum: d152e92f444be0d3a82e37e42025b57cfca02d336d98001fb3ab1a3e16e6c14b
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode
@@ -1638,10 +1638,10 @@ Section: utils
 SourceDateEpoch: 1654083953
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 5744
+Installed-Size: 5750
 Filename: ucode_2022-06-01-b211ca0e-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 6548
-SHA256sum: 5fa4cb5785593e7855715c009e3d8dfe8fb5b173ec47815856dd0bd635d3f74f
+Size: 6552
+SHA256sum: a3f429b5e28eb1f4a733827d81d71005f14367b53742edd1237f4d5edc573811
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -1655,10 +1655,10 @@ Section: net
 SourceDateEpoch: 1654087306
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7412
+Installed-Size: 7430
 Filename: uhttpd-mod-ubus_2022-06-01-d59d732a-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 8259
-SHA256sum: cefbee8dcfe70a449c9c24dcb56addb0dace62399cf3ea262256cfa10657771d
+Size: 8274
+SHA256sum: df357402fa362c76b6f49be6143b5b66125c06f0f58667498a0402cb3fb10230
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -1672,10 +1672,10 @@ Section: net
 SourceDateEpoch: 1654087306
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 26175
+Installed-Size: 26171
 Filename: uhttpd_2022-06-01-d59d732a-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 26954
-SHA256sum: d6d6baf164e571ba45696f8237bdcbcdf84f8105efb9d1cba62df80f12cf0a56
+Size: 26866
+SHA256sum: aeb9094c1f67ad240d236b7ad5bf8a899d4d41b8433e3844f611a4838d71d750
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -1704,10 +1704,10 @@ License: GPL-2.0 BSD-3-Clause
 Section: utils
 SourceDateEpoch: 1624171499
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 4938
+Installed-Size: 4950
 Filename: urngd_2020-01-21-c7f7b6b6-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 5923
-SHA256sum: 76f5735dc66ef507a29854d1ad3ad644257a0afdfd959322eb99b09814878f42
+Size: 5931
+SHA256sum: 3e56c44747f5be2414b9c1ef543e30978be46be0eb3229e9c636517fb0b27d01
 Description:  urngd is OpenWrt's micro non-physical true random number generator based on
  timing jitter.
  
@@ -1730,10 +1730,10 @@ Section: base
 SourceDateEpoch: 1590233892
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 11050
+Installed-Size: 11013
 Filename: usign_2020-05-23-f1f65026-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11816
-SHA256sum: 468cd5d0327d6bcd68ef8d82cfbf81a8c01084dd741b9bfa5254a09fa5f25025
+Size: 11776
+SHA256sum: d85187d8a370bfe3a90403c5e7fe8375daf078965cbc811bccea9516902c193c
 Description:  OpenWrt signature verification utility
 
 Package: wireless-regdb
@@ -1794,10 +1794,10 @@ SourceDateEpoch: 1659219081
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 419322
+Installed-Size: 418901
 Filename: wpa-supplicant_2022-06-02-4383528e-12_arm_cortex-a7_neon-vfpv4.ipk
-Size: 419395
-SHA256sum: 81e90227318d138a0a9ef59e47f5d7a8e1d92c9bbe23d81418faecd163219dd8
+Size: 419164
+SHA256sum: b68f2acf76b7ebe0194fae0975c178e50988c00502fc82bd006922c19b8a63df
 Description:  WPA Supplicant (built-in full)
 
 Package: wwan
@@ -1827,10 +1827,10 @@ Section: libs
 SourceDateEpoch: 1648452476
 CPE-ID: cpe:/a:gnu:zlib
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 38311
+Installed-Size: 38194
 Filename: zlib_1.2.12-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 39083
-SHA256sum: 048ea5b2b5458acc31106f9098de78318112ed22a1babf12c6d8d8afc0470510
+Size: 38968
+SHA256sum: b9e14703f3d734d4f4828d3d64ac1f44e929d3fcc6423bb8d451a29f1916f29f
 Description:  zlib is a lossless data-compression library.
  This package includes the shared library.
 

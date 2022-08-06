@@ -9,10 +9,10 @@ Section: libs
 SourceDateEpoch: 1657286783
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3148
+Installed-Size: 3166
 Filename: liblucihttp-lua_2022-07-08-6e68a106-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 3923
-SHA256sum: cedf7b1c375a8294419c6021cdc0430d3f70edcdbe23212a76b006e0bd184ba2
+Size: 3929
+SHA256sum: 6b8574ca30aa3c4baad65facb4e0c58a6091da6f551d2e6a1e4384c1fb8259b9
 Description:  Lua binding for the LuCI HTTP utility library
 
 Package: liblucihttp0
@@ -28,10 +28,10 @@ SourceDateEpoch: 1657286783
 ABIVersion: 0
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 6941
+Installed-Size: 6955
 Filename: liblucihttp0_2022-07-08-6e68a106-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7750
-SHA256sum: b03fce17bf77cb343a84f9a5ae9088bbe5362d6da060e230b66d1d7985e7f54c
+Size: 7770
+SHA256sum: af84aeb7b0cce01d75ec196f4886009d4cd09e2bff4e4a3755413fb88e678649
 Description:  LuCI HTTP utility library
 
 Package: luci-app-firewall
@@ -75,10 +75,10 @@ Section: luci
 SourceDateEpoch: 1659347850
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 132539
+Installed-Size: 132507
 Filename: luci-base_git-22.213.35850-abd9125_arm_cortex-a7_neon-vfpv4.ipk
-Size: 133623
-SHA256sum: f82673e5a49189923a880b98a52e46107da06e5fec0635d5af07f56d19f20eef
+Size: 133537
+SHA256sum: fbb5eba8376f71c45381ae7b42cd9d893c589f2653c62c42358eb1c98df4e4e0
 Description:  LuCI core libraries
 
 Package: luci-lib-base
@@ -106,10 +106,10 @@ Section: luci
 SourceDateEpoch: 1599426929
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 10334
+Installed-Size: 10399
 Filename: luci-lib-ip_git-20.250.76529-62505bd_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11243
-SHA256sum: a3d2171e10fc843afe21edfbc0bf564d9de1282f1cf4be9d4ed711cdcd73eeca
+Size: 11303
+SHA256sum: f49509153eacceac9be0517348ccee158e7585a97fc580ee12f2920f6517ae79
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-jsonc
@@ -121,10 +121,10 @@ Section: luci
 SourceDateEpoch: 1647789093
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3743
+Installed-Size: 3737
 Filename: luci-lib-jsonc_git-22.079.54693-45f411b_arm_cortex-a7_neon-vfpv4.ipk
-Size: 4585
-SHA256sum: f76ed2404f4a65bea6fff260c68665c1ff2b21aa0274e82ddd70438c7216b6bf
+Size: 4576
+SHA256sum: 9b0c697d39b49fcc5b8f937c78fbb5fc5649e82bf70ea758b4c2ec9b60afd3e5
 Description:  Lua binding for JSON-C
 
 Package: luci-lib-nixio
@@ -137,10 +137,10 @@ Section: luci
 SourceDateEpoch: 1597974894
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 29327
+Installed-Size: 29401
 Filename: luci-lib-nixio_git-20.234.06894-c4a4e43_arm_cortex-a7_neon-vfpv4.ipk
-Size: 30050
-SHA256sum: a558454bc9fd9f66d282ecea1effb2feb2d8abdbfee5ce6edb93d92d6ebf915e
+Size: 30141
+SHA256sum: 7c3579893b462253a5477434d8a7e4643f18e6a5e537efd35eaa5bf36517a95f
 Description:  NIXIO POSIX library
 
 Package: luci-mod-admin-full
@@ -185,10 +185,10 @@ Section: luci
 SourceDateEpoch: 1657022438
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 35340
+Installed-Size: 35312
 Filename: luci-mod-status_git-22.186.43238-88c62fe_arm_cortex-a7_neon-vfpv4.ipk
-Size: 36235
-SHA256sum: 440f1624da911f7c1f9292c1e7586fcea60c713bbd0d2870ec8ff6108192bd81
+Size: 36225
+SHA256sum: fcc77f9e69d4650579381bbc8a9d799ddc5d9baacea16b59e54f40962edc83be
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -281,10 +281,10 @@ Section: libs
 SourceDateEpoch: 1656407183
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 13041
+Installed-Size: 13029
 Filename: rpcd-mod-luci_20210614_arm_cortex-a7_neon-vfpv4.ipk
-Size: 13847
-SHA256sum: bd3266bb489a0e3b5142eec605a4d01fc0956eb4f86f12d26686bc4c24f07022
+Size: 13834
+SHA256sum: e2f96b352e425af40c54bbfe7f87bd78ad8d0af5f86b090930d075479f8d258b
 Description:  Provides LuCI backend ubus RPC operations.
 
 Package: rpcd-mod-rrdns
@@ -299,7 +299,7 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 3488
 Filename: rpcd-mod-rrdns_20170710_arm_cortex-a7_neon-vfpv4.ipk
-Size: 4306
-SHA256sum: dc924344cd6f70be861e9d8b92066913f6cdb289355c66d8569766b3c4223a51
+Size: 4310
+SHA256sum: 8c2a71fb851cca81c1ca0fc5cf32d0a67fc63a2e4b25159813e7f8bc97eea0ac
 Description:  Provides rapid mass reverse DNS lookup functionality.
 

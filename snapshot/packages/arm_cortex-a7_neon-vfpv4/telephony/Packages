@@ -4,10 +4,10 @@ Depends: libc, baresip, libmosquitto
 License: BSD-3-Clause
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 4703
+Installed-Size: 4692
 Filename: baresip-mod-mqtt_1.1.0-4_arm_cortex-a7_neon-vfpv4.ipk
-Size: 5486
-SHA256sum: 75f0f7356aa65c3b51cb36ef94e3d2613d987e4308157ff498198e72f8853aea
+Size: 5473
+SHA256sum: cac3c82301589db9bb1ebaacbf5ed152ce172048a29665bc1213f86b232f43dc
 Description:  Message Queue Telemetry Transport [MQTT] client
 
 Package: baresip
@@ -16,10 +16,10 @@ Depends: libc, libre1, librem
 License: BSD-3-Clause
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 733735
+Installed-Size: 734038
 Filename: baresip_1.1.0-4_arm_cortex-a7_neon-vfpv4.ipk
-Size: 733946
-SHA256sum: e1c8619bdb84f69bafe5f8e2e178b8a3f6574682ce69ca1d2353e71cd9a620d1
+Size: 734209
+SHA256sum: 102146b4435a112bc2ae672bcafe02e71555ec1e1897d6a40e5780dea5c65236
 Description:  Portable and modular SIP User-Agent with A/V support
 
 Package: libre1
@@ -30,10 +30,10 @@ License: BSD-3-Clause
 Section: libs
 ABIVersion: 1
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 169958
+Installed-Size: 169903
 Filename: libre1_2.0.1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 169675
-SHA256sum: 033e3ba36f0ceaf3e6909d47b01eb8e5aa3973d79352cd55028bf7765a7f20ac
+Size: 169624
+SHA256sum: 81bd9cb4517ffc9a0e63b0aa0fa860133ccfd2fe8979ff79f9d53b1b3ab6c7c1
 Description:  Generic library for real-time communications with async IO support
 
 Package: librem
@@ -42,9 +42,9 @@ Depends: libc, libre1
 License: BSD-3-Clause
 Section: libs
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 26495
+Installed-Size: 26369
 Filename: librem_1.0.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 27219
-SHA256sum: 001414f513389d61d82a828f3c28917e4bcad1ce7a3cbb6b0914832a16d50e78
+Size: 27039
+SHA256sum: ce053e3450ebf49c5beb657771960c0e5550f8b85b38f3c300ba51ebf11353b5
 Description:  Audio and video processing media library
 
