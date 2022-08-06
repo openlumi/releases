@@ -337,10 +337,10 @@ SourceDateEpoch: 1635360584
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 139436
+Installed-Size: 139430
 Filename: ip-tiny_5.11.0-3_arm_cortex-a9_neon.ipk
-Size: 140079
-SHA256sum: 7557681e952a4627d5ee58b1ce37d0ec5a6de056a595de1cd1efcf02f866c3e1
+Size: 140067
+SHA256sum: 01d1843ed81cbab572f095439a91f52d5e1a84bb2bbeb2e8a44374b95f075828
 Description:  Routing control utility (minimal)
 
 Package: iw
