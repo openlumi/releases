@@ -43,10 +43,10 @@ Section: lang
 SourceDateEpoch: 1659613599
 Maintainer: mrG1K <mr@g1k.ru>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1795096
+Installed-Size: 1795091
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a9_neon.ipk
-Size: 1792505
-SHA256sum: 3d209f07a37e12bd9d6d5feb9cedf8e3b757330544d30c5f5f2197fa3db47d76
+Size: 1792535
+SHA256sum: aee85367253fe7b0876f3f2574c9bb1f46f96677e1689fdcc89c824762846d48
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-onvif2mqtt
@@ -67,7 +67,7 @@ SHA256sum: b10976307a85b521e7b94db6b24857cd033d7522cb78c184d6dc70f50c13bdb3
 Description:  node-onvif2mqtt
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220806
+Version: dev-20220807
 Depends: libc, node
 Source: feeds/openlumi/apps/node-zigbee2mqtt-dev
 SourceName: node-zigbee2mqtt-dev
@@ -77,10 +77,10 @@ Section: lang
 SourceDateEpoch: 1659613599
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6496008
-Filename: node-zigbee2mqtt-dev_dev-20220806_arm_cortex-a9_neon.ipk
-Size: 6482671
-SHA256sum: bf03a97d10844f0823c18444d0f61478cc606ca8bd632071851b74f667310f40
+Installed-Size: 6512044
+Filename: node-zigbee2mqtt-dev_dev-20220807_arm_cortex-a9_neon.ipk
+Size: 6498489
+SHA256sum: a0c785ded4eae8d710ab3bee452a74f8abeeedf04eff74aec3374e7ed27222af
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
@@ -113,8 +113,8 @@ Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 126093
 Filename: python3-bleak_0.14.3-1_arm_cortex-a9_neon.ipk
-Size: 123699
-SHA256sum: e3aed56654993937dc17bb3109ede2e9a1e0e2fa95bc1baefb045c5ae2490811
+Size: 123697
+SHA256sum: 7051aab4f5eb5ad90d8ddfd48687f06911b4914134af541dd5e72bc0d175d1ee
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
