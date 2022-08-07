@@ -45,12 +45,12 @@ Maintainer: mrG1K <mr@g1k.ru>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 1089977
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1087816
-SHA256sum: 4e32d144a706f3e7d9591fd1193abe4ead398f5cadff964cf2281aca1b555f43
+Size: 1087747
+SHA256sum: 07a4ffa7b3b256cfd871723a94b26e4966e179c89e45816ae893569a94c592cd
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220806
+Version: dev-20220807
 Depends: libc, node
 Source: feeds/openlumi/apps/node-zigbee2mqtt-dev
 SourceName: node-zigbee2mqtt-dev
@@ -60,10 +60,10 @@ Section: lang
 SourceDateEpoch: 1659613599
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7601911
-Filename: node-zigbee2mqtt-dev_dev-20220806_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7575824
-SHA256sum: 01fdf946500440a08e297f8fed636acd83c15074eb6e270ee86277428a08a61f
+Installed-Size: 7618376
+Filename: node-zigbee2mqtt-dev_dev-20220807_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7594360
+SHA256sum: e8ba6f005709aa1239c0c2e746688510647ef34dcc36750dcca58dc00948d15d
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
@@ -94,10 +94,10 @@ Section: lang
 SourceDateEpoch: 1659613599
 Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 150224
+Installed-Size: 150226
 Filename: python3-bleak_0.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 149385
-SHA256sum: a349e825d3c8e7e32268879d06ef3e8322d9d0fb278109395190ccf6109672b1
+Size: 149383
+SHA256sum: c44ed7b84c6f5b5e65639473a9f85d299bf063a32b7dbf73fd5799822ca6c77b
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
