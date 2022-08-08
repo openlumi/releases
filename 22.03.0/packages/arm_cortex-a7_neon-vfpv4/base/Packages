@@ -57,7 +57,7 @@ Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 233529
 Filename: busybox_1.35.0-3_arm_cortex-a7_neon-vfpv4.ipk
 Size: 233971
-SHA256sum: e215921f5c19577c8927723a52c24b23ee01d4fd7983d2b0b198d4842578ed29
+SHA256sum: 13d4363da56f4d1ec6a731e5f518be5e21c3795c666d5f5c12998e8a698421b7
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -295,10 +295,10 @@ Depends: libc
 License: GPLv2
 Section: utils
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 87479
+Installed-Size: 87478
 Filename: kobs-ng_5.4-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 87549
-SHA256sum: 980f6185a920b7096241fd3781168c270b6188c46a27a7db522ebc25dca74fbf
+Size: 87537
+SHA256sum: b19ba4c7c3ea2a32e49b314092e91cf068da6aa87edaca8a9b63afd481408a50
 Description:  The kobs-ng application writes a bootstream to NAND flash with the proper
  FCB/DBBT headers and replicated streams.
 
