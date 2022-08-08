@@ -28,22 +28,22 @@ Depends: libc, node, libudev
 License: MIT
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1089976
+Installed-Size: 1089981
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1087760
-SHA256sum: 54a351cdb3ce95aebe41244fd727f6c66e7fa98f86e0ffbf92cf64f1a47c38cf
+Size: 1087796
+SHA256sum: 2669ccd04d0c17f46a30a705777843c454de2c5958bec5b22d3ee605cbf31c75
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220807
+Version: dev-20220808
 Depends: libc, node
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7618377
-Filename: node-zigbee2mqtt-dev_dev-20220807_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7594362
-SHA256sum: f01c0e7175f6ab34c6545da13eac6d70af71c9690db8d57aabdc844165b275c9
+Installed-Size: 7618566
+Filename: node-zigbee2mqtt-dev_dev-20220808_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7594430
+SHA256sum: e9d7d173de22769b4c61acbcf6bd940b7f9ff17729f9d56eb9e933de8e15665a
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
@@ -64,10 +64,10 @@ Depends: libc, python3-light, python3-asyncio, python3-dbus-next
 License: MIT
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 150223
+Installed-Size: 150226
 Filename: python3-bleak_0.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 149377
-SHA256sum: a2d5fd0378204d17648016d3f7bf6fd50724eb666b44e6660274575dd04ecc1c
+Size: 149396
+SHA256sum: 5fcb705ebb16baa81784d79be92ac169933e33f6e8fd5a9d7a6d64b74c7d5ee9
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
@@ -76,10 +76,10 @@ Depends: libc, python3, glib2
 License: GPL-2.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 305717
+Installed-Size: 305718
 Filename: python3-bluepy_1.3.0-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 305669
-SHA256sum: f856de112e5c283781e0bec6422e909a182eb464ee90eeb14a384bc1e56bca7d
+SHA256sum: 9a72badaaf37a93c2db84152891bc8180b9249e40e58acd9ef1f02d2488f6952
 Description:  Python interface to Bluetooth LE on Linux
 
 Package: python3-dbus-next

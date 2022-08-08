@@ -4725,8 +4725,8 @@ SourceDateEpoch: 1659548115
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 41146
 Filename: kmod-ikconfig_5.10.134-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 42040
-SHA256sum: 8f94f5c157d188a218317cc3f84e60416e894228629e24a224c6b9081f2f25b9
+Size: 42042
+SHA256sum: ceba9b3d0c9edd78eca21f4fdc0b7c66fa1c934bef06224bdc40c2f0ab2b74ab
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-industrialio-triggered-buffer
@@ -7590,10 +7590,10 @@ Section: kernel
 SourceDateEpoch: 1613865735
 Maintainer: Toni Uhlig <matzeton@googlemail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7411
+Installed-Size: 7456
 Filename: kmod-netatop_5.10.134+3.1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 8501
-SHA256sum: 68d83dc9e2c5d5a87c8a67e0f37e396eed077567087993889b29f9c879d2ab15
+Size: 8542
+SHA256sum: aa9577f05d8e6ac94645fe7835f9abd8f6bb3e6a39788059bcd710f2c467f3ec
 Description:  The optional kernel module netatop can be loaded to gather statistics about
  the TCP and UDP packets that have been transmitted/received per process and
  per thread. As soon as atop discovers that this module is active, it shows

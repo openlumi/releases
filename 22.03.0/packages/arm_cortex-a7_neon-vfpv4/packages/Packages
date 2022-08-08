@@ -94,8 +94,8 @@ CPE-ID: cpe:/a:bluez:bluez
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 132796
 Filename: bluez-utils-extra_5.64-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 133530
-SHA256sum: c2b4c0b1ce13a54c3af6847b7e9c867ae4e025a796514fee13c5942bb9624897
+Size: 133536
+SHA256sum: eeb73cb37bc70b8b0c23a6409464da65c1f3c534ce2d0c3cd29c8e5b327f93d1
 Description:  Bluetooth additional utilities
 
 Package: bluez-utils
@@ -443,10 +443,10 @@ Depends: libc
 License: GPL-3.0-or-later
 Section: libs
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 26504
+Installed-Size: 26506
 Filename: libgdbm_1.21-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 27261
-SHA256sum: cf9ef534b017e14bc57ab73d2e178b1705ed664f6a33fa9068a44f6b10f06396
+Size: 27258
+SHA256sum: 443cf2492de33855d301990340e001405aed4ad37932e53b6116919e71fc95c6
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
@@ -538,10 +538,10 @@ License: LGPL-2.1-or-later
 Section: libs
 CPE-ID: cpe:/a:webdav:neon
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 59107
+Installed-Size: 59106
 Filename: libneon_0.32.1-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 59990
-SHA256sum: 6bc48a844e70ad56a6059c96438693bce1fac0d1d69f0bb56245e54b289133c6
+Size: 59987
+SHA256sum: 735ae45572660fa01c9dd368dfe10f0429c767d98afdf38a6f2c1f298b6c43cc
 Description:  neon is an HTTP and WebDAV client library, with a C interface. Features:
  
  - High-level wrappers for common HTTP and WebDAV operations (GET, MOVE, DELETE, etc)
@@ -641,8 +641,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 146896
 Filename: python3-asyncio_3.10.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 147883
-SHA256sum: 02f29f596e926d03233c17aff895a3e4b74c8dcfbb12be75ca7d2a2e49c6cdb3
+Size: 147892
+SHA256sum: 0cb1cd0c663e5ec4e8b8a1e697d8a022b41afb156771273d8f2f8c5e7081e655
 Description:  Python 3.10 asyncio module
 
 Package: python3-base
@@ -652,10 +652,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 157009
+Installed-Size: 157010
 Filename: python3-base_3.10.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 156867
-SHA256sum: 91db13995c35780ba4b9dad26ebf42cf65e983c8d308c4436e883983436c0849
+Size: 156853
+SHA256sum: d93f102ade5cfe4cf8c686f9d7a3ccb28a49b439153d46e99553e9afdcf93402
 Description:  This package contains only the interpreter and the bare minimum
  for the interpreter to start.
 
@@ -744,10 +744,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 171863
+Installed-Size: 171862
 Filename: python3-distutils_3.10.5-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 172891
-SHA256sum: 4f7ee9106cd356302f1d4b14310f7cd232465cb80c986c001047477756d99cdb
+SHA256sum: 9f5893d8e83ffa95a4ce6161a6a90ace8443fb66b43b7e6fe23568e1e2f5fc5b
 Description:  Python 3.10 distutils module
 
 Package: python3-email
@@ -757,10 +757,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 114877
+Installed-Size: 114875
 Filename: python3-email_3.10.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 115870
-SHA256sum: 6c8cc8f28b990e25bb9b2c36ac9e688a959540aca6aff953332b9553c682d4f2
+Size: 115869
+SHA256sum: 8aeedf8631f76022dcd72c48e09f2217f543ded21fb14e13642de2f8335ad0a3
 Description:  Python 3.10 email module
 
 Package: python3-evdev
@@ -782,10 +782,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 2083591
+Installed-Size: 2083655
 Filename: python3-light_3.10.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2081567
-SHA256sum: 1485a2a9db6f0d5891e1d26419072ffe6828d0bb8c21d18aa452bde8f812c237
+Size: 2081692
+SHA256sum: f0d29a3f10f5c85b7c4dd4299fe41615c6d93c50f89a654a7eac7c53fe4e4d4a
 Description:  This package is essentially the python3-base package plus
  a few of the rarely used (and big) libraries stripped out
  into separate packages.
@@ -864,8 +864,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 148431
 Filename: python3-pkg-resources_58.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 149371
-SHA256sum: a0117ca78645c93fcd7525232e0fa945273032129c2832ea10bdd698e9c367f1
+Size: 149364
+SHA256sum: 2d58b3ee43a6eb2f2b7dbdb2989b53ff674ca5cabf91de9264b124d9862cb4d7
 Description:  Python 3.10 pkg_resources module (part of setuptools)
 
 Package: python3-pydoc
@@ -875,10 +875,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 202791
+Installed-Size: 202790
 Filename: python3-pydoc_3.10.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 203684
-SHA256sum: 8e5ce0d6921ce5746661f0f177cf5fd55d8d7d22c06ec6a1f738d74ef18268f1
+Size: 203676
+SHA256sum: 9ecad196d46b0aed4b0638e07018f4cddec87adf95f4b49acce88cd49d87f527
 Description:  Python 3.10 pydoc module
 
 Package: python3-readline
@@ -914,10 +914,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 79218
+Installed-Size: 79216
 Filename: python3-unittest_3.10.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 80209
-SHA256sum: 9d6d99295c9bab5201a308354f21fe665570c044eee34deac1faf293d37227da
+Size: 80200
+SHA256sum: ffaec372e4714903f6623387b208fa94954bcabfc44e71332cc5abaae91965b5
 Description:  Python 3.10 unittest module
 
 Package: python3-urllib

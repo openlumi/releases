@@ -40,10 +40,10 @@ Depends: libc, node, libopenssl1.1
 License: Apache-2.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1777505
+Installed-Size: 2037163
 Filename: node-hap-nodejs_0.10.2-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1769972
-SHA256sum: 4d0ffcc6f67873bfa020985d79825cd02fa0f2101f272c48f4fd170a91efa15c
+Size: 2029394
+SHA256sum: 598da96491af5206b5a2ed056ea1d6fd6c35053f9df1e24f6f0a396ccb916b33
 Description:  HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server
 
 Package: node-johnny-five
@@ -125,10 +125,10 @@ Depends: libc, node, node-red
 License: Apache-2.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 2953449
+Installed-Size: 2953450
 Filename: node-red-dashboard_3.1.7-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2950051
-SHA256sum: c0ee8a7ed27e8af6bc40fbe251b8e40ffd505110ed3c924fc056c9623ca58b9c
+Size: 2950033
+SHA256sum: c4c002addb238913de52454f486afd6874e25522f88de17347db88d21aaf6c67
 Description:  This module provides a set of nodes in Node-RED to quickly create a live data dashboard.a
 
 Package: node-red-node-discovery
@@ -221,10 +221,10 @@ Depends: libc, node, node-bufferutil, node-utf-8-validate
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7566579
+Installed-Size: 7566583
 Filename: node-zigbee2mqtt_1.27.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7543291
-SHA256sum: 38b917cc7f18f7d4df6e125ddd5e61e75b8d17c5bf64c60d3bc677011208d15d
+Size: 7543336
+SHA256sum: d72c8b3ec54728467e66b2e94fb7be1d19e9fc5696318936a825331a980522fe
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node
@@ -234,10 +234,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:nodejs:node.js
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 10667303
+Installed-Size: 10667296
 Filename: node_v16.16.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 10580738
-SHA256sum: 014d9a4b270fe52e3f28292b22a43b3aab824b2e84ae198282d1a49691ec3153
+Size: 10581178
+SHA256sum: a8bbfd5f66cb9054e051fdc0a03cbc546ebb74f0188e4917dcc97835a4cc849c
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
