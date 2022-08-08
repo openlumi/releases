@@ -10,6 +10,30 @@ Size: 44098
 SHA256sum: fd30668abccee48ce8fbc6bd1c16e4d5e9df682a9878b8c0e35a3b52cf4065f6
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
+Package: block-mount
+Version: 2020-05-12-84269037-1
+Depends: libc, ubox, libubox20191228, libuci20130104, libblobmsg-json, libjson-c2
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_neon
+Installed-Size: 26356
+Filename: block-mount_2020-05-12-84269037-1_arm_cortex-a9_neon.ipk
+Size: 27091
+SHA256sum: 56a8679d31bcb3f177bae00db21309a3c5be5065c9edfcb60d95c9bdb3663060
+Description:  Block device mounting and checking
+
+Package: blockd
+Version: 2020-05-12-84269037-1
+Depends: libc, block-mount, fstools, libubus20210603, kmod-fs-autofs4, libblobmsg-json, libjson-c2
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5562
+Filename: blockd_2020-05-12-84269037-1_arm_cortex-a9_neon.ipk
+Size: 6364
+SHA256sum: 886e858c3f659e541a5a87076651f50daccaba7a3119abe8cd984b4fe8e60eda
+Description:  Block device automounting
+
 Package: fstools
 Version: 2020-05-12-84269037-1
 Depends: libc, ubox, ubi-utils
