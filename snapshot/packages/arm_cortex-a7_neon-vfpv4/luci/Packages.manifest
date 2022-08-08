@@ -56,13 +56,13 @@ Depends: libc, opkg
 Source: feeds/luci/applications/luci-app-opkg
 SourceName: luci-app-opkg
 Section: luci
-SourceDateEpoch: 1659512884
+SourceDateEpoch: 1659892396
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 9130
+Installed-Size: 9132
 Filename: luci-app-opkg_git-22.213.50348-43cea79_all.ipk
-Size: 9991
-SHA256sum: 5653fc5135e426b4555ce7b52cdba045164aae410cebd06502dd9ec3dee1bf4c
+Size: 9993
+SHA256sum: 08db068813d967a96b8b923da6de03cc704f8f1258c00ae94622f944528508f1
 Description:  OPKG package management application
 
 Package: luci-base
@@ -72,13 +72,13 @@ Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1659347850
+SourceDateEpoch: 1659892396
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 132507
+Installed-Size: 132505
 Filename: luci-base_git-22.213.35850-abd9125_arm_cortex-a7_neon-vfpv4.ipk
-Size: 133537
-SHA256sum: fbb5eba8376f71c45381ae7b42cd9d893c589f2653c62c42358eb1c98df4e4e0
+Size: 133535
+SHA256sum: 9b1b4360cdfc8a94d5c6b4da8e54316f346808fc2ebb28f4752353c74d08969d
 Description:  LuCI core libraries
 
 Package: luci-lib-base
@@ -192,19 +192,19 @@ SHA256sum: fcc77f9e69d4650579381bbc8a9d799ddc5d9baacea16b59e54f40962edc83be
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
-Version: git-22.215.28070-bb9476c
+Version: git-22.217.39490-d4330a5
 Depends: libc, luci-base
 Source: feeds/luci/modules/luci-mod-system
 SourceName: luci-mod-system
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1659512870
+SourceDateEpoch: 1659697090
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 18510
-Filename: luci-mod-system_git-22.215.28070-bb9476c_all.ipk
-Size: 19412
-SHA256sum: a7052680ccacf4935f6ee3c823793adfbce6f06f7d4fdcb1385df5c9386c8833
+Installed-Size: 18615
+Filename: luci-mod-system_git-22.217.39490-d4330a5_all.ipk
+Size: 19517
+SHA256sum: d728180aa91e4f955c9f4906b5988e380d93af08a8db798c639ea83f47e172e3
 Description:  LuCI Administration - Global System Settings
 
 Package: luci-proto-ipv6

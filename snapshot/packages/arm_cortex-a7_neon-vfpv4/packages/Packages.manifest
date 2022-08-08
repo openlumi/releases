@@ -818,10 +818,10 @@ SourceDateEpoch: 1658604535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 146864
+Installed-Size: 146870
 Filename: python3-asyncio_3.10.5-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 147824
-SHA256sum: 655313218b6305f5ca4e65bf4aaf335a088348ef30d7f931a67dbca2d4afedc8
+Size: 147836
+SHA256sum: 36578c7015200f40c14541cec73e21bc01bbb374e662eeca23fa3938205cb778
 Description:  Python 3.10 asyncio module
 
 Package: python3-base
@@ -836,10 +836,10 @@ SourceDateEpoch: 1658604535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 156992
+Installed-Size: 156993
 Filename: python3-base_3.10.5-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 156812
-SHA256sum: 6c4ee9e41f74b47e2fd1b5b9ea07529026d8e19221256e7f829e32ecd308f9b0
+Size: 156829
+SHA256sum: 03ec9675c7e5368523836f9b99d4f4029ffdedcd8cfd0ef0e1afa6073d95b1ad
 Description:  This package contains only the interpreter and the bare minimum
  for the interpreter to start.
 
@@ -963,10 +963,10 @@ SourceDateEpoch: 1658604535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 171793
+Installed-Size: 171794
 Filename: python3-distutils_3.10.5-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 172794
-SHA256sum: cac42da8b320749232bba88f6888328b9a7a5b9198e1cb79f6242335dbc10667
+Size: 172793
+SHA256sum: 867f979037ab2b45bc3d29a8b2f5638d124ef21c1caef3b78c7f3acf8ad90cca
 Description:  Python 3.10 distutils module
 
 Package: python3-email
@@ -981,10 +981,10 @@ SourceDateEpoch: 1658604535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 114866
+Installed-Size: 114864
 Filename: python3-email_3.10.5-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 115829
-SHA256sum: 148c26a9f77d3a9b04a55846d24d515003b8383d0acc7a2f90884d307f2ffc3e
+Size: 115825
+SHA256sum: f742bbd0a53f68d8ce10ceb1710c560e792d874e8216490d49e8a8b6e140a51d
 Description:  Python 3.10 email module
 
 Package: python3-evdev
@@ -1015,10 +1015,10 @@ SourceDateEpoch: 1658604535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 2083847
+Installed-Size: 2083896
 Filename: python3-light_3.10.5-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2081811
-SHA256sum: eacfc1c32605cfa5b32db3a922b9263a2a056da30490e2c8cb798a0481012e16
+Size: 2081987
+SHA256sum: 0d1882873230dbac1b2ed8331ef0b2d21821c30ebcf8d4ec41011e3841eecd0a
 Description:  This package is essentially the python3-base package plus
  a few of the rarely used (and big) libraries stripped out
  into separate packages.
@@ -1125,10 +1125,10 @@ SourceDateEpoch: 1658604535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 148417
+Installed-Size: 148419
 Filename: python3-pkg-resources_58.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 149331
-SHA256sum: d1067940a88f34aefef620eb730e88e4f6ee743098e956a125ef5d6f97691c7b
+Size: 149337
+SHA256sum: 5616260fbb1695b2e8cd63a661fd218ac7377e7b75b85fee6aa1cfaf280286f8
 Description:  Python 3.10 pkg_resources module (part of setuptools)
 
 Package: python3-pydoc
@@ -1143,10 +1143,10 @@ SourceDateEpoch: 1658604535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 202765
+Installed-Size: 202764
 Filename: python3-pydoc_3.10.5-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 203630
-SHA256sum: c8674e13e41ab777a22bcbbccc777826f6e2eabec3570026a5971100ab7404a9
+Size: 203628
+SHA256sum: 0c52117b20c49c0f5a19052fc3854cf8931a1a640e7f83f71765a57a91543711
 Description:  Python 3.10 pydoc module
 
 Package: python3-readline
@@ -1197,10 +1197,10 @@ SourceDateEpoch: 1658604535
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 79215
+Installed-Size: 79214
 Filename: python3-unittest_3.10.5-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 80179
-SHA256sum: a0191a78bb38daa22ee8eec71011b4d4258ab89222d92cbcd9b5b62631a39c3b
+Size: 80172
+SHA256sum: 7315eee3384ccd8edc1e8dd347fecde01929ed704d224bdc67f9c801aa486c98
 Description:  Python 3.10 unittest module
 
 Package: python3-urllib

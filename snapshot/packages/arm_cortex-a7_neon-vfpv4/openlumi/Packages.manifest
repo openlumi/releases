@@ -62,8 +62,8 @@ Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 150221
 Filename: python3-bleak_0.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 149207
-SHA256sum: 6e75057f018382bad49d0944130cdecafbdbb4588f053ce708ced971b6ec2ed2
+Size: 149204
+SHA256sum: 0c804a32a877122746694967afc9c55d43bff2085dd9b38adc3c7c53a674991e
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy

@@ -126,7 +126,7 @@ luci-lib-nixio - git-20.234.06894-c4a4e43
 luci-mod-admin-full - git-19.253.48496-3f93650
 luci-mod-network - git-22.208.56039-801d451
 luci-mod-status - git-22.186.43238-88c62fe
-luci-mod-system - git-22.215.28070-bb9476c
+luci-mod-system - git-22.217.39490-d4330a5
 luci-proto-ipv6 - git-21.148.48881-79947af
 luci-proto-ppp - git-21.158.38888-88b9d84
 luci-theme-bootstrap - git-22.175.85350-d4c4afe
