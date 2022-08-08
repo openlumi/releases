@@ -221,10 +221,10 @@ Depends: libc, node, node-bufferutil, node-utf-8-validate
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7566583
+Installed-Size: 7566568
 Filename: node-zigbee2mqtt_1.27.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7543336
-SHA256sum: d72c8b3ec54728467e66b2e94fb7be1d19e9fc5696318936a825331a980522fe
+Size: 7543136
+SHA256sum: 32ec66a8470e8c4d88da87057a9c362ce5bc4b8b213ab5850fbd83aed0a9f863
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node
@@ -234,10 +234,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:nodejs:node.js
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 10667296
+Installed-Size: 10667293
 Filename: node_v16.16.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 10581178
-SHA256sum: a8bbfd5f66cb9054e051fdc0a03cbc546ebb74f0188e4917dcc97835a4cc849c
+Size: 10580704
+SHA256sum: 23189f996debaaa36a32ee951e5c083e8f42f6438752252f6d22b266bf334b44
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
