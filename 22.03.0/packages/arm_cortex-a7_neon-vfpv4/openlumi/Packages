@@ -28,22 +28,22 @@ Depends: libc, node, libudev
 License: MIT
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1089977
+Installed-Size: 1089976
 Filename: node-espruinohub_0.0.2-10_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1087799
-SHA256sum: def90b454497e95c5f776410ed5fc7fd33842ac1d4fc614d442fc1103098ac6f
+Size: 1087821
+SHA256sum: 82aeb4ec876f153d8becccc715441ed5c553b4c2007fd8b172781e2ffdfa3748
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: node-zigbee2mqtt-dev
-Version: dev-20220808
+Version: dev-20220809
 Depends: libc, node
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7618563
-Filename: node-zigbee2mqtt-dev_dev-20220808_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7594445
-SHA256sum: a5e091ea96c1dc678ec33c2e89a54d3d877be0fe2363ab7a22b1b1e25e8b84ff
+Installed-Size: 7618581
+Filename: node-zigbee2mqtt-dev_dev-20220809_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7594520
+SHA256sum: d13d7f5ad96a3cef5012b754447408eaa18cf78e5d6f536bb8f23946135c55dd
 Description:  Allows you to use your Zigbee devices without the vendors bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: python3-aio-mqtt
@@ -64,10 +64,10 @@ Depends: libc, python3-light, python3-asyncio, python3-dbus-next
 License: MIT
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 150226
+Installed-Size: 150225
 Filename: python3-bleak_0.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 149468
-SHA256sum: 65fba8cd64f52910982dd90216b7f0244d8c646d380a92ab464f570df1d0eb2b
+Size: 149381
+SHA256sum: 1b1b048abe6444ff438f55231dadc2b46f9e91e4a4431a4d3b11468a4fd8d561
 Description:  Bleak is a GATT client software, capable of connecting to BLE devices acting as GATT servers. It is designed to provide a asynchronous, cross-platform Python API to connect and communicate with e.g. sensors.
 
 Package: python3-bluepy
