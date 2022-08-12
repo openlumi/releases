@@ -53,10 +53,10 @@ Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jso
 License: MIT
 Section: luci
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 132505
+Installed-Size: 132506
 Filename: luci-base_git-22.213.35850-abd9125_arm_cortex-a7_neon-vfpv4.ipk
-Size: 133535
-SHA256sum: 9b1b4360cdfc8a94d5c6b4da8e54316f346808fc2ebb28f4752353c74d08969d
+Size: 133530
+SHA256sum: 5166ca888ff0047e427f43f190ea600a2e59cdf58abab825912524fcddc384a4
 Description:  LuCI core libraries
 
 Package: luci-lib-base
@@ -94,15 +94,15 @@ SHA256sum: 9b0c697d39b49fcc5b8f937c78fbb5fc5649e82bf70ea758b4c2ec9b60afd3e5
 Description:  Lua binding for JSON-C
 
 Package: luci-lib-nixio
-Version: git-20.234.06894-c4a4e43
+Version: git-22.222.71555-88b9088
 Depends: libc, liblua5.1.5
 License: Apache-2.0
 Section: luci
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 29401
-Filename: luci-lib-nixio_git-20.234.06894-c4a4e43_arm_cortex-a7_neon-vfpv4.ipk
-Size: 30141
-SHA256sum: 7c3579893b462253a5477434d8a7e4643f18e6a5e537efd35eaa5bf36517a95f
+Installed-Size: 29400
+Filename: luci-lib-nixio_git-22.222.71555-88b9088_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30048
+SHA256sum: 472487fb6ca317287cf0521b42664fd67aefd8022b03070fcdf71d45fef101d2
 Description:  NIXIO POSIX library
 
 Package: luci-mod-admin-full

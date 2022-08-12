@@ -4,13 +4,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: ar3k-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 802639
+Installed-Size: 802693
 Filename: ar3k-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 802898
-SHA256sum: f3fb8b7ba88fddc0534961486e2b38b019aeedf32528c93af8d1692e1df2fa8e
+Size: 802909
+SHA256sum: 96e90fdbccfdc10fd6111b582e5ad746c7ef8e3b7d4a0e137dc2fd847c5868b1
 Description:  ath3k firmware
 
 Package: ath9k-htc-firmware
@@ -19,13 +19,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: ath9k-htc-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 61870
+Installed-Size: 61875
 Filename: ath9k-htc-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 62360
-SHA256sum: 638db7d5196f2ab895f938f6536576e21d05d663d94d95730efb8dacfc4f6461
+Size: 62373
+SHA256sum: a83d4f1c0eb30c88c6dcd9a505eabc232521b40dfc1f2b902e18a443dbd732d1
 Description:  AR9271/AR7010 firmware
 
 Package: blkid
@@ -52,13 +52,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: brcmfmac-firmware-usb
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 502973
+Installed-Size: 502983
 Filename: brcmfmac-firmware-usb_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 503676
-SHA256sum: 8f9757c572506b1f573faaaddbb725ede2cddbec21c9f40c03459e0b65f18c22
+Size: 503690
+SHA256sum: 3fce1f9c619dc24b6103bb84ee2ec1ec83f59fc8cd223898a135ad16622a0e5f
 Description:  Broadcom BCM43xx fullmac USB firmware
 
 Package: busybox
@@ -119,13 +119,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: carl9170-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 9758
+Installed-Size: 9762
 Filename: carl9170-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 10504
-SHA256sum: 53fca5bf4ebe1094b700ec5f9d2becdb6d8b16a57f1ae5fad2e6c2338bd90955
+Size: 10505
+SHA256sum: ed1450a3a1b8f3d8dd8c4494992162828f8c5087e79af4906a1f829f481ee15f
 Description:  AR9170 firmware
 
 Package: chat
@@ -188,30 +188,30 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: edgeport-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 18895
 Filename: edgeport-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 19614
-SHA256sum: e9057ba5f037b1692d08dbb8bc41ee539e90ce6df65852d78597a196e565dc71
+Size: 19602
+SHA256sum: 28e6707439642ed712ed6b2e7196156170992151cd4830d1efaece63b100773c
 Description:  USB Inside Out Edgeport Serial Driver firmware
 
 Package: firewall4
-Version: 2022-06-17-15c38317-1
-Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, kmod-nft-nat6, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
+Version: 2022-06-17-15c38317-2
+Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
 Provides: uci-firewall
 Source: package/network/config/firewall4
 SourceName: firewall4
 License: ISC
 Section: net
-SourceDateEpoch: 1655478950
+SourceDateEpoch: 1660160177
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 26908
-Filename: firewall4_2022-06-17-15c38317-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 27914
-SHA256sum: 4a47711b63244c82faa7f1a2d8117c1388af992d8abd9053f45c67ae43b85a82
+Installed-Size: 26907
+Filename: firewall4_2022-06-17-15c38317-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27908
+SHA256sum: 5cf9f7d59de5f1606815e4c91c7ca309289dc87044e83158426f39ebc267115e
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
 
@@ -318,8 +318,8 @@ Size: 7828
 SHA256sum: dbc86cd615ecc1e3c9743bb72071dfd159b30a4671779a26e7c7f7940d553533
 Description:  Command line frontend for the wireless information library.
 
-Package: jansson5
-Version: 2.14-2
+Package: jansson4
+Version: 2.14-3
 Depends: libc
 Provides: jansson
 Source: package/libs/jansson
@@ -327,13 +327,13 @@ SourceName: jansson
 License: MIT
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1657472867
-ABIVersion: 5
+SourceDateEpoch: 1659997209
+ABIVersion: 4
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 19659
-Filename: jansson5_2.14-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 20414
-SHA256sum: adc2e9d0f02c2ca27f6e89ca9930c5dac7601714c45f2a5c31dae506c283ef90
+Installed-Size: 19637
+Filename: jansson4_2.14-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20381
+SHA256sum: 269c967d88c99580d72e39274d31ae01f7c00118c6e311b20d665c9fe66a910c
 Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
 
 Package: jshn
@@ -472,13 +472,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: libertas-sdio-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 348528
+Installed-Size: 348539
 Filename: libertas-sdio-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 349417
-SHA256sum: 8d280e047b18a7e6103f80df6700f3fcb4679d2a5a8814fd4f100ad1a25b39fe
+Size: 349448
+SHA256sum: e0ba4ebd4169e032f826f5e547ddf2945b882b01402a0fa682057143d9b928f0
 Description:  Marvell 8385/8686/8688 SDIO firmware
 
 Package: libertas-spi-firmware
@@ -487,13 +487,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: libertas-spi-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 92235
+Installed-Size: 92242
 Filename: libertas-spi-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 93057
-SHA256sum: ac289ec7ebef8a35cc43a58f88eefc72c2d2f736462d3a8cddc7c094b678140f
+Size: 93067
+SHA256sum: d3c8526e1270ba5258126a77b058f1032996713effc85cda5768f7ae42d33382
 Description:  Marvell 8686 SPI firmware
 
 Package: libertas-usb-firmware
@@ -502,13 +502,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: libertas-usb-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 216565
+Installed-Size: 216573
 Filename: libertas-usb-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 217304
-SHA256sum: 12c116ca7d89c94ab91e9bc6f3b45979e235851f12ca5fb015e7ab42f864280b
+Size: 217309
+SHA256sum: 7bd59f2a686f56963803e69f287be290b63d6749267c6854f09842822b52061d
 Description:  Marvell 8388/8682 USB firmware
 
 Package: libext2fs2
@@ -1092,13 +1092,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: mt7601u-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 26408
+Installed-Size: 26413
 Filename: mt7601u-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 27122
-SHA256sum: c7e1b3a1fefe9add328150df586138ca01d1628e66c8b3b100fbcaefb24343ae
+Size: 27128
+SHA256sum: 102c12c286cb31766cd7643df4924349b0e1d07639a8f460a841fa3996f89724
 Description:  MediaTek MT7601U firmware
 
 Package: mwifiex-sdio-firmware
@@ -1107,13 +1107,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: mwifiex-sdio-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 876707
+Installed-Size: 876716
 Filename: mwifiex-sdio-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 877039
-SHA256sum: d74ee66dcc489e491bceca9b975088ac124b839076befe2ebd9469600fab891d
+Size: 876985
+SHA256sum: b14029631c96876ba671f90b1880757a56a56d731e0816632d39b4618e44963e
 Description:  Marvell 8887/8997 firmware
 
 Package: netifd
@@ -1133,36 +1133,36 @@ SHA256sum: a382df549ce25b3c7009ae006febf51bc69d705f84cf90a4441c1c947e83aceb
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
-Version: 1.0.4-1
-Depends: libc, kmod-nft-core, libnftnl11, jansson5
+Version: 1.0.4-2
+Depends: libc, kmod-nft-core, libnftnl11, jansson4
 Provides: nftables
 Source: package/network/utils/nftables
 SourceName: nftables-json
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1656083424
+SourceDateEpoch: 1660038706
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 268365
-Filename: nftables-json_1.0.4-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 267355
-SHA256sum: 5e4a84d2008ae03d533a65b8ba839260bf7ca933f96716c04ff01b7fac552e04
+Installed-Size: 268375
+Filename: nftables-json_1.0.4-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 267336
+SHA256sum: 211090cbf7a4d2776f54667f5db5bbc2a75d040ffe83306ffd02fef8654cfde0
 Description:  nftables userspace utility with JSON support
 
 Package: odhcp6c
-Version: 2022-07-13-9212bfcb-18
+Version: 2022-08-05-7d21e8d8-18
 Depends: libc, libubox20220515
 Source: package/network/ipv6/odhcp6c
 SourceName: odhcp6c
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1659217844
+SourceDateEpoch: 1659717084
 Maintainer: Hans Dedecker <dedeckeh@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 25905
-Filename: odhcp6c_2022-07-13-9212bfcb-18_arm_cortex-a7_neon-vfpv4.ipk
-Size: 26676
-SHA256sum: 2cc3700ba42e1dc0d7a124c2d51cd98a41c12eec31cc58381b5e911517de69b6
+Installed-Size: 25979
+Filename: odhcp6c_2022-08-05-7d21e8d8-18_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26720
+SHA256sum: e5726fd1b4390c301a70d61543ec8e717633f4c704617425b751a771c2b104f7
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd-ipv6only
@@ -1332,13 +1332,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: r8152-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 9394
+Installed-Size: 9401
 Filename: r8152-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 10130
-SHA256sum: c9f7f9dbfe30e74a35fcea16ebf01b6044b60b489da0a22d9754bfa73eb7efc7
+Size: 10135
+SHA256sum: 09e9220fe358c386f71e76e4552ec00d47df14dd29d59def119b1fd59df23a9f
 Description:  RealTek RTL8152 firmware
 
 Package: rpcd-mod-file
@@ -1396,13 +1396,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rs9113-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 84650
+Installed-Size: 84652
 Filename: rs9113-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 85246
-SHA256sum: 9e263901524509b3c45900bf6e8021dcbf4b8d6b37967247fd53e764747f47d5
+Size: 85212
+SHA256sum: eda3f0557208da047ccff404ea6c438091771c2e226548aa1c5a956fbc5df5d0
 Description:  RedPine Signals rs9113 firmware
 
 Package: rt2800-usb-firmware
@@ -1411,13 +1411,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rt2800-usb-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 2925
+Installed-Size: 2929
 Filename: rt2800-usb-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 3642
-SHA256sum: ea8976d02de0ec3d0c2dd3a9a9fa7f106c64297fb99892877f249ef23becf959
+Size: 3648
+SHA256sum: 429dfcb452eda6258e68b70829152c3262a45fe56818045bb861bdbc433d17d1
 Description:  Ralink RT28xx/3xxx USB firmware
 
 Package: rt73-usb-firmware
@@ -1426,13 +1426,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rt73-usb-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1306
+Installed-Size: 1310
 Filename: rt73-usb-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2033
-SHA256sum: 4a4c40377ad3d2ad161244d15e4e59b74f8848f9d0b7e526f1d9a2150d884d8c
+Size: 2041
+SHA256sum: 8811ad222a9fea154d1535e4c648c9dd6d3750bc7088ba887cd524cce2619240
 Description:  Ralink RT2573 firmware
 
 Package: rtl8192cu-firmware
@@ -1441,32 +1441,17 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: rtl8192cu-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 18703
+Installed-Size: 18705
 Filename: rtl8192cu-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 19453
-SHA256sum: 6b922a3f493d53a606bb50a8a2e4008e5ed3ae1b25b005071aee3dbe0b7bb763
+Size: 19464
+SHA256sum: 2dd0932b226c7e050ed91a912d6e824c5f77bc64d00d1d820e1bdeaae1c17968
 Description:  RealTek RTL8192CU firmware
 
-Package: rtl8192su-firmware
-Version: 20220708-1
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: rtl8192su-firmware
-Section: firmware
-SourceDateEpoch: 1657891304
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 63220
-Filename: rtl8192su-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 63994
-SHA256sum: cc0d0b75a96ccdd7e23e486c0d488981249b86e4915e2ca7b3b429c8dbc83573
-Description:  RealTek RTL8192SU firmware
-
 Package: spidev-test
-Version: 5.15.58-5.15.58
+Version: 5.15.60-5.15.60
 Depends: libc, kmod-spi-dev
 Source: package/utils/spidev_test
 SourceName: spidev-test
@@ -1474,9 +1459,9 @@ Section: utils
 SourceDateEpoch: 1658060361
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 4417
-Filename: spidev-test_5.15.58-5.15.58_arm_cortex-a7_neon-vfpv4.ipk
-Size: 5105
-SHA256sum: e33504ebc476c8ff2aff56c52aabe0639446b52f0d90e80c97badf178a6522c4
+Filename: spidev-test_5.15.60-5.15.60_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5106
+SHA256sum: 8ed2108689f450c093c261f2b757f927fc472b511227b5153ee21234cb615c2f
 Description:  SPI testing utility.
 
 Package: terminfo
@@ -1757,13 +1742,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: wl12xx-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1175086
+Installed-Size: 1175078
 Filename: wl12xx-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1175088
-SHA256sum: 8afc6b2f5033f272542842ddb7d23bcfd237969e2f9f200af874d5f0b7a7b7bd
+Size: 1175074
+SHA256sum: 4eaef4e6fa0acddb3f9fd67d5645b4dc1859d92365997190f2ad81a2907f9cd5
 Description:  TI WL12xx firmware
 
 Package: wl18xx-firmware
@@ -1772,13 +1757,13 @@ Depends: libc
 Source: package/firmware/linux-firmware
 SourceName: wl18xx-firmware
 Section: firmware
-SourceDateEpoch: 1657891304
+SourceDateEpoch: 1660160177
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 343323
+Installed-Size: 343327
 Filename: wl18xx-firmware_20220708-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 343913
-SHA256sum: cb338312a4ab400749b43c0101173b5c934378f4eb201dba963a1ffc332534f7
+Size: 343916
+SHA256sum: 91d12f3a25e5b4a34be4b0c845abbcd8ee3ce46e547c66b912d6857acc0ece93
 Description:  TI WL18xx firmware
 
 Package: wpa-supplicant
@@ -1817,20 +1802,20 @@ SHA256sum: e49c7c03fa0a75545b9ea7a098c9c3e57fd24eed53d18b92b152814cbcbc10fd
 Description:  Generic OpenWrt 3G/4G proto handler
 
 Package: zlib
-Version: 1.2.12-2
+Version: 1.2.12-4
 Depends: libc
 Source: package/libs/zlib
 SourceName: zlib
 License: Zlib
 LicenseFiles: README
 Section: libs
-SourceDateEpoch: 1648452476
+SourceDateEpoch: 1660025288
 CPE-ID: cpe:/a:gnu:zlib
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 38194
-Filename: zlib_1.2.12-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 38968
-SHA256sum: b9e14703f3d734d4f4828d3d64ac1f44e929d3fcc6423bb8d451a29f1916f29f
+Installed-Size: 38188
+Filename: zlib_1.2.12-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 38967
+SHA256sum: f1f615e61e08fd6eae8f44895077606092fd3574ea379e5db2d898f35c3e4dab
 Description:  zlib is a lossless data-compression library.
  This package includes the shared library.
 
