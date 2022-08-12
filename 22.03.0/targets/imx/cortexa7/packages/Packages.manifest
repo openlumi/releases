@@ -9475,13 +9475,13 @@ Source: package/kernel/rtl8189es-ol
 SourceName: kmod-rtl8189es-ol
 License: GPLv2
 Section: kernel
-SourceDateEpoch: 1659857658
+SourceDateEpoch: 1660200596
 Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 811681
+Installed-Size: 811686
 Filename: kmod-rtl8189es-ol_5.10.134+2021-04-01-07df9757-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 777784
-SHA256sum: 66cb592f7adba33eecaa9e029c0fdb41152eca32ce216734471e779f1f25e8a6
+Size: 777860
+SHA256sum: d80932bab1230daf7238231bc5d7aee99a6d0e13445666bf88126e07afda30f2
 Description:  Realtek RTL8189ES SDIO WiFi support (out-of-tree)
 
 Package: kmod-rtl8192c-common
@@ -9522,13 +9522,13 @@ Source: package/kernel/rtl8723bs-ol
 SourceName: kmod-rtl8723bs-ol
 License: GPLv2
 Section: kernel
-SourceDateEpoch: 1659857658
+SourceDateEpoch: 1660200596
 Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 756070
+Installed-Size: 756066
 Filename: kmod-rtl8723bs-ol_5.10.134+2020-04-14-8171031d-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 730694
-SHA256sum: 1b14e7c2fc3de5c57329339f7b5a9f57f8c3d499df01d31615cf82b87b3c8359
+Size: 730517
+SHA256sum: 3564adc6def8482407b1e2f625669d82dbcf8bd8b64116a66f3b8e6d78a74112
 Description:  Realtek RTL8723BS SDIO WiFi support (out-of-tree)
 
 Package: kmod-rtl8812au-ct
@@ -13303,12 +13303,12 @@ SourceName: uboot-envtools
 License: GPL-2.0 GPL-2.0+
 LicenseFiles: Licenses/README
 Section: utils
-SourceDateEpoch: 1659857660
+SourceDateEpoch: 1660200596
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 13442
+Installed-Size: 13441
 Filename: uboot-envtools_2022.01-29_arm_cortex-a7_neon-vfpv4.ipk
-Size: 14218
-SHA256sum: 0ee48477999a892abe35f43010aae495b1d0cfab1a298785053ecbbd2d195bb3
+Size: 14222
+SHA256sum: e7fe60ff94e8ecee6be50016d40302d660aa6302fbc24ab8b93c4b2531cff9c8
 Description:  This package includes tools to read and modify U-Boot bootloader environment.
 
 Package: umbim

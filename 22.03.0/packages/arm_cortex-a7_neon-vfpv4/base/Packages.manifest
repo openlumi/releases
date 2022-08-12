@@ -342,12 +342,12 @@ Depends: libc, memtool
 Source: package/utils/jntools
 SourceName: jntools
 Section: utils
-SourceDateEpoch: 1659857661
+SourceDateEpoch: 1660200597
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 26822
+Installed-Size: 26816
 Filename: jntools_0.11-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 27502
-SHA256sum: aebfeafe88e0847d6544d0f0b26937875e0acfa645f38c70501db32bf9d5e293
+Size: 27492
+SHA256sum: 95f5a6b75a126f0637a8b60969c61281eb29b1ab28e2d4b7f7465074505f9ec9
 Description:  jntools - a set of tools to flash and manage jn5169 zigbee chip
 
 Package: jshn
@@ -1083,19 +1083,19 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language interpreter.
 
 Package: luci-app-jntools
-Version: git-22.219.27261-df43059
+Version: git-22.223.24597-929aeea
 Depends: libc, jntools, libustream-wolfssl20201210
 Source: package/utils/luci-app-jntools
 SourceName: luci-app-jntools
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1659857661
+SourceDateEpoch: 1660200597
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3130
-Filename: luci-app-jntools_git-22.219.27261-df43059_all.ipk
-Size: 4023
-SHA256sum: 02d1d5396783cfd6374ded74518bbe805bd71d8c2a7356b0cb6def708c349fc4
+Installed-Size: 3128
+Filename: luci-app-jntools_git-22.223.24597-929aeea_all.ipk
+Size: 4013
+SHA256sum: fab95528e7bd98d12ec1202ed567de113eab1c7419aabbe2e8c30784009baf30
 Description:  Provides a webadmin for jntools.
 
 Package: memtool
@@ -1104,12 +1104,12 @@ Depends: libc
 Source: package/utils/memtool
 SourceName: memtool
 Section: utils
-SourceDateEpoch: 1659857661
+SourceDateEpoch: 1660200596
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 2063
+Installed-Size: 2064
 Filename: memtool_1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2799
-SHA256sum: fafe60d1682cbf29bbad4772fa3d49dbc97eb66538b9299fe383d55785b5924b
+Size: 2806
+SHA256sum: 97dad89410faef2267eac7cf55fb411ca31d38ffb145e376cd744f76f52593fc
 Description:  Utility to flash zigbee chip on Xiaomi Lumi gateway
 
 Package: mkf2fs
@@ -1484,12 +1484,12 @@ Depends: libc
 Source: package/utils/rtk_hciattach
 SourceName: rtk_hciattach
 Section: utils
-SourceDateEpoch: 1659857661
+SourceDateEpoch: 1660200596
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 41679
+Installed-Size: 41680
 Filename: rtk_hciattach_20201020-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 42493
-SHA256sum: 5b77197a5ef016d1edeee6c13a088d5ae6d5738b724fcd165f77e918a9f20911
+Size: 42490
+SHA256sum: 68c0b370cbfd029d955b602dcdd89bc37af8378224598c81848f9f7db113b198
 Description:  rtl8723bs_bt
 
 Package: rtl8192cu-firmware
