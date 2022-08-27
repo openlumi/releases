@@ -24,6 +24,7 @@
 | 🗄️ [node-zigbee2mqtt-dev_dev-20220809_arm_cortex-a9_neon.ipk](./node-zigbee2mqtt-dev_dev-20220809_arm_cortex-a9_neon.ipk) | 6.2M | |
 | 🗄️ [node-zigbee2mqtt-dev_dev-20220812_arm_cortex-a9_neon.ipk](./node-zigbee2mqtt-dev_dev-20220812_arm_cortex-a9_neon.ipk) | 6.3M | |
 | 🗄️ [node-zigbee2mqtt-dev_dev-20220824_arm_cortex-a9_neon.ipk](./node-zigbee2mqtt-dev_dev-20220824_arm_cortex-a9_neon.ipk) | 6.5M | |
+| 🗄️ [node-zigbee2mqtt-dev_dev-20220827_arm_cortex-a9_neon.ipk](./node-zigbee2mqtt-dev_dev-20220827_arm_cortex-a9_neon.ipk) | 6.5M | |
 | 🗄️ [python3-aio-mqtt_0.3.2-1_arm_cortex-a9_neon.ipk](./python3-aio-mqtt_0.3.2-1_arm_cortex-a9_neon.ipk) | 20K | |
 | 🗄️ [python3-bleak_0.14.3-1_arm_cortex-a9_neon.ipk](./python3-bleak_0.14.3-1_arm_cortex-a9_neon.ipk) | 124K | |
 | 🗄️ [python3-bluepy_1.3.0-1_arm_cortex-a9_neon.ipk](./python3-bluepy_1.3.0-1_arm_cortex-a9_neon.ipk) | 304K | |
