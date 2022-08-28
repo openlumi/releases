@@ -19,7 +19,6 @@ var sjs = SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/releases/search.json',
-  noResultsText: 'Нет результатов',
   debounceTime: 200,
   limit: 30
 })
