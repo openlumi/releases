@@ -160,6 +160,7 @@ CONFIG_PACKAGE_memtool=y
 CONFIG_PACKAGE_node=m
 CONFIG_PACKAGE_node-bcrypt=m
 CONFIG_PACKAGE_node-bufferutil=m
+CONFIG_PACKAGE_node-espruinohub=m
 CONFIG_PACKAGE_node-firmata=m
 CONFIG_PACKAGE_node-hap-nodejs=m
 CONFIG_PACKAGE_node-johnny-five=m

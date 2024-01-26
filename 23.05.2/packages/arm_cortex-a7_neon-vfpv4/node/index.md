@@ -19,6 +19,7 @@
 | 🗄️ [node-johnny-five_2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node-johnny-five_2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 464K | |
 | 🗄️ [node-mdns_2.7.2-4_arm_cortex-a7_neon-vfpv4.ipk](./node-mdns_2.7.2-4_arm_cortex-a7_neon-vfpv4.ipk) | 140K | |
 | 🗄️ [node-mqtt_5.3.4-1_arm_cortex-a7_neon-vfpv4.ipk](./node-mqtt_5.3.4-1_arm_cortex-a7_neon-vfpv4.ipk) | 2.4M | |
+| 🗄️ [node-mqtt_5.3.5-1_arm_cortex-a7_neon-vfpv4.ipk](./node-mqtt_5.3.5-1_arm_cortex-a7_neon-vfpv4.ipk) | 2.4M | |
 | 🗄️ [node-npm_v20.10.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node-npm_v20.10.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 2.1M | |
 | 🗄️ [node-npm_v20.11.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node-npm_v20.11.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 2.1M | |
 | 🗄️ [node-red-contrib-gpio_0.51.0-3_arm_cortex-a7_neon-vfpv4.ipk](./node-red-contrib-gpio_0.51.0-3_arm_cortex-a7_neon-vfpv4.ipk) | 616K | |
