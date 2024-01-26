@@ -44,10 +44,10 @@ Section: lang
 SourceDateEpoch: 1706271309
 Maintainer: mrG1K <mr@g1k.ru>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1787674
+Installed-Size: 1787683
 Filename: node-espruinohub_0.0.2-12_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1779128
-SHA256sum: 823f56de0d3e98867e07dd1692980e19e820595e21f38c87b24297a04f7f5745
+Size: 1779167
+SHA256sum: 0e4db5c484fa62d19b5c3810b2d9c9648f99903c5c2b04ff92e2bd11ab59380d
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: python3-bluepy
