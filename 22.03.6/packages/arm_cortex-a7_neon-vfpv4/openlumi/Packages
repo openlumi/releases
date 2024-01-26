@@ -1,13 +1,25 @@
+Package: node-espruinohub
+Version: 0.0.2-12
+Depends: libc, node108, libudev
+License: MIT
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1788003
+Filename: node-espruinohub_0.0.2-12_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1778661
+SHA256sum: 9d77143e7d8ec4c038666894d11a542c242515f85f0a728a969090f8fce48a24
+Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
+
 Package: python3-aio-mqtt
 Version: 0.3.4-1
 Depends: libc, python3-base, python3-asyncio, python3-openssl
 License: APACHE
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 20228
+Installed-Size: 20226
 Filename: python3-aio-mqtt_0.3.4-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 21028
-SHA256sum: 29a84f6973a111323968fb491f377af2d7b6837bc365a66cbfec67a714c59dbc
+Size: 21027
+SHA256sum: 7721c4c32d54a89744335ea9f42844a5288b919e7892909bcf78961e8c575de2
 Description:  Asynchronous MQTT client for 3.1.1 protocol version.
 
 Package: python3-bluepy
@@ -16,10 +28,10 @@ Depends: libc, python3, glib2
 License: GPL-2.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 306486
+Installed-Size: 306481
 Filename: python3-bluepy_1.3.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 306272
-SHA256sum: 763d2e744f16b753a15b72f1e9f67affba44324d1882ffce4131a05aff58b4dc
+Size: 306250
+SHA256sum: e93294b508082cbfd16b55fdd29c0de8ed9b62e629886d6766eec2f528460764
 Description:  Python interface to Bluetooth LE on Linux
 
 Package: python3-dbus-next
@@ -28,10 +40,10 @@ Depends: libc, python3-light, python3-asyncio, python3-logging, python3-urllib
 License: MIT
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 73319
+Installed-Size: 73311
 Filename: python3-dbus-next_0.2.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 74343
-SHA256sum: a8e913098da522c663a3d86520a5c02072f23b17c9a7b17651fa0f37051f5868
+Size: 74333
+SHA256sum: 612b11d8a0728767e7d2b07ac5c639a5315fe006156281a3eaae727b740c8463
 Description:  python-dbus-next is a Python library for DBus that aims to be a fully featured high level library 
  primarily geared towards integration of applications into Linux desktop and mobile environments.
 
