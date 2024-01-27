@@ -1,1 +1,1 @@
-{"architecture": "arm_cortex-a7_neon-vfpv4", "packages":{}}
+{"architecture": "arm_cortex-a7_neon-vfpv4", "packages":{"node-bufferutil": "4.0.8-1", "node-utf-8-validate": "6.0.3-1", "node-zigbee2mqtt": "1.35.1-1", "node115": "v20.11.0-1"}}

@@ -1,1 +1,59 @@
+Package: node-bufferutil
+Version: 4.0.8-1
+Depends: libc, node115
+License: MIT
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9429
+Filename: node-bufferutil_4.0.8-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10339
+SHA256sum: 4d7c450a7497c6578c2dcb21d68538ed1615791853a6a90b8fe6d4d03f53b11a
+Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
+
+Package: node-utf-8-validate
+Version: 6.0.3-1
+Depends: libc, node115
+License: MIT
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 12615
+Filename: node-utf-8-validate_6.0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13464
+SHA256sum: 58ad896f60088dc7fb17ee87a0e99b1c4e4ddd3ed7ec4e477307602b24e6a46b
+Description:  Check if a buffer contains valid UTF-8 encoded text
+
+Package: node-zigbee2mqtt
+Version: 1.35.1-1
+Depends: libc, node115, node-bufferutil, node-utf-8-validate
+License: GPL-3.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7273502
+Filename: node-zigbee2mqtt_1.35.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7264852
+SHA256sum: 8c8705c0ffb851bd3e0a7eea3a1b6b69508afe00ac10fbf450a5bd14ab1b1c89
+Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: node115
+Version: v20.11.0-1
+Depends: libc, libstdcpp6, libopenssl3, zlib, libnghttp2-14, libcares, libatomic1
+Provides: node
+License: MIT
+Section: lang
+ABIVersion: 115
+CPE-ID: cpe:/a:nodejs:node.js
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 12961018
+Filename: node115_v20.11.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12853740
+SHA256sum: 9716e616771f5f7b4bea008e6ac8244211648043264457747b2ff0babbba1908
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ 
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 10.1 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
 
