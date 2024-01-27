@@ -682,23 +682,6 @@ Size: 153878
 SHA256sum: cd3a5c0eb07a8ef633c667e5e853d73a2ca0d710409b52f684d2f6adf95a5c70
 Description:  libwebsockets (OpenSSL)
 
-Package: mdnsd
-Version: IETF104-5
-Depends: libc
-License: Apache-2.0
-Section: net
-CPE-ID: cpe:/a:apple:mdnsresponder
-Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 204938
-Filename: mdnsd_IETF104-5_arm_cortex-a7_neon-vfpv4.ipk
-Size: 205795
-SHA256sum: fc87f3c339c5240ad872a1dce4c6e9c1d6a3ca8f38aa992e6248dae8ddb28309
-Description:  Bonjour, also known as zero-configuration networking, enables
- automatic discovery of computers, devices, and services on
- IP networks.
- .
- This package contains the mDNS server daemon.
-
 Package: python3-aio-mqtt-mod
 Version: 0.3.4-1
 Depends: libc, python3-light, python3-asyncio

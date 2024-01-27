@@ -7,9 +7,9 @@
 | Name | Size | Date |
 |:---|---:|---|
 | 📁 [..](../) | | |
-| 🗄️ [Packages](./Packages) | 12K | |
+| 🗄️ [Packages](./Packages) | 4.0K | |
 | 🗄️ [Packages.gz](./Packages.gz) | 4.0K | |
-| 🗄️ [Packages.manifest](./Packages.manifest) | 16K | |
+| 🗄️ [Packages.manifest](./Packages.manifest) | 4.0K | |
 | 🗄️ [Packages.sig](./Packages.sig) | 4.0K | |
 | 🗄️ [index.json](./index.json) | 4.0K | |
 | 🗄️ [node-bcrypt_5.1.1-1_arm_cortex-a7_neon-vfpv4.ipk](./node-bcrypt_5.1.1-1_arm_cortex-a7_neon-vfpv4.ipk) | 620K | |
