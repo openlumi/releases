@@ -41,7 +41,9 @@
 | 🗄️ [node-zigbee2mqtt_1.33.2-1_arm_cortex-a7_neon-vfpv4.ipk](./node-zigbee2mqtt_1.33.2-1_arm_cortex-a7_neon-vfpv4.ipk) | 6.8M | |
 | 🗄️ [node-zigbee2mqtt_1.34.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node-zigbee2mqtt_1.34.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 6.9M | |
 | 🗄️ [node-zigbee2mqtt_1.35.1-1_arm_cortex-a7_neon-vfpv4.ipk](./node-zigbee2mqtt_1.35.1-1_arm_cortex-a7_neon-vfpv4.ipk) | 7.0M | |
+| 🗄️ [node-zigbee2mqtt_1.36.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node-zigbee2mqtt_1.36.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 7.8M | |
 | 🗄️ [node108_v18.19.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node108_v18.19.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 13M | |
+| 🗄️ [node108_v18.19.1-1_arm_cortex-a7_neon-vfpv4.ipk](./node108_v18.19.1-1_arm_cortex-a7_neon-vfpv4.ipk) | 13M | |
 | 🗄️ [node_v16.20.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node_v16.20.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 11M | |
 | 🗄️ [node_v18.18.2-1_arm_cortex-a7_neon-vfpv4.ipk](./node_v18.18.2-1_arm_cortex-a7_neon-vfpv4.ipk) | 12M | |
 

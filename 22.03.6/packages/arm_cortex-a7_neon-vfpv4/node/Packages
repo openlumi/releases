@@ -4,10 +4,10 @@ Depends: libc, node108
 License: MIT
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 9398
+Installed-Size: 9404
 Filename: node-bufferutil_4.0.8-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 10316
-SHA256sum: 642441d81a216f7e8b12b1dedbe702c2ddfd9b893226b0afc2301655c1a90414
+Size: 10331
+SHA256sum: edf09db474a6b1126c3b3f7bfda043340980b849d81c59e949d87e63f52df0c3
 Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
 
 Package: node-utf-8-validate
@@ -16,26 +16,26 @@ Depends: libc, node108
 License: MIT
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 12559
+Installed-Size: 12566
 Filename: node-utf-8-validate_6.0.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 13406
-SHA256sum: 6e0e9b8d05099898c6812261648ab3f5b280ea6cc89ab9f954baba5600d6b19b
+Size: 13427
+SHA256sum: 212725c657877f99bc406f1320b9e52d371dd1bae33639fb16cf71da40872fa2
 Description:  Check if a buffer contains valid UTF-8 encoded text
 
 Package: node-zigbee2mqtt
-Version: 1.35.1-1
+Version: 1.36.0-1
 Depends: libc, node108, node-bufferutil, node-utf-8-validate
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7316902
-Filename: node-zigbee2mqtt_1.35.1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7308117
-SHA256sum: 088a2d4fca92265b8bbc8f326dae73305ebc2a541aad75eb830e0306b14cfa7d
+Installed-Size: 8097547
+Filename: node-zigbee2mqtt_1.36.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8087569
+SHA256sum: 09b5fd8f00ac2c6d5641d495d5d38b2558b606adfd07ad93a14a7bebca273ac6
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node108
-Version: v18.19.0-1
+Version: v18.19.1-1
 Depends: libc, libstdcpp6, zlib, libatomic1
 Provides: node
 License: MIT
@@ -43,10 +43,10 @@ Section: lang
 ABIVersion: 108
 CPE-ID: cpe:/a:nodejs:node.js
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 13484193
-Filename: node108_v18.19.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 13376889
-SHA256sum: 0493561f50a502f0133a529377bc98f30bd079284807be82680a09d6a71abcb5
+Installed-Size: 13493305
+Filename: node108_v18.19.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13385659
+SHA256sum: d4521ceef4c36a10680362a7e3b945cdaf1ec721e4f4455b7b4bbddf1abe8441
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
