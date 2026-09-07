@@ -9,10 +9,10 @@ Section: lang
 SourceDateEpoch: 1768725698
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 105576
+Installed-Size: 107624
 Filename: node-bcrypt_6.0.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 106555
-SHA256sum: f9fb9b991ffa330e392244fc15591b489482bfa6d94afa7b0601fbf7827904ea
+Size: 108554
+SHA256sum: 05fcc059a5d418fb83b8ffa4d30ba6ff4e5eb75da056aaaff7f03d463a2e0a06
 Description:  A library to help you hash passwords. You can read about bcrypt in Wikipedia as well as in the following article: How To Safely Store A Password
 
 Package: node-bufferutil
@@ -60,10 +60,10 @@ Section: lang
 SourceDateEpoch: 1768725698
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 2433135
+Installed-Size: 2034249
 Filename: node-hap-nodejs_1.2.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2431445
-SHA256sum: 51294a91b4646413763d9e2158b9a5218ff82b3f42c8625cbb490e2a36b38e6e
+Size: 2033113
+SHA256sum: acb6082cb47af612dec92169de28991c3fd0c327eddbb03d8d85a26b83c944ea
 Description:  HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server
 
 Package: node-johnny-five
@@ -93,10 +93,10 @@ Section: lang
 SourceDateEpoch: 1768725698
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 142175
+Installed-Size: 144267
 Filename: node-mdns_2.7.2-5_arm_cortex-a7_neon-vfpv4.ipk
-Size: 142967
-SHA256sum: 592552adf552112a609e539c9c22d75125e5f60457e8d58b3e5ac0b314b72116
+Size: 145063
+SHA256sum: 1db017b13ca0e618ef916d3d048730ef595db4248be1a10c342bc8e798873644
 Description:  mdns adds multicast DNS service discovery, also known as zeroconf or bonjour to Node.js. It provides an object based interface to announce and browse services on the local network
 
 Package: node-mqtt
@@ -110,10 +110,10 @@ Section: lang
 SourceDateEpoch: 1768725698
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1932706
+Installed-Size: 1977390
 Filename: node-mqtt_5.14.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1929162
-SHA256sum: 15417ad6e225560dec7caf07a46aaa58062b047b0a7576da075c8509baadec37
+Size: 1974397
+SHA256sum: 30c98b81d4bc10356f884e47d34230c0581ee9cd7f47f084045572ab30ee3dd8
 Description:  MQTT.js is a client library for the MQTT protocol, written in JavaScript for node.js and the browser
 
 Package: node-npm
@@ -145,10 +145,10 @@ Section: lang
 SourceDateEpoch: 1768725698
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 628738
+Installed-Size: 628989
 Filename: node-red-contrib-gpio_0.51.0-3_arm_cortex-a7_neon-vfpv4.ipk
-Size: 628725
-SHA256sum: 950ae9e248865d9343e4539eb2903d3ec717d3e4e817fba21b5d46ffd638eb31
+Size: 629000
+SHA256sum: 7d7f7a362d8f8b69a5f2408282814e45e40ac0dcf91b54b1aa0fecbf3b23e760
 Description:  A set of input and output nodes for controlling General Purpose Input and Outputs (GPIOs) though the use of johnny-five I/O Plugins as well as running johnny-five scripts!
 
 Package: node-red-contrib-homekit-bridged
@@ -162,10 +162,10 @@ Section: lang
 SourceDateEpoch: 1768725698
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 171524
+Installed-Size: 171525
 Filename: node-red-contrib-homekit-bridged_1.7.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 171691
-SHA256sum: 65218cb5b22fab20ffd56eec3da35097339bdaacc891be482e02176a92ccfbdd
+Size: 171661
+SHA256sum: 3e2f8b483424dc231e3f80721d71bf4c8efafea2b94aefbd75df03f79521646e
 Description:  node-red-contrib-homekit-bridged (aka NRCHKB) is a Node-RED nodes pack to simulate Apple HomeKit devices.
 
 Package: node-red-dashboard
@@ -179,10 +179,10 @@ Section: lang
 SourceDateEpoch: 1768725698
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3205548
+Installed-Size: 3248272
 Filename: node-red-dashboard_3.6.6-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 3202389
-SHA256sum: 90d71c273ed2faac3ecfbf9010b389b8027c937f17da1de98fd8895549f0cfaf
+Size: 3244833
+SHA256sum: d9ed5701aed5e87909a1ef0de1d34b366ff355cada49d8909dae607814f8c360
 Description:  This module provides a set of nodes in Node-RED to quickly create a live data dashboard.a
 
 Package: node-red-node-discovery
@@ -230,10 +230,10 @@ Section: lang
 SourceDateEpoch: 1768725698
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 16625267
+Installed-Size: 16834497
 Filename: node-red_4.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 16407343
-SHA256sum: c29bf8754d526bec5f16d6834b36c60bf9d067ebda3754cc39fde9da2fcb3139
+Size: 16626076
+SHA256sum: c92d4785ac25033e58c0691407cc83616edf054e14aa2429322512427cf1d9de
 Description:  A visual tool for wiring the Internet of Things
 
 Package: node-serialport-bindings-cpp
@@ -305,7 +305,7 @@ SHA256sum: 98a59a5d6a04a1ab9630f0179d45848a876f8aa7447c76a49383ddd5c82ea167
 Description:  Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js
 
 Package: node-zigbee2mqtt
-Version: 2.6.2-1
+Version: 2.13.0-1
 Depends: libc, node115, node-bufferutil, node-utf-8-validate
 Source: feeds/node/node-zigbee2mqtt
 SourceName: node-zigbee2mqtt
@@ -315,10 +315,10 @@ Section: lang
 SourceDateEpoch: 1768725698
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 11189807
-Filename: node-zigbee2mqtt_2.6.2-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11174346
-SHA256sum: fed36ffa3696f16bc0db2fbe92685fc99dc22de6b8949432d05e39037e9af9f4
+Installed-Size: 12232020
+Filename: node-zigbee2mqtt_2.13.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12210200
+SHA256sum: 0085bf44bcc9b6c2243f7b26d769a2e4ee0327635f70dcbe6c39d853bdea856f
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node115
@@ -335,10 +335,10 @@ ABIVersion: 115
 CPE-ID: cpe:/a:nodejs:node.js
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 13154104
+Installed-Size: 13150792
 Filename: node115_20.20.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 13045860
-SHA256sum: 9392f9148b6b793a46b48708e24ee1664a01d360e63db95de38ef9fc82b121ea
+Size: 13043619
+SHA256sum: 381cd5fb4685ca9d6531d3f057f54e71c4234fb38027a3a96b624f86b5b78ab8
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.

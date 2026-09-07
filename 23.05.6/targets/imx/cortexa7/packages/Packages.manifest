@@ -7,10 +7,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1755295850
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 51112
+Installed-Size: 51190
 Filename: base-files_1564-r24232-539228933c_arm_cortex-a7_neon-vfpv4.ipk
-Size: 52146
-SHA256sum: 7eed86ec2985b4f1f053852605d97a48dfb4219ac53ccf8810895ceb76f7691d
+Size: 52223
+SHA256sum: 03c75e12bb5f7955a1451a8c6d507ad45ee9e8e6be9af03d332f004069b84f46
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
