@@ -19,12 +19,9 @@
 | 🗄️ [node-johnny-five_2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node-johnny-five_2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 464K | |
 | 🗄️ [node-mdns_2.7.2-5_arm_cortex-a7_neon-vfpv4.ipk](./node-mdns_2.7.2-5_arm_cortex-a7_neon-vfpv4.ipk) | 144K | |
 | 🗄️ [node-mqtt_5.14.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node-mqtt_5.14.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 1.9M | |
-| 🗄️ [node-npm_20.19.4-1_arm_cortex-a7_neon-vfpv4.ipk](./node-npm_20.19.4-1_arm_cortex-a7_neon-vfpv4.ipk) | 2.1M | |
-| 🗄️ [node-npm_20.19.5-1_arm_cortex-a7_neon-vfpv4.ipk](./node-npm_20.19.5-1_arm_cortex-a7_neon-vfpv4.ipk) | 2.1M | |
 | 🗄️ [node-npm_20.20.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node-npm_20.20.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 2.1M | |
 | 🗄️ [node-red-contrib-gpio_0.51.0-3_arm_cortex-a7_neon-vfpv4.ipk](./node-red-contrib-gpio_0.51.0-3_arm_cortex-a7_neon-vfpv4.ipk) | 616K | |
 | 🗄️ [node-red-contrib-homekit-bridged_1.7.3-1_arm_cortex-a7_neon-vfpv4.ipk](./node-red-contrib-homekit-bridged_1.7.3-1_arm_cortex-a7_neon-vfpv4.ipk) | 168K | |
-| 🗄️ [node-red-dashboard_3.6.5-1_arm_cortex-a7_neon-vfpv4.ipk](./node-red-dashboard_3.6.5-1_arm_cortex-a7_neon-vfpv4.ipk) | 3.1M | |
 | 🗄️ [node-red-dashboard_3.6.6-1_arm_cortex-a7_neon-vfpv4.ipk](./node-red-dashboard_3.6.6-1_arm_cortex-a7_neon-vfpv4.ipk) | 3.2M | |
 | 🗄️ [node-red-node-discovery_0.0.23-1_arm_cortex-a7_neon-vfpv4.ipk](./node-red-node-discovery_0.0.23-1_arm_cortex-a7_neon-vfpv4.ipk) | 8.0K | |
 | 🗄️ [node-red-node-serialport_2.0.3-1_arm_cortex-a7_neon-vfpv4.ipk](./node-red-node-serialport_2.0.3-1_arm_cortex-a7_neon-vfpv4.ipk) | 20K | |
@@ -55,7 +52,5 @@
 | 🗄️ [node-zigbee2mqtt_2.6.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node-zigbee2mqtt_2.6.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 11M | |
 | 🗄️ [node-zigbee2mqtt_2.6.1-1_arm_cortex-a7_neon-vfpv4.ipk](./node-zigbee2mqtt_2.6.1-1_arm_cortex-a7_neon-vfpv4.ipk) | 11M | |
 | 🗄️ [node-zigbee2mqtt_2.6.2-1_arm_cortex-a7_neon-vfpv4.ipk](./node-zigbee2mqtt_2.6.2-1_arm_cortex-a7_neon-vfpv4.ipk) | 11M | |
-| 🗄️ [node115_20.19.4-1_arm_cortex-a7_neon-vfpv4.ipk](./node115_20.19.4-1_arm_cortex-a7_neon-vfpv4.ipk) | 13M | |
-| 🗄️ [node115_20.19.5-1_arm_cortex-a7_neon-vfpv4.ipk](./node115_20.19.5-1_arm_cortex-a7_neon-vfpv4.ipk) | 13M | |
 | 🗄️ [node115_20.20.0-1_arm_cortex-a7_neon-vfpv4.ipk](./node115_20.20.0-1_arm_cortex-a7_neon-vfpv4.ipk) | 13M | |
 

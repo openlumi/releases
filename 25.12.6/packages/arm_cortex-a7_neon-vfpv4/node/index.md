@@ -13,11 +13,8 @@
 | 🗄️ [node-firmata-2.3.0-r2.apk](./node-firmata-2.3.0-r2.apk) | 32K | |
 | 🗄️ [node-hap-nodejs-1.2.0-r1.apk](./node-hap-nodejs-1.2.0-r1.apk) | 2.0M | |
 | 🗄️ [node-johnny-five-2.1.0-r1.apk](./node-johnny-five-2.1.0-r1.apk) | 464K | |
-| 🗄️ [node-mqtt-5.16.0-r1.apk](./node-mqtt-5.16.0-r1.apk) | 1.7M | |
 | 🗄️ [node-mqtt-5.16.1-r1.apk](./node-mqtt-5.16.1-r1.apk) | 1.7M | |
-| 🗄️ [node-npm-24.22.1-r1.apk](./node-npm-24.22.1-r1.apk) | 2.5M | |
 | 🗄️ [node-npm-24.22.2-r1.apk](./node-npm-24.22.2-r1.apk) | 2.5M | |
-| 🗄️ [node-red-5.0.7-r1.apk](./node-red-5.0.7-r1.apk) | 19M | |
 | 🗄️ [node-red-5.0.9-r1.apk](./node-red-5.0.9-r1.apk) | 19M | |
 | 🗄️ [node-red-contrib-gpio-0.51.0-r3.apk](./node-red-contrib-gpio-0.51.0-r3.apk) | 640K | |
 | 🗄️ [node-red-contrib-homekit-bridged-1.7.3-r1.apk](./node-red-contrib-homekit-bridged-1.7.3-r1.apk) | 164K | |
@@ -29,9 +26,14 @@
 | 🗄️ [node-utf-8-validate-6.0.6-r1.apk](./node-utf-8-validate-6.0.6-r1.apk) | 16K | |
 | 🗄️ [node-ws-8.21.3-r1.apk](./node-ws-8.21.3-r1.apk) | 36K | |
 | 🗄️ [node-ws-8.22.1-r1.apk](./node-ws-8.22.1-r1.apk) | 36K | |
+| 🗄️ [node-zigbee2mqtt-2.10.1-r1.apk](./node-zigbee2mqtt-2.10.1-r1.apk) | 12M | |
+| 🗄️ [node-zigbee2mqtt-2.12.0-r1.apk](./node-zigbee2mqtt-2.12.0-r1.apk) | 12M | |
 | 🗄️ [node-zigbee2mqtt-2.14.1-r1.apk](./node-zigbee2mqtt-2.14.1-r1.apk) | 11M | |
 | 🗄️ [node-zigbee2mqtt-2.14.3-r1.apk](./node-zigbee2mqtt-2.14.3-r1.apk) | 11M | |
-| 🗄️ [node137-24.22.1-r1.apk](./node137-24.22.1-r1.apk) | 15M | |
+| 🗄️ [node-zigbee2mqtt-2.8.0-r1.apk](./node-zigbee2mqtt-2.8.0-r1.apk) | 11M | |
+| 🗄️ [node-zigbee2mqtt-2.9.1-r1.apk](./node-zigbee2mqtt-2.9.1-r1.apk) | 12M | |
+| 🗄️ [node-zigbee2mqtt-2.9.2-r1.apk](./node-zigbee2mqtt-2.9.2-r1.apk) | 12M | |
+| 🗄️ [node127-22.22.1-r1.apk](./node127-22.22.1-r1.apk) | 17M | |
 | 🗄️ [node137-24.22.2-r1.apk](./node137-24.22.2-r1.apk) | 15M | |
 | 🗄️ [packages.adb](./packages.adb) | 8.0K | |
 

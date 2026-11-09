@@ -7,8 +7,8 @@ URL: http://openwrt.org/
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 286720
 Filename: base-files_1674~443ec4032a_arm_cortex-a7_neon-vfpv4.ipk
-Size: 56640
-SHA256sum: be486d029532c3a7ab5a75397867d8b0fcd9f04de960b6fc03d3b80a996dc17b
+Size: 56737
+SHA256sum: c10be453d046698c6d22189142cf3af6b4b102e2edf9baa8f7ff70496cb39629
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount

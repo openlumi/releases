@@ -246,8 +246,8 @@ Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 90122240
 Filename: node-red_5.0.9-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 19792539
-SHA256sum: f0f3475e0d0989143a0180b7f90ec72d32d18ec06500a55af4aab27ce64be680
+Size: 19802369
+SHA256sum: 5bcbc481112df7b02809f6fccbe7f24aebe3eb94d33c5eb2c17535d549f6c997
 Description:  A visual tool for wiring the Internet of Things
 
 Package: node-serialport-bindings-cpp
@@ -336,8 +336,8 @@ Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 42270720
 Filename: node-zigbee2mqtt_2.14.3-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11194098
-SHA256sum: 258af9a2bef249a5a23194d099b252f59fe25a0e64a02ffbe15aac195f181518
+Size: 11193930
+SHA256sum: 6fef13316fa1ef66221c1b3c7f4042e4f814e5450d876f8ace3c93950ddb0731
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node127

@@ -7,6 +7,5 @@
 | Name | Size | Date |
 |:---|---:|---|
 | 📁 [..](../) | | |
-| 📁 [packages](packages) | | |
 | 📁 [targets](targets) | | |
 

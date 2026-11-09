@@ -1,19 +1,19 @@
 Package: lumimqtt
-Version: 1.0.18-r1
+Version: 1.0.20-r1
 Depends: libc, kmod-hid, python3-base, python3-evdev, python3-pkg-resources, python3-logging, python3-asyncio, python3-openssl, python3-uuid, python3-aio-mqtt-mod
 Source: feeds/openlumi/apps/lumimqtt
 SourceName: lumimqtt
 License: GPL-3.0
 LicenseFiles: PKG-INFO
 Section: openlumi
-SourceDateEpoch: 1739435211
+SourceDateEpoch: 1794215406
 URL: https://github.com/openlumi/lumimqtt/
 Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 133120
-Filename: lumimqtt_1.0.18-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 43778
-SHA256sum: 0e18371a5f476bff3cc6f3a71d4ef74b1aa0394bba19e89e6f0932ec723b84de
+Installed-Size: 143360
+Filename: lumimqtt_1.0.20-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 45545
+SHA256sum: 083ad7a7674103aafc8fefae5d4a29a2111980a947fd958694f87be9f0ab8f74
 Description:  MQTT agent for Xiaomi Lumi gateway
 
 Package: node-espruinohub
@@ -24,14 +24,14 @@ SourceName: node-espruinohub
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1739435211
+SourceDateEpoch: 1794215406
 URL: https://github.com/espruino/espruinohub
 Maintainer: mrG1K <mr@g1k.ru>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 7598080
 Filename: node-espruinohub_0.0.2-r12_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1499989
-SHA256sum: 4b9e633b42a16bb4ee1e3fd57f4c0791ffbbafed6c6af4d5264ed2a7cd615fb6
+Size: 1499404
+SHA256sum: 86a405fd07085d15c70d51c0ad55efd46ca74aa8400319582ef63e2b677dd33c
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: python3-bluepy
@@ -42,13 +42,13 @@ SourceName: python3-bluepy
 License: GPL-2.0
 LicenseFiles: PKG-INFO
 Section: lang
-SourceDateEpoch: 1739435211
+SourceDateEpoch: 1794215406
 URL: https://github.com/IanHarvey/bluepy
 Maintainer: divanikus <d1pro@yandex.ru>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 624640
 Filename: python3-bluepy_1.3.0-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 330216
-SHA256sum: 1193c76599fdabe486b4f9531e7427236666e5fc80eb4892be8faa2d539c850c
+Size: 330233
+SHA256sum: e292b06a4fece7c26e1918e02f48d1392e394ae53bbab7e6e8d6b327b616933b
 Description:  Python interface to Bluetooth LE on Linux
 
