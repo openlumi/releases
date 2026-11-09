@@ -17,8 +17,8 @@
 | 🗄️ [broadcom-43455-fmac-20170825-r1.apk](./broadcom-43455-fmac-20170825-r1.apk) | 400K | |
 | 🗄️ [broadcom-4345C0-hci-20240723-r1.apk](./broadcom-4345C0-hci-20240723-r1.apk) | 36K | |
 | 🗄️ [busybox-1.37.0-r6.apk](./busybox-1.37.0-r6.apk) | 236K | |
-| 🗄️ [ca-bundle-20260816-r1.apk](./ca-bundle-20260816-r1.apk) | 108K | |
-| 🗄️ [ca-certificates-20260816-r1.apk](./ca-certificates-20260816-r1.apk) | 120K | |
+| 🗄️ [ca-bundle-20260816-r1.apk](./ca-bundle-20260816-r1.apk) | 112K | |
+| 🗄️ [ca-certificates-20260816-r1.apk](./ca-certificates-20260816-r1.apk) | 128K | |
 | 🗄️ [carl9170-firmware-20260221-r1.apk](./carl9170-firmware-20260221-r1.apk) | 12K | |
 | 🗄️ [chat-2.5.2-r4.apk](./chat-2.5.2-r4.apk) | 12K | |
 | 🗄️ [cmcumgr-0.2.1-r1.apk](./cmcumgr-0.2.1-r1.apk) | 24K | |
@@ -56,7 +56,7 @@
 | 🗄️ [libnl-tiny1-2025.12.02~40493a65-r1.apk](./libnl-tiny1-2025.12.02~40493a65-r1.apk) | 16K | |
 | 🗄️ [libopenssl3-3.5.9-r1.apk](./libopenssl3-3.5.9-r1.apk) | 1.8M | |
 | 🗄️ [libpcre2-10.47-r1.apk](./libpcre2-10.47-r1.apk) | 200K | |
-| 🗄️ [libreadline8-8.3-r1.apk](./libreadline8-8.3-r1.apk) | 136K | |
+| 🗄️ [libreadline8-8.3-r1.apk](./libreadline8-8.3-r1.apk) | 264K | |
 | 🗄️ [libss2-1.47.3-r1.apk](./libss2-1.47.3-r1.apk) | 12K | |
 | 🗄️ [libubox20260213-2026.06.19~7dd12784-r1.apk](./libubox20260213-2026.06.19~7dd12784-r1.apk) | 28K | |
 | 🗄️ [libubus-lua-2026.06.28~24864e78-r2.apk](./libubus-lua-2026.06.28~24864e78-r2.apk) | 8.0K | |

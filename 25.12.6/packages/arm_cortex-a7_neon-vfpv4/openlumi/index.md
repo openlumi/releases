@@ -9,6 +9,7 @@
 | 📁 [..](../) | | |
 | 🗄️ [index.json](./index.json) | 4.0K | |
 | 🗄️ [lumimqtt-1.0.18-r1.apk](./lumimqtt-1.0.18-r1.apk) | 44K | |
+| 🗄️ [lumimqtt-1.0.20-r1.apk](./lumimqtt-1.0.20-r1.apk) | 48K | |
 | 🗄️ [node-espruinohub-0.0.2-r12.apk](./node-espruinohub-0.0.2-r12.apk) | 1.1M | |
 | 🗄️ [packages.adb](./packages.adb) | 4.0K | |
 | 🗄️ [python3-bluepy-1.3.0-r1.apk](./python3-bluepy-1.3.0-r1.apk) | 320K | |

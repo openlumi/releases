@@ -13,7 +13,7 @@
 | 🗄️ [feeds.buildinfo](./feeds.buildinfo) | 4.0K | |
 | 🗄️ [openlumi-25.12.6-imx-cortexa7-aqara_zhwg11lm-squashfs-rootfs.bin](./openlumi-25.12.6-imx-cortexa7-aqara_zhwg11lm-squashfs-rootfs.bin) | 5.9M | |
 | 🗄️ [openlumi-25.12.6-imx-cortexa7-aqara_zhwg11lm-squashfs-sysupgrade.bin](./openlumi-25.12.6-imx-cortexa7-aqara_zhwg11lm-squashfs-sysupgrade.bin) | 11M | |
-| 🗄️ [openlumi-25.12.6-imx-cortexa7-aqara_zhwg11lm-targz-rootfs.tar.gz](./openlumi-25.12.6-imx-cortexa7-aqara_zhwg11lm-targz-rootfs.tar.gz) | 7.6M | |
+| 🗄️ [openlumi-25.12.6-imx-cortexa7-aqara_zhwg11lm-targz-rootfs.tar.gz](./openlumi-25.12.6-imx-cortexa7-aqara_zhwg11lm-targz-rootfs.tar.gz) | 7.7M | |
 | 🗄️ [openlumi-25.12.6-imx-cortexa7-aqara_zhwg11lm-zImage](./openlumi-25.12.6-imx-cortexa7-aqara_zhwg11lm-zImage) | 4.3M | |
 | 🗄️ [openlumi-25.12.6-imx-cortexa7-geniatech_gtw360-squashfs-rootfs.bin](./openlumi-25.12.6-imx-cortexa7-geniatech_gtw360-squashfs-rootfs.bin) | 8.3M | |
 | 🗄️ [openlumi-25.12.6-imx-cortexa7-geniatech_gtw360-squashfs-sysupgrade.bin](./openlumi-25.12.6-imx-cortexa7-geniatech_gtw360-squashfs-sysupgrade.bin) | 13M | |
@@ -25,7 +25,7 @@
 | 🗄️ [openlumi-25.12.6-imx-cortexa7-rootfs.tar.gz](./openlumi-25.12.6-imx-cortexa7-rootfs.tar.gz) | 5.1M | |
 | 🗄️ [openlumi-25.12.6-imx-cortexa7-xiaomi_dgnwg05lm-squashfs-rootfs.bin](./openlumi-25.12.6-imx-cortexa7-xiaomi_dgnwg05lm-squashfs-rootfs.bin) | 8.3M | |
 | 🗄️ [openlumi-25.12.6-imx-cortexa7-xiaomi_dgnwg05lm-squashfs-sysupgrade.bin](./openlumi-25.12.6-imx-cortexa7-xiaomi_dgnwg05lm-squashfs-sysupgrade.bin) | 13M | |
-| 🗄️ [openlumi-25.12.6-imx-cortexa7-xiaomi_dgnwg05lm-targz-rootfs.tar.gz](./openlumi-25.12.6-imx-cortexa7-xiaomi_dgnwg05lm-targz-rootfs.tar.gz) | 11M | |
+| 🗄️ [openlumi-25.12.6-imx-cortexa7-xiaomi_dgnwg05lm-targz-rootfs.tar.gz](./openlumi-25.12.6-imx-cortexa7-xiaomi_dgnwg05lm-targz-rootfs.tar.gz) | 12M | |
 | 🗄️ [openlumi-25.12.6-imx-cortexa7-xiaomi_dgnwg05lm-zImage](./openlumi-25.12.6-imx-cortexa7-xiaomi_dgnwg05lm-zImage) | 4.3M | |
 | 🗄️ [openlumi-25.12.6-imx-cortexa7.manifest](./openlumi-25.12.6-imx-cortexa7.manifest) | 8.0K | |
 | 🗄️ [profiles.json](./profiles.json) | 8.0K | |
