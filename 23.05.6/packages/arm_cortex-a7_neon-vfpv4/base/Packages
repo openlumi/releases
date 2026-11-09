@@ -1176,10 +1176,10 @@ Depends: libc
 License: GPL-2.0-only
 Section: firmware
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 10401
+Installed-Size: 10399
 Filename: rtw8188e-firmware_2026-11-05-b22577b5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11231
-SHA256sum: 6a12a420e69cee1af947b70708311bda0491ae7e753a867f2e23ce14246ce10a
+Size: 11229
+SHA256sum: 07a7a86cd9500a301be6e0dfd3ff54939aa4354e632b2d76f06497d15bef02e9
 Description:  RealTek RTL8188E (RTL8189ES) firmware for the rtw88 fork
 
 Package: rtw8723b-firmware
@@ -1188,10 +1188,10 @@ Depends: libc
 License: GPL-2.0-only
 Section: firmware
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 21367
+Installed-Size: 21366
 Filename: rtw8723b-firmware_2026-11-05-b22577b5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 22157
-SHA256sum: 9d3e200ec6d7865a1e15dbcdc6e7a681b6a037ca4151afcb2681a9257f7b9a8b
+Size: 22153
+SHA256sum: 1039eed1a7bd22f6c2cdc4f645a9aa3d8d265ebc31a44b20b85fce0094341a96
 Description:  RealTek RTL8723B (RTL8723BS) firmware for the rtw88 fork
 
 Package: spidev-test

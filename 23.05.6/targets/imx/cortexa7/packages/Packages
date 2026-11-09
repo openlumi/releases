@@ -4,10 +4,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, f
 License: GPL-2.0
 Section: base
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 51397
+Installed-Size: 51562
 Filename: base-files_1564-r24232-539228933c_arm_cortex-a7_neon-vfpv4.ipk
-Size: 52437
-SHA256sum: 8dfd86a1ef222898a77b9e0cb95a70a7c77b59dc740d7e43dea609beafe41b4c
+Size: 52543
+SHA256sum: a65f442b55756bb3606ca7f6423e8696dd31d345008481d53783c6a3b40d238e
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -8007,10 +8007,10 @@ Depends: kernel (=5.15.189-1-0cc6b0205a1cc8ce23d171b7fae4f39f), kmod-rtw88-ol, r
 License: GPL-2.0-only
 Section: kernel
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 20576
+Installed-Size: 20575
 Filename: kmod-rtw88-8189es_5.15.189+2026-11-05-b22577b5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 21331
-SHA256sum: ce1f772f2d058866c2664dd83d3a4749e7749341fd7e34e49881aae6f49ac619
+Size: 21326
+SHA256sum: 97de7063180168cbf8bd88b59f6ec0c48de2a38554e4d5fa723a029c8ca88d7f
 Description:  Realtek RTL8189ES SDIO WiFi support (rtw88 fork)
 
 Package: kmod-rtw88-8723bs
@@ -8019,10 +8019,10 @@ Depends: kernel (=5.15.189-1-0cc6b0205a1cc8ce23d171b7fae4f39f), kmod-rtw88-ol, r
 License: GPL-2.0-only
 Section: kernel
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 16068
+Installed-Size: 16067
 Filename: kmod-rtw88-8723bs_5.15.189+2026-11-05-b22577b5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 16837
-SHA256sum: daecc3c6785f4e597b73a0e312794c861633489b7d0b7e1e1b9a7576b803bca9
+Size: 16815
+SHA256sum: aeb49eee10d511a925084181ad98b1bce021679d1e8705fc405bbfcfb5c5b358
 Description:  Realtek RTL8723BS SDIO WiFi support (rtw88 fork)
 
 Package: kmod-rtw88-ol
@@ -8032,10 +8032,10 @@ Conflicts: kmod-rtw88, kmod-rtw88-sdio
 License: GPL-2.0-only
 Section: kernel
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 85463
+Installed-Size: 85459
 Filename: kmod-rtw88-ol_5.15.189+2026-11-05-b22577b5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 85850
-SHA256sum: 0e28fe7276f24bd3d97ed271c82176ffbdd4e3c36c604047799321b7c96caf0c
+Size: 85829
+SHA256sum: 488287cc5e31c9ad79c918650ab42bfae9020a0ea3ab0ac2e66e87475ac74c37
 Description:  Core and SDIO bus modules of the Realtek rtw88 driver
  (https://github.com/igorlistopad/rtw88).
 

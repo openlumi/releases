@@ -221,10 +221,10 @@ Depends: libc, node115, node-bufferutil, node-utf-8-validate, node-serialport-bi
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 11263722
+Installed-Size: 11265185
 Filename: node-zigbee2mqtt_2.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11247857
-SHA256sum: 764c7ff96b41dd566a639a81e589e0ca59ccbf6fb1ae66aa7970d7ef81ba9133
+Size: 11249910
+SHA256sum: 10e945e92f6a189f2420aa7c02ed52bafb64fefaed486e3c5a0ed8c7d8472fcb
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node115

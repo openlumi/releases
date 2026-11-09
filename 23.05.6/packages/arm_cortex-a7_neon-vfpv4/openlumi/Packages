@@ -1,13 +1,13 @@
 Package: lumimqtt
-Version: 1.0.18-1
+Version: 1.0.20-1
 Depends: libc, kmod-hid, python3-base, python3-evdev, python3-pkg-resources, python3-logging, python3-asyncio, python3-openssl, python3-uuid, python3-aio-mqtt-mod
 License: GPL-3.0
 Section: openlumi
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 42644
-Filename: lumimqtt_1.0.18-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 43560
-SHA256sum: 3c30392c1f68da079a37542562b368113fc3445718e4ff02cd301a537fa33dcb
+Installed-Size: 44320
+Filename: lumimqtt_1.0.20-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 45254
+SHA256sum: c5d899d81944797cc63b2bda3545fa671f9b8449d71038aaa7f88682d8fe14ac
 Description:  MQTT agent for Xiaomi Lumi gateway
 
 Package: python3-bluepy
@@ -16,9 +16,9 @@ Depends: libc, python3, glib2
 License: GPL-2.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 330000
+Installed-Size: 330002
 Filename: python3-bluepy_1.3.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 329954
-SHA256sum: 757e52805ad5c38d65310c686de74b86b4a91548b8185bf067142ed248b772bf
+Size: 329913
+SHA256sum: 5b18585c84a6c462a4a066a2a67f01db8e50713ae1f015308ab21969ce853dd2
 Description:  Python interface to Bluetooth LE on Linux
 
