@@ -8,7 +8,7 @@
     "node-hap-nodejs": "1.2.0-r1",
     "node-johnny-five": "2.1.0-r1",
     "node-mqtt": "5.16.1-r1",
-    "node-npm": "24.22.2-r1",
+    "node-npm": "24.22.3-r1",
     "node-red": "5.0.9-r1",
     "node-red-contrib-gpio": "0.51.0-r3",
     "node-red-contrib-homekit-bridged": "1.7.3-r1",
@@ -19,6 +19,6 @@
     "node-utf-8-validate": "6.0.6-r1",
     "node-ws": "8.22.1-r1",
     "node-zigbee2mqtt": "2.14.3-r1",
-    "node": "24.22.2-r1"
+    "node": "24.22.3-r1"
   }
 }
