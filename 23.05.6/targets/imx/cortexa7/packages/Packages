@@ -4,10 +4,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, f
 License: GPL-2.0
 Section: base
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 51562
+Installed-Size: 51294
 Filename: base-files_1564-r24232-539228933c_arm_cortex-a7_neon-vfpv4.ipk
-Size: 52543
-SHA256sum: a65f442b55756bb3606ca7f6423e8696dd31d345008481d53783c6a3b40d238e
+Size: 52327
+SHA256sum: fd94084d7edd5bbe593c645e001006ff64f5ff2a167551abd66b873637b22ff5
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -8007,10 +8007,10 @@ Depends: kernel (=5.15.189-1-0cc6b0205a1cc8ce23d171b7fae4f39f), kmod-rtw88-ol, r
 License: GPL-2.0-only
 Section: kernel
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 20575
+Installed-Size: 20574
 Filename: kmod-rtw88-8189es_5.15.189+2026-11-05-b22577b5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 21326
-SHA256sum: 97de7063180168cbf8bd88b59f6ec0c48de2a38554e4d5fa723a029c8ca88d7f
+Size: 21325
+SHA256sum: e12d7bb32ef687870694c57ea6a705a26f1905145f91723b66a948889cd534c8
 Description:  Realtek RTL8189ES SDIO WiFi support (rtw88 fork)
 
 Package: kmod-rtw88-8723bs
@@ -8022,7 +8022,7 @@ Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 16067
 Filename: kmod-rtw88-8723bs_5.15.189+2026-11-05-b22577b5-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 16815
-SHA256sum: aeb49eee10d511a925084181ad98b1bce021679d1e8705fc405bbfcfb5c5b358
+SHA256sum: 610451a4992b6dde77f5c7f26b3b632486462221e13d92d205563f757e1ee7f8
 Description:  Realtek RTL8723BS SDIO WiFi support (rtw88 fork)
 
 Package: kmod-rtw88-ol
@@ -8032,10 +8032,10 @@ Conflicts: kmod-rtw88, kmod-rtw88-sdio
 License: GPL-2.0-only
 Section: kernel
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 85459
+Installed-Size: 85461
 Filename: kmod-rtw88-ol_5.15.189+2026-11-05-b22577b5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 85829
-SHA256sum: 488287cc5e31c9ad79c918650ab42bfae9020a0ea3ab0ac2e66e87475ac74c37
+Size: 85813
+SHA256sum: dd19cd8f0f688a2b6e38e97b2d8f0e3a057844e352d3408f3ac0e4fea3a4ec99
 Description:  Core and SDIO bus modules of the Realtek rtw88 driver
  (https://github.com/igorlistopad/rtw88).
 
