@@ -7,8 +7,8 @@ URL: https://www.npmjs.com/package/bcrypt
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 593920
 Filename: node-bcrypt_6.0.0-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 109371
-SHA256sum: f81ab66f0fe83735c7e25965279ae83f41554d0cb958465fc3636cb0e7f282f3
+Size: 109374
+SHA256sum: acd10c402a568180307ef7c92460b3bf98de9b9c1f8cb2b373064c36a4ef361b
 Description:  A library to help you hash passwords. You can read about bcrypt in Wikipedia as well as in the following article: How To Safely Store A Password
 
 Package: node-bufferutil
@@ -20,8 +20,8 @@ URL: https://www.npmjs.org/package/bufferutil
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 51200
 Filename: node-bufferutil_4.1.0-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 10744
-SHA256sum: 26e2ac7c88eb5418de442f9b52543e03322e890af6461ec2a4126df1c4f4b3c0
+Size: 10738
+SHA256sum: f5ed9aab6f0391c9871b130dfd06cb23c0b0a4f0ef6a07a078a7ce319f0cb86e
 Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
 
 Package: node-firmata
@@ -33,8 +33,8 @@ URL: https://www.npmjs.com/package/firmata
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 153600
 Filename: node-firmata_2.3.0-r2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 31436
-SHA256sum: 170515635e74ef4a7b1e41d8cec951590c80ece5d4d00bec7c7c482218570614
+Size: 31437
+SHA256sum: 21e687433697dd3037b200c7623d34dc852831f7ea1b0553f7b6e3401b21305e
 Description:  Firmata protocol implementation for programmatic interaction with Arduino and Arduino compatible development boards
 
 Package: node-hap-nodejs
@@ -46,8 +46,8 @@ URL: https://www.npmjs.org/package/hap-nodejs
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 9758720
 Filename: node-hap-nodejs_1.2.0-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2058215
-SHA256sum: b44dc79ea589efa0619de42701d0f0cb0fb9afe65ff7d23e4aaeb5d8e05bc7a5
+Size: 2058136
+SHA256sum: f5deb549ec8b3a77dc3a17ef2df258a56c81ed60fcdd2a8620344271f9b83add
 Description:  HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server
 
 Package: node-johnny-five
@@ -59,8 +59,8 @@ URL: https://www.npmjs.org/package/johnny-five
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 1372160
 Filename: node-johnny-five_2.1.0-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 472603
-SHA256sum: 9ba15d10a9e99b8cc8194db13f31d179668b4e398486240bedfa6ad73669116f
+Size: 472619
+SHA256sum: 6e79d85bb5c75b54431a37817f9aa038062fbefff3c9b525cdcfa3463e5ba5e1
 Description:  The JavaScript Robotics and Hardware Programming Framework
 
 Package: node-mdns
@@ -72,8 +72,8 @@ URL: https://www.npmjs.org/package/mdns
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 798720
 Filename: node-mdns_2.7.2-r7_arm_cortex-a7_neon-vfpv4.ipk
-Size: 146359
-SHA256sum: 3a9de8d5826d7cfe1462052fe048ccb2784e4f4c575a0ecac4212b9049493d19
+Size: 146333
+SHA256sum: e62b2238be7e168a5eeca6a1fcefdd00666506e408ddfee95f15ec7064e56d6c
 Description:  mdns adds multicast DNS service discovery, also known as zeroconf or bonjour to Node.js. It provides an object based interface to announce and browse services on the local network
 
 Package: node-mqtt
@@ -85,12 +85,12 @@ URL: https://www.npmjs.org/package/mqtt
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 9553920
 Filename: node-mqtt_5.16.1-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1721363
-SHA256sum: 52a994bfabd78c3780bf894c3d3479c4483134a2b01adfa862613e9670138e45
+Size: 1735936
+SHA256sum: fbc685ded6c312c871827015786479e60ce10315fd0a143b7428646a55fd1888
 Description:  MQTT.js is a client library for the MQTT protocol, written in JavaScript for node.js and the browser
 
 Package: node-npm
-Version: 22.23.4-r1
+Version: 22.23.5-r1
 Depends: libc, node127
 License: MIT
 Section: lang
@@ -98,9 +98,9 @@ URL: https://www.npmjs.com/
 CPE-ID: cpe:/a:nodejs:node.js
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 10434560
-Filename: node-npm_22.23.4-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2311888
-SHA256sum: 698d5ae7a2fec828506f3286b19679c6e9808fd2d78708953f701c138f162278
+Filename: node-npm_22.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2312205
+SHA256sum: 79add024068625489a5b4f8340d1e89067bc2dfcdb5b5191a3c1261575d76370
 Description:  NPM is the package manager for NodeJS
 
 Package: node-red-contrib-gpio
@@ -112,8 +112,8 @@ URL: https://flows.nodered.org/node/node-red-contrib-gpio
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 3532800
 Filename: node-red-contrib-gpio_0.51.0-r3_arm_cortex-a7_neon-vfpv4.ipk
-Size: 629063
-SHA256sum: c2ec2c3f2f348f9ae3dfa2f83cd34e76144d016b850138b58cdcc1fcdb5239f9
+Size: 628954
+SHA256sum: bd791d582224ee5064b4d9c8e7c63459f27e043f2ccf444c963b0b0e5fff7726
 Description:  A set of input and output nodes for controlling General Purpose Input and Outputs (GPIOs) though the use of johnny-five I/O Plugins as well as running johnny-five scripts!
 
 Package: node-red-contrib-homekit-bridged
@@ -125,8 +125,8 @@ URL: https://flows.nodered.org/node/node-red-contrib-homekit-bridged
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 1126400
 Filename: node-red-contrib-homekit-bridged_1.7.3-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 171722
-SHA256sum: f52ab40893b1e7e0836555d4ab66b4d200aab3852c92162e80196afd46f07234
+Size: 171686
+SHA256sum: 64269821ac5cd17109d7072d41bc12fada2b29248b8e152bf024a16fbbf9d56d
 Description:  node-red-contrib-homekit-bridged (aka NRCHKB) is a Node-RED nodes pack to simulate Apple HomeKit devices.
 
 Package: node-red-dashboard
@@ -138,8 +138,8 @@ URL: https://flows.nodered.org/node/node-red-dashboard
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 12953600
 Filename: node-red-dashboard_3.6.6-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 3250507
-SHA256sum: e67bc283fc132248b4c0666e90164c43983be5eb2c7ccc1988f90a5cb6c2ee23
+Size: 3250137
+SHA256sum: 9ae1bec62875cd79348f55da0437ac589054fcaea273a0c015019b4912f19860
 Description:  This module provides a set of nodes in Node-RED to quickly create a live data dashboard.a
 
 Package: node-red-node-discovery
@@ -151,8 +151,8 @@ URL: https://flows.nodered.org/node/node-red-node-discovery
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 30720
 Filename: node-red-node-discovery_0.0.23-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7509
-SHA256sum: 42d005e7ffb1b91f53214d0c0dd9948a20f84aad9c1b556363a0464a2756f956
+Size: 7506
+SHA256sum: 4ad9297c7c01dcb46162b035ae052466e9f14cc5eb37c180f08f32a3ef05e807
 Description:  A Node-RED node that uses Bonjour / Avahi to discover local network services such as iTunes libraries, printers, etc.
 
 Package: node-red-node-serialport
@@ -164,8 +164,8 @@ URL: https://flows.nodered.org/node/node-red-node-serialport
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 102400
 Filename: node-red-node-serialport_2.0.3-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 18274
-SHA256sum: be088499a554c52d5aa19a421c4717f947c374dc32d7de0d9d1d547a4303e195
+Size: 18278
+SHA256sum: 7b95172ccd7f49cd4158e449f2adcca505db80b18ca423de0eafa73177c5265a
 Description:  Node-RED nodes to talk to hardware serial ports.
 
 Package: node-red
@@ -177,8 +177,8 @@ URL: https://nodered.org/
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 90122240
 Filename: node-red_5.0.9-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 19802369
-SHA256sum: 5bcbc481112df7b02809f6fccbe7f24aebe3eb94d33c5eb2c17535d549f6c997
+Size: 19803719
+SHA256sum: bad05e4d73c9bd9087af031d9c4b6782c34b1ea64ce3d65ecaefd40a7af98f03
 Description:  A visual tool for wiring the Internet of Things
 
 Package: node-serialport-bindings-cpp
@@ -190,8 +190,8 @@ URL: https://www.npmjs.com/package/@serialport/bindings-cpp
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 716800
 Filename: node-serialport-bindings-cpp_13.0.1-r2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 128775
-SHA256sum: 256d8e143b7d96a07f96b1c7b248395d88022d70fa842b1a3bb7614a2f0af345
+Size: 128752
+SHA256sum: 3cfa4e531d1169f6361c0414935a72750aedc64eb7ae38c1791ba929eb0581b5
 Description:  The Bindings provide a low level interface to work with your serialport. It is possible to use them alone but it's usually easier to use them with an interface.
 
 Package: node-serialport
@@ -203,8 +203,8 @@ URL: https://www.npmjs.org/package/serialport
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 327680
 Filename: node-serialport_13.0.0-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 47334
-SHA256sum: d49b41e5ca1bc55aabcf6ab1e404610d15228074bb24ea4aabafa9222cbacaf5
+Size: 47329
+SHA256sum: 7977c700327632c8d935004603f572f3b1cf71271877aa2c6ae1dbe31ce8d41b
 Description:  Node.js package to access serial ports. Welcome your robotic javascript overlords. Better yet, program them!
 
 Package: node-utf-8-validate
@@ -216,8 +216,8 @@ URL: https://www.npmjs.org/package/utf-8-validate
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 61440
 Filename: node-utf-8-validate_6.0.6-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 13764
-SHA256sum: e3c61c67d2ee18ae9327c0b3148f9e3b67134f6cf977abf824896ce70344a28a
+Size: 13758
+SHA256sum: e238e2dc0e8d95524ba016f5dfe047d3f97b9538d629b046e6503160b0f34696
 Description:  Check if a buffer contains valid UTF-8 encoded text
 
 Package: node-ws
@@ -229,8 +229,8 @@ URL: https://www.npmjs.org/package/ws
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 174080
 Filename: node-ws_8.22.1-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 36429
-SHA256sum: 1d4589114e209d1f5cfc8197bb5ec195a6bb8983bfbeaabd88b8f0eba3f3f102
+Size: 36420
+SHA256sum: 2dcfc154dc23072b94ef1c4ed8e314719a64c024038c179e11f9c87af3480d42
 Description:  Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js
 
 Package: node-zigbee2mqtt
@@ -242,12 +242,12 @@ URL: https://github.com/Koenkk/zigbee2mqtt
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 42270720
 Filename: node-zigbee2mqtt_2.14.3-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11193930
-SHA256sum: 6fef13316fa1ef66221c1b3c7f4042e4f814e5450d876f8ace3c93950ddb0731
+Size: 11205251
+SHA256sum: 37319aa8362585f80642764e75d1efb5625b7f006a42eb8a496b2c589b0654fb
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node127
-Version: 22.23.4-r1
+Version: 22.23.5-r1
 Depends: libc, libstdcpp6, libopenssl3, zlib, libnghttp2-14, libcares, libatomic1
 Provides: node
 License: MIT
@@ -256,10 +256,10 @@ URL: https://nodejs.org/
 ABIVersion: 127
 CPE-ID: cpe:/a:nodejs:node.js
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 49018880
-Filename: node127_22.23.4-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 17036882
-SHA256sum: ab9525fa5120a0984ec49dcb5abf61304910ea17410c58fffc4de8869708b7ba
+Installed-Size: 49039360
+Filename: node127_22.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17048078
+SHA256sum: d9c9e37ccfa7faac33820d779368c45c8cb273e85f5658fe5f6a9fee46c5e8e2
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.

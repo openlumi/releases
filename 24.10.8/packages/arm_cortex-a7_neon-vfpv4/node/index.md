@@ -20,6 +20,7 @@
 | 🗄️ [node-mdns_2.7.2-r7_arm_cortex-a7_neon-vfpv4.ipk](./node-mdns_2.7.2-r7_arm_cortex-a7_neon-vfpv4.ipk) | 144K | |
 | 🗄️ [node-mqtt_5.16.1-r1_arm_cortex-a7_neon-vfpv4.ipk](./node-mqtt_5.16.1-r1_arm_cortex-a7_neon-vfpv4.ipk) | 1.7M | |
 | 🗄️ [node-npm_22.23.4-r1_arm_cortex-a7_neon-vfpv4.ipk](./node-npm_22.23.4-r1_arm_cortex-a7_neon-vfpv4.ipk) | 2.3M | |
+| 🗄️ [node-npm_22.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk](./node-npm_22.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk) | 2.3M | |
 | 🗄️ [node-red-contrib-gpio_0.51.0-r3_arm_cortex-a7_neon-vfpv4.ipk](./node-red-contrib-gpio_0.51.0-r3_arm_cortex-a7_neon-vfpv4.ipk) | 616K | |
 | 🗄️ [node-red-contrib-homekit-bridged_1.7.3-r1_arm_cortex-a7_neon-vfpv4.ipk](./node-red-contrib-homekit-bridged_1.7.3-r1_arm_cortex-a7_neon-vfpv4.ipk) | 168K | |
 | 🗄️ [node-red-dashboard_3.6.6-r1_arm_cortex-a7_neon-vfpv4.ipk](./node-red-dashboard_3.6.6-r1_arm_cortex-a7_neon-vfpv4.ipk) | 3.2M | |
@@ -48,4 +49,5 @@
 | 🗄️ [node-zigbee2mqtt_2.9.2-r1_arm_cortex-a7_neon-vfpv4.ipk](./node-zigbee2mqtt_2.9.2-r1_arm_cortex-a7_neon-vfpv4.ipk) | 12M | |
 | 🗄️ [node115_20.19.5-r1_arm_cortex-a7_neon-vfpv4.ipk](./node115_20.19.5-r1_arm_cortex-a7_neon-vfpv4.ipk) | 13M | |
 | 🗄️ [node127_22.23.4-r1_arm_cortex-a7_neon-vfpv4.ipk](./node127_22.23.4-r1_arm_cortex-a7_neon-vfpv4.ipk) | 17M | |
+| 🗄️ [node127_22.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk](./node127_22.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk) | 17M | |
 

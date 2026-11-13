@@ -10,8 +10,8 @@ URL: http://openwrt.org/
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 286720
 Filename: base-files_1674~443ec4032a_arm_cortex-a7_neon-vfpv4.ipk
-Size: 56737
-SHA256sum: c10be453d046698c6d22189142cf3af6b4b102e2edf9baa8f7ff70496cb39629
+Size: 56547
+SHA256sum: a65493c061945985dab421f3174d839834a8ffa52e1d3e542435fde9e0932afe
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -12104,13 +12104,13 @@ Source: feeds/base/kernel/rtw88-ol
 SourceName: rtw88-ol
 License: GPL-2.0-only
 Section: kernel
-SourceDateEpoch: 1793972339
+SourceDateEpoch: 1794581874
 Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 61440
 Filename: kmod-rtw88-8189es_6.6.144.2026.11.05~b22577b5-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 21225
-SHA256sum: b5e3f13894ae4c97c5226a64df6359be76ca598924a9dc62ff67b142eb4cf74d
+Size: 21228
+SHA256sum: 22b15a64a1a7a96811537547e82ff2b8d454e2c6da437689398c1d6dd277d155
 Description:  Realtek RTL8189ES SDIO WiFi support (rtw88 fork)
 
 Package: kmod-rtw88-8723bs
@@ -12120,13 +12120,13 @@ Source: feeds/base/kernel/rtw88-ol
 SourceName: rtw88-ol
 License: GPL-2.0-only
 Section: kernel
-SourceDateEpoch: 1793972339
+SourceDateEpoch: 1794581874
 Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 51200
 Filename: kmod-rtw88-8723bs_6.6.144.2026.11.05~b22577b5-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 16866
-SHA256sum: e79c16a781db7bc8e73659353997d87ddf598ff79f9aae5b6702114ba5cb7608
+Size: 16860
+SHA256sum: 618e9da5dac935755e7b0f88d062dd4c3d564c4f18e07ab565adc8aa422418da
 Description:  Realtek RTL8723BS SDIO WiFi support (rtw88 fork)
 
 Package: kmod-rtw88-8723d
@@ -12407,13 +12407,13 @@ Source: feeds/base/kernel/rtw88-ol
 SourceName: rtw88-ol
 License: GPL-2.0-only
 Section: kernel
-SourceDateEpoch: 1793972339
+SourceDateEpoch: 1794581874
 Maintainer: Ivan Belokobylskiy <belokobylskij@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 204800
 Filename: kmod-rtw88-ol_6.6.144.2026.11.05~b22577b5-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 85716
-SHA256sum: 68f8cba98c2fab4aa22fc97b8ca543b605d422223da94dc9e3b3e405c8df4c51
+Size: 85713
+SHA256sum: 5ecb37ecf499f954f367f2aae5ce9f826a3a80a4dd9ed2e3b53565ab0978f115
 Description:  Core and SDIO bus modules of the Realtek rtw88 driver
  (https://github.com/igorlistopad/rtw88).
 

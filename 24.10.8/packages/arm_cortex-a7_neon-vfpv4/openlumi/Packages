@@ -20,8 +20,8 @@ URL: https://github.com/espruino/espruinohub
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 7598080
 Filename: node-espruinohub_0.0.2-r12_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1499404
-SHA256sum: 86a405fd07085d15c70d51c0ad55efd46ca74aa8400319582ef63e2b677dd33c
+Size: 1499415
+SHA256sum: d24da841fd153430aa71d431d672c41b060083502576f02888d678112f0e5c20
 Description:  A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices
 
 Package: python3-bluepy
