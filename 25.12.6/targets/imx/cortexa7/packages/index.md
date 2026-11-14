@@ -39,6 +39,7 @@
 | 🗄️ [iptables-mod-tproxy-1.8.10-r3.apk](./iptables-mod-tproxy-1.8.10-r3.apk) | 4.0K | |
 | 🗄️ [iptables-mod-trace-1.8.10-r3.apk](./iptables-mod-trace-1.8.10-r3.apk) | 4.0K | |
 | 🗄️ [iptables-mod-u32-1.8.10-r3.apk](./iptables-mod-u32-1.8.10-r3.apk) | 4.0K | |
+| 🗄️ [kernel-6.12.112~580fe14b244796e92ae7cdb368be37b0-r1.apk](./kernel-6.12.112~580fe14b244796e92ae7cdb368be37b0-r1.apk) | 8.0K | |
 | 🗄️ [kernel-6.12.112~a74818cfb62869574a534c5139483b1a-r1.apk](./kernel-6.12.112~a74818cfb62869574a534c5139483b1a-r1.apk) | 8.0K | |
 | 🗄️ [kmod-6lowpan-6.12.112-r1.apk](./kmod-6lowpan-6.12.112-r1.apk) | 12K | |
 | 🗄️ [kmod-9pnet-6.12.112-r1.apk](./kmod-9pnet-6.12.112-r1.apk) | 24K | |

@@ -18,7 +18,7 @@ iw - 6.17-r1
 jansson4 - 2.14.1-r1
 jshn - 2026.06.19~7dd12784-r1
 jsonfilter - 2026.03.16~b9034210-r1
-kernel - 6.12.112~a74818cfb62869574a534c5139483b1a-r1
+kernel - 6.12.112~580fe14b244796e92ae7cdb368be37b0-r1
 kmod-cfg80211 - 6.12.112.6.18.55-r2
 kmod-crypto-aead - 6.12.112-r1
 kmod-crypto-ccm - 6.12.112-r1

@@ -70,7 +70,9 @@
 | 🗄️ [logd-2025.10.30~6f78fa49-r1.apk](./logd-2025.10.30~6f78fa49-r1.apk) | 12K | |
 | 🗄️ [lua-5.1.5-r11.apk](./lua-5.1.5-r11.apk) | 8.0K | |
 | 🗄️ [luci-app-jntools-26.298.38422~9aeb664.apk](./luci-app-jntools-26.298.38422~9aeb664.apk) | 4.0K | |
+| 🗄️ [luci-app-jntools-26.318.62679~e67be0c.apk](./luci-app-jntools-26.318.62679~e67be0c.apk) | 4.0K | |
 | 🗄️ [luci-app-smptools-26.298.38422~449c2ad.apk](./luci-app-smptools-26.298.38422~449c2ad.apk) | 4.0K | |
+| 🗄️ [luci-app-smptools-26.318.62680~4b9c187.apk](./luci-app-smptools-26.318.62680~4b9c187.apk) | 4.0K | |
 | 🗄️ [memtool-1-r1.apk](./memtool-1-r1.apk) | 4.0K | |
 | 🗄️ [mkf2fs-1.16.0-r4.apk](./mkf2fs-1.16.0-r4.apk) | 20K | |
 | 🗄️ [mt7601u-firmware-20260221-r1.apk](./mt7601u-firmware-20260221-r1.apk) | 28K | |
